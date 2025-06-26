@@ -1,0 +1,255 @@
+/* Add these animations */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
+
+/* Add these styles for the program cards */
+.program-card {
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10), 0 0 24px 0 #D4AF3733;
+  border-radius: 20px;
+  border: 1px solid #e6c97a;
+  backdrop-filter: blur(8px);
+  padding: 2rem;
+  transition: all 0.4s ease;
+}
+
+.program-icon {
+  background: linear-gradient(135deg, #E7CBA9 0%, #D4AF37 100%);
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+}
+
+.program-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: #3A2C1A;
+}
+
+.program-description {
+  margin-bottom: 1.5rem;
+  color: rgba(58, 44, 26, 0.8);
+}
+
+/* Add fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Navbar styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: all 0.3s ease, transform 0.5s ease;
+  background: transparent;
+  transform: translateY(0);
+}
+
+.navbar-scrolled {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Enhanced card styles */
+.card, .program-card, .dynamic-card {
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10), 0 0 24px 0 #D4AF3733;
+  border-radius: 20px;
+  border: 1px solid #e6c97a;
+  backdrop-filter: blur(8px);
+  padding: 1.5rem;
+  transition: all 0.4s ease;
+}
+
+.card:hover, .program-card:hover, .dynamic-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px 0 rgba(31, 38, 135, 0.15), 0 0 30px 0 #D4AF3755;
+  border-color: #D4AF37;
+}
+
+/* Modern button with enhanced hover effect */
+.modern-button {
+  background: linear-gradient(90deg, #e6c97a 0%, #fffbe6 100%);
+  color: #3a2c1a;
+  border-radius: 30px;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.modern-button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg, #D4AF37 0%, #e6c97a 100%);
+  transition: all 0.4s ease;
+  z-index: -1;
+  border-radius: 30px;
+}
+
+.modern-button:hover:before {
+  width: 100%;
+}
+
+.modern-button:hover {
+  box-shadow: 0 0 16px 2px #e6c97a;
+  transform: scale(1.05);
+  color: #3a2c1a;
+}
+
+/* Footer specific styles */
+.text-gradient {
+  background: linear-gradient(90deg, #E7CBA9 0%, #D4AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+footer a:hover {
+  transform: translateX(5px);
+}
+
+footer .social-icon:hover {
+  transform: translateY(-5px);
+}
+
+/* Chat Widget Animations */
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+.delay-100 {
+  animation-delay: 0.1s;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Alumni Network styles */
+.alumni-card {
+  transition: all 0.3s ease;
+}
+
+.alumni-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.alumni-social a {
+  transition: all 0.3s ease;
+}
+
+.alumni-social a:hover {
+  transform: translateY(-3px);
+}
+
+/* Comment form styles */
+.comment-form input:focus,
+.comment-form textarea:focus {
+  border-color: #D4AF37;
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.2);
+}
+
+/* FAQ styles */
+.faq-item {
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+  background-color: rgba(248, 246, 240, 0.8);
+}
+
+/* News feed styles */
+.news-card {
+  transition: all 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+}
+
+.news-date {
+  color: #D4AF37;
+  font-size: 0.875rem;
+}
+
+/* Blog styles */
+.blog-post-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Comment form styles */
+.comment-form input:focus,
+.comment-form textarea:focus {
+  border-color: #D4AF37;
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.2);
+}
+
+/* FAQ styles */
+.faq-item {
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+  background-color: rgba(248, 246, 240, 0.8);
+}
+
+/* News feed styles */
+.news-card {
+  transition: all 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+}
+
+.news-date {
+  color: #D4AF37;
+  font-size: 0.875rem;
+}
