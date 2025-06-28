@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YugaYatra Test Payment</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    .terms { max-width: 500px; margin: auto; background: #f9f9f9; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px #eee; }
+    .actions { text-align: right; margin-top: 30px; }
+    button { padding: 12px 28px; font-size: 16px; background: #3399cc; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+    button:disabled { background: #ccc; }
+    #status { margin-top: 30px; font-weight: bold; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="terms">
+    <h2>YugaYatra Test Terms & Conditions</h2>
+    <ul>
+      <li>The YugaYatra test is designed to assess your skills and suitability for our internship program.</li>
+      <li>The test is mandatory for further consideration in the selection process.</li>
+      <li>There is a non-refundable charge of <b>₹500</b> to take the test.</li>
+      <li>By proceeding, you agree to pay the test fee and abide by all test rules and guidelines.</li>
+      <li>Any form of malpractice or dishonesty will result in immediate disqualification.</li>
+      <li>Test results will be communicated to you via email within 7 working days.</li>
+    </ul>
+    <div class="actions">
+      <button id="payBtn">Proceed to Test & Pay ₹500</button>
+    </div>
+    <div id="status"></div>
+  </div>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script>
+    document.getElementById('payBtn').onclick = async function() {
+      document.getElementById('status').textContent = '';
+      // Create order for ₹500 (INR)
+      const response = await fetch('/create-order', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ amount: 500, currency: 'INR' })
+      });
+      const order = await response.json();
+      if(order.id) {
+        var options = {
+          "key": "rzp_test_S568pOBqgQbORV", // Replace with your LIVE key_id for production
+          "amount": order.amount,
+          "currency": order.currency,
+          "name": "YugaYatra Test Fee",
+          "description": "Test Registration Fee",
+          "order_id": order.id,
+          "handler": async function (response){
+            // Verify payment on backend
+            const verifyRes = await fetch('/verify-payment', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                razorpay_order_id: response.razorpay_order_id,
+                razorpay_payment_id: response.razorpay_payment_id,
+                razorpay_signature: response.razorpay_signature
+              })
+            });
+            const verifyData = await verifyRes.json();
+            if(verifyData.success) {
+              document.getElementById('status').textContent = 'Payment successful! You may now proceed to the test.';
+            } else {
+              document.getElementById('status').textContent = 'Payment verification failed! Please contact support.';
+            }
+          },
+          "theme": { "color": "#3399cc" }
+        };
+        var rzp1 = new Razorpay(options);
+        rzp1.open();
+      } else {
+        document.getElementById('status').textContent = 'Error creating order: ' + (order.error || 'Unknown error');
+      }
+    }
+  </script>
+</body>
+</html> 

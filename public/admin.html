@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YugaYatra Admin Dashboard</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body { 
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; 
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #D4AF37 0%, #E7CBA9 100%);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .tabs {
+      display: flex;
+      background: #f8f9fa;
+      border-bottom: 1px solid #e9ecef;
+    }
+
+    .tab {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #6c757d;
+      transition: all 0.3s ease;
+      border-bottom: 3px solid transparent;
+    }
+
+    .tab:hover {
+      background: #e9ecef;
+      color: #495057;
+    }
+
+    .tab.active {
+      background: white;
+      color: #D4AF37;
+      border-bottom-color: #D4AF37;
+    }
+
+    .tab-content {
+      display: none;
+      padding: 30px;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .stat-card {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .stat-card.payment {
+      background: linear-gradient(135deg, #D4AF37 0%, #E7CBA9 100%);
+    }
+
+    .stat-card.test {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+
+    .stat-card.application {
+      background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    }
+
+    .stat-card.error {
+      background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+      color: #333;
+    }
+
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .stat-label {
+      font-size: 1rem;
+      opacity: 0.9;
+      font-weight: 500;
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .data-table th,
+    .data-table td {
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid #e9ecef;
+    }
+
+    .data-table th {
+      background: #f8f9fa;
+      font-weight: 600;
+      color: #495057;
+    }
+
+    .data-table tr:hover {
+      background: #f8f9fa;
+    }
+
+    .status-badge {
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .status-success {
+      background: #d4edda;
+      color: #155724;
+    }
+
+    .status-pending {
+      background: #fff3cd;
+      color: #856404;
+    }
+
+    .status-error {
+      background: #f8d7da;
+      color: #721c24;
+    }
+
+    .btn {
+      background: #D4AF37;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      margin: 5px;
+    }
+
+    .btn:hover {
+      background: #BFA76A;
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background: #6c757d;
+    }
+
+    .btn-secondary:hover {
+      background: #5a6268;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 40px;
+      color: #6c757d;
+      font-size: 1.1rem;
+    }
+
+    .error {
+      background: #f8d7da;
+      color: #721c24;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+
+    .success {
+      background: #d4edda;
+      color: #155724;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+
+    .search-box {
+      width: 100%;
+      max-width: 300px;
+      padding: 12px;
+      border: 2px solid #e9ecef;
+      border-radius: 8px;
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .search-box:focus {
+      outline: none;
+      border-color: #D4AF37;
+    }
+
+    .filters {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .filter-select {
+      padding: 10px;
+      border: 2px solid #e9ecef;
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+
+    .filter-select:focus {
+      outline: none;
+      border-color: #D4AF37;
+    }
+
+    .chart-container {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .recent-activity {
+      max-height: 400px;
+      overflow-y: auto;
+    }
+
+    .activity-item {
+      padding: 15px;
+      border-left: 4px solid #D4AF37;
+      margin: 10px 0;
+      background: #f8f9fa;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .activity-item.success {
+      border-left-color: #28a745;
+    }
+
+    .activity-item.error {
+      border-left-color: #dc3545;
+    }
+
+    .activity-time {
+      font-size: 0.8rem;
+      color: #6c757d;
+      margin-top: 5px;
+    }
+
+    @media (max-width: 768px) {
+      .tabs {
+        flex-direction: column;
+      }
+      
+      .stats-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .data-table {
+        font-size: 0.9rem;
+      }
+      
+      .data-table th,
+      .data-table td {
+        padding: 10px 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>YugaYatra Admin Dashboard</h1>
+      <p>Comprehensive management system for payments, tests, and applications</p>
+    </div>
+
+    <div class="tabs">
+      <button class="tab active" onclick="showTab('overview')">Overview</button>
+      <button class="tab" onclick="showTab('payments')">Payments</button>
+      <button class="tab" onclick="showTab('tests')">Test Records</button>
+      <button class="tab" onclick="showTab('applications')">Applications</button>
+    </div>
+
+    <!-- Overview Tab -->
+    <div id="overview" class="tab-content active">
+      <h2>Dashboard Overview</h2>
+      <div class="stats-grid">
+        <div class="stat-card payment">
+          <div class="stat-number" id="totalPayments">-</div>
+          <div class="stat-label">Total Payments</div>
+        </div>
+        <div class="stat-card test">
+          <div class="stat-number" id="totalTests">-</div>
+          <div class="stat-label">Total Tests</div>
+        </div>
+        <div class="stat-card application">
+          <div class="stat-number" id="totalApplications">-</div>
+          <div class="stat-label">Applications</div>
+        </div>
+        <div class="stat-card error">
+          <div class="stat-number" id="totalErrors">-</div>
+          <div class="stat-label">Errors</div>
+        </div>
+      </div>
+
+      <div class="chart-container">
+        <h3>Recent Activity</h3>
+        <div id="recentActivity" class="recent-activity">
+          <div class="loading">Loading recent activity...</div>
+        </div>
+      </div>
+
+      <div class="chart-container">
+        <h3>Quick Actions</h3>
+        <button class="btn" onclick="loadAllData()">Refresh All Data</button>
+        <button class="btn btn-secondary" onclick="exportData()">Export Data</button>
+      </div>
+    </div>
+
+    <!-- Payments Tab -->
+    <div id="payments" class="tab-content">
+      <h2>Payment Management</h2>
+      <div class="stats-grid">
+        <div class="stat-card payment">
+          <div class="stat-number" id="paymentOrders">-</div>
+          <div class="stat-label">Total Orders</div>
+        </div>
+        <div class="stat-card payment">
+          <div class="stat-number" id="paymentSuccess">-</div>
+          <div class="stat-label">Successful Payments</div>
+        </div>
+        <div class="stat-card payment">
+          <div class="stat-number">₹<span id="paymentAmount">-</span></div>
+          <div class="stat-label">Total Amount</div>
+        </div>
+        <div class="stat-card error">
+          <div class="stat-number" id="paymentErrors">-</div>
+          <div class="stat-label">Payment Errors</div>
+        </div>
+      </div>
+
+      <div class="filters">
+        <input type="text" class="search-box" placeholder="Search payments..." id="paymentSearch">
+        <select class="filter-select" id="paymentFilter">
+          <option value="all">All Payments</option>
+          <option value="success">Successful</option>
+          <option value="error">Errors</option>
+        </select>
+      </div>
+
+      <table class="data-table" id="paymentsTable">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Order ID</th>
+            <th>Payment ID</th>
+            <th>Amount</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="paymentsTableBody">
+          <tr><td colspan="6" class="loading">Loading payment data...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Tests Tab -->
+    <div id="tests" class="tab-content">
+      <h2>Test Records</h2>
+      <div class="stats-grid">
+        <div class="stat-card test">
+          <div class="stat-number" id="testTotal">-</div>
+          <div class="stat-label">Total Tests</div>
+        </div>
+        <div class="stat-card test">
+          <div class="stat-number" id="testAverage">-</div>
+          <div class="stat-label">Average Score</div>
+        </div>
+        <div class="stat-card test">
+          <div class="stat-number" id="testPassed">-</div>
+          <div class="stat-label">Passed Tests</div>
+        </div>
+        <div class="stat-card test">
+          <div class="stat-number" id="testFailed">-</div>
+          <div class="stat-label">Failed Tests</div>
+        </div>
+      </div>
+
+      <div class="filters">
+        <input type="text" class="search-box" placeholder="Search test records..." id="testSearch">
+        <select class="filter-select" id="testFilter">
+          <option value="all">All Tests</option>
+          <option value="passed">Passed</option>
+          <option value="failed">Failed</option>
+        </select>
+      </div>
+
+      <table class="data-table" id="testsTable">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Student Name</th>
+            <th>Email</th>
+            <th>Domain</th>
+            <th>Score</th>
+            <th>Percentage</th>
+            <th>Time Taken</th>
+            <th>Attempts</th>
+            <th>Payment ID</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="testsTableBody">
+          <tr><td colspan="10" class="loading">Loading test data...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Applications Tab -->
+    <div id="applications" class="tab-content">
+      <h2>Internship Applications</h2>
+      <div class="stats-grid">
+        <div class="stat-card application">
+          <div class="stat-number" id="appTotal">-</div>
+          <div class="stat-label">Total Applications</div>
+        </div>
+        <div class="stat-card application">
+          <div class="stat-number" id="appPending">-</div>
+          <div class="stat-label">Pending Review</div>
+        </div>
+        <div class="stat-card application">
+          <div class="stat-number" id="appReviewed">-</div>
+          <div class="stat-label">Reviewed</div>
+        </div>
+        <div class="stat-card application">
+          <div class="stat-number" id="appAccepted">-</div>
+          <div class="stat-label">Accepted</div>
+        </div>
+      </div>
+
+      <div class="filters">
+        <input type="text" class="search-box" placeholder="Search applications..." id="appSearch">
+        <select class="filter-select" id="appFilter">
+          <option value="all">All Applications</option>
+          <option value="pending">Pending</option>
+          <option value="reviewed">Reviewed</option>
+          <option value="accepted">Accepted</option>
+        </select>
+      </div>
+
+      <table class="data-table" id="applicationsTable">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Domain</th>
+            <th>Skills</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="applicationsTableBody">
+          <tr><td colspan="7" class="loading">Loading application data...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    let currentTab = 'overview';
+    let dashboardData = null;
+
+    // Tab switching
+    function showTab(tabName) {
+      // Hide all tab contents
+      document.querySelectorAll('.tab-content').forEach(content => {
+        content.classList.remove('active');
+      });
+      
+      // Remove active class from all tabs
+      document.querySelectorAll('.tab').forEach(tab => {
+        tab.classList.remove('active');
+      });
+      
+      // Show selected tab content
+      document.getElementById(tabName).classList.add('active');
+      
+      // Add active class to selected tab
+      event.target.classList.add('active');
+      
+      currentTab = tabName;
+      
+      // Load data for the selected tab
+      loadTabData(tabName);
+    }
+
+    // Load data for specific tab
+    async function loadTabData(tabName) {
+      switch(tabName) {
+        case 'overview':
+          await loadDashboardData();
+          break;
+        case 'payments':
+          await loadPaymentData();
+          break;
+        case 'tests':
+          await loadTestData();
+          break;
+        case 'applications':
+          await loadApplicationData();
+          break;
+      }
+    }
+
+    // Load dashboard overview data
+    async function loadDashboardData() {
+      try {
+        const response = await fetch('http://localhost:3000/admin-dashboard');
+        const data = await response.json();
+        
+        if (data.success) {
+          dashboardData = data.data;
+          
+          // Update overview stats
+          document.getElementById('totalPayments').textContent = dashboardData.paymentStats.totalPayments;
+          document.getElementById('totalTests').textContent = dashboardData.testStats.totalTests;
+          document.getElementById('totalApplications').textContent = dashboardData.applicationStats.totalApplications;
+          document.getElementById('totalErrors').textContent = dashboardData.paymentStats.totalErrors;
+          
+          // Update recent activity
+          const activityHtml = dashboardData.recentActivity.map(activity => `
+            <div class="activity-item ${activity.type.includes('SUCCESS') ? 'success' : activity.type.includes('ERROR') ? 'error' : ''}">
+              <div><strong>${activity.type}</strong></div>
+              <div>${activity.orderId ? `Order: ${activity.orderId}` : ''} ${activity.paymentId ? `Payment: ${activity.paymentId}` : ''}</div>
+              <div class="activity-time">${new Date(activity.timestamp).toLocaleString()}</div>
+            </div>
+          `).join('');
+          
+          document.getElementById('recentActivity').innerHTML = activityHtml || '<div class="loading">No recent activity</div>';
+        }
+      } catch (error) {
+        console.error('Error loading dashboard data:', error);
+        document.getElementById('recentActivity').innerHTML = '<div class="error">Error loading dashboard data</div>';
+      }
+    }
+
+    // Load payment data
+    async function loadPaymentData() {
+      try {
+        const response = await fetch('http://localhost:3000/payment-stats');
+        const data = await response.json();
+        
+        if (data.success) {
+          const stats = data.stats;
+          
+          // Update payment stats
+          document.getElementById('paymentOrders').textContent = stats.totalOrders;
+          document.getElementById('paymentSuccess').textContent = stats.totalPayments;
+          document.getElementById('paymentAmount').textContent = stats.totalAmount;
+          document.getElementById('paymentErrors').textContent = stats.totalErrors;
+          
+          // Load payment logs for table
+          const logsResponse = await fetch('http://localhost:3000/payment-logs');
+          const logsData = await logsResponse.json();
+          
+          if (logsData.success) {
+            const payments = logsData.logs.filter(log => log.type === 'PAYMENT_SUCCESS');
+            const tableBody = document.getElementById('paymentsTableBody');
+            
+            const tableHtml = payments.map(payment => `
+              <tr>
+                <td>${new Date(payment.timestamp).toLocaleDateString()}</td>
+                <td>${payment.orderId}</td>
+                <td>${payment.paymentId}</td>
+                <td>₹${(payment.paymentDetails?.amount || 0) / 100}</td>
+                <td><span class="status-badge status-success">Success</span></td>
+                <td>
+                  <button class="btn" onclick="viewPaymentDetails('${payment.paymentId}')">View</button>
+                </td>
+              </tr>
+            `).join('');
+            
+            tableBody.innerHTML = tableHtml || '<tr><td colspan="6">No payment data found</td></tr>';
+          }
+        }
+      } catch (error) {
+        console.error('Error loading payment data:', error);
+        document.getElementById('paymentsTableBody').innerHTML = '<tr><td colspan="6" class="error">Error loading payment data</td></tr>';
+      }
+    }
+
+    // Load test data
+    async function loadTestData() {
+      try {
+        const response = await fetch('http://localhost:3000/test-records');
+        const data = await response.json();
+        
+        if (data.success) {
+          const records = data.records;
+          
+          // Update test stats
+          document.getElementById('testTotal').textContent = records.length;
+          const averageScore = records.reduce((sum, record) => sum + record.percentage, 0) / records.length;
+          document.getElementById('testAverage').textContent = averageScore.toFixed(1) + '%';
+          const passedTests = records.filter(record => record.percentage >= 70).length;
+          document.getElementById('testPassed').textContent = passedTests;
+          document.getElementById('testFailed').textContent = records.length - passedTests;
+          
+          // Update test table
+          const tableBody = document.getElementById('testsTableBody');
+          const tableHtml = records.map(record => `
+            <tr>
+              <td>${new Date(record.testDate).toLocaleDateString()}</td>
+              <td>${record.studentName}</td>
+              <td>${record.email}</td>
+              <td>${record.domain}</td>
+              <td>${record.score}/${record.totalQuestions}</td>
+              <td>${record.percentage}%</td>
+              <td>${record.timeTaken}</td>
+              <td>${record.attemptsUsed}/${record.totalAttempts}</td>
+              <td>${record.paymentId}</td>
+              <td>
+                <button class="btn" onclick="viewTestDetails('${record.id}')">View</button>
+              </td>
+            </tr>
+          `).join('');
+          
+          tableBody.innerHTML = tableHtml || '<tr><td colspan="10">No test data found</td></tr>';
+        }
+      } catch (error) {
+        console.error('Error loading test data:', error);
+        document.getElementById('testsTableBody').innerHTML = '<tr><td colspan="10" class="error">Error loading test data</td></tr>';
+      }
+    }
+
+    // Load application data
+    async function loadApplicationData() {
+      try {
+        const response = await fetch('http://localhost:3000/internship-applications');
+        const data = await response.json();
+        
+        if (data.success) {
+          const applications = data.applications;
+          
+          // Update application stats
+          document.getElementById('appTotal').textContent = applications.length;
+          const pendingApps = applications.filter(app => app.status === 'pending').length;
+          document.getElementById('appPending').textContent = pendingApps;
+          const reviewedApps = applications.filter(app => app.status === 'reviewed').length;
+          document.getElementById('appReviewed').textContent = reviewedApps;
+          const acceptedApps = applications.filter(app => app.status === 'accepted').length;
+          document.getElementById('appAccepted').textContent = acceptedApps;
+          
+          // Update application table
+          const tableBody = document.getElementById('applicationsTableBody');
+          const tableHtml = applications.map(app => `
+            <tr>
+              <td>${new Date(app.createdAt).toLocaleDateString()}</td>
+              <td>${app.name}</td>
+              <td>${app.email}</td>
+              <td>${app.domain}</td>
+              <td>${app.skills.substring(0, 50)}${app.skills.length > 50 ? '...' : ''}</td>
+              <td><span class="status-badge status-${app.status}">${app.status}</span></td>
+              <td>
+                <button class="btn" onclick="viewApplication('${app.id}')">View</button>
+                <button class="btn btn-secondary" onclick="updateStatus('${app.id}')">Update</button>
+              </td>
+            </tr>
+          `).join('');
+          
+          tableBody.innerHTML = tableHtml || '<tr><td colspan="7">No application data found</td></tr>';
+        }
+      } catch (error) {
+        console.error('Error loading application data:', error);
+        document.getElementById('applicationsTableBody').innerHTML = '<tr><td colspan="7" class="error">Error loading application data</td></tr>';
+      }
+    }
+
+    // Load all data
+    async function loadAllData() {
+      await loadDashboardData();
+      await loadPaymentData();
+      await loadTestData();
+      await loadApplicationData();
+    }
+
+    // Export data function
+    function exportData() {
+      const data = {
+        dashboard: dashboardData,
+        timestamp: new Date().toISOString()
+      };
+      
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `yugayatra-admin-data-${new Date().toISOString().split('T')[0]}.json`;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    // View payment details
+    function viewPaymentDetails(paymentId) {
+      alert(`Payment Details for: ${paymentId}\n\nThis would show detailed payment information in a modal.`);
+    }
+
+    // View test details
+    function viewTestDetails(testId) {
+      // Fetch detailed test information from the database
+      fetch(`http://localhost:5000/api/test-results/${testId}`)
+        .then(response => response.json())
+        .then(data => {
+          if (data.success) {
+            const test = data.record;
+            let details = `Test Details for: ${test.studentName}\n\n`;
+            details += `Email: ${test.email}\n`;
+            details += `Domain: ${test.domain || 'Not specified'}\n`;
+            details += `Score: ${test.score}/${test.totalQuestions} (${test.percentage}%)\n`;
+            details += `Time Taken: ${test.timeTaken}\n`;
+            details += `Attempts: ${test.attemptsUsed}/${test.totalAttempts}\n`;
+            details += `Started: ${new Date(test.startedOn).toLocaleString()}\n`;
+            details += `Completed: ${new Date(test.completedOn).toLocaleString()}\n`;
+            details += `Payment ID: ${test.paymentId}\n\n`;
+            
+            if (test.questions && test.questions.length > 0) {
+              details += `Question Details:\n`;
+              test.questions.forEach((q, idx) => {
+                details += `${idx + 1}. ${q.question}\n`;
+                details += `   Selected: ${q.selectedAnswer}\n`;
+                details += `   Correct: ${q.correctAnswer}\n`;
+                details += `   Result: ${q.isCorrect ? '✓' : '✗'}\n\n`;
+              });
+            }
+            
+            alert(details);
+          } else {
+            alert('Error loading test details');
+          }
+        })
+        .catch(error => {
+          console.error('Error fetching test details:', error);
+          alert('Error loading test details');
+        });
+    }
+
+    // View application details
+    function viewApplication(appId) {
+      alert(`Application Details for: ${appId}\n\nThis would show detailed application information in a modal.`);
+    }
+
+    // Update application status
+    function updateStatus(appId) {
+      const newStatus = prompt('Enter new status (pending/reviewed/accepted):');
+      if (newStatus) {
+        alert(`Status updated for application ${appId} to: ${newStatus}`);
+        // In a real application, this would make an API call to update the status
+      }
+    }
+
+    // Search functionality
+    document.getElementById('paymentSearch').addEventListener('input', function(e) {
+      const searchTerm = e.target.value.toLowerCase();
+      const rows = document.querySelectorAll('#paymentsTableBody tr');
+      
+      rows.forEach(row => {
+        const text = row.textContent.toLowerCase();
+        row.style.display = text.includes(searchTerm) ? '' : 'none';
+      });
+    });
+
+    document.getElementById('testSearch').addEventListener('input', function(e) {
+      const searchTerm = e.target.value.toLowerCase();
+      const rows = document.querySelectorAll('#testsTableBody tr');
+      
+      rows.forEach(row => {
+        const text = row.textContent.toLowerCase();
+        row.style.display = text.includes(searchTerm) ? '' : 'none';
+      });
+    });
+
+    document.getElementById('appSearch').addEventListener('input', function(e) {
+      const searchTerm = e.target.value.toLowerCase();
+      const rows = document.querySelectorAll('#applicationsTableBody tr');
+      
+      rows.forEach(row => {
+        const text = row.textContent.toLowerCase();
+        row.style.display = text.includes(searchTerm) ? '' : 'none';
+      });
+    });
+
+    // Load initial data
+    window.onload = function() {
+      loadAllData();
+    };
+
+    // Auto-refresh every 60 seconds
+    setInterval(() => {
+      if (currentTab === 'overview') {
+        loadDashboardData();
+      }
+    }, 60000);
+  </script>
+</body>
+</html> 

@@ -169,6 +169,9 @@ const Navbar = () => {
             <Link to="/internship-application" className="modern-button">
               Apply for Internship
             </Link>
+            <Link to="/admin" className="text-sm bg-gray-800 text-white px-3 py-1 rounded-lg hover:bg-gray-700 transition-colors duration-300">
+              Admin
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -228,6 +231,13 @@ const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Apply for Internship
+            </Link>
+            <Link
+              to="/admin"
+              className="text-sm bg-gray-800 text-white px-3 py-1 rounded-lg hover:bg-gray-700 transition-colors duration-300"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Admin
             </Link>
           </div>
         </div>

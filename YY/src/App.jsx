@@ -22,39 +22,57 @@ import SiteMap from './components/Pages/SiteMap';
 import AchievementDetail from './components/Pages/AchievementDetail';
 import InternshipForm from './components/Pages/InternshipForm';
 import AdminInternships from './components/Pages/AdminInternships';
+import AdminDashboard from './components/Pages/AdminDashboard';
 import TestTerms from './components/Pages/TestTerms';
 import Test from './components/Pages/Test';
 import Quiz from './components/Pages/Quiz';
+import PaymentPage from './components/Pages/PaymentPage';
+import Result from './components/Pages/Result';
 import './App.css';
 import Contact from './components/Home/Contact';
 // import TimelineSection from './components/Home/TimelineSection';
 
-function App() {
+// Custom hook for handling animations
+const useAnimationObserver = () => {
+  const location = useLocation();
+
   useEffect(() => {
-    // Intersection Observer for fade-in animations
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
+    // Small delay to ensure DOM elements are rendered
+    const timer = setTimeout(() => {
+      // Intersection Observer for fade-in animations
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, { 
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px' // Trigger slightly before element comes into view
       });
-    }, { threshold: 0.1 });
 
-    // Observe all fade-in elements
-    document.querySelectorAll('.fade-in').forEach(element => {
-      observer.observe(element);
-    });
+      // Observe all fade-in elements
+      const fadeElements = document.querySelectorAll('.fade-in');
+      fadeElements.forEach(element => {
+        // Reset the animation by removing the visible class first
+        element.classList.remove('visible');
+        observer.observe(element);
+      });
 
-    return () => observer.disconnect();
-  }, []);
+      return () => {
+        observer.disconnect();
+      };
+    }, 100); // 100ms delay
+
+    return () => clearTimeout(timer);
+  }, [location.pathname]); // Re-run when route changes
+};
+
+function AppContent() {
+  useAnimationObserver();
 
   return (
-    <Router
-      future={{
-        v7_startTransition: true,
-        v7_relativeSplatPath: true
-      }}
-    >
+    <>
       <Navbar />
       <Routes>
         {/* Home Page Route */}
@@ -97,13 +115,32 @@ function App() {
         <Route path="/internship-application" element={<InternshipForm />} />
         {/* Admin Internship Applications Page */}
         <Route path="/admin/internships" element={<AdminInternships />} />
+        {/* Admin Dashboard */}
+        <Route path="/admin" element={<AdminDashboard />} />
         {/* Test Terms and Conditions Page */}
         <Route path="/test-terms" element={<TestTerms />} />
+        {/* Payment Page */}
+        <Route path="/payment" element={<PaymentPage />} />
         {/* Test Page */}
         <Route path="/test" element={<Test />} />
         {/* Quiz Page */}
         <Route path="/quiz" element={<Quiz />} />
+        {/* Result Page */}
+        <Route path="/result" element={<Result />} />
       </Routes>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router
+      future={{
+        v7_startTransition: true,
+        v7_relativeSplatPath: true
+      }}
+    >
+      <AppContent />
     </Router>
   );
 }
