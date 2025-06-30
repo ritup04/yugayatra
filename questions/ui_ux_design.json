@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "What does UI stand for?",
+    "options": {
+      "a": "User Interface",
+      "b": "User Integration",
+      "c": "Universal Interface",
+      "d": "Unified Integration"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (1)",
+    "options": {
+      "a": "A website mockup",
+      "b": "A button design",
+      "c": "A basic visual guide to suggest structure",
+      "d": "A data model"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (2)",
+    "options": {
+      "a": "Ease of use for users",
+      "b": "Design layout",
+      "c": "Code quality",
+      "d": "Performance"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (3)",
+    "options": {
+      "a": "Unified Integration",
+      "b": "Universal Interface",
+      "c": "User Interface",
+      "d": "User Integration"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (4)",
+    "options": {
+      "a": "A website mockup",
+      "b": "A data model",
+      "c": "A button design",
+      "d": "A basic visual guide to suggest structure"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (5)",
+    "options": {
+      "a": "Design layout",
+      "b": "Ease of use for users",
+      "c": "Performance",
+      "d": "Code quality"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (6)",
+    "options": {
+      "a": "Unified Integration",
+      "b": "User Integration",
+      "c": "Universal Interface",
+      "d": "User Interface"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (7)",
+    "options": {
+      "a": "A button design",
+      "b": "A website mockup",
+      "c": "A basic visual guide to suggest structure",
+      "d": "A data model"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (8)",
+    "options": {
+      "a": "Code quality",
+      "b": "Performance",
+      "c": "Design layout",
+      "d": "Ease of use for users"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (9)",
+    "options": {
+      "a": "User Interface",
+      "b": "Unified Integration",
+      "c": "User Integration",
+      "d": "Universal Interface"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (10)",
+    "options": {
+      "a": "A data model",
+      "b": "A basic visual guide to suggest structure",
+      "c": "A website mockup",
+      "d": "A button design"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (11)",
+    "options": {
+      "a": "Performance",
+      "b": "Code quality",
+      "c": "Design layout",
+      "d": "Ease of use for users"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (12)",
+    "options": {
+      "a": "Universal Interface",
+      "b": "User Interface",
+      "c": "User Integration",
+      "d": "Unified Integration"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (13)",
+    "options": {
+      "a": "A basic visual guide to suggest structure",
+      "b": "A website mockup",
+      "c": "A button design",
+      "d": "A data model"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (14)",
+    "options": {
+      "a": "Design layout",
+      "b": "Ease of use for users",
+      "c": "Performance",
+      "d": "Code quality"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (15)",
+    "options": {
+      "a": "Universal Interface",
+      "b": "Unified Integration",
+      "c": "User Interface",
+      "d": "User Integration"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (16)",
+    "options": {
+      "a": "A basic visual guide to suggest structure",
+      "b": "A website mockup",
+      "c": "A data model",
+      "d": "A button design"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (17)",
+    "options": {
+      "a": "Ease of use for users",
+      "b": "Design layout",
+      "c": "Performance",
+      "d": "Code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (18)",
+    "options": {
+      "a": "User Interface",
+      "b": "Universal Interface",
+      "c": "User Integration",
+      "d": "Unified Integration"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (19)",
+    "options": {
+      "a": "A basic visual guide to suggest structure",
+      "b": "A button design",
+      "c": "A data model",
+      "d": "A website mockup"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (20)",
+    "options": {
+      "a": "Design layout",
+      "b": "Code quality",
+      "c": "Performance",
+      "d": "Ease of use for users"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (21)",
+    "options": {
+      "a": "Unified Integration",
+      "b": "User Interface",
+      "c": "User Integration",
+      "d": "Universal Interface"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (22)",
+    "options": {
+      "a": "A basic visual guide to suggest structure",
+      "b": "A data model",
+      "c": "A website mockup",
+      "d": "A button design"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (23)",
+    "options": {
+      "a": "Design layout",
+      "b": "Ease of use for users",
+      "c": "Code quality",
+      "d": "Performance"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (24)",
+    "options": {
+      "a": "User Interface",
+      "b": "User Integration",
+      "c": "Universal Interface",
+      "d": "Unified Integration"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (25)",
+    "options": {
+      "a": "A website mockup",
+      "b": "A basic visual guide to suggest structure",
+      "c": "A data model",
+      "d": "A button design"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (26)",
+    "options": {
+      "a": "Design layout",
+      "b": "Performance",
+      "c": "Ease of use for users",
+      "d": "Code quality"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (27)",
+    "options": {
+      "a": "Unified Integration",
+      "b": "User Interface",
+      "c": "Universal Interface",
+      "d": "User Integration"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (28)",
+    "options": {
+      "a": "A basic visual guide to suggest structure",
+      "b": "A website mockup",
+      "c": "A button design",
+      "d": "A data model"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (29)",
+    "options": {
+      "a": "Design layout",
+      "b": "Performance",
+      "c": "Code quality",
+      "d": "Ease of use for users"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (30)",
+    "options": {
+      "a": "Unified Integration",
+      "b": "User Interface",
+      "c": "Universal Interface",
+      "d": "User Integration"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (31)",
+    "options": {
+      "a": "A data model",
+      "b": "A basic visual guide to suggest structure",
+      "c": "A website mockup",
+      "d": "A button design"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (32)",
+    "options": {
+      "a": "Design layout",
+      "b": "Ease of use for users",
+      "c": "Code quality",
+      "d": "Performance"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (33)",
+    "options": {
+      "a": "User Integration",
+      "b": "User Interface",
+      "c": "Universal Interface",
+      "d": "Unified Integration"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (34)",
+    "options": {
+      "a": "A basic visual guide to suggest structure",
+      "b": "A data model",
+      "c": "A website mockup",
+      "d": "A button design"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (35)",
+    "options": {
+      "a": "Design layout",
+      "b": "Code quality",
+      "c": "Performance",
+      "d": "Ease of use for users"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (36)",
+    "options": {
+      "a": "Unified Integration",
+      "b": "Universal Interface",
+      "c": "User Interface",
+      "d": "User Integration"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (37)",
+    "options": {
+      "a": "A data model",
+      "b": "A button design",
+      "c": "A website mockup",
+      "d": "A basic visual guide to suggest structure"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (38)",
+    "options": {
+      "a": "Design layout",
+      "b": "Ease of use for users",
+      "c": "Performance",
+      "d": "Code quality"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (39)",
+    "options": {
+      "a": "User Interface",
+      "b": "User Integration",
+      "c": "Unified Integration",
+      "d": "Universal Interface"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (40)",
+    "options": {
+      "a": "A data model",
+      "b": "A website mockup",
+      "c": "A basic visual guide to suggest structure",
+      "d": "A button design"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (41)",
+    "options": {
+      "a": "Performance",
+      "b": "Code quality",
+      "c": "Ease of use for users",
+      "d": "Design layout"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (42)",
+    "options": {
+      "a": "User Integration",
+      "b": "Universal Interface",
+      "c": "User Interface",
+      "d": "Unified Integration"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (43)",
+    "options": {
+      "a": "A basic visual guide to suggest structure",
+      "b": "A website mockup",
+      "c": "A button design",
+      "d": "A data model"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (44)",
+    "options": {
+      "a": "Design layout",
+      "b": "Code quality",
+      "c": "Performance",
+      "d": "Ease of use for users"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (45)",
+    "options": {
+      "a": "User Interface",
+      "b": "Universal Interface",
+      "c": "User Integration",
+      "d": "Unified Integration"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (46)",
+    "options": {
+      "a": "A button design",
+      "b": "A website mockup",
+      "c": "A data model",
+      "d": "A basic visual guide to suggest structure"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (47)",
+    "options": {
+      "a": "Performance",
+      "b": "Design layout",
+      "c": "Code quality",
+      "d": "Ease of use for users"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (48)",
+    "options": {
+      "a": "Unified Integration",
+      "b": "User Integration",
+      "c": "User Interface",
+      "d": "Universal Interface"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (49)",
+    "options": {
+      "a": "A website mockup",
+      "b": "A data model",
+      "c": "A button design",
+      "d": "A basic visual guide to suggest structure"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (50)",
+    "options": {
+      "a": "Ease of use for users",
+      "b": "Design layout",
+      "c": "Code quality",
+      "d": "Performance"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (51)",
+    "options": {
+      "a": "Universal Interface",
+      "b": "User Integration",
+      "c": "Unified Integration",
+      "d": "User Interface"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (52)",
+    "options": {
+      "a": "A button design",
+      "b": "A data model",
+      "c": "A basic visual guide to suggest structure",
+      "d": "A website mockup"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (53)",
+    "options": {
+      "a": "Performance",
+      "b": "Ease of use for users",
+      "c": "Code quality",
+      "d": "Design layout"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (54)",
+    "options": {
+      "a": "Unified Integration",
+      "b": "Universal Interface",
+      "c": "User Integration",
+      "d": "User Interface"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (55)",
+    "options": {
+      "a": "A button design",
+      "b": "A website mockup",
+      "c": "A basic visual guide to suggest structure",
+      "d": "A data model"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (56)",
+    "options": {
+      "a": "Ease of use for users",
+      "b": "Design layout",
+      "c": "Code quality",
+      "d": "Performance"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (57)",
+    "options": {
+      "a": "User Interface",
+      "b": "Universal Interface",
+      "c": "User Integration",
+      "d": "Unified Integration"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (58)",
+    "options": {
+      "a": "A basic visual guide to suggest structure",
+      "b": "A data model",
+      "c": "A button design",
+      "d": "A website mockup"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (59)",
+    "options": {
+      "a": "Code quality",
+      "b": "Design layout",
+      "c": "Ease of use for users",
+      "d": "Performance"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (60)",
+    "options": {
+      "a": "User Integration",
+      "b": "Unified Integration",
+      "c": "User Interface",
+      "d": "Universal Interface"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (61)",
+    "options": {
+      "a": "A website mockup",
+      "b": "A button design",
+      "c": "A basic visual guide to suggest structure",
+      "d": "A data model"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (62)",
+    "options": {
+      "a": "Code quality",
+      "b": "Design layout",
+      "c": "Ease of use for users",
+      "d": "Performance"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (63)",
+    "options": {
+      "a": "Universal Interface",
+      "b": "Unified Integration",
+      "c": "User Integration",
+      "d": "User Interface"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (64)",
+    "options": {
+      "a": "A button design",
+      "b": "A website mockup",
+      "c": "A basic visual guide to suggest structure",
+      "d": "A data model"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (65)",
+    "options": {
+      "a": "Ease of use for users",
+      "b": "Design layout",
+      "c": "Performance",
+      "d": "Code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (66)",
+    "options": {
+      "a": "User Interface",
+      "b": "Universal Interface",
+      "c": "User Integration",
+      "d": "Unified Integration"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (67)",
+    "options": {
+      "a": "A basic visual guide to suggest structure",
+      "b": "A website mockup",
+      "c": "A button design",
+      "d": "A data model"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (68)",
+    "options": {
+      "a": "Design layout",
+      "b": "Code quality",
+      "c": "Performance",
+      "d": "Ease of use for users"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (69)",
+    "options": {
+      "a": "Unified Integration",
+      "b": "Universal Interface",
+      "c": "User Integration",
+      "d": "User Interface"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (70)",
+    "options": {
+      "a": "A basic visual guide to suggest structure",
+      "b": "A website mockup",
+      "c": "A button design",
+      "d": "A data model"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (71)",
+    "options": {
+      "a": "Ease of use for users",
+      "b": "Design layout",
+      "c": "Performance",
+      "d": "Code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (72)",
+    "options": {
+      "a": "User Integration",
+      "b": "Universal Interface",
+      "c": "Unified Integration",
+      "d": "User Interface"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (73)",
+    "options": {
+      "a": "A website mockup",
+      "b": "A basic visual guide to suggest structure",
+      "c": "A data model",
+      "d": "A button design"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (74)",
+    "options": {
+      "a": "Ease of use for users",
+      "b": "Performance",
+      "c": "Design layout",
+      "d": "Code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (75)",
+    "options": {
+      "a": "User Interface",
+      "b": "Unified Integration",
+      "c": "User Integration",
+      "d": "Universal Interface"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (76)",
+    "options": {
+      "a": "A button design",
+      "b": "A website mockup",
+      "c": "A data model",
+      "d": "A basic visual guide to suggest structure"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (77)",
+    "options": {
+      "a": "Code quality",
+      "b": "Performance",
+      "c": "Ease of use for users",
+      "d": "Design layout"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (78)",
+    "options": {
+      "a": "Unified Integration",
+      "b": "Universal Interface",
+      "c": "User Integration",
+      "d": "User Interface"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (79)",
+    "options": {
+      "a": "A data model",
+      "b": "A website mockup",
+      "c": "A basic visual guide to suggest structure",
+      "d": "A button design"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (80)",
+    "options": {
+      "a": "Performance",
+      "b": "Design layout",
+      "c": "Ease of use for users",
+      "d": "Code quality"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (81)",
+    "options": {
+      "a": "User Interface",
+      "b": "User Integration",
+      "c": "Unified Integration",
+      "d": "Universal Interface"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (82)",
+    "options": {
+      "a": "A basic visual guide to suggest structure",
+      "b": "A data model",
+      "c": "A website mockup",
+      "d": "A button design"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (83)",
+    "options": {
+      "a": "Design layout",
+      "b": "Ease of use for users",
+      "c": "Performance",
+      "d": "Code quality"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (84)",
+    "options": {
+      "a": "User Integration",
+      "b": "User Interface",
+      "c": "Unified Integration",
+      "d": "Universal Interface"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (85)",
+    "options": {
+      "a": "A website mockup",
+      "b": "A basic visual guide to suggest structure",
+      "c": "A button design",
+      "d": "A data model"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (86)",
+    "options": {
+      "a": "Performance",
+      "b": "Code quality",
+      "c": "Design layout",
+      "d": "Ease of use for users"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (87)",
+    "options": {
+      "a": "Unified Integration",
+      "b": "Universal Interface",
+      "c": "User Interface",
+      "d": "User Integration"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (88)",
+    "options": {
+      "a": "A button design",
+      "b": "A basic visual guide to suggest structure",
+      "c": "A data model",
+      "d": "A website mockup"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (89)",
+    "options": {
+      "a": "Design layout",
+      "b": "Code quality",
+      "c": "Performance",
+      "d": "Ease of use for users"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (90)",
+    "options": {
+      "a": "User Interface",
+      "b": "Universal Interface",
+      "c": "Unified Integration",
+      "d": "User Integration"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (91)",
+    "options": {
+      "a": "A basic visual guide to suggest structure",
+      "b": "A button design",
+      "c": "A website mockup",
+      "d": "A data model"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (92)",
+    "options": {
+      "a": "Design layout",
+      "b": "Performance",
+      "c": "Ease of use for users",
+      "d": "Code quality"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (93)",
+    "options": {
+      "a": "Unified Integration",
+      "b": "User Integration",
+      "c": "User Interface",
+      "d": "Universal Interface"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (94)",
+    "options": {
+      "a": "A button design",
+      "b": "A website mockup",
+      "c": "A basic visual guide to suggest structure",
+      "d": "A data model"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (95)",
+    "options": {
+      "a": "Design layout",
+      "b": "Code quality",
+      "c": "Performance",
+      "d": "Ease of use for users"
+    },
+    "correctAnswer": "d",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (96)",
+    "options": {
+      "a": "Universal Interface",
+      "b": "Unified Integration",
+      "c": "User Interface",
+      "d": "User Integration"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe? (97)",
+    "options": {
+      "a": "A button design",
+      "b": "A basic visual guide to suggest structure",
+      "c": "A data model",
+      "d": "A website mockup"
+    },
+    "correctAnswer": "b",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on? (98)",
+    "options": {
+      "a": "Code quality",
+      "b": "Performance",
+      "c": "Ease of use for users",
+      "d": "Design layout"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UI stand for? (99)",
+    "options": {
+      "a": "User Interface",
+      "b": "Unified Integration",
+      "c": "User Integration",
+      "d": "Universal Interface"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  }
+]

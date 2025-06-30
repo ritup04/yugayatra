@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "Which algorithm is used for classification tasks?",
+    "options": {
+      "a": "PCA",
+      "b": "Logistic Regression",
+      "c": "Gradient Descent",
+      "d": "K-Means"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (1)",
+    "options": {
+      "a": "Reduce bias",
+      "b": "Speed up training",
+      "c": "Introduce non-linearity",
+      "d": "Improve memory"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (2)",
+    "options": {
+      "a": "Precision vs Recall",
+      "b": "Balance between model accuracy and generalization",
+      "c": "Memory vs Speed",
+      "d": "Balancing model size"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (3)",
+    "options": {
+      "a": "K-Means",
+      "b": "Gradient Descent",
+      "c": "PCA",
+      "d": "Logistic Regression"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (4)",
+    "options": {
+      "a": "Speed up training",
+      "b": "Reduce bias",
+      "c": "Introduce non-linearity",
+      "d": "Improve memory"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (5)",
+    "options": {
+      "a": "Precision vs Recall",
+      "b": "Memory vs Speed",
+      "c": "Balancing model size",
+      "d": "Balance between model accuracy and generalization"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (6)",
+    "options": {
+      "a": "K-Means",
+      "b": "Logistic Regression",
+      "c": "PCA",
+      "d": "Gradient Descent"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (7)",
+    "options": {
+      "a": "Speed up training",
+      "b": "Improve memory",
+      "c": "Reduce bias",
+      "d": "Introduce non-linearity"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (8)",
+    "options": {
+      "a": "Memory vs Speed",
+      "b": "Balance between model accuracy and generalization",
+      "c": "Precision vs Recall",
+      "d": "Balancing model size"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (9)",
+    "options": {
+      "a": "K-Means",
+      "b": "PCA",
+      "c": "Gradient Descent",
+      "d": "Logistic Regression"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (10)",
+    "options": {
+      "a": "Introduce non-linearity",
+      "b": "Improve memory",
+      "c": "Reduce bias",
+      "d": "Speed up training"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (11)",
+    "options": {
+      "a": "Balancing model size",
+      "b": "Precision vs Recall",
+      "c": "Balance between model accuracy and generalization",
+      "d": "Memory vs Speed"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (12)",
+    "options": {
+      "a": "PCA",
+      "b": "Gradient Descent",
+      "c": "Logistic Regression",
+      "d": "K-Means"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (13)",
+    "options": {
+      "a": "Reduce bias",
+      "b": "Introduce non-linearity",
+      "c": "Speed up training",
+      "d": "Improve memory"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (14)",
+    "options": {
+      "a": "Balance between model accuracy and generalization",
+      "b": "Memory vs Speed",
+      "c": "Precision vs Recall",
+      "d": "Balancing model size"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (15)",
+    "options": {
+      "a": "Logistic Regression",
+      "b": "PCA",
+      "c": "Gradient Descent",
+      "d": "K-Means"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (16)",
+    "options": {
+      "a": "Introduce non-linearity",
+      "b": "Improve memory",
+      "c": "Speed up training",
+      "d": "Reduce bias"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (17)",
+    "options": {
+      "a": "Balancing model size",
+      "b": "Balance between model accuracy and generalization",
+      "c": "Memory vs Speed",
+      "d": "Precision vs Recall"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (18)",
+    "options": {
+      "a": "Gradient Descent",
+      "b": "PCA",
+      "c": "Logistic Regression",
+      "d": "K-Means"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (19)",
+    "options": {
+      "a": "Introduce non-linearity",
+      "b": "Speed up training",
+      "c": "Improve memory",
+      "d": "Reduce bias"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (20)",
+    "options": {
+      "a": "Balancing model size",
+      "b": "Precision vs Recall",
+      "c": "Memory vs Speed",
+      "d": "Balance between model accuracy and generalization"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (21)",
+    "options": {
+      "a": "Gradient Descent",
+      "b": "Logistic Regression",
+      "c": "PCA",
+      "d": "K-Means"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (22)",
+    "options": {
+      "a": "Speed up training",
+      "b": "Reduce bias",
+      "c": "Improve memory",
+      "d": "Introduce non-linearity"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (23)",
+    "options": {
+      "a": "Precision vs Recall",
+      "b": "Balance between model accuracy and generalization",
+      "c": "Balancing model size",
+      "d": "Memory vs Speed"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (24)",
+    "options": {
+      "a": "Gradient Descent",
+      "b": "PCA",
+      "c": "K-Means",
+      "d": "Logistic Regression"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (25)",
+    "options": {
+      "a": "Improve memory",
+      "b": "Introduce non-linearity",
+      "c": "Speed up training",
+      "d": "Reduce bias"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (26)",
+    "options": {
+      "a": "Memory vs Speed",
+      "b": "Precision vs Recall",
+      "c": "Balance between model accuracy and generalization",
+      "d": "Balancing model size"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (27)",
+    "options": {
+      "a": "PCA",
+      "b": "Gradient Descent",
+      "c": "Logistic Regression",
+      "d": "K-Means"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (28)",
+    "options": {
+      "a": "Introduce non-linearity",
+      "b": "Improve memory",
+      "c": "Speed up training",
+      "d": "Reduce bias"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (29)",
+    "options": {
+      "a": "Precision vs Recall",
+      "b": "Balance between model accuracy and generalization",
+      "c": "Memory vs Speed",
+      "d": "Balancing model size"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (30)",
+    "options": {
+      "a": "PCA",
+      "b": "Logistic Regression",
+      "c": "Gradient Descent",
+      "d": "K-Means"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (31)",
+    "options": {
+      "a": "Improve memory",
+      "b": "Introduce non-linearity",
+      "c": "Reduce bias",
+      "d": "Speed up training"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (32)",
+    "options": {
+      "a": "Precision vs Recall",
+      "b": "Memory vs Speed",
+      "c": "Balancing model size",
+      "d": "Balance between model accuracy and generalization"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (33)",
+    "options": {
+      "a": "Gradient Descent",
+      "b": "K-Means",
+      "c": "Logistic Regression",
+      "d": "PCA"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (34)",
+    "options": {
+      "a": "Introduce non-linearity",
+      "b": "Improve memory",
+      "c": "Reduce bias",
+      "d": "Speed up training"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (35)",
+    "options": {
+      "a": "Memory vs Speed",
+      "b": "Balance between model accuracy and generalization",
+      "c": "Balancing model size",
+      "d": "Precision vs Recall"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (36)",
+    "options": {
+      "a": "Logistic Regression",
+      "b": "PCA",
+      "c": "K-Means",
+      "d": "Gradient Descent"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (37)",
+    "options": {
+      "a": "Reduce bias",
+      "b": "Introduce non-linearity",
+      "c": "Speed up training",
+      "d": "Improve memory"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (38)",
+    "options": {
+      "a": "Balancing model size",
+      "b": "Memory vs Speed",
+      "c": "Precision vs Recall",
+      "d": "Balance between model accuracy and generalization"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (39)",
+    "options": {
+      "a": "K-Means",
+      "b": "Gradient Descent",
+      "c": "Logistic Regression",
+      "d": "PCA"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (40)",
+    "options": {
+      "a": "Improve memory",
+      "b": "Reduce bias",
+      "c": "Speed up training",
+      "d": "Introduce non-linearity"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (41)",
+    "options": {
+      "a": "Balancing model size",
+      "b": "Memory vs Speed",
+      "c": "Balance between model accuracy and generalization",
+      "d": "Precision vs Recall"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (42)",
+    "options": {
+      "a": "Gradient Descent",
+      "b": "K-Means",
+      "c": "PCA",
+      "d": "Logistic Regression"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (43)",
+    "options": {
+      "a": "Improve memory",
+      "b": "Reduce bias",
+      "c": "Speed up training",
+      "d": "Introduce non-linearity"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (44)",
+    "options": {
+      "a": "Balancing model size",
+      "b": "Precision vs Recall",
+      "c": "Balance between model accuracy and generalization",
+      "d": "Memory vs Speed"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (45)",
+    "options": {
+      "a": "Gradient Descent",
+      "b": "K-Means",
+      "c": "PCA",
+      "d": "Logistic Regression"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (46)",
+    "options": {
+      "a": "Introduce non-linearity",
+      "b": "Speed up training",
+      "c": "Improve memory",
+      "d": "Reduce bias"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (47)",
+    "options": {
+      "a": "Balancing model size",
+      "b": "Memory vs Speed",
+      "c": "Precision vs Recall",
+      "d": "Balance between model accuracy and generalization"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (48)",
+    "options": {
+      "a": "PCA",
+      "b": "K-Means",
+      "c": "Gradient Descent",
+      "d": "Logistic Regression"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (49)",
+    "options": {
+      "a": "Introduce non-linearity",
+      "b": "Reduce bias",
+      "c": "Improve memory",
+      "d": "Speed up training"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (50)",
+    "options": {
+      "a": "Balancing model size",
+      "b": "Balance between model accuracy and generalization",
+      "c": "Memory vs Speed",
+      "d": "Precision vs Recall"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (51)",
+    "options": {
+      "a": "PCA",
+      "b": "K-Means",
+      "c": "Logistic Regression",
+      "d": "Gradient Descent"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (52)",
+    "options": {
+      "a": "Introduce non-linearity",
+      "b": "Improve memory",
+      "c": "Speed up training",
+      "d": "Reduce bias"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (53)",
+    "options": {
+      "a": "Precision vs Recall",
+      "b": "Memory vs Speed",
+      "c": "Balancing model size",
+      "d": "Balance between model accuracy and generalization"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (54)",
+    "options": {
+      "a": "K-Means",
+      "b": "Gradient Descent",
+      "c": "Logistic Regression",
+      "d": "PCA"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (55)",
+    "options": {
+      "a": "Introduce non-linearity",
+      "b": "Speed up training",
+      "c": "Reduce bias",
+      "d": "Improve memory"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (56)",
+    "options": {
+      "a": "Balancing model size",
+      "b": "Memory vs Speed",
+      "c": "Balance between model accuracy and generalization",
+      "d": "Precision vs Recall"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (57)",
+    "options": {
+      "a": "K-Means",
+      "b": "Gradient Descent",
+      "c": "PCA",
+      "d": "Logistic Regression"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (58)",
+    "options": {
+      "a": "Speed up training",
+      "b": "Introduce non-linearity",
+      "c": "Reduce bias",
+      "d": "Improve memory"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (59)",
+    "options": {
+      "a": "Precision vs Recall",
+      "b": "Memory vs Speed",
+      "c": "Balancing model size",
+      "d": "Balance between model accuracy and generalization"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (60)",
+    "options": {
+      "a": "PCA",
+      "b": "Logistic Regression",
+      "c": "K-Means",
+      "d": "Gradient Descent"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (61)",
+    "options": {
+      "a": "Improve memory",
+      "b": "Reduce bias",
+      "c": "Introduce non-linearity",
+      "d": "Speed up training"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (62)",
+    "options": {
+      "a": "Precision vs Recall",
+      "b": "Balance between model accuracy and generalization",
+      "c": "Balancing model size",
+      "d": "Memory vs Speed"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (63)",
+    "options": {
+      "a": "PCA",
+      "b": "K-Means",
+      "c": "Logistic Regression",
+      "d": "Gradient Descent"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (64)",
+    "options": {
+      "a": "Reduce bias",
+      "b": "Introduce non-linearity",
+      "c": "Speed up training",
+      "d": "Improve memory"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (65)",
+    "options": {
+      "a": "Balance between model accuracy and generalization",
+      "b": "Precision vs Recall",
+      "c": "Balancing model size",
+      "d": "Memory vs Speed"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (66)",
+    "options": {
+      "a": "Logistic Regression",
+      "b": "PCA",
+      "c": "K-Means",
+      "d": "Gradient Descent"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (67)",
+    "options": {
+      "a": "Reduce bias",
+      "b": "Speed up training",
+      "c": "Improve memory",
+      "d": "Introduce non-linearity"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (68)",
+    "options": {
+      "a": "Precision vs Recall",
+      "b": "Memory vs Speed",
+      "c": "Balancing model size",
+      "d": "Balance between model accuracy and generalization"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (69)",
+    "options": {
+      "a": "K-Means",
+      "b": "PCA",
+      "c": "Logistic Regression",
+      "d": "Gradient Descent"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (70)",
+    "options": {
+      "a": "Speed up training",
+      "b": "Introduce non-linearity",
+      "c": "Improve memory",
+      "d": "Reduce bias"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (71)",
+    "options": {
+      "a": "Balance between model accuracy and generalization",
+      "b": "Precision vs Recall",
+      "c": "Balancing model size",
+      "d": "Memory vs Speed"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (72)",
+    "options": {
+      "a": "PCA",
+      "b": "Gradient Descent",
+      "c": "Logistic Regression",
+      "d": "K-Means"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (73)",
+    "options": {
+      "a": "Introduce non-linearity",
+      "b": "Speed up training",
+      "c": "Improve memory",
+      "d": "Reduce bias"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (74)",
+    "options": {
+      "a": "Precision vs Recall",
+      "b": "Memory vs Speed",
+      "c": "Balance between model accuracy and generalization",
+      "d": "Balancing model size"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (75)",
+    "options": {
+      "a": "Gradient Descent",
+      "b": "Logistic Regression",
+      "c": "K-Means",
+      "d": "PCA"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (76)",
+    "options": {
+      "a": "Improve memory",
+      "b": "Speed up training",
+      "c": "Introduce non-linearity",
+      "d": "Reduce bias"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (77)",
+    "options": {
+      "a": "Precision vs Recall",
+      "b": "Balancing model size",
+      "c": "Balance between model accuracy and generalization",
+      "d": "Memory vs Speed"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (78)",
+    "options": {
+      "a": "Gradient Descent",
+      "b": "PCA",
+      "c": "Logistic Regression",
+      "d": "K-Means"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (79)",
+    "options": {
+      "a": "Introduce non-linearity",
+      "b": "Reduce bias",
+      "c": "Improve memory",
+      "d": "Speed up training"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (80)",
+    "options": {
+      "a": "Memory vs Speed",
+      "b": "Balancing model size",
+      "c": "Balance between model accuracy and generalization",
+      "d": "Precision vs Recall"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (81)",
+    "options": {
+      "a": "Gradient Descent",
+      "b": "PCA",
+      "c": "K-Means",
+      "d": "Logistic Regression"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (82)",
+    "options": {
+      "a": "Speed up training",
+      "b": "Reduce bias",
+      "c": "Introduce non-linearity",
+      "d": "Improve memory"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (83)",
+    "options": {
+      "a": "Precision vs Recall",
+      "b": "Balance between model accuracy and generalization",
+      "c": "Balancing model size",
+      "d": "Memory vs Speed"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (84)",
+    "options": {
+      "a": "Logistic Regression",
+      "b": "Gradient Descent",
+      "c": "PCA",
+      "d": "K-Means"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (85)",
+    "options": {
+      "a": "Improve memory",
+      "b": "Speed up training",
+      "c": "Reduce bias",
+      "d": "Introduce non-linearity"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (86)",
+    "options": {
+      "a": "Precision vs Recall",
+      "b": "Balance between model accuracy and generalization",
+      "c": "Balancing model size",
+      "d": "Memory vs Speed"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (87)",
+    "options": {
+      "a": "Logistic Regression",
+      "b": "K-Means",
+      "c": "PCA",
+      "d": "Gradient Descent"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (88)",
+    "options": {
+      "a": "Improve memory",
+      "b": "Introduce non-linearity",
+      "c": "Speed up training",
+      "d": "Reduce bias"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (89)",
+    "options": {
+      "a": "Balancing model size",
+      "b": "Memory vs Speed",
+      "c": "Balance between model accuracy and generalization",
+      "d": "Precision vs Recall"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (90)",
+    "options": {
+      "a": "PCA",
+      "b": "Gradient Descent",
+      "c": "Logistic Regression",
+      "d": "K-Means"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (91)",
+    "options": {
+      "a": "Reduce bias",
+      "b": "Speed up training",
+      "c": "Improve memory",
+      "d": "Introduce non-linearity"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (92)",
+    "options": {
+      "a": "Memory vs Speed",
+      "b": "Balancing model size",
+      "c": "Precision vs Recall",
+      "d": "Balance between model accuracy and generalization"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (93)",
+    "options": {
+      "a": "Gradient Descent",
+      "b": "Logistic Regression",
+      "c": "PCA",
+      "d": "K-Means"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (94)",
+    "options": {
+      "a": "Introduce non-linearity",
+      "b": "Improve memory",
+      "c": "Speed up training",
+      "d": "Reduce bias"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (95)",
+    "options": {
+      "a": "Balance between model accuracy and generalization",
+      "b": "Precision vs Recall",
+      "c": "Balancing model size",
+      "d": "Memory vs Speed"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (96)",
+    "options": {
+      "a": "Logistic Regression",
+      "b": "K-Means",
+      "c": "PCA",
+      "d": "Gradient Descent"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks? (97)",
+    "options": {
+      "a": "Improve memory",
+      "b": "Reduce bias",
+      "c": "Speed up training",
+      "d": "Introduce non-linearity"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to? (98)",
+    "options": {
+      "a": "Balancing model size",
+      "b": "Memory vs Speed",
+      "c": "Balance between model accuracy and generalization",
+      "d": "Precision vs Recall"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm is used for classification tasks? (99)",
+    "options": {
+      "a": "PCA",
+      "b": "Logistic Regression",
+      "c": "K-Means",
+      "d": "Gradient Descent"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "easy"
+  }
+]

@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js?",
+    "options": {
+      "a": "JAM",
+      "b": "MEAN",
+      "c": "MERN",
+      "d": "LAMP"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (1)",
+    "options": {
+      "a": "A backend framework",
+      "b": "A function that processes requests before reaching the route handler",
+      "c": "A login interface",
+      "d": "A CSS preprocessor"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (2)",
+    "options": {
+      "a": "Python",
+      "b": "Java",
+      "c": "PHP",
+      "d": "JavaScript"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (3)",
+    "options": {
+      "a": "MEAN",
+      "b": "JAM",
+      "c": "LAMP",
+      "d": "MERN"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (4)",
+    "options": {
+      "a": "A backend framework",
+      "b": "A CSS preprocessor",
+      "c": "A function that processes requests before reaching the route handler",
+      "d": "A login interface"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (5)",
+    "options": {
+      "a": "Java",
+      "b": "Python",
+      "c": "PHP",
+      "d": "JavaScript"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (6)",
+    "options": {
+      "a": "LAMP",
+      "b": "MEAN",
+      "c": "JAM",
+      "d": "MERN"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (7)",
+    "options": {
+      "a": "A function that processes requests before reaching the route handler",
+      "b": "A backend framework",
+      "c": "A CSS preprocessor",
+      "d": "A login interface"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (8)",
+    "options": {
+      "a": "Java",
+      "b": "JavaScript",
+      "c": "Python",
+      "d": "PHP"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (9)",
+    "options": {
+      "a": "MERN",
+      "b": "MEAN",
+      "c": "LAMP",
+      "d": "JAM"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (10)",
+    "options": {
+      "a": "A function that processes requests before reaching the route handler",
+      "b": "A CSS preprocessor",
+      "c": "A login interface",
+      "d": "A backend framework"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (11)",
+    "options": {
+      "a": "Python",
+      "b": "JavaScript",
+      "c": "PHP",
+      "d": "Java"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (12)",
+    "options": {
+      "a": "JAM",
+      "b": "MEAN",
+      "c": "MERN",
+      "d": "LAMP"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (13)",
+    "options": {
+      "a": "A CSS preprocessor",
+      "b": "A login interface",
+      "c": "A backend framework",
+      "d": "A function that processes requests before reaching the route handler"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (14)",
+    "options": {
+      "a": "JavaScript",
+      "b": "Java",
+      "c": "Python",
+      "d": "PHP"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (15)",
+    "options": {
+      "a": "JAM",
+      "b": "MERN",
+      "c": "LAMP",
+      "d": "MEAN"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (16)",
+    "options": {
+      "a": "A function that processes requests before reaching the route handler",
+      "b": "A CSS preprocessor",
+      "c": "A login interface",
+      "d": "A backend framework"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (17)",
+    "options": {
+      "a": "Python",
+      "b": "PHP",
+      "c": "JavaScript",
+      "d": "Java"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (18)",
+    "options": {
+      "a": "LAMP",
+      "b": "MERN",
+      "c": "MEAN",
+      "d": "JAM"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (19)",
+    "options": {
+      "a": "A backend framework",
+      "b": "A login interface",
+      "c": "A function that processes requests before reaching the route handler",
+      "d": "A CSS preprocessor"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (20)",
+    "options": {
+      "a": "Java",
+      "b": "Python",
+      "c": "JavaScript",
+      "d": "PHP"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (21)",
+    "options": {
+      "a": "MERN",
+      "b": "MEAN",
+      "c": "LAMP",
+      "d": "JAM"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (22)",
+    "options": {
+      "a": "A function that processes requests before reaching the route handler",
+      "b": "A CSS preprocessor",
+      "c": "A backend framework",
+      "d": "A login interface"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (23)",
+    "options": {
+      "a": "Python",
+      "b": "PHP",
+      "c": "Java",
+      "d": "JavaScript"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (24)",
+    "options": {
+      "a": "MERN",
+      "b": "MEAN",
+      "c": "LAMP",
+      "d": "JAM"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (25)",
+    "options": {
+      "a": "A login interface",
+      "b": "A function that processes requests before reaching the route handler",
+      "c": "A CSS preprocessor",
+      "d": "A backend framework"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (26)",
+    "options": {
+      "a": "JavaScript",
+      "b": "Java",
+      "c": "Python",
+      "d": "PHP"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (27)",
+    "options": {
+      "a": "JAM",
+      "b": "LAMP",
+      "c": "MEAN",
+      "d": "MERN"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (28)",
+    "options": {
+      "a": "A login interface",
+      "b": "A backend framework",
+      "c": "A CSS preprocessor",
+      "d": "A function that processes requests before reaching the route handler"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (29)",
+    "options": {
+      "a": "Java",
+      "b": "Python",
+      "c": "JavaScript",
+      "d": "PHP"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (30)",
+    "options": {
+      "a": "JAM",
+      "b": "LAMP",
+      "c": "MEAN",
+      "d": "MERN"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (31)",
+    "options": {
+      "a": "A CSS preprocessor",
+      "b": "A login interface",
+      "c": "A backend framework",
+      "d": "A function that processes requests before reaching the route handler"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (32)",
+    "options": {
+      "a": "Java",
+      "b": "JavaScript",
+      "c": "Python",
+      "d": "PHP"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (33)",
+    "options": {
+      "a": "MEAN",
+      "b": "JAM",
+      "c": "LAMP",
+      "d": "MERN"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (34)",
+    "options": {
+      "a": "A CSS preprocessor",
+      "b": "A backend framework",
+      "c": "A function that processes requests before reaching the route handler",
+      "d": "A login interface"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (35)",
+    "options": {
+      "a": "Java",
+      "b": "PHP",
+      "c": "JavaScript",
+      "d": "Python"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (36)",
+    "options": {
+      "a": "LAMP",
+      "b": "MERN",
+      "c": "JAM",
+      "d": "MEAN"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (37)",
+    "options": {
+      "a": "A CSS preprocessor",
+      "b": "A backend framework",
+      "c": "A login interface",
+      "d": "A function that processes requests before reaching the route handler"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (38)",
+    "options": {
+      "a": "JavaScript",
+      "b": "Java",
+      "c": "PHP",
+      "d": "Python"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (39)",
+    "options": {
+      "a": "MEAN",
+      "b": "MERN",
+      "c": "JAM",
+      "d": "LAMP"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (40)",
+    "options": {
+      "a": "A backend framework",
+      "b": "A login interface",
+      "c": "A CSS preprocessor",
+      "d": "A function that processes requests before reaching the route handler"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (41)",
+    "options": {
+      "a": "Python",
+      "b": "JavaScript",
+      "c": "PHP",
+      "d": "Java"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (42)",
+    "options": {
+      "a": "MEAN",
+      "b": "LAMP",
+      "c": "MERN",
+      "d": "JAM"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (43)",
+    "options": {
+      "a": "A function that processes requests before reaching the route handler",
+      "b": "A CSS preprocessor",
+      "c": "A backend framework",
+      "d": "A login interface"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (44)",
+    "options": {
+      "a": "PHP",
+      "b": "Java",
+      "c": "Python",
+      "d": "JavaScript"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (45)",
+    "options": {
+      "a": "JAM",
+      "b": "MERN",
+      "c": "MEAN",
+      "d": "LAMP"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (46)",
+    "options": {
+      "a": "A CSS preprocessor",
+      "b": "A function that processes requests before reaching the route handler",
+      "c": "A login interface",
+      "d": "A backend framework"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (47)",
+    "options": {
+      "a": "PHP",
+      "b": "JavaScript",
+      "c": "Java",
+      "d": "Python"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (48)",
+    "options": {
+      "a": "JAM",
+      "b": "LAMP",
+      "c": "MEAN",
+      "d": "MERN"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (49)",
+    "options": {
+      "a": "A function that processes requests before reaching the route handler",
+      "b": "A login interface",
+      "c": "A CSS preprocessor",
+      "d": "A backend framework"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (50)",
+    "options": {
+      "a": "PHP",
+      "b": "JavaScript",
+      "c": "Java",
+      "d": "Python"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (51)",
+    "options": {
+      "a": "MERN",
+      "b": "JAM",
+      "c": "LAMP",
+      "d": "MEAN"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (52)",
+    "options": {
+      "a": "A backend framework",
+      "b": "A login interface",
+      "c": "A function that processes requests before reaching the route handler",
+      "d": "A CSS preprocessor"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (53)",
+    "options": {
+      "a": "JavaScript",
+      "b": "Java",
+      "c": "Python",
+      "d": "PHP"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (54)",
+    "options": {
+      "a": "MERN",
+      "b": "MEAN",
+      "c": "JAM",
+      "d": "LAMP"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (55)",
+    "options": {
+      "a": "A backend framework",
+      "b": "A login interface",
+      "c": "A function that processes requests before reaching the route handler",
+      "d": "A CSS preprocessor"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (56)",
+    "options": {
+      "a": "Java",
+      "b": "Python",
+      "c": "JavaScript",
+      "d": "PHP"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (57)",
+    "options": {
+      "a": "LAMP",
+      "b": "MEAN",
+      "c": "MERN",
+      "d": "JAM"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (58)",
+    "options": {
+      "a": "A login interface",
+      "b": "A function that processes requests before reaching the route handler",
+      "c": "A backend framework",
+      "d": "A CSS preprocessor"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (59)",
+    "options": {
+      "a": "Java",
+      "b": "PHP",
+      "c": "Python",
+      "d": "JavaScript"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (60)",
+    "options": {
+      "a": "MEAN",
+      "b": "JAM",
+      "c": "LAMP",
+      "d": "MERN"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (61)",
+    "options": {
+      "a": "A CSS preprocessor",
+      "b": "A function that processes requests before reaching the route handler",
+      "c": "A backend framework",
+      "d": "A login interface"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (62)",
+    "options": {
+      "a": "JavaScript",
+      "b": "Java",
+      "c": "PHP",
+      "d": "Python"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (63)",
+    "options": {
+      "a": "MERN",
+      "b": "JAM",
+      "c": "LAMP",
+      "d": "MEAN"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (64)",
+    "options": {
+      "a": "A CSS preprocessor",
+      "b": "A backend framework",
+      "c": "A function that processes requests before reaching the route handler",
+      "d": "A login interface"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (65)",
+    "options": {
+      "a": "Java",
+      "b": "Python",
+      "c": "PHP",
+      "d": "JavaScript"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (66)",
+    "options": {
+      "a": "JAM",
+      "b": "MERN",
+      "c": "MEAN",
+      "d": "LAMP"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (67)",
+    "options": {
+      "a": "A function that processes requests before reaching the route handler",
+      "b": "A backend framework",
+      "c": "A CSS preprocessor",
+      "d": "A login interface"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (68)",
+    "options": {
+      "a": "Python",
+      "b": "Java",
+      "c": "PHP",
+      "d": "JavaScript"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (69)",
+    "options": {
+      "a": "JAM",
+      "b": "LAMP",
+      "c": "MEAN",
+      "d": "MERN"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (70)",
+    "options": {
+      "a": "A login interface",
+      "b": "A backend framework",
+      "c": "A function that processes requests before reaching the route handler",
+      "d": "A CSS preprocessor"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (71)",
+    "options": {
+      "a": "Python",
+      "b": "Java",
+      "c": "JavaScript",
+      "d": "PHP"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (72)",
+    "options": {
+      "a": "MERN",
+      "b": "MEAN",
+      "c": "LAMP",
+      "d": "JAM"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (73)",
+    "options": {
+      "a": "A login interface",
+      "b": "A backend framework",
+      "c": "A function that processes requests before reaching the route handler",
+      "d": "A CSS preprocessor"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (74)",
+    "options": {
+      "a": "Python",
+      "b": "PHP",
+      "c": "Java",
+      "d": "JavaScript"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (75)",
+    "options": {
+      "a": "MERN",
+      "b": "JAM",
+      "c": "MEAN",
+      "d": "LAMP"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (76)",
+    "options": {
+      "a": "A CSS preprocessor",
+      "b": "A login interface",
+      "c": "A backend framework",
+      "d": "A function that processes requests before reaching the route handler"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (77)",
+    "options": {
+      "a": "Java",
+      "b": "Python",
+      "c": "PHP",
+      "d": "JavaScript"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (78)",
+    "options": {
+      "a": "LAMP",
+      "b": "MERN",
+      "c": "MEAN",
+      "d": "JAM"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (79)",
+    "options": {
+      "a": "A login interface",
+      "b": "A function that processes requests before reaching the route handler",
+      "c": "A CSS preprocessor",
+      "d": "A backend framework"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (80)",
+    "options": {
+      "a": "Java",
+      "b": "JavaScript",
+      "c": "PHP",
+      "d": "Python"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (81)",
+    "options": {
+      "a": "JAM",
+      "b": "MEAN",
+      "c": "MERN",
+      "d": "LAMP"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (82)",
+    "options": {
+      "a": "A backend framework",
+      "b": "A CSS preprocessor",
+      "c": "A function that processes requests before reaching the route handler",
+      "d": "A login interface"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (83)",
+    "options": {
+      "a": "Python",
+      "b": "JavaScript",
+      "c": "Java",
+      "d": "PHP"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (84)",
+    "options": {
+      "a": "MEAN",
+      "b": "JAM",
+      "c": "MERN",
+      "d": "LAMP"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (85)",
+    "options": {
+      "a": "A CSS preprocessor",
+      "b": "A login interface",
+      "c": "A backend framework",
+      "d": "A function that processes requests before reaching the route handler"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (86)",
+    "options": {
+      "a": "JavaScript",
+      "b": "Java",
+      "c": "Python",
+      "d": "PHP"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (87)",
+    "options": {
+      "a": "MEAN",
+      "b": "LAMP",
+      "c": "JAM",
+      "d": "MERN"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (88)",
+    "options": {
+      "a": "A function that processes requests before reaching the route handler",
+      "b": "A backend framework",
+      "c": "A login interface",
+      "d": "A CSS preprocessor"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (89)",
+    "options": {
+      "a": "JavaScript",
+      "b": "Java",
+      "c": "PHP",
+      "d": "Python"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (90)",
+    "options": {
+      "a": "MEAN",
+      "b": "LAMP",
+      "c": "JAM",
+      "d": "MERN"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (91)",
+    "options": {
+      "a": "A login interface",
+      "b": "A backend framework",
+      "c": "A function that processes requests before reaching the route handler",
+      "d": "A CSS preprocessor"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (92)",
+    "options": {
+      "a": "PHP",
+      "b": "Python",
+      "c": "Java",
+      "d": "JavaScript"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (93)",
+    "options": {
+      "a": "LAMP",
+      "b": "MEAN",
+      "c": "MERN",
+      "d": "JAM"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (94)",
+    "options": {
+      "a": "A backend framework",
+      "b": "A login interface",
+      "c": "A CSS preprocessor",
+      "d": "A function that processes requests before reaching the route handler"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (95)",
+    "options": {
+      "a": "Java",
+      "b": "Python",
+      "c": "PHP",
+      "d": "JavaScript"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (96)",
+    "options": {
+      "a": "LAMP",
+      "b": "MERN",
+      "c": "JAM",
+      "d": "MEAN"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'? (97)",
+    "options": {
+      "a": "A function that processes requests before reaching the route handler",
+      "b": "A login interface",
+      "c": "A CSS preprocessor",
+      "d": "A backend framework"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack? (98)",
+    "options": {
+      "a": "PHP",
+      "b": "Java",
+      "c": "JavaScript",
+      "d": "Python"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js? (99)",
+    "options": {
+      "a": "MERN",
+      "b": "LAMP",
+      "c": "MEAN",
+      "d": "JAM"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "medium"
+  }
+]

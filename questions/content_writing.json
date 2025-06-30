@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "What is SEO content writing?",
+    "options": {
+      "a": "Writing content optimized for search engines",
+      "b": "Writing novels",
+      "c": "Writing press releases",
+      "d": "Creating social media posts"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (1)",
+    "options": {
+      "a": "Call to Action",
+      "b": "Click to Advertise",
+      "c": "Call Timing Average",
+      "d": "Create Text Announcement"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (2)",
+    "options": {
+      "a": "It improves SEO",
+      "b": "It is encouraged",
+      "c": "It affects originality and search ranking",
+      "d": "It enhances clarity"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (3)",
+    "options": {
+      "a": "Writing content optimized for search engines",
+      "b": "Writing novels",
+      "c": "Writing press releases",
+      "d": "Creating social media posts"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (4)",
+    "options": {
+      "a": "Call Timing Average",
+      "b": "Click to Advertise",
+      "c": "Create Text Announcement",
+      "d": "Call to Action"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (5)",
+    "options": {
+      "a": "It affects originality and search ranking",
+      "b": "It enhances clarity",
+      "c": "It is encouraged",
+      "d": "It improves SEO"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (6)",
+    "options": {
+      "a": "Writing content optimized for search engines",
+      "b": "Writing press releases",
+      "c": "Creating social media posts",
+      "d": "Writing novels"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (7)",
+    "options": {
+      "a": "Click to Advertise",
+      "b": "Create Text Announcement",
+      "c": "Call to Action",
+      "d": "Call Timing Average"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (8)",
+    "options": {
+      "a": "It affects originality and search ranking",
+      "b": "It enhances clarity",
+      "c": "It improves SEO",
+      "d": "It is encouraged"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (9)",
+    "options": {
+      "a": "Writing content optimized for search engines",
+      "b": "Creating social media posts",
+      "c": "Writing press releases",
+      "d": "Writing novels"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (10)",
+    "options": {
+      "a": "Click to Advertise",
+      "b": "Call to Action",
+      "c": "Create Text Announcement",
+      "d": "Call Timing Average"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (11)",
+    "options": {
+      "a": "It enhances clarity",
+      "b": "It is encouraged",
+      "c": "It improves SEO",
+      "d": "It affects originality and search ranking"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (12)",
+    "options": {
+      "a": "Writing content optimized for search engines",
+      "b": "Creating social media posts",
+      "c": "Writing novels",
+      "d": "Writing press releases"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (13)",
+    "options": {
+      "a": "Click to Advertise",
+      "b": "Call Timing Average",
+      "c": "Create Text Announcement",
+      "d": "Call to Action"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (14)",
+    "options": {
+      "a": "It is encouraged",
+      "b": "It enhances clarity",
+      "c": "It improves SEO",
+      "d": "It affects originality and search ranking"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (15)",
+    "options": {
+      "a": "Writing novels",
+      "b": "Writing press releases",
+      "c": "Creating social media posts",
+      "d": "Writing content optimized for search engines"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (16)",
+    "options": {
+      "a": "Call Timing Average",
+      "b": "Create Text Announcement",
+      "c": "Call to Action",
+      "d": "Click to Advertise"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (17)",
+    "options": {
+      "a": "It enhances clarity",
+      "b": "It affects originality and search ranking",
+      "c": "It is encouraged",
+      "d": "It improves SEO"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (18)",
+    "options": {
+      "a": "Writing content optimized for search engines",
+      "b": "Creating social media posts",
+      "c": "Writing press releases",
+      "d": "Writing novels"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (19)",
+    "options": {
+      "a": "Create Text Announcement",
+      "b": "Call to Action",
+      "c": "Call Timing Average",
+      "d": "Click to Advertise"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (20)",
+    "options": {
+      "a": "It enhances clarity",
+      "b": "It affects originality and search ranking",
+      "c": "It is encouraged",
+      "d": "It improves SEO"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (21)",
+    "options": {
+      "a": "Writing novels",
+      "b": "Creating social media posts",
+      "c": "Writing press releases",
+      "d": "Writing content optimized for search engines"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (22)",
+    "options": {
+      "a": "Call to Action",
+      "b": "Call Timing Average",
+      "c": "Create Text Announcement",
+      "d": "Click to Advertise"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (23)",
+    "options": {
+      "a": "It improves SEO",
+      "b": "It affects originality and search ranking",
+      "c": "It enhances clarity",
+      "d": "It is encouraged"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (24)",
+    "options": {
+      "a": "Writing content optimized for search engines",
+      "b": "Writing press releases",
+      "c": "Writing novels",
+      "d": "Creating social media posts"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (25)",
+    "options": {
+      "a": "Click to Advertise",
+      "b": "Call to Action",
+      "c": "Call Timing Average",
+      "d": "Create Text Announcement"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (26)",
+    "options": {
+      "a": "It is encouraged",
+      "b": "It affects originality and search ranking",
+      "c": "It improves SEO",
+      "d": "It enhances clarity"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (27)",
+    "options": {
+      "a": "Creating social media posts",
+      "b": "Writing novels",
+      "c": "Writing press releases",
+      "d": "Writing content optimized for search engines"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (28)",
+    "options": {
+      "a": "Click to Advertise",
+      "b": "Call Timing Average",
+      "c": "Call to Action",
+      "d": "Create Text Announcement"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (29)",
+    "options": {
+      "a": "It is encouraged",
+      "b": "It affects originality and search ranking",
+      "c": "It improves SEO",
+      "d": "It enhances clarity"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (30)",
+    "options": {
+      "a": "Writing novels",
+      "b": "Writing content optimized for search engines",
+      "c": "Creating social media posts",
+      "d": "Writing press releases"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (31)",
+    "options": {
+      "a": "Create Text Announcement",
+      "b": "Click to Advertise",
+      "c": "Call Timing Average",
+      "d": "Call to Action"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (32)",
+    "options": {
+      "a": "It is encouraged",
+      "b": "It affects originality and search ranking",
+      "c": "It enhances clarity",
+      "d": "It improves SEO"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (33)",
+    "options": {
+      "a": "Writing press releases",
+      "b": "Creating social media posts",
+      "c": "Writing novels",
+      "d": "Writing content optimized for search engines"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (34)",
+    "options": {
+      "a": "Call to Action",
+      "b": "Click to Advertise",
+      "c": "Create Text Announcement",
+      "d": "Call Timing Average"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (35)",
+    "options": {
+      "a": "It is encouraged",
+      "b": "It enhances clarity",
+      "c": "It affects originality and search ranking",
+      "d": "It improves SEO"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (36)",
+    "options": {
+      "a": "Writing press releases",
+      "b": "Writing novels",
+      "c": "Writing content optimized for search engines",
+      "d": "Creating social media posts"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (37)",
+    "options": {
+      "a": "Call to Action",
+      "b": "Create Text Announcement",
+      "c": "Call Timing Average",
+      "d": "Click to Advertise"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (38)",
+    "options": {
+      "a": "It affects originality and search ranking",
+      "b": "It is encouraged",
+      "c": "It improves SEO",
+      "d": "It enhances clarity"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (39)",
+    "options": {
+      "a": "Writing press releases",
+      "b": "Writing content optimized for search engines",
+      "c": "Creating social media posts",
+      "d": "Writing novels"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (40)",
+    "options": {
+      "a": "Click to Advertise",
+      "b": "Call Timing Average",
+      "c": "Call to Action",
+      "d": "Create Text Announcement"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (41)",
+    "options": {
+      "a": "It improves SEO",
+      "b": "It affects originality and search ranking",
+      "c": "It enhances clarity",
+      "d": "It is encouraged"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (42)",
+    "options": {
+      "a": "Writing novels",
+      "b": "Creating social media posts",
+      "c": "Writing press releases",
+      "d": "Writing content optimized for search engines"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (43)",
+    "options": {
+      "a": "Call Timing Average",
+      "b": "Call to Action",
+      "c": "Click to Advertise",
+      "d": "Create Text Announcement"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (44)",
+    "options": {
+      "a": "It improves SEO",
+      "b": "It enhances clarity",
+      "c": "It is encouraged",
+      "d": "It affects originality and search ranking"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (45)",
+    "options": {
+      "a": "Writing content optimized for search engines",
+      "b": "Creating social media posts",
+      "c": "Writing press releases",
+      "d": "Writing novels"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (46)",
+    "options": {
+      "a": "Call Timing Average",
+      "b": "Call to Action",
+      "c": "Create Text Announcement",
+      "d": "Click to Advertise"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (47)",
+    "options": {
+      "a": "It enhances clarity",
+      "b": "It is encouraged",
+      "c": "It improves SEO",
+      "d": "It affects originality and search ranking"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (48)",
+    "options": {
+      "a": "Creating social media posts",
+      "b": "Writing content optimized for search engines",
+      "c": "Writing press releases",
+      "d": "Writing novels"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (49)",
+    "options": {
+      "a": "Call to Action",
+      "b": "Call Timing Average",
+      "c": "Click to Advertise",
+      "d": "Create Text Announcement"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (50)",
+    "options": {
+      "a": "It is encouraged",
+      "b": "It enhances clarity",
+      "c": "It improves SEO",
+      "d": "It affects originality and search ranking"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (51)",
+    "options": {
+      "a": "Creating social media posts",
+      "b": "Writing content optimized for search engines",
+      "c": "Writing novels",
+      "d": "Writing press releases"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (52)",
+    "options": {
+      "a": "Call Timing Average",
+      "b": "Call to Action",
+      "c": "Click to Advertise",
+      "d": "Create Text Announcement"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (53)",
+    "options": {
+      "a": "It enhances clarity",
+      "b": "It is encouraged",
+      "c": "It improves SEO",
+      "d": "It affects originality and search ranking"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (54)",
+    "options": {
+      "a": "Writing content optimized for search engines",
+      "b": "Creating social media posts",
+      "c": "Writing press releases",
+      "d": "Writing novels"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (55)",
+    "options": {
+      "a": "Call to Action",
+      "b": "Call Timing Average",
+      "c": "Create Text Announcement",
+      "d": "Click to Advertise"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (56)",
+    "options": {
+      "a": "It enhances clarity",
+      "b": "It is encouraged",
+      "c": "It improves SEO",
+      "d": "It affects originality and search ranking"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (57)",
+    "options": {
+      "a": "Writing novels",
+      "b": "Creating social media posts",
+      "c": "Writing press releases",
+      "d": "Writing content optimized for search engines"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (58)",
+    "options": {
+      "a": "Create Text Announcement",
+      "b": "Call Timing Average",
+      "c": "Call to Action",
+      "d": "Click to Advertise"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (59)",
+    "options": {
+      "a": "It improves SEO",
+      "b": "It enhances clarity",
+      "c": "It affects originality and search ranking",
+      "d": "It is encouraged"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (60)",
+    "options": {
+      "a": "Writing press releases",
+      "b": "Writing content optimized for search engines",
+      "c": "Writing novels",
+      "d": "Creating social media posts"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (61)",
+    "options": {
+      "a": "Click to Advertise",
+      "b": "Call to Action",
+      "c": "Create Text Announcement",
+      "d": "Call Timing Average"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (62)",
+    "options": {
+      "a": "It is encouraged",
+      "b": "It improves SEO",
+      "c": "It affects originality and search ranking",
+      "d": "It enhances clarity"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (63)",
+    "options": {
+      "a": "Writing content optimized for search engines",
+      "b": "Writing press releases",
+      "c": "Creating social media posts",
+      "d": "Writing novels"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (64)",
+    "options": {
+      "a": "Call to Action",
+      "b": "Call Timing Average",
+      "c": "Click to Advertise",
+      "d": "Create Text Announcement"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (65)",
+    "options": {
+      "a": "It enhances clarity",
+      "b": "It improves SEO",
+      "c": "It affects originality and search ranking",
+      "d": "It is encouraged"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (66)",
+    "options": {
+      "a": "Creating social media posts",
+      "b": "Writing press releases",
+      "c": "Writing content optimized for search engines",
+      "d": "Writing novels"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (67)",
+    "options": {
+      "a": "Call Timing Average",
+      "b": "Call to Action",
+      "c": "Create Text Announcement",
+      "d": "Click to Advertise"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (68)",
+    "options": {
+      "a": "It affects originality and search ranking",
+      "b": "It enhances clarity",
+      "c": "It improves SEO",
+      "d": "It is encouraged"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (69)",
+    "options": {
+      "a": "Writing content optimized for search engines",
+      "b": "Creating social media posts",
+      "c": "Writing press releases",
+      "d": "Writing novels"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (70)",
+    "options": {
+      "a": "Create Text Announcement",
+      "b": "Call Timing Average",
+      "c": "Click to Advertise",
+      "d": "Call to Action"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (71)",
+    "options": {
+      "a": "It is encouraged",
+      "b": "It improves SEO",
+      "c": "It enhances clarity",
+      "d": "It affects originality and search ranking"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (72)",
+    "options": {
+      "a": "Writing press releases",
+      "b": "Writing content optimized for search engines",
+      "c": "Creating social media posts",
+      "d": "Writing novels"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (73)",
+    "options": {
+      "a": "Click to Advertise",
+      "b": "Call to Action",
+      "c": "Call Timing Average",
+      "d": "Create Text Announcement"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (74)",
+    "options": {
+      "a": "It is encouraged",
+      "b": "It improves SEO",
+      "c": "It affects originality and search ranking",
+      "d": "It enhances clarity"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (75)",
+    "options": {
+      "a": "Writing novels",
+      "b": "Writing content optimized for search engines",
+      "c": "Creating social media posts",
+      "d": "Writing press releases"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (76)",
+    "options": {
+      "a": "Create Text Announcement",
+      "b": "Call to Action",
+      "c": "Call Timing Average",
+      "d": "Click to Advertise"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (77)",
+    "options": {
+      "a": "It enhances clarity",
+      "b": "It improves SEO",
+      "c": "It is encouraged",
+      "d": "It affects originality and search ranking"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (78)",
+    "options": {
+      "a": "Writing press releases",
+      "b": "Writing content optimized for search engines",
+      "c": "Writing novels",
+      "d": "Creating social media posts"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (79)",
+    "options": {
+      "a": "Call to Action",
+      "b": "Click to Advertise",
+      "c": "Call Timing Average",
+      "d": "Create Text Announcement"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (80)",
+    "options": {
+      "a": "It improves SEO",
+      "b": "It affects originality and search ranking",
+      "c": "It enhances clarity",
+      "d": "It is encouraged"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (81)",
+    "options": {
+      "a": "Writing content optimized for search engines",
+      "b": "Writing novels",
+      "c": "Writing press releases",
+      "d": "Creating social media posts"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (82)",
+    "options": {
+      "a": "Call Timing Average",
+      "b": "Create Text Announcement",
+      "c": "Call to Action",
+      "d": "Click to Advertise"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (83)",
+    "options": {
+      "a": "It affects originality and search ranking",
+      "b": "It enhances clarity",
+      "c": "It is encouraged",
+      "d": "It improves SEO"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (84)",
+    "options": {
+      "a": "Creating social media posts",
+      "b": "Writing press releases",
+      "c": "Writing novels",
+      "d": "Writing content optimized for search engines"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (85)",
+    "options": {
+      "a": "Create Text Announcement",
+      "b": "Click to Advertise",
+      "c": "Call to Action",
+      "d": "Call Timing Average"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (86)",
+    "options": {
+      "a": "It affects originality and search ranking",
+      "b": "It is encouraged",
+      "c": "It improves SEO",
+      "d": "It enhances clarity"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (87)",
+    "options": {
+      "a": "Writing content optimized for search engines",
+      "b": "Creating social media posts",
+      "c": "Writing press releases",
+      "d": "Writing novels"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (88)",
+    "options": {
+      "a": "Create Text Announcement",
+      "b": "Click to Advertise",
+      "c": "Call Timing Average",
+      "d": "Call to Action"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (89)",
+    "options": {
+      "a": "It enhances clarity",
+      "b": "It is encouraged",
+      "c": "It improves SEO",
+      "d": "It affects originality and search ranking"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (90)",
+    "options": {
+      "a": "Writing novels",
+      "b": "Writing press releases",
+      "c": "Writing content optimized for search engines",
+      "d": "Creating social media posts"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (91)",
+    "options": {
+      "a": "Create Text Announcement",
+      "b": "Click to Advertise",
+      "c": "Call to Action",
+      "d": "Call Timing Average"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (92)",
+    "options": {
+      "a": "It improves SEO",
+      "b": "It enhances clarity",
+      "c": "It affects originality and search ranking",
+      "d": "It is encouraged"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (93)",
+    "options": {
+      "a": "Creating social media posts",
+      "b": "Writing novels",
+      "c": "Writing press releases",
+      "d": "Writing content optimized for search engines"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (94)",
+    "options": {
+      "a": "Click to Advertise",
+      "b": "Call to Action",
+      "c": "Call Timing Average",
+      "d": "Create Text Announcement"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (95)",
+    "options": {
+      "a": "It is encouraged",
+      "b": "It enhances clarity",
+      "c": "It improves SEO",
+      "d": "It affects originality and search ranking"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (96)",
+    "options": {
+      "a": "Creating social media posts",
+      "b": "Writing press releases",
+      "c": "Writing content optimized for search engines",
+      "d": "Writing novels"
+    },
+    "correctAnswer": "c",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a CTA in content? (97)",
+    "options": {
+      "a": "Click to Advertise",
+      "b": "Call to Action",
+      "c": "Create Text Announcement",
+      "d": "Call Timing Average"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is plagiarism bad in content writing? (98)",
+    "options": {
+      "a": "It enhances clarity",
+      "b": "It improves SEO",
+      "c": "It is encouraged",
+      "d": "It affects originality and search ranking"
+    },
+    "correctAnswer": "d",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is SEO content writing? (99)",
+    "options": {
+      "a": "Writing content optimized for search engines",
+      "b": "Creating social media posts",
+      "c": "Writing press releases",
+      "d": "Writing novels"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  }
+]

@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "What is the primary role of HR?",
+    "options": {
+      "a": "Creating code",
+      "b": "Managing employee lifecycle",
+      "c": "Designing websites",
+      "d": "Selling products"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (1)",
+    "options": {
+      "a": "Peer feedback",
+      "b": "Feedback from all levels",
+      "c": "Customer reviews",
+      "d": "Manager feedback"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (2)",
+    "options": {
+      "a": "To train interns",
+      "b": "To track attendance",
+      "c": "To promote culture",
+      "d": "To prepare employees for future roles"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (3)",
+    "options": {
+      "a": "Managing employee lifecycle",
+      "b": "Designing websites",
+      "c": "Creating code",
+      "d": "Selling products"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (4)",
+    "options": {
+      "a": "Manager feedback",
+      "b": "Peer feedback",
+      "c": "Customer reviews",
+      "d": "Feedback from all levels"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (5)",
+    "options": {
+      "a": "To prepare employees for future roles",
+      "b": "To train interns",
+      "c": "To promote culture",
+      "d": "To track attendance"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (6)",
+    "options": {
+      "a": "Managing employee lifecycle",
+      "b": "Designing websites",
+      "c": "Creating code",
+      "d": "Selling products"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (7)",
+    "options": {
+      "a": "Manager feedback",
+      "b": "Peer feedback",
+      "c": "Customer reviews",
+      "d": "Feedback from all levels"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (8)",
+    "options": {
+      "a": "To prepare employees for future roles",
+      "b": "To train interns",
+      "c": "To track attendance",
+      "d": "To promote culture"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (9)",
+    "options": {
+      "a": "Managing employee lifecycle",
+      "b": "Creating code",
+      "c": "Selling products",
+      "d": "Designing websites"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (10)",
+    "options": {
+      "a": "Feedback from all levels",
+      "b": "Peer feedback",
+      "c": "Customer reviews",
+      "d": "Manager feedback"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (11)",
+    "options": {
+      "a": "To track attendance",
+      "b": "To promote culture",
+      "c": "To prepare employees for future roles",
+      "d": "To train interns"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (12)",
+    "options": {
+      "a": "Managing employee lifecycle",
+      "b": "Selling products",
+      "c": "Designing websites",
+      "d": "Creating code"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (13)",
+    "options": {
+      "a": "Feedback from all levels",
+      "b": "Customer reviews",
+      "c": "Peer feedback",
+      "d": "Manager feedback"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (14)",
+    "options": {
+      "a": "To prepare employees for future roles",
+      "b": "To track attendance",
+      "c": "To train interns",
+      "d": "To promote culture"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (15)",
+    "options": {
+      "a": "Creating code",
+      "b": "Selling products",
+      "c": "Designing websites",
+      "d": "Managing employee lifecycle"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (16)",
+    "options": {
+      "a": "Manager feedback",
+      "b": "Feedback from all levels",
+      "c": "Customer reviews",
+      "d": "Peer feedback"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (17)",
+    "options": {
+      "a": "To prepare employees for future roles",
+      "b": "To track attendance",
+      "c": "To promote culture",
+      "d": "To train interns"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (18)",
+    "options": {
+      "a": "Creating code",
+      "b": "Managing employee lifecycle",
+      "c": "Designing websites",
+      "d": "Selling products"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (19)",
+    "options": {
+      "a": "Feedback from all levels",
+      "b": "Peer feedback",
+      "c": "Manager feedback",
+      "d": "Customer reviews"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (20)",
+    "options": {
+      "a": "To train interns",
+      "b": "To track attendance",
+      "c": "To promote culture",
+      "d": "To prepare employees for future roles"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (21)",
+    "options": {
+      "a": "Selling products",
+      "b": "Managing employee lifecycle",
+      "c": "Creating code",
+      "d": "Designing websites"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (22)",
+    "options": {
+      "a": "Peer feedback",
+      "b": "Feedback from all levels",
+      "c": "Manager feedback",
+      "d": "Customer reviews"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (23)",
+    "options": {
+      "a": "To train interns",
+      "b": "To promote culture",
+      "c": "To prepare employees for future roles",
+      "d": "To track attendance"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (24)",
+    "options": {
+      "a": "Managing employee lifecycle",
+      "b": "Designing websites",
+      "c": "Selling products",
+      "d": "Creating code"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (25)",
+    "options": {
+      "a": "Peer feedback",
+      "b": "Manager feedback",
+      "c": "Customer reviews",
+      "d": "Feedback from all levels"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (26)",
+    "options": {
+      "a": "To promote culture",
+      "b": "To prepare employees for future roles",
+      "c": "To track attendance",
+      "d": "To train interns"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (27)",
+    "options": {
+      "a": "Creating code",
+      "b": "Managing employee lifecycle",
+      "c": "Selling products",
+      "d": "Designing websites"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (28)",
+    "options": {
+      "a": "Feedback from all levels",
+      "b": "Peer feedback",
+      "c": "Manager feedback",
+      "d": "Customer reviews"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (29)",
+    "options": {
+      "a": "To track attendance",
+      "b": "To promote culture",
+      "c": "To prepare employees for future roles",
+      "d": "To train interns"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (30)",
+    "options": {
+      "a": "Managing employee lifecycle",
+      "b": "Designing websites",
+      "c": "Selling products",
+      "d": "Creating code"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (31)",
+    "options": {
+      "a": "Manager feedback",
+      "b": "Peer feedback",
+      "c": "Feedback from all levels",
+      "d": "Customer reviews"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (32)",
+    "options": {
+      "a": "To prepare employees for future roles",
+      "b": "To promote culture",
+      "c": "To train interns",
+      "d": "To track attendance"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (33)",
+    "options": {
+      "a": "Managing employee lifecycle",
+      "b": "Designing websites",
+      "c": "Selling products",
+      "d": "Creating code"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (34)",
+    "options": {
+      "a": "Feedback from all levels",
+      "b": "Manager feedback",
+      "c": "Customer reviews",
+      "d": "Peer feedback"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (35)",
+    "options": {
+      "a": "To train interns",
+      "b": "To prepare employees for future roles",
+      "c": "To track attendance",
+      "d": "To promote culture"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (36)",
+    "options": {
+      "a": "Designing websites",
+      "b": "Creating code",
+      "c": "Selling products",
+      "d": "Managing employee lifecycle"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (37)",
+    "options": {
+      "a": "Customer reviews",
+      "b": "Feedback from all levels",
+      "c": "Manager feedback",
+      "d": "Peer feedback"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (38)",
+    "options": {
+      "a": "To prepare employees for future roles",
+      "b": "To train interns",
+      "c": "To track attendance",
+      "d": "To promote culture"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (39)",
+    "options": {
+      "a": "Creating code",
+      "b": "Selling products",
+      "c": "Managing employee lifecycle",
+      "d": "Designing websites"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (40)",
+    "options": {
+      "a": "Feedback from all levels",
+      "b": "Manager feedback",
+      "c": "Peer feedback",
+      "d": "Customer reviews"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (41)",
+    "options": {
+      "a": "To prepare employees for future roles",
+      "b": "To train interns",
+      "c": "To track attendance",
+      "d": "To promote culture"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (42)",
+    "options": {
+      "a": "Creating code",
+      "b": "Designing websites",
+      "c": "Selling products",
+      "d": "Managing employee lifecycle"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (43)",
+    "options": {
+      "a": "Customer reviews",
+      "b": "Manager feedback",
+      "c": "Feedback from all levels",
+      "d": "Peer feedback"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (44)",
+    "options": {
+      "a": "To prepare employees for future roles",
+      "b": "To train interns",
+      "c": "To track attendance",
+      "d": "To promote culture"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (45)",
+    "options": {
+      "a": "Selling products",
+      "b": "Designing websites",
+      "c": "Creating code",
+      "d": "Managing employee lifecycle"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (46)",
+    "options": {
+      "a": "Feedback from all levels",
+      "b": "Manager feedback",
+      "c": "Customer reviews",
+      "d": "Peer feedback"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (47)",
+    "options": {
+      "a": "To promote culture",
+      "b": "To prepare employees for future roles",
+      "c": "To track attendance",
+      "d": "To train interns"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (48)",
+    "options": {
+      "a": "Selling products",
+      "b": "Designing websites",
+      "c": "Managing employee lifecycle",
+      "d": "Creating code"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (49)",
+    "options": {
+      "a": "Peer feedback",
+      "b": "Customer reviews",
+      "c": "Manager feedback",
+      "d": "Feedback from all levels"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (50)",
+    "options": {
+      "a": "To promote culture",
+      "b": "To prepare employees for future roles",
+      "c": "To train interns",
+      "d": "To track attendance"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (51)",
+    "options": {
+      "a": "Designing websites",
+      "b": "Selling products",
+      "c": "Managing employee lifecycle",
+      "d": "Creating code"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (52)",
+    "options": {
+      "a": "Customer reviews",
+      "b": "Peer feedback",
+      "c": "Feedback from all levels",
+      "d": "Manager feedback"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (53)",
+    "options": {
+      "a": "To promote culture",
+      "b": "To track attendance",
+      "c": "To train interns",
+      "d": "To prepare employees for future roles"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (54)",
+    "options": {
+      "a": "Managing employee lifecycle",
+      "b": "Selling products",
+      "c": "Creating code",
+      "d": "Designing websites"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (55)",
+    "options": {
+      "a": "Feedback from all levels",
+      "b": "Peer feedback",
+      "c": "Customer reviews",
+      "d": "Manager feedback"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (56)",
+    "options": {
+      "a": "To track attendance",
+      "b": "To train interns",
+      "c": "To prepare employees for future roles",
+      "d": "To promote culture"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (57)",
+    "options": {
+      "a": "Selling products",
+      "b": "Managing employee lifecycle",
+      "c": "Designing websites",
+      "d": "Creating code"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (58)",
+    "options": {
+      "a": "Manager feedback",
+      "b": "Feedback from all levels",
+      "c": "Customer reviews",
+      "d": "Peer feedback"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (59)",
+    "options": {
+      "a": "To train interns",
+      "b": "To prepare employees for future roles",
+      "c": "To track attendance",
+      "d": "To promote culture"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (60)",
+    "options": {
+      "a": "Managing employee lifecycle",
+      "b": "Selling products",
+      "c": "Designing websites",
+      "d": "Creating code"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (61)",
+    "options": {
+      "a": "Feedback from all levels",
+      "b": "Manager feedback",
+      "c": "Peer feedback",
+      "d": "Customer reviews"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (62)",
+    "options": {
+      "a": "To prepare employees for future roles",
+      "b": "To train interns",
+      "c": "To promote culture",
+      "d": "To track attendance"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (63)",
+    "options": {
+      "a": "Designing websites",
+      "b": "Creating code",
+      "c": "Selling products",
+      "d": "Managing employee lifecycle"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (64)",
+    "options": {
+      "a": "Customer reviews",
+      "b": "Peer feedback",
+      "c": "Feedback from all levels",
+      "d": "Manager feedback"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (65)",
+    "options": {
+      "a": "To prepare employees for future roles",
+      "b": "To track attendance",
+      "c": "To train interns",
+      "d": "To promote culture"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (66)",
+    "options": {
+      "a": "Creating code",
+      "b": "Selling products",
+      "c": "Managing employee lifecycle",
+      "d": "Designing websites"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (67)",
+    "options": {
+      "a": "Manager feedback",
+      "b": "Customer reviews",
+      "c": "Feedback from all levels",
+      "d": "Peer feedback"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (68)",
+    "options": {
+      "a": "To track attendance",
+      "b": "To prepare employees for future roles",
+      "c": "To promote culture",
+      "d": "To train interns"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (69)",
+    "options": {
+      "a": "Designing websites",
+      "b": "Selling products",
+      "c": "Managing employee lifecycle",
+      "d": "Creating code"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (70)",
+    "options": {
+      "a": "Peer feedback",
+      "b": "Customer reviews",
+      "c": "Manager feedback",
+      "d": "Feedback from all levels"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (71)",
+    "options": {
+      "a": "To train interns",
+      "b": "To prepare employees for future roles",
+      "c": "To promote culture",
+      "d": "To track attendance"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (72)",
+    "options": {
+      "a": "Designing websites",
+      "b": "Managing employee lifecycle",
+      "c": "Creating code",
+      "d": "Selling products"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (73)",
+    "options": {
+      "a": "Feedback from all levels",
+      "b": "Peer feedback",
+      "c": "Manager feedback",
+      "d": "Customer reviews"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (74)",
+    "options": {
+      "a": "To prepare employees for future roles",
+      "b": "To promote culture",
+      "c": "To track attendance",
+      "d": "To train interns"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (75)",
+    "options": {
+      "a": "Managing employee lifecycle",
+      "b": "Creating code",
+      "c": "Designing websites",
+      "d": "Selling products"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (76)",
+    "options": {
+      "a": "Customer reviews",
+      "b": "Feedback from all levels",
+      "c": "Peer feedback",
+      "d": "Manager feedback"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (77)",
+    "options": {
+      "a": "To promote culture",
+      "b": "To prepare employees for future roles",
+      "c": "To track attendance",
+      "d": "To train interns"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (78)",
+    "options": {
+      "a": "Designing websites",
+      "b": "Creating code",
+      "c": "Managing employee lifecycle",
+      "d": "Selling products"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (79)",
+    "options": {
+      "a": "Peer feedback",
+      "b": "Manager feedback",
+      "c": "Customer reviews",
+      "d": "Feedback from all levels"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (80)",
+    "options": {
+      "a": "To prepare employees for future roles",
+      "b": "To promote culture",
+      "c": "To train interns",
+      "d": "To track attendance"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (81)",
+    "options": {
+      "a": "Designing websites",
+      "b": "Creating code",
+      "c": "Selling products",
+      "d": "Managing employee lifecycle"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (82)",
+    "options": {
+      "a": "Customer reviews",
+      "b": "Manager feedback",
+      "c": "Peer feedback",
+      "d": "Feedback from all levels"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (83)",
+    "options": {
+      "a": "To prepare employees for future roles",
+      "b": "To train interns",
+      "c": "To promote culture",
+      "d": "To track attendance"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (84)",
+    "options": {
+      "a": "Selling products",
+      "b": "Designing websites",
+      "c": "Creating code",
+      "d": "Managing employee lifecycle"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (85)",
+    "options": {
+      "a": "Peer feedback",
+      "b": "Customer reviews",
+      "c": "Manager feedback",
+      "d": "Feedback from all levels"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (86)",
+    "options": {
+      "a": "To prepare employees for future roles",
+      "b": "To promote culture",
+      "c": "To train interns",
+      "d": "To track attendance"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (87)",
+    "options": {
+      "a": "Creating code",
+      "b": "Designing websites",
+      "c": "Managing employee lifecycle",
+      "d": "Selling products"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (88)",
+    "options": {
+      "a": "Peer feedback",
+      "b": "Manager feedback",
+      "c": "Feedback from all levels",
+      "d": "Customer reviews"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (89)",
+    "options": {
+      "a": "To prepare employees for future roles",
+      "b": "To promote culture",
+      "c": "To train interns",
+      "d": "To track attendance"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (90)",
+    "options": {
+      "a": "Designing websites",
+      "b": "Creating code",
+      "c": "Managing employee lifecycle",
+      "d": "Selling products"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (91)",
+    "options": {
+      "a": "Peer feedback",
+      "b": "Customer reviews",
+      "c": "Feedback from all levels",
+      "d": "Manager feedback"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (92)",
+    "options": {
+      "a": "To track attendance",
+      "b": "To train interns",
+      "c": "To prepare employees for future roles",
+      "d": "To promote culture"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (93)",
+    "options": {
+      "a": "Designing websites",
+      "b": "Creating code",
+      "c": "Selling products",
+      "d": "Managing employee lifecycle"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (94)",
+    "options": {
+      "a": "Customer reviews",
+      "b": "Feedback from all levels",
+      "c": "Manager feedback",
+      "d": "Peer feedback"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (95)",
+    "options": {
+      "a": "To promote culture",
+      "b": "To train interns",
+      "c": "To track attendance",
+      "d": "To prepare employees for future roles"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (96)",
+    "options": {
+      "a": "Selling products",
+      "b": "Designing websites",
+      "c": "Managing employee lifecycle",
+      "d": "Creating code"
+    },
+    "correctAnswer": "c",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 360-degree feedback? (97)",
+    "options": {
+      "a": "Manager feedback",
+      "b": "Feedback from all levels",
+      "c": "Peer feedback",
+      "d": "Customer reviews"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of succession planning? (98)",
+    "options": {
+      "a": "To train interns",
+      "b": "To prepare employees for future roles",
+      "c": "To track attendance",
+      "d": "To promote culture"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary role of HR? (99)",
+    "options": {
+      "a": "Managing employee lifecycle",
+      "b": "Designing websites",
+      "c": "Selling products",
+      "d": "Creating code"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  }
+]

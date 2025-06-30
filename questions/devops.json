@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "What is CI/CD?",
+    "options": {
+      "a": "Client Integration/Code Debugging",
+      "b": "Continuous Integration/Continuous Deployment",
+      "c": "Configuration Interface/Container Development",
+      "d": "Code Initialization/Code Deployment"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (1)",
+    "options": {
+      "a": "Scripts",
+      "b": "Repositories",
+      "c": "Images",
+      "d": "Binaries"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (2)",
+    "options": {
+      "a": "To manage infrastructure using scripts",
+      "b": "To compile code",
+      "c": "To deploy applications",
+      "d": "To store data"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (3)",
+    "options": {
+      "a": "Client Integration/Code Debugging",
+      "b": "Code Initialization/Code Deployment",
+      "c": "Continuous Integration/Continuous Deployment",
+      "d": "Configuration Interface/Container Development"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (4)",
+    "options": {
+      "a": "Scripts",
+      "b": "Images",
+      "c": "Repositories",
+      "d": "Binaries"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (5)",
+    "options": {
+      "a": "To compile code",
+      "b": "To store data",
+      "c": "To manage infrastructure using scripts",
+      "d": "To deploy applications"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (6)",
+    "options": {
+      "a": "Client Integration/Code Debugging",
+      "b": "Continuous Integration/Continuous Deployment",
+      "c": "Configuration Interface/Container Development",
+      "d": "Code Initialization/Code Deployment"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (7)",
+    "options": {
+      "a": "Binaries",
+      "b": "Repositories",
+      "c": "Images",
+      "d": "Scripts"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (8)",
+    "options": {
+      "a": "To deploy applications",
+      "b": "To manage infrastructure using scripts",
+      "c": "To store data",
+      "d": "To compile code"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (9)",
+    "options": {
+      "a": "Configuration Interface/Container Development",
+      "b": "Code Initialization/Code Deployment",
+      "c": "Client Integration/Code Debugging",
+      "d": "Continuous Integration/Continuous Deployment"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (10)",
+    "options": {
+      "a": "Repositories",
+      "b": "Scripts",
+      "c": "Binaries",
+      "d": "Images"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (11)",
+    "options": {
+      "a": "To store data",
+      "b": "To compile code",
+      "c": "To deploy applications",
+      "d": "To manage infrastructure using scripts"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (12)",
+    "options": {
+      "a": "Client Integration/Code Debugging",
+      "b": "Continuous Integration/Continuous Deployment",
+      "c": "Configuration Interface/Container Development",
+      "d": "Code Initialization/Code Deployment"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (13)",
+    "options": {
+      "a": "Scripts",
+      "b": "Binaries",
+      "c": "Images",
+      "d": "Repositories"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (14)",
+    "options": {
+      "a": "To manage infrastructure using scripts",
+      "b": "To compile code",
+      "c": "To deploy applications",
+      "d": "To store data"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (15)",
+    "options": {
+      "a": "Code Initialization/Code Deployment",
+      "b": "Continuous Integration/Continuous Deployment",
+      "c": "Configuration Interface/Container Development",
+      "d": "Client Integration/Code Debugging"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (16)",
+    "options": {
+      "a": "Images",
+      "b": "Scripts",
+      "c": "Repositories",
+      "d": "Binaries"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (17)",
+    "options": {
+      "a": "To manage infrastructure using scripts",
+      "b": "To store data",
+      "c": "To deploy applications",
+      "d": "To compile code"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (18)",
+    "options": {
+      "a": "Client Integration/Code Debugging",
+      "b": "Configuration Interface/Container Development",
+      "c": "Code Initialization/Code Deployment",
+      "d": "Continuous Integration/Continuous Deployment"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (19)",
+    "options": {
+      "a": "Images",
+      "b": "Repositories",
+      "c": "Binaries",
+      "d": "Scripts"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (20)",
+    "options": {
+      "a": "To compile code",
+      "b": "To store data",
+      "c": "To manage infrastructure using scripts",
+      "d": "To deploy applications"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (21)",
+    "options": {
+      "a": "Continuous Integration/Continuous Deployment",
+      "b": "Client Integration/Code Debugging",
+      "c": "Code Initialization/Code Deployment",
+      "d": "Configuration Interface/Container Development"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (22)",
+    "options": {
+      "a": "Repositories",
+      "b": "Scripts",
+      "c": "Images",
+      "d": "Binaries"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (23)",
+    "options": {
+      "a": "To compile code",
+      "b": "To manage infrastructure using scripts",
+      "c": "To deploy applications",
+      "d": "To store data"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (24)",
+    "options": {
+      "a": "Configuration Interface/Container Development",
+      "b": "Code Initialization/Code Deployment",
+      "c": "Client Integration/Code Debugging",
+      "d": "Continuous Integration/Continuous Deployment"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (25)",
+    "options": {
+      "a": "Repositories",
+      "b": "Images",
+      "c": "Scripts",
+      "d": "Binaries"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (26)",
+    "options": {
+      "a": "To manage infrastructure using scripts",
+      "b": "To deploy applications",
+      "c": "To compile code",
+      "d": "To store data"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (27)",
+    "options": {
+      "a": "Continuous Integration/Continuous Deployment",
+      "b": "Client Integration/Code Debugging",
+      "c": "Configuration Interface/Container Development",
+      "d": "Code Initialization/Code Deployment"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (28)",
+    "options": {
+      "a": "Scripts",
+      "b": "Repositories",
+      "c": "Images",
+      "d": "Binaries"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (29)",
+    "options": {
+      "a": "To manage infrastructure using scripts",
+      "b": "To compile code",
+      "c": "To store data",
+      "d": "To deploy applications"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (30)",
+    "options": {
+      "a": "Client Integration/Code Debugging",
+      "b": "Code Initialization/Code Deployment",
+      "c": "Continuous Integration/Continuous Deployment",
+      "d": "Configuration Interface/Container Development"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (31)",
+    "options": {
+      "a": "Binaries",
+      "b": "Repositories",
+      "c": "Images",
+      "d": "Scripts"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (32)",
+    "options": {
+      "a": "To compile code",
+      "b": "To manage infrastructure using scripts",
+      "c": "To store data",
+      "d": "To deploy applications"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (33)",
+    "options": {
+      "a": "Code Initialization/Code Deployment",
+      "b": "Configuration Interface/Container Development",
+      "c": "Continuous Integration/Continuous Deployment",
+      "d": "Client Integration/Code Debugging"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (34)",
+    "options": {
+      "a": "Repositories",
+      "b": "Images",
+      "c": "Binaries",
+      "d": "Scripts"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (35)",
+    "options": {
+      "a": "To store data",
+      "b": "To compile code",
+      "c": "To deploy applications",
+      "d": "To manage infrastructure using scripts"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (36)",
+    "options": {
+      "a": "Configuration Interface/Container Development",
+      "b": "Code Initialization/Code Deployment",
+      "c": "Client Integration/Code Debugging",
+      "d": "Continuous Integration/Continuous Deployment"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (37)",
+    "options": {
+      "a": "Repositories",
+      "b": "Binaries",
+      "c": "Scripts",
+      "d": "Images"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (38)",
+    "options": {
+      "a": "To deploy applications",
+      "b": "To store data",
+      "c": "To manage infrastructure using scripts",
+      "d": "To compile code"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (39)",
+    "options": {
+      "a": "Code Initialization/Code Deployment",
+      "b": "Client Integration/Code Debugging",
+      "c": "Configuration Interface/Container Development",
+      "d": "Continuous Integration/Continuous Deployment"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (40)",
+    "options": {
+      "a": "Images",
+      "b": "Scripts",
+      "c": "Repositories",
+      "d": "Binaries"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (41)",
+    "options": {
+      "a": "To manage infrastructure using scripts",
+      "b": "To compile code",
+      "c": "To store data",
+      "d": "To deploy applications"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (42)",
+    "options": {
+      "a": "Configuration Interface/Container Development",
+      "b": "Continuous Integration/Continuous Deployment",
+      "c": "Code Initialization/Code Deployment",
+      "d": "Client Integration/Code Debugging"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (43)",
+    "options": {
+      "a": "Scripts",
+      "b": "Binaries",
+      "c": "Repositories",
+      "d": "Images"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (44)",
+    "options": {
+      "a": "To compile code",
+      "b": "To store data",
+      "c": "To manage infrastructure using scripts",
+      "d": "To deploy applications"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (45)",
+    "options": {
+      "a": "Client Integration/Code Debugging",
+      "b": "Continuous Integration/Continuous Deployment",
+      "c": "Code Initialization/Code Deployment",
+      "d": "Configuration Interface/Container Development"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (46)",
+    "options": {
+      "a": "Binaries",
+      "b": "Images",
+      "c": "Scripts",
+      "d": "Repositories"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (47)",
+    "options": {
+      "a": "To store data",
+      "b": "To deploy applications",
+      "c": "To compile code",
+      "d": "To manage infrastructure using scripts"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (48)",
+    "options": {
+      "a": "Code Initialization/Code Deployment",
+      "b": "Continuous Integration/Continuous Deployment",
+      "c": "Client Integration/Code Debugging",
+      "d": "Configuration Interface/Container Development"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (49)",
+    "options": {
+      "a": "Images",
+      "b": "Repositories",
+      "c": "Binaries",
+      "d": "Scripts"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (50)",
+    "options": {
+      "a": "To compile code",
+      "b": "To deploy applications",
+      "c": "To store data",
+      "d": "To manage infrastructure using scripts"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (51)",
+    "options": {
+      "a": "Code Initialization/Code Deployment",
+      "b": "Continuous Integration/Continuous Deployment",
+      "c": "Configuration Interface/Container Development",
+      "d": "Client Integration/Code Debugging"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (52)",
+    "options": {
+      "a": "Binaries",
+      "b": "Repositories",
+      "c": "Scripts",
+      "d": "Images"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (53)",
+    "options": {
+      "a": "To store data",
+      "b": "To manage infrastructure using scripts",
+      "c": "To compile code",
+      "d": "To deploy applications"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (54)",
+    "options": {
+      "a": "Continuous Integration/Continuous Deployment",
+      "b": "Configuration Interface/Container Development",
+      "c": "Client Integration/Code Debugging",
+      "d": "Code Initialization/Code Deployment"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (55)",
+    "options": {
+      "a": "Images",
+      "b": "Binaries",
+      "c": "Repositories",
+      "d": "Scripts"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (56)",
+    "options": {
+      "a": "To deploy applications",
+      "b": "To manage infrastructure using scripts",
+      "c": "To store data",
+      "d": "To compile code"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (57)",
+    "options": {
+      "a": "Continuous Integration/Continuous Deployment",
+      "b": "Configuration Interface/Container Development",
+      "c": "Client Integration/Code Debugging",
+      "d": "Code Initialization/Code Deployment"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (58)",
+    "options": {
+      "a": "Binaries",
+      "b": "Repositories",
+      "c": "Images",
+      "d": "Scripts"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (59)",
+    "options": {
+      "a": "To store data",
+      "b": "To manage infrastructure using scripts",
+      "c": "To deploy applications",
+      "d": "To compile code"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (60)",
+    "options": {
+      "a": "Configuration Interface/Container Development",
+      "b": "Continuous Integration/Continuous Deployment",
+      "c": "Client Integration/Code Debugging",
+      "d": "Code Initialization/Code Deployment"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (61)",
+    "options": {
+      "a": "Images",
+      "b": "Repositories",
+      "c": "Scripts",
+      "d": "Binaries"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (62)",
+    "options": {
+      "a": "To compile code",
+      "b": "To store data",
+      "c": "To deploy applications",
+      "d": "To manage infrastructure using scripts"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (63)",
+    "options": {
+      "a": "Code Initialization/Code Deployment",
+      "b": "Configuration Interface/Container Development",
+      "c": "Client Integration/Code Debugging",
+      "d": "Continuous Integration/Continuous Deployment"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (64)",
+    "options": {
+      "a": "Scripts",
+      "b": "Repositories",
+      "c": "Binaries",
+      "d": "Images"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (65)",
+    "options": {
+      "a": "To manage infrastructure using scripts",
+      "b": "To store data",
+      "c": "To compile code",
+      "d": "To deploy applications"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (66)",
+    "options": {
+      "a": "Configuration Interface/Container Development",
+      "b": "Continuous Integration/Continuous Deployment",
+      "c": "Client Integration/Code Debugging",
+      "d": "Code Initialization/Code Deployment"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (67)",
+    "options": {
+      "a": "Binaries",
+      "b": "Scripts",
+      "c": "Repositories",
+      "d": "Images"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (68)",
+    "options": {
+      "a": "To deploy applications",
+      "b": "To store data",
+      "c": "To compile code",
+      "d": "To manage infrastructure using scripts"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (69)",
+    "options": {
+      "a": "Code Initialization/Code Deployment",
+      "b": "Configuration Interface/Container Development",
+      "c": "Continuous Integration/Continuous Deployment",
+      "d": "Client Integration/Code Debugging"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (70)",
+    "options": {
+      "a": "Images",
+      "b": "Binaries",
+      "c": "Scripts",
+      "d": "Repositories"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (71)",
+    "options": {
+      "a": "To manage infrastructure using scripts",
+      "b": "To store data",
+      "c": "To compile code",
+      "d": "To deploy applications"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (72)",
+    "options": {
+      "a": "Client Integration/Code Debugging",
+      "b": "Continuous Integration/Continuous Deployment",
+      "c": "Code Initialization/Code Deployment",
+      "d": "Configuration Interface/Container Development"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (73)",
+    "options": {
+      "a": "Binaries",
+      "b": "Images",
+      "c": "Scripts",
+      "d": "Repositories"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (74)",
+    "options": {
+      "a": "To deploy applications",
+      "b": "To manage infrastructure using scripts",
+      "c": "To compile code",
+      "d": "To store data"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (75)",
+    "options": {
+      "a": "Configuration Interface/Container Development",
+      "b": "Continuous Integration/Continuous Deployment",
+      "c": "Client Integration/Code Debugging",
+      "d": "Code Initialization/Code Deployment"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (76)",
+    "options": {
+      "a": "Scripts",
+      "b": "Images",
+      "c": "Repositories",
+      "d": "Binaries"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (77)",
+    "options": {
+      "a": "To store data",
+      "b": "To manage infrastructure using scripts",
+      "c": "To deploy applications",
+      "d": "To compile code"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (78)",
+    "options": {
+      "a": "Continuous Integration/Continuous Deployment",
+      "b": "Code Initialization/Code Deployment",
+      "c": "Client Integration/Code Debugging",
+      "d": "Configuration Interface/Container Development"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (79)",
+    "options": {
+      "a": "Scripts",
+      "b": "Binaries",
+      "c": "Images",
+      "d": "Repositories"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (80)",
+    "options": {
+      "a": "To store data",
+      "b": "To manage infrastructure using scripts",
+      "c": "To deploy applications",
+      "d": "To compile code"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (81)",
+    "options": {
+      "a": "Client Integration/Code Debugging",
+      "b": "Code Initialization/Code Deployment",
+      "c": "Continuous Integration/Continuous Deployment",
+      "d": "Configuration Interface/Container Development"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (82)",
+    "options": {
+      "a": "Binaries",
+      "b": "Scripts",
+      "c": "Images",
+      "d": "Repositories"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (83)",
+    "options": {
+      "a": "To manage infrastructure using scripts",
+      "b": "To compile code",
+      "c": "To deploy applications",
+      "d": "To store data"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (84)",
+    "options": {
+      "a": "Continuous Integration/Continuous Deployment",
+      "b": "Configuration Interface/Container Development",
+      "c": "Code Initialization/Code Deployment",
+      "d": "Client Integration/Code Debugging"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (85)",
+    "options": {
+      "a": "Repositories",
+      "b": "Images",
+      "c": "Scripts",
+      "d": "Binaries"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (86)",
+    "options": {
+      "a": "To compile code",
+      "b": "To store data",
+      "c": "To deploy applications",
+      "d": "To manage infrastructure using scripts"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (87)",
+    "options": {
+      "a": "Client Integration/Code Debugging",
+      "b": "Continuous Integration/Continuous Deployment",
+      "c": "Configuration Interface/Container Development",
+      "d": "Code Initialization/Code Deployment"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (88)",
+    "options": {
+      "a": "Scripts",
+      "b": "Binaries",
+      "c": "Images",
+      "d": "Repositories"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (89)",
+    "options": {
+      "a": "To store data",
+      "b": "To compile code",
+      "c": "To manage infrastructure using scripts",
+      "d": "To deploy applications"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (90)",
+    "options": {
+      "a": "Client Integration/Code Debugging",
+      "b": "Continuous Integration/Continuous Deployment",
+      "c": "Configuration Interface/Container Development",
+      "d": "Code Initialization/Code Deployment"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (91)",
+    "options": {
+      "a": "Binaries",
+      "b": "Scripts",
+      "c": "Repositories",
+      "d": "Images"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (92)",
+    "options": {
+      "a": "To manage infrastructure using scripts",
+      "b": "To deploy applications",
+      "c": "To compile code",
+      "d": "To store data"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (93)",
+    "options": {
+      "a": "Continuous Integration/Continuous Deployment",
+      "b": "Configuration Interface/Container Development",
+      "c": "Code Initialization/Code Deployment",
+      "d": "Client Integration/Code Debugging"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (94)",
+    "options": {
+      "a": "Repositories",
+      "b": "Images",
+      "c": "Binaries",
+      "d": "Scripts"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (95)",
+    "options": {
+      "a": "To manage infrastructure using scripts",
+      "b": "To deploy applications",
+      "c": "To compile code",
+      "d": "To store data"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (96)",
+    "options": {
+      "a": "Client Integration/Code Debugging",
+      "b": "Code Initialization/Code Deployment",
+      "c": "Configuration Interface/Container Development",
+      "d": "Continuous Integration/Continuous Deployment"
+    },
+    "correctAnswer": "d",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Docker use to create containers? (97)",
+    "options": {
+      "a": "Images",
+      "b": "Binaries",
+      "c": "Scripts",
+      "d": "Repositories"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of infrastructure as code? (98)",
+    "options": {
+      "a": "To compile code",
+      "b": "To manage infrastructure using scripts",
+      "c": "To deploy applications",
+      "d": "To store data"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is CI/CD? (99)",
+    "options": {
+      "a": "Client Integration/Code Debugging",
+      "b": "Code Initialization/Code Deployment",
+      "c": "Continuous Integration/Continuous Deployment",
+      "d": "Configuration Interface/Container Development"
+    },
+    "correctAnswer": "c",
+    "category": "devops",
+    "difficulty": "easy"
+  }
+]

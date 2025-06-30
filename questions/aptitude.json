@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "If the perimeter of a square is 40 cm, what is the length of one side?",
+    "options": {
+      "a": "12 cm",
+      "b": "10 cm",
+      "c": "16 cm",
+      "d": "8 cm"
+    },
+    "correctAnswer": "b",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A boat can travel with a speed of 13 km/hr in still water. If the speed of the stream is 4 km/hr, find the time taken by the boat to go 68 km downstream.",
+    "options": {
+      "a": "4 hours",
+      "b": "5 hours",
+      "c": "3 hours",
+      "d": "2 hours"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 78 + 78?",
+    "options": {
+      "a": "156",
+      "b": "157",
+      "c": "155",
+      "d": "158"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 53 + 53?",
+    "options": {
+      "a": "106",
+      "b": "107",
+      "c": "105",
+      "d": "108"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 35 + 35?",
+    "options": {
+      "a": "70",
+      "b": "71",
+      "c": "69",
+      "d": "72"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 75 + 75?",
+    "options": {
+      "a": "150",
+      "b": "151",
+      "c": "149",
+      "d": "152"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Find the simple interest on \u20b95000 for 2 years at 10% per annum.",
+    "options": {
+      "a": "\u20b91000",
+      "b": "\u20b9500",
+      "c": "\u20b91500",
+      "d": "\u20b92000"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 50 + 50?",
+    "options": {
+      "a": "100",
+      "b": "101",
+      "c": "99",
+      "d": "102"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 57 + 57?",
+    "options": {
+      "a": "114",
+      "b": "115",
+      "c": "113",
+      "d": "116"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 98 + 98?",
+    "options": {
+      "a": "196",
+      "b": "197",
+      "c": "195",
+      "d": "198"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "If a car travels at a speed of 60 km/h, how far will it travel in 2.5 hours?",
+    "options": {
+      "a": "120 km",
+      "b": "150 km",
+      "c": "180 km",
+      "d": "100 km"
+    },
+    "correctAnswer": "b",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 55 + 55?",
+    "options": {
+      "a": "110",
+      "b": "111",
+      "c": "109",
+      "d": "112"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 21 + 21?",
+    "options": {
+      "a": "42",
+      "b": "43",
+      "c": "41",
+      "d": "44"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 66 + 66?",
+    "options": {
+      "a": "132",
+      "b": "133",
+      "c": "131",
+      "d": "134"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 30 + 30?",
+    "options": {
+      "a": "60",
+      "b": "61",
+      "c": "59",
+      "d": "62"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 86 + 86?",
+    "options": {
+      "a": "172",
+      "b": "173",
+      "c": "171",
+      "d": "174"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 61 + 61?",
+    "options": {
+      "a": "122",
+      "b": "123",
+      "c": "121",
+      "d": "124"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 68 + 68?",
+    "options": {
+      "a": "136",
+      "b": "137",
+      "c": "135",
+      "d": "138"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 63 + 63?",
+    "options": {
+      "a": "126",
+      "b": "127",
+      "c": "125",
+      "d": "128"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 49 + 49?",
+    "options": {
+      "a": "98",
+      "b": "99",
+      "c": "97",
+      "d": "100"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 34 + 34?",
+    "options": {
+      "a": "68",
+      "b": "69",
+      "c": "67",
+      "d": "70"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A man buys an article for \u20b9250 and sells it for \u20b9300. What is his profit percentage?",
+    "options": {
+      "a": "20%",
+      "b": "25%",
+      "c": "30%",
+      "d": "10%"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 28 + 28?",
+    "options": {
+      "a": "56",
+      "b": "57",
+      "c": "55",
+      "d": "58"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 97 + 97?",
+    "options": {
+      "a": "194",
+      "b": "195",
+      "c": "193",
+      "d": "196"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 73 + 73?",
+    "options": {
+      "a": "146",
+      "b": "147",
+      "c": "145",
+      "d": "148"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 92 + 92?",
+    "options": {
+      "a": "184",
+      "b": "185",
+      "c": "183",
+      "d": "186"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 40 + 40?",
+    "options": {
+      "a": "80",
+      "b": "81",
+      "c": "79",
+      "d": "82"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the value of pi (\u03c0) to two decimal places?",
+    "options": {
+      "a": "3.14",
+      "b": "3.15",
+      "c": "3.12",
+      "d": "3.16"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A and B together can do a piece of work in 12 days, while B alone can finish it in 30 days. In how many days can A alone finish the work?",
+    "options": {
+      "a": "18 days",
+      "b": "20 days",
+      "c": "25 days",
+      "d": "15 days"
+    },
+    "correctAnswer": "b",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 85 + 85?",
+    "options": {
+      "a": "170",
+      "b": "171",
+      "c": "169",
+      "d": "172"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 32 + 32?",
+    "options": {
+      "a": "64",
+      "b": "65",
+      "c": "63",
+      "d": "66"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 91 + 91?",
+    "options": {
+      "a": "182",
+      "b": "183",
+      "c": "181",
+      "d": "184"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 95 + 95?",
+    "options": {
+      "a": "190",
+      "b": "191",
+      "c": "189",
+      "d": "192"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 93 + 93?",
+    "options": {
+      "a": "186",
+      "b": "187",
+      "c": "185",
+      "d": "188"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 33 + 33?",
+    "options": {
+      "a": "66",
+      "b": "67",
+      "c": "65",
+      "d": "68"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 88 + 88?",
+    "options": {
+      "a": "176",
+      "b": "177",
+      "c": "175",
+      "d": "178"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 76 + 76?",
+    "options": {
+      "a": "152",
+      "b": "153",
+      "c": "151",
+      "d": "154"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the next number in the series: 3, 6, 12, 24, ?",
+    "options": {
+      "a": "48",
+      "b": "60",
+      "c": "36",
+      "d": "72"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 65 + 65?",
+    "options": {
+      "a": "130",
+      "b": "131",
+      "c": "129",
+      "d": "132"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 39 + 39?",
+    "options": {
+      "a": "78",
+      "b": "79",
+      "c": "77",
+      "d": "80"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 47 + 47?",
+    "options": {
+      "a": "94",
+      "b": "95",
+      "c": "93",
+      "d": "96"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 87 + 87?",
+    "options": {
+      "a": "174",
+      "b": "175",
+      "c": "173",
+      "d": "176"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 43 + 43?",
+    "options": {
+      "a": "86",
+      "b": "87",
+      "c": "85",
+      "d": "88"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the average of 5, 10, 15, 20, 25?",
+    "options": {
+      "a": "20",
+      "b": "12",
+      "c": "18",
+      "d": "15"
+    },
+    "correctAnswer": "d",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 69 + 69?",
+    "options": {
+      "a": "138",
+      "b": "139",
+      "c": "137",
+      "d": "140"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 24 + 24?",
+    "options": {
+      "a": "48",
+      "b": "49",
+      "c": "47",
+      "d": "50"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The ratio of two numbers is 3:4 and their sum is 49. Find the numbers.",
+    "options": {
+      "a": "21, 28",
+      "b": "20, 29",
+      "c": "22, 27",
+      "d": "24, 25"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 82 + 82?",
+    "options": {
+      "a": "164",
+      "b": "165",
+      "c": "163",
+      "d": "166"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 38 + 38?",
+    "options": {
+      "a": "76",
+      "b": "77",
+      "c": "75",
+      "d": "78"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 80 + 80?",
+    "options": {
+      "a": "160",
+      "b": "161",
+      "c": "159",
+      "d": "162"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 54 + 54?",
+    "options": {
+      "a": "108",
+      "b": "109",
+      "c": "107",
+      "d": "110"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the least prime number?",
+    "options": {
+      "a": "1",
+      "b": "5",
+      "c": "2",
+      "d": "3"
+    },
+    "correctAnswer": "c",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 74 + 74?",
+    "options": {
+      "a": "148",
+      "b": "149",
+      "c": "147",
+      "d": "150"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "If x + 5 = 12, what is the value of x?",
+    "options": {
+      "a": "5",
+      "b": "7",
+      "c": "17",
+      "d": "6"
+    },
+    "correctAnswer": "b",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 77 + 77?",
+    "options": {
+      "a": "154",
+      "b": "155",
+      "c": "153",
+      "d": "156"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 42 + 42?",
+    "options": {
+      "a": "84",
+      "b": "85",
+      "c": "83",
+      "d": "86"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 56 + 56?",
+    "options": {
+      "a": "112",
+      "b": "113",
+      "c": "111",
+      "d": "114"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the HCF of 12 and 18?",
+    "options": {
+      "a": "5",
+      "b": "6",
+      "c": "9",
+      "d": "4"
+    },
+    "correctAnswer": "b",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 62 + 62?",
+    "options": {
+      "a": "124",
+      "b": "125",
+      "c": "123",
+      "d": "126"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 46 + 46?",
+    "options": {
+      "a": "92",
+      "b": "93",
+      "c": "91",
+      "d": "94"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 84 + 84?",
+    "options": {
+      "a": "168",
+      "b": "169",
+      "c": "167",
+      "d": "170"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A can do a piece of work in 10 days and B can do it in 15 days. In how many days will they do it together?",
+    "options": {
+      "a": "5 days",
+      "b": "6 days",
+      "c": "8 days",
+      "d": "4 days"
+    },
+    "correctAnswer": "b",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 26 + 26?",
+    "options": {
+      "a": "52",
+      "b": "53",
+      "c": "51",
+      "d": "54"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 48 + 48?",
+    "options": {
+      "a": "96",
+      "b": "97",
+      "c": "95",
+      "d": "98"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 64 + 64?",
+    "options": {
+      "a": "128",
+      "b": "129",
+      "c": "127",
+      "d": "130"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 27 + 27?",
+    "options": {
+      "a": "54",
+      "b": "55",
+      "c": "53",
+      "d": "56"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 44 + 44?",
+    "options": {
+      "a": "88",
+      "b": "89",
+      "c": "87",
+      "d": "90"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 81 + 81?",
+    "options": {
+      "a": "162",
+      "b": "163",
+      "c": "161",
+      "d": "164"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 51 + 51?",
+    "options": {
+      "a": "102",
+      "b": "103",
+      "c": "101",
+      "d": "104"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A sum of money becomes 4 times in 20 years at simple interest. Find the rate of interest.",
+    "options": {
+      "a": "10%",
+      "b": "12%",
+      "c": "15%",
+      "d": "20%"
+    },
+    "correctAnswer": "c",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 72 + 72?",
+    "options": {
+      "a": "144",
+      "b": "145",
+      "c": "143",
+      "d": "146"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 23 + 23?",
+    "options": {
+      "a": "46",
+      "b": "47",
+      "c": "45",
+      "d": "48"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 52 + 52?",
+    "options": {
+      "a": "104",
+      "b": "105",
+      "c": "103",
+      "d": "106"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 79 + 79?",
+    "options": {
+      "a": "158",
+      "b": "159",
+      "c": "157",
+      "d": "160"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 37 + 37?",
+    "options": {
+      "a": "74",
+      "b": "75",
+      "c": "73",
+      "d": "76"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 22 + 22?",
+    "options": {
+      "a": "44",
+      "b": "45",
+      "c": "43",
+      "d": "46"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 36 + 36?",
+    "options": {
+      "a": "72",
+      "b": "73",
+      "c": "71",
+      "d": "74"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the square root of 144?",
+    "options": {
+      "a": "13",
+      "b": "12",
+      "c": "11",
+      "d": "14"
+    },
+    "correctAnswer": "b",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A train 100m long is running at a speed of 30 km/h. Find the time it takes to pass a man standing near the railway line.",
+    "options": {
+      "a": "12 seconds",
+      "b": "10 seconds",
+      "c": "15 seconds",
+      "d": "18 seconds"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 25 + 25?",
+    "options": {
+      "a": "50",
+      "b": "51",
+      "c": "49",
+      "d": "52"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 29 + 29?",
+    "options": {
+      "a": "58",
+      "b": "59",
+      "c": "57",
+      "d": "60"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 41 + 41?",
+    "options": {
+      "a": "82",
+      "b": "83",
+      "c": "81",
+      "d": "84"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 90 + 90?",
+    "options": {
+      "a": "180",
+      "b": "181",
+      "c": "179",
+      "d": "182"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 15% of 200?",
+    "options": {
+      "a": "40",
+      "b": "25",
+      "c": "35",
+      "d": "30"
+    },
+    "correctAnswer": "d",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 94 + 94?",
+    "options": {
+      "a": "188",
+      "b": "189",
+      "c": "187",
+      "d": "190"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 99 + 99?",
+    "options": {
+      "a": "198",
+      "b": "199",
+      "c": "197",
+      "d": "200"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 59 + 59?",
+    "options": {
+      "a": "118",
+      "b": "119",
+      "c": "117",
+      "d": "120"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 96 + 96?",
+    "options": {
+      "a": "192",
+      "b": "193",
+      "c": "191",
+      "d": "194"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 71 + 71?",
+    "options": {
+      "a": "142",
+      "b": "143",
+      "c": "141",
+      "d": "144"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 67 + 67?",
+    "options": {
+      "a": "134",
+      "b": "135",
+      "c": "133",
+      "d": "136"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 89 + 89?",
+    "options": {
+      "a": "178",
+      "b": "179",
+      "c": "177",
+      "d": "180"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 60 + 60?",
+    "options": {
+      "a": "120",
+      "b": "121",
+      "c": "119",
+      "d": "122"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A shopkeeper gives 10% discount on a product of \u20b9500. What is the selling price?",
+    "options": {
+      "a": "\u20b9450",
+      "b": "\u20b9460",
+      "c": "\u20b9480",
+      "d": "\u20b9470"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In a class of 60 students, 40% are girls. How many girls are there?",
+    "options": {
+      "a": "30",
+      "b": "20",
+      "c": "36",
+      "d": "24"
+    },
+    "correctAnswer": "d",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 83 + 83?",
+    "options": {
+      "a": "166",
+      "b": "167",
+      "c": "165",
+      "d": "168"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is 31 + 31?",
+    "options": {
+      "a": "62",
+      "b": "63",
+      "c": "61",
+      "d": "64"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 45 + 45?",
+    "options": {
+      "a": "90",
+      "b": "91",
+      "c": "89",
+      "d": "92"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 70 + 70?",
+    "options": {
+      "a": "140",
+      "b": "141",
+      "c": "139",
+      "d": "142"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 58 + 58?",
+    "options": {
+      "a": "116",
+      "b": "117",
+      "c": "115",
+      "d": "118"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 200 + 200?",
+    "options": {
+      "a": "400",
+      "b": "401",
+      "c": "399",
+      "d": "402"
+    },
+    "correctAnswer": "a",
+    "category": "aptitude",
+    "difficulty": "easy"
+  }
+]

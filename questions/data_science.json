@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "Which library is used for data manipulation in Python?",
+    "options": {
+      "a": "matplotlib",
+      "b": "pandas",
+      "c": "seaborn",
+      "d": "numpy"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (1)",
+    "options": {
+      "a": "Extended Data Assessment",
+      "b": "Exploratory Data Analysis",
+      "c": "Efficient Data Aggregation",
+      "d": "Electronic Data Architecture"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (2)",
+    "options": {
+      "a": "Model trains too quickly",
+      "b": "Model performs well on training but poorly on testing data",
+      "c": "Model skips training",
+      "d": "Model performs poorly on both"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (3)",
+    "options": {
+      "a": "numpy",
+      "b": "pandas",
+      "c": "matplotlib",
+      "d": "seaborn"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (4)",
+    "options": {
+      "a": "Exploratory Data Analysis",
+      "b": "Electronic Data Architecture",
+      "c": "Efficient Data Aggregation",
+      "d": "Extended Data Assessment"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (5)",
+    "options": {
+      "a": "Model trains too quickly",
+      "b": "Model performs poorly on both",
+      "c": "Model performs well on training but poorly on testing data",
+      "d": "Model skips training"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (6)",
+    "options": {
+      "a": "matplotlib",
+      "b": "seaborn",
+      "c": "pandas",
+      "d": "numpy"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (7)",
+    "options": {
+      "a": "Electronic Data Architecture",
+      "b": "Exploratory Data Analysis",
+      "c": "Efficient Data Aggregation",
+      "d": "Extended Data Assessment"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (8)",
+    "options": {
+      "a": "Model performs poorly on both",
+      "b": "Model trains too quickly",
+      "c": "Model skips training",
+      "d": "Model performs well on training but poorly on testing data"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (9)",
+    "options": {
+      "a": "matplotlib",
+      "b": "seaborn",
+      "c": "pandas",
+      "d": "numpy"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (10)",
+    "options": {
+      "a": "Electronic Data Architecture",
+      "b": "Exploratory Data Analysis",
+      "c": "Efficient Data Aggregation",
+      "d": "Extended Data Assessment"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (11)",
+    "options": {
+      "a": "Model trains too quickly",
+      "b": "Model skips training",
+      "c": "Model performs poorly on both",
+      "d": "Model performs well on training but poorly on testing data"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (12)",
+    "options": {
+      "a": "matplotlib",
+      "b": "numpy",
+      "c": "seaborn",
+      "d": "pandas"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (13)",
+    "options": {
+      "a": "Efficient Data Aggregation",
+      "b": "Electronic Data Architecture",
+      "c": "Extended Data Assessment",
+      "d": "Exploratory Data Analysis"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (14)",
+    "options": {
+      "a": "Model trains too quickly",
+      "b": "Model performs well on training but poorly on testing data",
+      "c": "Model performs poorly on both",
+      "d": "Model skips training"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (15)",
+    "options": {
+      "a": "pandas",
+      "b": "numpy",
+      "c": "seaborn",
+      "d": "matplotlib"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (16)",
+    "options": {
+      "a": "Efficient Data Aggregation",
+      "b": "Extended Data Assessment",
+      "c": "Electronic Data Architecture",
+      "d": "Exploratory Data Analysis"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (17)",
+    "options": {
+      "a": "Model performs well on training but poorly on testing data",
+      "b": "Model trains too quickly",
+      "c": "Model performs poorly on both",
+      "d": "Model skips training"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (18)",
+    "options": {
+      "a": "numpy",
+      "b": "pandas",
+      "c": "matplotlib",
+      "d": "seaborn"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (19)",
+    "options": {
+      "a": "Efficient Data Aggregation",
+      "b": "Electronic Data Architecture",
+      "c": "Exploratory Data Analysis",
+      "d": "Extended Data Assessment"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (20)",
+    "options": {
+      "a": "Model performs poorly on both",
+      "b": "Model skips training",
+      "c": "Model trains too quickly",
+      "d": "Model performs well on training but poorly on testing data"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (21)",
+    "options": {
+      "a": "numpy",
+      "b": "seaborn",
+      "c": "matplotlib",
+      "d": "pandas"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (22)",
+    "options": {
+      "a": "Exploratory Data Analysis",
+      "b": "Extended Data Assessment",
+      "c": "Electronic Data Architecture",
+      "d": "Efficient Data Aggregation"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (23)",
+    "options": {
+      "a": "Model trains too quickly",
+      "b": "Model skips training",
+      "c": "Model performs well on training but poorly on testing data",
+      "d": "Model performs poorly on both"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (24)",
+    "options": {
+      "a": "matplotlib",
+      "b": "seaborn",
+      "c": "numpy",
+      "d": "pandas"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (25)",
+    "options": {
+      "a": "Electronic Data Architecture",
+      "b": "Extended Data Assessment",
+      "c": "Exploratory Data Analysis",
+      "d": "Efficient Data Aggregation"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (26)",
+    "options": {
+      "a": "Model performs poorly on both",
+      "b": "Model trains too quickly",
+      "c": "Model skips training",
+      "d": "Model performs well on training but poorly on testing data"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (27)",
+    "options": {
+      "a": "numpy",
+      "b": "matplotlib",
+      "c": "seaborn",
+      "d": "pandas"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (28)",
+    "options": {
+      "a": "Efficient Data Aggregation",
+      "b": "Exploratory Data Analysis",
+      "c": "Electronic Data Architecture",
+      "d": "Extended Data Assessment"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (29)",
+    "options": {
+      "a": "Model performs poorly on both",
+      "b": "Model performs well on training but poorly on testing data",
+      "c": "Model trains too quickly",
+      "d": "Model skips training"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (30)",
+    "options": {
+      "a": "numpy",
+      "b": "pandas",
+      "c": "matplotlib",
+      "d": "seaborn"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (31)",
+    "options": {
+      "a": "Efficient Data Aggregation",
+      "b": "Extended Data Assessment",
+      "c": "Electronic Data Architecture",
+      "d": "Exploratory Data Analysis"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (32)",
+    "options": {
+      "a": "Model performs well on training but poorly on testing data",
+      "b": "Model trains too quickly",
+      "c": "Model performs poorly on both",
+      "d": "Model skips training"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (33)",
+    "options": {
+      "a": "seaborn",
+      "b": "numpy",
+      "c": "matplotlib",
+      "d": "pandas"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (34)",
+    "options": {
+      "a": "Exploratory Data Analysis",
+      "b": "Efficient Data Aggregation",
+      "c": "Electronic Data Architecture",
+      "d": "Extended Data Assessment"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (35)",
+    "options": {
+      "a": "Model performs poorly on both",
+      "b": "Model performs well on training but poorly on testing data",
+      "c": "Model skips training",
+      "d": "Model trains too quickly"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (36)",
+    "options": {
+      "a": "matplotlib",
+      "b": "seaborn",
+      "c": "numpy",
+      "d": "pandas"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (37)",
+    "options": {
+      "a": "Exploratory Data Analysis",
+      "b": "Electronic Data Architecture",
+      "c": "Efficient Data Aggregation",
+      "d": "Extended Data Assessment"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (38)",
+    "options": {
+      "a": "Model performs well on training but poorly on testing data",
+      "b": "Model performs poorly on both",
+      "c": "Model skips training",
+      "d": "Model trains too quickly"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (39)",
+    "options": {
+      "a": "seaborn",
+      "b": "matplotlib",
+      "c": "numpy",
+      "d": "pandas"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (40)",
+    "options": {
+      "a": "Exploratory Data Analysis",
+      "b": "Efficient Data Aggregation",
+      "c": "Electronic Data Architecture",
+      "d": "Extended Data Assessment"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (41)",
+    "options": {
+      "a": "Model performs well on training but poorly on testing data",
+      "b": "Model performs poorly on both",
+      "c": "Model trains too quickly",
+      "d": "Model skips training"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (42)",
+    "options": {
+      "a": "matplotlib",
+      "b": "numpy",
+      "c": "seaborn",
+      "d": "pandas"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (43)",
+    "options": {
+      "a": "Electronic Data Architecture",
+      "b": "Exploratory Data Analysis",
+      "c": "Extended Data Assessment",
+      "d": "Efficient Data Aggregation"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (44)",
+    "options": {
+      "a": "Model trains too quickly",
+      "b": "Model performs poorly on both",
+      "c": "Model performs well on training but poorly on testing data",
+      "d": "Model skips training"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (45)",
+    "options": {
+      "a": "seaborn",
+      "b": "matplotlib",
+      "c": "numpy",
+      "d": "pandas"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (46)",
+    "options": {
+      "a": "Efficient Data Aggregation",
+      "b": "Electronic Data Architecture",
+      "c": "Extended Data Assessment",
+      "d": "Exploratory Data Analysis"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (47)",
+    "options": {
+      "a": "Model trains too quickly",
+      "b": "Model skips training",
+      "c": "Model performs poorly on both",
+      "d": "Model performs well on training but poorly on testing data"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (48)",
+    "options": {
+      "a": "matplotlib",
+      "b": "seaborn",
+      "c": "pandas",
+      "d": "numpy"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (49)",
+    "options": {
+      "a": "Efficient Data Aggregation",
+      "b": "Extended Data Assessment",
+      "c": "Exploratory Data Analysis",
+      "d": "Electronic Data Architecture"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (50)",
+    "options": {
+      "a": "Model performs poorly on both",
+      "b": "Model trains too quickly",
+      "c": "Model performs well on training but poorly on testing data",
+      "d": "Model skips training"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (51)",
+    "options": {
+      "a": "numpy",
+      "b": "pandas",
+      "c": "matplotlib",
+      "d": "seaborn"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (52)",
+    "options": {
+      "a": "Exploratory Data Analysis",
+      "b": "Efficient Data Aggregation",
+      "c": "Extended Data Assessment",
+      "d": "Electronic Data Architecture"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (53)",
+    "options": {
+      "a": "Model performs well on training but poorly on testing data",
+      "b": "Model skips training",
+      "c": "Model performs poorly on both",
+      "d": "Model trains too quickly"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (54)",
+    "options": {
+      "a": "numpy",
+      "b": "pandas",
+      "c": "seaborn",
+      "d": "matplotlib"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (55)",
+    "options": {
+      "a": "Extended Data Assessment",
+      "b": "Efficient Data Aggregation",
+      "c": "Exploratory Data Analysis",
+      "d": "Electronic Data Architecture"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (56)",
+    "options": {
+      "a": "Model performs well on training but poorly on testing data",
+      "b": "Model skips training",
+      "c": "Model performs poorly on both",
+      "d": "Model trains too quickly"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (57)",
+    "options": {
+      "a": "numpy",
+      "b": "matplotlib",
+      "c": "seaborn",
+      "d": "pandas"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (58)",
+    "options": {
+      "a": "Efficient Data Aggregation",
+      "b": "Extended Data Assessment",
+      "c": "Electronic Data Architecture",
+      "d": "Exploratory Data Analysis"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (59)",
+    "options": {
+      "a": "Model trains too quickly",
+      "b": "Model skips training",
+      "c": "Model performs well on training but poorly on testing data",
+      "d": "Model performs poorly on both"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (60)",
+    "options": {
+      "a": "numpy",
+      "b": "pandas",
+      "c": "seaborn",
+      "d": "matplotlib"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (61)",
+    "options": {
+      "a": "Extended Data Assessment",
+      "b": "Exploratory Data Analysis",
+      "c": "Efficient Data Aggregation",
+      "d": "Electronic Data Architecture"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (62)",
+    "options": {
+      "a": "Model performs poorly on both",
+      "b": "Model trains too quickly",
+      "c": "Model skips training",
+      "d": "Model performs well on training but poorly on testing data"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (63)",
+    "options": {
+      "a": "numpy",
+      "b": "matplotlib",
+      "c": "pandas",
+      "d": "seaborn"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (64)",
+    "options": {
+      "a": "Extended Data Assessment",
+      "b": "Electronic Data Architecture",
+      "c": "Exploratory Data Analysis",
+      "d": "Efficient Data Aggregation"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (65)",
+    "options": {
+      "a": "Model trains too quickly",
+      "b": "Model performs well on training but poorly on testing data",
+      "c": "Model skips training",
+      "d": "Model performs poorly on both"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (66)",
+    "options": {
+      "a": "seaborn",
+      "b": "numpy",
+      "c": "pandas",
+      "d": "matplotlib"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (67)",
+    "options": {
+      "a": "Electronic Data Architecture",
+      "b": "Efficient Data Aggregation",
+      "c": "Exploratory Data Analysis",
+      "d": "Extended Data Assessment"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (68)",
+    "options": {
+      "a": "Model performs poorly on both",
+      "b": "Model skips training",
+      "c": "Model trains too quickly",
+      "d": "Model performs well on training but poorly on testing data"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (69)",
+    "options": {
+      "a": "numpy",
+      "b": "matplotlib",
+      "c": "pandas",
+      "d": "seaborn"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (70)",
+    "options": {
+      "a": "Exploratory Data Analysis",
+      "b": "Electronic Data Architecture",
+      "c": "Efficient Data Aggregation",
+      "d": "Extended Data Assessment"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (71)",
+    "options": {
+      "a": "Model trains too quickly",
+      "b": "Model skips training",
+      "c": "Model performs poorly on both",
+      "d": "Model performs well on training but poorly on testing data"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (72)",
+    "options": {
+      "a": "pandas",
+      "b": "seaborn",
+      "c": "matplotlib",
+      "d": "numpy"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (73)",
+    "options": {
+      "a": "Electronic Data Architecture",
+      "b": "Exploratory Data Analysis",
+      "c": "Extended Data Assessment",
+      "d": "Efficient Data Aggregation"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (74)",
+    "options": {
+      "a": "Model performs poorly on both",
+      "b": "Model skips training",
+      "c": "Model performs well on training but poorly on testing data",
+      "d": "Model trains too quickly"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (75)",
+    "options": {
+      "a": "matplotlib",
+      "b": "numpy",
+      "c": "pandas",
+      "d": "seaborn"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (76)",
+    "options": {
+      "a": "Efficient Data Aggregation",
+      "b": "Electronic Data Architecture",
+      "c": "Extended Data Assessment",
+      "d": "Exploratory Data Analysis"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (77)",
+    "options": {
+      "a": "Model performs well on training but poorly on testing data",
+      "b": "Model performs poorly on both",
+      "c": "Model skips training",
+      "d": "Model trains too quickly"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (78)",
+    "options": {
+      "a": "seaborn",
+      "b": "matplotlib",
+      "c": "numpy",
+      "d": "pandas"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (79)",
+    "options": {
+      "a": "Extended Data Assessment",
+      "b": "Exploratory Data Analysis",
+      "c": "Electronic Data Architecture",
+      "d": "Efficient Data Aggregation"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (80)",
+    "options": {
+      "a": "Model performs well on training but poorly on testing data",
+      "b": "Model performs poorly on both",
+      "c": "Model trains too quickly",
+      "d": "Model skips training"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (81)",
+    "options": {
+      "a": "seaborn",
+      "b": "numpy",
+      "c": "matplotlib",
+      "d": "pandas"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (82)",
+    "options": {
+      "a": "Extended Data Assessment",
+      "b": "Exploratory Data Analysis",
+      "c": "Electronic Data Architecture",
+      "d": "Efficient Data Aggregation"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (83)",
+    "options": {
+      "a": "Model performs well on training but poorly on testing data",
+      "b": "Model trains too quickly",
+      "c": "Model skips training",
+      "d": "Model performs poorly on both"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (84)",
+    "options": {
+      "a": "matplotlib",
+      "b": "seaborn",
+      "c": "numpy",
+      "d": "pandas"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (85)",
+    "options": {
+      "a": "Exploratory Data Analysis",
+      "b": "Efficient Data Aggregation",
+      "c": "Electronic Data Architecture",
+      "d": "Extended Data Assessment"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (86)",
+    "options": {
+      "a": "Model performs well on training but poorly on testing data",
+      "b": "Model skips training",
+      "c": "Model trains too quickly",
+      "d": "Model performs poorly on both"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (87)",
+    "options": {
+      "a": "pandas",
+      "b": "matplotlib",
+      "c": "seaborn",
+      "d": "numpy"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (88)",
+    "options": {
+      "a": "Electronic Data Architecture",
+      "b": "Extended Data Assessment",
+      "c": "Exploratory Data Analysis",
+      "d": "Efficient Data Aggregation"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (89)",
+    "options": {
+      "a": "Model performs poorly on both",
+      "b": "Model performs well on training but poorly on testing data",
+      "c": "Model trains too quickly",
+      "d": "Model skips training"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (90)",
+    "options": {
+      "a": "pandas",
+      "b": "numpy",
+      "c": "matplotlib",
+      "d": "seaborn"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (91)",
+    "options": {
+      "a": "Exploratory Data Analysis",
+      "b": "Efficient Data Aggregation",
+      "c": "Electronic Data Architecture",
+      "d": "Extended Data Assessment"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (92)",
+    "options": {
+      "a": "Model skips training",
+      "b": "Model performs well on training but poorly on testing data",
+      "c": "Model performs poorly on both",
+      "d": "Model trains too quickly"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (93)",
+    "options": {
+      "a": "seaborn",
+      "b": "matplotlib",
+      "c": "numpy",
+      "d": "pandas"
+    },
+    "correctAnswer": "d",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (94)",
+    "options": {
+      "a": "Exploratory Data Analysis",
+      "b": "Efficient Data Aggregation",
+      "c": "Electronic Data Architecture",
+      "d": "Extended Data Assessment"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (95)",
+    "options": {
+      "a": "Model performs well on training but poorly on testing data",
+      "b": "Model trains too quickly",
+      "c": "Model performs poorly on both",
+      "d": "Model skips training"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (96)",
+    "options": {
+      "a": "pandas",
+      "b": "matplotlib",
+      "c": "numpy",
+      "d": "seaborn"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does EDA stand for in data science? (97)",
+    "options": {
+      "a": "Extended Data Assessment",
+      "b": "Efficient Data Aggregation",
+      "c": "Exploratory Data Analysis",
+      "d": "Electronic Data Architecture"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is overfitting in machine learning? (98)",
+    "options": {
+      "a": "Model skips training",
+      "b": "Model performs poorly on both",
+      "c": "Model performs well on training but poorly on testing data",
+      "d": "Model trains too quickly"
+    },
+    "correctAnswer": "c",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python? (99)",
+    "options": {
+      "a": "matplotlib",
+      "b": "pandas",
+      "c": "seaborn",
+      "d": "numpy"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "easy"
+  }
+]

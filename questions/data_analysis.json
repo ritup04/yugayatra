@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "Which tool is used for data visualization?",
+    "options": {
+      "a": "Excel",
+      "b": "Tableau",
+      "c": "SQL",
+      "d": "Python"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (1)",
+    "options": {
+      "a": "A programming function",
+      "b": "A chart type",
+      "c": "A tool to summarize data",
+      "d": "A database"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (2)",
+    "options": {
+      "a": "To visualize trends",
+      "b": "To find average",
+      "c": "To calculate sum",
+      "d": "To determine statistical significance"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (3)",
+    "options": {
+      "a": "Python",
+      "b": "SQL",
+      "c": "Excel",
+      "d": "Tableau"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (4)",
+    "options": {
+      "a": "A chart type",
+      "b": "A programming function",
+      "c": "A tool to summarize data",
+      "d": "A database"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (5)",
+    "options": {
+      "a": "To determine statistical significance",
+      "b": "To visualize trends",
+      "c": "To calculate sum",
+      "d": "To find average"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (6)",
+    "options": {
+      "a": "Excel",
+      "b": "Tableau",
+      "c": "SQL",
+      "d": "Python"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (7)",
+    "options": {
+      "a": "A tool to summarize data",
+      "b": "A programming function",
+      "c": "A chart type",
+      "d": "A database"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (8)",
+    "options": {
+      "a": "To find average",
+      "b": "To calculate sum",
+      "c": "To visualize trends",
+      "d": "To determine statistical significance"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (9)",
+    "options": {
+      "a": "Python",
+      "b": "SQL",
+      "c": "Excel",
+      "d": "Tableau"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (10)",
+    "options": {
+      "a": "A programming function",
+      "b": "A database",
+      "c": "A tool to summarize data",
+      "d": "A chart type"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (11)",
+    "options": {
+      "a": "To find average",
+      "b": "To visualize trends",
+      "c": "To determine statistical significance",
+      "d": "To calculate sum"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (12)",
+    "options": {
+      "a": "Excel",
+      "b": "Tableau",
+      "c": "Python",
+      "d": "SQL"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (13)",
+    "options": {
+      "a": "A database",
+      "b": "A programming function",
+      "c": "A tool to summarize data",
+      "d": "A chart type"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (14)",
+    "options": {
+      "a": "To visualize trends",
+      "b": "To calculate sum",
+      "c": "To determine statistical significance",
+      "d": "To find average"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (15)",
+    "options": {
+      "a": "Python",
+      "b": "SQL",
+      "c": "Tableau",
+      "d": "Excel"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (16)",
+    "options": {
+      "a": "A programming function",
+      "b": "A chart type",
+      "c": "A tool to summarize data",
+      "d": "A database"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (17)",
+    "options": {
+      "a": "To calculate sum",
+      "b": "To determine statistical significance",
+      "c": "To find average",
+      "d": "To visualize trends"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (18)",
+    "options": {
+      "a": "SQL",
+      "b": "Tableau",
+      "c": "Python",
+      "d": "Excel"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (19)",
+    "options": {
+      "a": "A tool to summarize data",
+      "b": "A database",
+      "c": "A programming function",
+      "d": "A chart type"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (20)",
+    "options": {
+      "a": "To calculate sum",
+      "b": "To determine statistical significance",
+      "c": "To find average",
+      "d": "To visualize trends"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (21)",
+    "options": {
+      "a": "SQL",
+      "b": "Python",
+      "c": "Tableau",
+      "d": "Excel"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (22)",
+    "options": {
+      "a": "A database",
+      "b": "A tool to summarize data",
+      "c": "A chart type",
+      "d": "A programming function"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (23)",
+    "options": {
+      "a": "To determine statistical significance",
+      "b": "To find average",
+      "c": "To calculate sum",
+      "d": "To visualize trends"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (24)",
+    "options": {
+      "a": "Tableau",
+      "b": "Excel",
+      "c": "SQL",
+      "d": "Python"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (25)",
+    "options": {
+      "a": "A tool to summarize data",
+      "b": "A database",
+      "c": "A chart type",
+      "d": "A programming function"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (26)",
+    "options": {
+      "a": "To visualize trends",
+      "b": "To find average",
+      "c": "To determine statistical significance",
+      "d": "To calculate sum"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (27)",
+    "options": {
+      "a": "Tableau",
+      "b": "SQL",
+      "c": "Excel",
+      "d": "Python"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (28)",
+    "options": {
+      "a": "A chart type",
+      "b": "A tool to summarize data",
+      "c": "A programming function",
+      "d": "A database"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (29)",
+    "options": {
+      "a": "To calculate sum",
+      "b": "To determine statistical significance",
+      "c": "To find average",
+      "d": "To visualize trends"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (30)",
+    "options": {
+      "a": "SQL",
+      "b": "Tableau",
+      "c": "Excel",
+      "d": "Python"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (31)",
+    "options": {
+      "a": "A chart type",
+      "b": "A tool to summarize data",
+      "c": "A programming function",
+      "d": "A database"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (32)",
+    "options": {
+      "a": "To determine statistical significance",
+      "b": "To visualize trends",
+      "c": "To find average",
+      "d": "To calculate sum"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (33)",
+    "options": {
+      "a": "Python",
+      "b": "Excel",
+      "c": "SQL",
+      "d": "Tableau"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (34)",
+    "options": {
+      "a": "A tool to summarize data",
+      "b": "A database",
+      "c": "A chart type",
+      "d": "A programming function"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (35)",
+    "options": {
+      "a": "To determine statistical significance",
+      "b": "To visualize trends",
+      "c": "To calculate sum",
+      "d": "To find average"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (36)",
+    "options": {
+      "a": "SQL",
+      "b": "Python",
+      "c": "Excel",
+      "d": "Tableau"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (37)",
+    "options": {
+      "a": "A chart type",
+      "b": "A programming function",
+      "c": "A tool to summarize data",
+      "d": "A database"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (38)",
+    "options": {
+      "a": "To find average",
+      "b": "To determine statistical significance",
+      "c": "To calculate sum",
+      "d": "To visualize trends"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (39)",
+    "options": {
+      "a": "Tableau",
+      "b": "Python",
+      "c": "SQL",
+      "d": "Excel"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (40)",
+    "options": {
+      "a": "A chart type",
+      "b": "A programming function",
+      "c": "A tool to summarize data",
+      "d": "A database"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (41)",
+    "options": {
+      "a": "To determine statistical significance",
+      "b": "To calculate sum",
+      "c": "To find average",
+      "d": "To visualize trends"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (42)",
+    "options": {
+      "a": "Excel",
+      "b": "SQL",
+      "c": "Python",
+      "d": "Tableau"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (43)",
+    "options": {
+      "a": "A chart type",
+      "b": "A programming function",
+      "c": "A database",
+      "d": "A tool to summarize data"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (44)",
+    "options": {
+      "a": "To determine statistical significance",
+      "b": "To find average",
+      "c": "To visualize trends",
+      "d": "To calculate sum"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (45)",
+    "options": {
+      "a": "Excel",
+      "b": "Tableau",
+      "c": "Python",
+      "d": "SQL"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (46)",
+    "options": {
+      "a": "A chart type",
+      "b": "A database",
+      "c": "A tool to summarize data",
+      "d": "A programming function"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (47)",
+    "options": {
+      "a": "To visualize trends",
+      "b": "To calculate sum",
+      "c": "To determine statistical significance",
+      "d": "To find average"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (48)",
+    "options": {
+      "a": "SQL",
+      "b": "Tableau",
+      "c": "Python",
+      "d": "Excel"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (49)",
+    "options": {
+      "a": "A chart type",
+      "b": "A tool to summarize data",
+      "c": "A programming function",
+      "d": "A database"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (50)",
+    "options": {
+      "a": "To find average",
+      "b": "To determine statistical significance",
+      "c": "To visualize trends",
+      "d": "To calculate sum"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (51)",
+    "options": {
+      "a": "SQL",
+      "b": "Python",
+      "c": "Excel",
+      "d": "Tableau"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (52)",
+    "options": {
+      "a": "A chart type",
+      "b": "A database",
+      "c": "A programming function",
+      "d": "A tool to summarize data"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (53)",
+    "options": {
+      "a": "To calculate sum",
+      "b": "To visualize trends",
+      "c": "To find average",
+      "d": "To determine statistical significance"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (54)",
+    "options": {
+      "a": "Tableau",
+      "b": "Python",
+      "c": "SQL",
+      "d": "Excel"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (55)",
+    "options": {
+      "a": "A database",
+      "b": "A chart type",
+      "c": "A tool to summarize data",
+      "d": "A programming function"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (56)",
+    "options": {
+      "a": "To calculate sum",
+      "b": "To determine statistical significance",
+      "c": "To visualize trends",
+      "d": "To find average"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (57)",
+    "options": {
+      "a": "Python",
+      "b": "Tableau",
+      "c": "Excel",
+      "d": "SQL"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (58)",
+    "options": {
+      "a": "A tool to summarize data",
+      "b": "A database",
+      "c": "A chart type",
+      "d": "A programming function"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (59)",
+    "options": {
+      "a": "To calculate sum",
+      "b": "To visualize trends",
+      "c": "To find average",
+      "d": "To determine statistical significance"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (60)",
+    "options": {
+      "a": "Excel",
+      "b": "Tableau",
+      "c": "SQL",
+      "d": "Python"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (61)",
+    "options": {
+      "a": "A programming function",
+      "b": "A tool to summarize data",
+      "c": "A database",
+      "d": "A chart type"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (62)",
+    "options": {
+      "a": "To determine statistical significance",
+      "b": "To find average",
+      "c": "To visualize trends",
+      "d": "To calculate sum"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (63)",
+    "options": {
+      "a": "Python",
+      "b": "SQL",
+      "c": "Excel",
+      "d": "Tableau"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (64)",
+    "options": {
+      "a": "A programming function",
+      "b": "A tool to summarize data",
+      "c": "A chart type",
+      "d": "A database"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (65)",
+    "options": {
+      "a": "To calculate sum",
+      "b": "To visualize trends",
+      "c": "To find average",
+      "d": "To determine statistical significance"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (66)",
+    "options": {
+      "a": "Python",
+      "b": "Tableau",
+      "c": "Excel",
+      "d": "SQL"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (67)",
+    "options": {
+      "a": "A database",
+      "b": "A chart type",
+      "c": "A tool to summarize data",
+      "d": "A programming function"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (68)",
+    "options": {
+      "a": "To calculate sum",
+      "b": "To visualize trends",
+      "c": "To determine statistical significance",
+      "d": "To find average"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (69)",
+    "options": {
+      "a": "Excel",
+      "b": "Python",
+      "c": "Tableau",
+      "d": "SQL"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (70)",
+    "options": {
+      "a": "A database",
+      "b": "A tool to summarize data",
+      "c": "A chart type",
+      "d": "A programming function"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (71)",
+    "options": {
+      "a": "To calculate sum",
+      "b": "To find average",
+      "c": "To visualize trends",
+      "d": "To determine statistical significance"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (72)",
+    "options": {
+      "a": "Python",
+      "b": "SQL",
+      "c": "Excel",
+      "d": "Tableau"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (73)",
+    "options": {
+      "a": "A database",
+      "b": "A tool to summarize data",
+      "c": "A programming function",
+      "d": "A chart type"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (74)",
+    "options": {
+      "a": "To calculate sum",
+      "b": "To find average",
+      "c": "To visualize trends",
+      "d": "To determine statistical significance"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (75)",
+    "options": {
+      "a": "Python",
+      "b": "Excel",
+      "c": "SQL",
+      "d": "Tableau"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (76)",
+    "options": {
+      "a": "A database",
+      "b": "A chart type",
+      "c": "A programming function",
+      "d": "A tool to summarize data"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (77)",
+    "options": {
+      "a": "To determine statistical significance",
+      "b": "To visualize trends",
+      "c": "To calculate sum",
+      "d": "To find average"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (78)",
+    "options": {
+      "a": "SQL",
+      "b": "Python",
+      "c": "Excel",
+      "d": "Tableau"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (79)",
+    "options": {
+      "a": "A tool to summarize data",
+      "b": "A programming function",
+      "c": "A database",
+      "d": "A chart type"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (80)",
+    "options": {
+      "a": "To visualize trends",
+      "b": "To find average",
+      "c": "To calculate sum",
+      "d": "To determine statistical significance"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (81)",
+    "options": {
+      "a": "Excel",
+      "b": "Tableau",
+      "c": "Python",
+      "d": "SQL"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (82)",
+    "options": {
+      "a": "A chart type",
+      "b": "A tool to summarize data",
+      "c": "A database",
+      "d": "A programming function"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (83)",
+    "options": {
+      "a": "To visualize trends",
+      "b": "To find average",
+      "c": "To calculate sum",
+      "d": "To determine statistical significance"
+    },
+    "correctAnswer": "d",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (84)",
+    "options": {
+      "a": "SQL",
+      "b": "Excel",
+      "c": "Tableau",
+      "d": "Python"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (85)",
+    "options": {
+      "a": "A database",
+      "b": "A chart type",
+      "c": "A tool to summarize data",
+      "d": "A programming function"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (86)",
+    "options": {
+      "a": "To calculate sum",
+      "b": "To find average",
+      "c": "To determine statistical significance",
+      "d": "To visualize trends"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (87)",
+    "options": {
+      "a": "Excel",
+      "b": "Tableau",
+      "c": "Python",
+      "d": "SQL"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (88)",
+    "options": {
+      "a": "A tool to summarize data",
+      "b": "A programming function",
+      "c": "A database",
+      "d": "A chart type"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (89)",
+    "options": {
+      "a": "To visualize trends",
+      "b": "To determine statistical significance",
+      "c": "To calculate sum",
+      "d": "To find average"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (90)",
+    "options": {
+      "a": "SQL",
+      "b": "Tableau",
+      "c": "Python",
+      "d": "Excel"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (91)",
+    "options": {
+      "a": "A database",
+      "b": "A programming function",
+      "c": "A tool to summarize data",
+      "d": "A chart type"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (92)",
+    "options": {
+      "a": "To calculate sum",
+      "b": "To visualize trends",
+      "c": "To determine statistical significance",
+      "d": "To find average"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (93)",
+    "options": {
+      "a": "Excel",
+      "b": "Tableau",
+      "c": "Python",
+      "d": "SQL"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (94)",
+    "options": {
+      "a": "A database",
+      "b": "A tool to summarize data",
+      "c": "A programming function",
+      "d": "A chart type"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (95)",
+    "options": {
+      "a": "To visualize trends",
+      "b": "To determine statistical significance",
+      "c": "To calculate sum",
+      "d": "To find average"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (96)",
+    "options": {
+      "a": "SQL",
+      "b": "Tableau",
+      "c": "Python",
+      "d": "Excel"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a pivot table in Excel? (97)",
+    "options": {
+      "a": "A tool to summarize data",
+      "b": "A programming function",
+      "c": "A chart type",
+      "d": "A database"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a p-value used for? (98)",
+    "options": {
+      "a": "To determine statistical significance",
+      "b": "To calculate sum",
+      "c": "To visualize trends",
+      "d": "To find average"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for data visualization? (99)",
+    "options": {
+      "a": "Tableau",
+      "b": "Python",
+      "c": "SQL",
+      "d": "Excel"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "easy"
+  }
+]

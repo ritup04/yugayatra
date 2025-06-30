@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox?",
+    "options": {
+      "a": "To set margin",
+      "b": "To define how a flex item grows or shrinks",
+      "c": "To define text color",
+      "d": "To define background"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (1)",
+    "options": {
+      "a": "<li>",
+      "b": "<ul>",
+      "c": "<ol>",
+      "d": "<list>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (2)",
+    "options": {
+      "a": "Java Syntax Extension",
+      "b": "JavaScript Xtreme",
+      "c": "JavaScript Extra",
+      "d": "JavaScript XML"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (3)",
+    "options": {
+      "a": "To define text color",
+      "b": "To set margin",
+      "c": "To define background",
+      "d": "To define how a flex item grows or shrinks"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (4)",
+    "options": {
+      "a": "<list>",
+      "b": "<ul>",
+      "c": "<ol>",
+      "d": "<li>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (5)",
+    "options": {
+      "a": "JavaScript Xtreme",
+      "b": "Java Syntax Extension",
+      "c": "JavaScript XML",
+      "d": "JavaScript Extra"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (6)",
+    "options": {
+      "a": "To define how a flex item grows or shrinks",
+      "b": "To define text color",
+      "c": "To set margin",
+      "d": "To define background"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (7)",
+    "options": {
+      "a": "<li>",
+      "b": "<ul>",
+      "c": "<ol>",
+      "d": "<list>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (8)",
+    "options": {
+      "a": "JavaScript XML",
+      "b": "JavaScript Xtreme",
+      "c": "JavaScript Extra",
+      "d": "Java Syntax Extension"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (9)",
+    "options": {
+      "a": "To define background",
+      "b": "To define text color",
+      "c": "To set margin",
+      "d": "To define how a flex item grows or shrinks"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (10)",
+    "options": {
+      "a": "<ul>",
+      "b": "<li>",
+      "c": "<list>",
+      "d": "<ol>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (11)",
+    "options": {
+      "a": "Java Syntax Extension",
+      "b": "JavaScript XML",
+      "c": "JavaScript Xtreme",
+      "d": "JavaScript Extra"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (12)",
+    "options": {
+      "a": "To set margin",
+      "b": "To define text color",
+      "c": "To define background",
+      "d": "To define how a flex item grows or shrinks"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (13)",
+    "options": {
+      "a": "<list>",
+      "b": "<li>",
+      "c": "<ol>",
+      "d": "<ul>"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (14)",
+    "options": {
+      "a": "Java Syntax Extension",
+      "b": "JavaScript Xtreme",
+      "c": "JavaScript XML",
+      "d": "JavaScript Extra"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (15)",
+    "options": {
+      "a": "To define how a flex item grows or shrinks",
+      "b": "To define background",
+      "c": "To define text color",
+      "d": "To set margin"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (16)",
+    "options": {
+      "a": "<li>",
+      "b": "<ol>",
+      "c": "<list>",
+      "d": "<ul>"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (17)",
+    "options": {
+      "a": "Java Syntax Extension",
+      "b": "JavaScript Extra",
+      "c": "JavaScript XML",
+      "d": "JavaScript Xtreme"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (18)",
+    "options": {
+      "a": "To define text color",
+      "b": "To define background",
+      "c": "To set margin",
+      "d": "To define how a flex item grows or shrinks"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (19)",
+    "options": {
+      "a": "<ol>",
+      "b": "<li>",
+      "c": "<list>",
+      "d": "<ul>"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (20)",
+    "options": {
+      "a": "JavaScript XML",
+      "b": "Java Syntax Extension",
+      "c": "JavaScript Xtreme",
+      "d": "JavaScript Extra"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (21)",
+    "options": {
+      "a": "To define how a flex item grows or shrinks",
+      "b": "To set margin",
+      "c": "To define background",
+      "d": "To define text color"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (22)",
+    "options": {
+      "a": "<list>",
+      "b": "<ol>",
+      "c": "<li>",
+      "d": "<ul>"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (23)",
+    "options": {
+      "a": "JavaScript XML",
+      "b": "JavaScript Xtreme",
+      "c": "Java Syntax Extension",
+      "d": "JavaScript Extra"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (24)",
+    "options": {
+      "a": "To define background",
+      "b": "To define how a flex item grows or shrinks",
+      "c": "To define text color",
+      "d": "To set margin"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (25)",
+    "options": {
+      "a": "<ul>",
+      "b": "<ol>",
+      "c": "<list>",
+      "d": "<li>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (26)",
+    "options": {
+      "a": "JavaScript Extra",
+      "b": "Java Syntax Extension",
+      "c": "JavaScript XML",
+      "d": "JavaScript Xtreme"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (27)",
+    "options": {
+      "a": "To define how a flex item grows or shrinks",
+      "b": "To set margin",
+      "c": "To define text color",
+      "d": "To define background"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (28)",
+    "options": {
+      "a": "<list>",
+      "b": "<li>",
+      "c": "<ol>",
+      "d": "<ul>"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (29)",
+    "options": {
+      "a": "JavaScript Xtreme",
+      "b": "JavaScript Extra",
+      "c": "JavaScript XML",
+      "d": "Java Syntax Extension"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (30)",
+    "options": {
+      "a": "To define background",
+      "b": "To define text color",
+      "c": "To set margin",
+      "d": "To define how a flex item grows or shrinks"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (31)",
+    "options": {
+      "a": "<ul>",
+      "b": "<list>",
+      "c": "<ol>",
+      "d": "<li>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (32)",
+    "options": {
+      "a": "Java Syntax Extension",
+      "b": "JavaScript XML",
+      "c": "JavaScript Xtreme",
+      "d": "JavaScript Extra"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (33)",
+    "options": {
+      "a": "To define background",
+      "b": "To set margin",
+      "c": "To define how a flex item grows or shrinks",
+      "d": "To define text color"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (34)",
+    "options": {
+      "a": "<list>",
+      "b": "<ul>",
+      "c": "<ol>",
+      "d": "<li>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (35)",
+    "options": {
+      "a": "JavaScript Xtreme",
+      "b": "Java Syntax Extension",
+      "c": "JavaScript Extra",
+      "d": "JavaScript XML"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (36)",
+    "options": {
+      "a": "To define text color",
+      "b": "To set margin",
+      "c": "To define background",
+      "d": "To define how a flex item grows or shrinks"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (37)",
+    "options": {
+      "a": "<ul>",
+      "b": "<list>",
+      "c": "<li>",
+      "d": "<ol>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (38)",
+    "options": {
+      "a": "JavaScript Xtreme",
+      "b": "JavaScript Extra",
+      "c": "Java Syntax Extension",
+      "d": "JavaScript XML"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (39)",
+    "options": {
+      "a": "To set margin",
+      "b": "To define how a flex item grows or shrinks",
+      "c": "To define background",
+      "d": "To define text color"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (40)",
+    "options": {
+      "a": "<list>",
+      "b": "<li>",
+      "c": "<ul>",
+      "d": "<ol>"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (41)",
+    "options": {
+      "a": "JavaScript Xtreme",
+      "b": "JavaScript XML",
+      "c": "JavaScript Extra",
+      "d": "Java Syntax Extension"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (42)",
+    "options": {
+      "a": "To define background",
+      "b": "To set margin",
+      "c": "To define text color",
+      "d": "To define how a flex item grows or shrinks"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (43)",
+    "options": {
+      "a": "<ul>",
+      "b": "<li>",
+      "c": "<list>",
+      "d": "<ol>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (44)",
+    "options": {
+      "a": "JavaScript Xtreme",
+      "b": "JavaScript XML",
+      "c": "JavaScript Extra",
+      "d": "Java Syntax Extension"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (45)",
+    "options": {
+      "a": "To set margin",
+      "b": "To define text color",
+      "c": "To define background",
+      "d": "To define how a flex item grows or shrinks"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (46)",
+    "options": {
+      "a": "<ul>",
+      "b": "<list>",
+      "c": "<ol>",
+      "d": "<li>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (47)",
+    "options": {
+      "a": "JavaScript Xtreme",
+      "b": "Java Syntax Extension",
+      "c": "JavaScript XML",
+      "d": "JavaScript Extra"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (48)",
+    "options": {
+      "a": "To define text color",
+      "b": "To set margin",
+      "c": "To define background",
+      "d": "To define how a flex item grows or shrinks"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (49)",
+    "options": {
+      "a": "<li>",
+      "b": "<list>",
+      "c": "<ul>",
+      "d": "<ol>"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (50)",
+    "options": {
+      "a": "JavaScript Xtreme",
+      "b": "Java Syntax Extension",
+      "c": "JavaScript XML",
+      "d": "JavaScript Extra"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (51)",
+    "options": {
+      "a": "To define text color",
+      "b": "To define how a flex item grows or shrinks",
+      "c": "To set margin",
+      "d": "To define background"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (52)",
+    "options": {
+      "a": "<ol>",
+      "b": "<li>",
+      "c": "<list>",
+      "d": "<ul>"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (53)",
+    "options": {
+      "a": "JavaScript XML",
+      "b": "JavaScript Xtreme",
+      "c": "JavaScript Extra",
+      "d": "Java Syntax Extension"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (54)",
+    "options": {
+      "a": "To define text color",
+      "b": "To define background",
+      "c": "To set margin",
+      "d": "To define how a flex item grows or shrinks"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (55)",
+    "options": {
+      "a": "<list>",
+      "b": "<li>",
+      "c": "<ul>",
+      "d": "<ol>"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (56)",
+    "options": {
+      "a": "JavaScript Extra",
+      "b": "JavaScript Xtreme",
+      "c": "JavaScript XML",
+      "d": "Java Syntax Extension"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (57)",
+    "options": {
+      "a": "To define background",
+      "b": "To define how a flex item grows or shrinks",
+      "c": "To define text color",
+      "d": "To set margin"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (58)",
+    "options": {
+      "a": "<li>",
+      "b": "<ol>",
+      "c": "<list>",
+      "d": "<ul>"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (59)",
+    "options": {
+      "a": "JavaScript Xtreme",
+      "b": "Java Syntax Extension",
+      "c": "JavaScript XML",
+      "d": "JavaScript Extra"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (60)",
+    "options": {
+      "a": "To set margin",
+      "b": "To define text color",
+      "c": "To define background",
+      "d": "To define how a flex item grows or shrinks"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (61)",
+    "options": {
+      "a": "<list>",
+      "b": "<li>",
+      "c": "<ul>",
+      "d": "<ol>"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (62)",
+    "options": {
+      "a": "JavaScript XML",
+      "b": "JavaScript Extra",
+      "c": "Java Syntax Extension",
+      "d": "JavaScript Xtreme"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (63)",
+    "options": {
+      "a": "To set margin",
+      "b": "To define text color",
+      "c": "To define how a flex item grows or shrinks",
+      "d": "To define background"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (64)",
+    "options": {
+      "a": "<list>",
+      "b": "<ul>",
+      "c": "<ol>",
+      "d": "<li>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (65)",
+    "options": {
+      "a": "Java Syntax Extension",
+      "b": "JavaScript Xtreme",
+      "c": "JavaScript XML",
+      "d": "JavaScript Extra"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (66)",
+    "options": {
+      "a": "To define how a flex item grows or shrinks",
+      "b": "To set margin",
+      "c": "To define background",
+      "d": "To define text color"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (67)",
+    "options": {
+      "a": "<li>",
+      "b": "<ol>",
+      "c": "<list>",
+      "d": "<ul>"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (68)",
+    "options": {
+      "a": "JavaScript XML",
+      "b": "JavaScript Xtreme",
+      "c": "JavaScript Extra",
+      "d": "Java Syntax Extension"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (69)",
+    "options": {
+      "a": "To define text color",
+      "b": "To set margin",
+      "c": "To define how a flex item grows or shrinks",
+      "d": "To define background"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (70)",
+    "options": {
+      "a": "<ul>",
+      "b": "<li>",
+      "c": "<ol>",
+      "d": "<list>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (71)",
+    "options": {
+      "a": "JavaScript Xtreme",
+      "b": "Java Syntax Extension",
+      "c": "JavaScript Extra",
+      "d": "JavaScript XML"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (72)",
+    "options": {
+      "a": "To define how a flex item grows or shrinks",
+      "b": "To define text color",
+      "c": "To set margin",
+      "d": "To define background"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (73)",
+    "options": {
+      "a": "<ul>",
+      "b": "<list>",
+      "c": "<ol>",
+      "d": "<li>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (74)",
+    "options": {
+      "a": "JavaScript Xtreme",
+      "b": "JavaScript XML",
+      "c": "JavaScript Extra",
+      "d": "Java Syntax Extension"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (75)",
+    "options": {
+      "a": "To define how a flex item grows or shrinks",
+      "b": "To set margin",
+      "c": "To define background",
+      "d": "To define text color"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (76)",
+    "options": {
+      "a": "<ol>",
+      "b": "<list>",
+      "c": "<li>",
+      "d": "<ul>"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (77)",
+    "options": {
+      "a": "JavaScript Xtreme",
+      "b": "Java Syntax Extension",
+      "c": "JavaScript Extra",
+      "d": "JavaScript XML"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (78)",
+    "options": {
+      "a": "To define how a flex item grows or shrinks",
+      "b": "To define background",
+      "c": "To define text color",
+      "d": "To set margin"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (79)",
+    "options": {
+      "a": "<li>",
+      "b": "<list>",
+      "c": "<ol>",
+      "d": "<ul>"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (80)",
+    "options": {
+      "a": "JavaScript Extra",
+      "b": "JavaScript Xtreme",
+      "c": "Java Syntax Extension",
+      "d": "JavaScript XML"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (81)",
+    "options": {
+      "a": "To define text color",
+      "b": "To define background",
+      "c": "To define how a flex item grows or shrinks",
+      "d": "To set margin"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (82)",
+    "options": {
+      "a": "<ol>",
+      "b": "<ul>",
+      "c": "<list>",
+      "d": "<li>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (83)",
+    "options": {
+      "a": "Java Syntax Extension",
+      "b": "JavaScript XML",
+      "c": "JavaScript Extra",
+      "d": "JavaScript Xtreme"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (84)",
+    "options": {
+      "a": "To define background",
+      "b": "To set margin",
+      "c": "To define how a flex item grows or shrinks",
+      "d": "To define text color"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (85)",
+    "options": {
+      "a": "<li>",
+      "b": "<ul>",
+      "c": "<ol>",
+      "d": "<list>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (86)",
+    "options": {
+      "a": "JavaScript Xtreme",
+      "b": "Java Syntax Extension",
+      "c": "JavaScript XML",
+      "d": "JavaScript Extra"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (87)",
+    "options": {
+      "a": "To set margin",
+      "b": "To define background",
+      "c": "To define how a flex item grows or shrinks",
+      "d": "To define text color"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (88)",
+    "options": {
+      "a": "<ul>",
+      "b": "<ol>",
+      "c": "<list>",
+      "d": "<li>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (89)",
+    "options": {
+      "a": "JavaScript Xtreme",
+      "b": "Java Syntax Extension",
+      "c": "JavaScript XML",
+      "d": "JavaScript Extra"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (90)",
+    "options": {
+      "a": "To set margin",
+      "b": "To define how a flex item grows or shrinks",
+      "c": "To define background",
+      "d": "To define text color"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (91)",
+    "options": {
+      "a": "<li>",
+      "b": "<list>",
+      "c": "<ol>",
+      "d": "<ul>"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (92)",
+    "options": {
+      "a": "JavaScript Extra",
+      "b": "JavaScript Xtreme",
+      "c": "JavaScript XML",
+      "d": "Java Syntax Extension"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (93)",
+    "options": {
+      "a": "To define how a flex item grows or shrinks",
+      "b": "To define background",
+      "c": "To set margin",
+      "d": "To define text color"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (94)",
+    "options": {
+      "a": "<list>",
+      "b": "<ul>",
+      "c": "<li>",
+      "d": "<ol>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (95)",
+    "options": {
+      "a": "JavaScript XML",
+      "b": "Java Syntax Extension",
+      "c": "JavaScript Xtreme",
+      "d": "JavaScript Extra"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (96)",
+    "options": {
+      "a": "To define text color",
+      "b": "To define how a flex item grows or shrinks",
+      "c": "To define background",
+      "d": "To set margin"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list? (97)",
+    "options": {
+      "a": "<li>",
+      "b": "<ul>",
+      "c": "<ol>",
+      "d": "<list>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React? (98)",
+    "options": {
+      "a": "JavaScript Extra",
+      "b": "JavaScript Xtreme",
+      "c": "JavaScript XML",
+      "d": "Java Syntax Extension"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox? (99)",
+    "options": {
+      "a": "To define how a flex item grows or shrinks",
+      "b": "To define text color",
+      "c": "To set margin",
+      "d": "To define background"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  }
+]
