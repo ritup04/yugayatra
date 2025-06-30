@@ -375,14 +375,18 @@ const InternshipForm = () => {
                       className="w-full px-4 py-3 bg-white border border-lavish-gold/30 rounded-xl focus:outline-none focus:ring-2 focus:ring-lavish-gold/20 focus:border-lavish-gold text-sm transition-all duration-300"
                     >
                       <option value="">Select a domain</option>
-                      <option value="Frontend">Frontend</option>
-                      <option value="Backend">Backend</option>
-                      <option value="Fullstack">Fullstack</option>
-                      <option value="Digital Marketing">Digital Marketing</option>
-                      <option value="HR">HR</option>
-                      <option value="UI/UX Design">UI/UX Design</option>
-                      <option value="Content Writing">Content Writing</option>
-                      <option value="Other">Other</option>
+                      <option value="backend development">Backend Development</option>
+                      <option value="content writing">Content Writing</option>
+                      <option value="data analysis">Data Analysis</option>
+                      <option value="data science">Data Science</option>
+                      <option value="devops">DevOps</option>
+                      <option value="digital marketing">Digital Marketing</option>
+                      <option value="front end development">Front End Development</option>
+                      <option value="full stack development">Full Stack Development</option>
+                      <option value="hr">HR</option>
+                      <option value="machine learning">Machine Learning</option>
+                      <option value="mobile development">Mobile Development</option>
+                      <option value="ui/ux design">UI/UX Design</option>
                     </select>
                     {fieldErrors.domain && (
                       <p className="text-red-500 text-xs font-medium flex items-center gap-1">

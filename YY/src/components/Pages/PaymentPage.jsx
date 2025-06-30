@@ -24,7 +24,7 @@ const PaymentPage = () => {
   const createOrder = async () => {
     try {
       setPaymentStatus('processing');
-      const response = await fetch('http://localhost:3000/create-order', {
+      const response = await fetch('http://localhost:5000/create-order', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -87,7 +87,7 @@ const PaymentPage = () => {
 
   const verifyPayment = async (response) => {
     try {
-      const verifyResponse = await fetch('http://localhost:3000/verify-payment', {
+      const verifyResponse = await fetch('http://localhost:5000/verify-payment', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -161,14 +161,18 @@ export default function Test() {
               disabled={attemptsInfo && attemptsInfo.remainingAttempts <= 0}
             >
               <option value="">-- Select Domain --</option>
-              <option value="Fullstack">Fullstack Development</option>
-              <option value="Frontend">Frontend Development</option>
-              <option value="Backend">Backend Development</option>
-              <option value="Data Science">Data Science</option>
-              <option value="UI/UX">UI/UX Design</option>
-              <option value="Mobile">Mobile Development</option>
-              <option value="DevOps">DevOps</option>
-              <option value="Other">Other</option>
+              <option value="backend development">Backend Development</option>
+              <option value="content writing">Content Writing</option>
+              <option value="data analysis">Data Analysis</option>
+              <option value="data science">Data Science</option>
+              <option value="devops">DevOps</option>
+              <option value="digital marketing">Digital Marketing</option>
+              <option value="front end development">Front End Development</option>
+              <option value="full stack development">Full Stack Development</option>
+              <option value="hr">HR</option>
+              <option value="machine learning">Machine Learning</option>
+              <option value="mobile development">Mobile Development</option>
+              <option value="ui/ux design">UI/UX Design</option>
             </select>
             {error && <div className="text-red-600 text-sm mt-2 text-left">{error}</div>}
           </div>

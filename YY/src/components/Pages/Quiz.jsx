@@ -2,68 +2,11 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ExclamationTriangleIcon } from '@heroicons/react/24/outline';
 
-const questions = [
-  {
-    question: 'What is the capital of India?',
-    options: ['Mumbai', 'Delhi', 'Bangalore', 'Kolkata'],
-    answer: 'Delhi',
-  },
-  {
-    question: 'Which language is used for web apps?',
-    options: ['PHP', 'Python', 'JavaScript', 'All of the above'],
-    answer: 'All of the above',
-  },
-  {
-    question: 'What does HTML stand for?',
-    options: [
-      'Hyper Trainer Marking Language',
-      'Hyper Text Marketing Language',
-      'Hyper Text Markup Language',
-      'Hyper Text Markup Leveler',
-    ],
-    answer: 'Hyper Text Markup Language',
-  },
-  {
-    question: 'Which company developed React?',
-    options: ['Google', 'Facebook', 'Microsoft', 'Amazon'],
-    answer: 'Facebook',
-  },
-  {
-    question: 'What is the currency of Japan?',
-    options: ['Yen', 'Won', 'Dollar', 'Euro'],
-    answer: 'Yen',
-  },
-  {
-    question: 'Which is not a programming language?',
-    options: ['Python', 'HTML', 'Java', 'C++'],
-    answer: 'HTML',
-  },
-  {
-    question: 'What is 2 + 2?',
-    options: ['3', '4', '5', '6'],
-    answer: '4',
-  },
-  {
-    question: 'Which planet is known as the Red Planet?',
-    options: ['Earth', 'Mars', 'Jupiter', 'Venus'],
-    answer: 'Mars',
-  },
-  {
-    question: 'What color do you get when you mix red and white?',
-    options: ['Pink', 'Purple', 'Orange', 'Brown'],
-    answer: 'Pink',
-  },
-  {
-    question: 'Which is the largest ocean on Earth?',
-    options: ['Atlantic', 'Indian', 'Arctic', 'Pacific'],
-    answer: 'Pacific',
-  },
-];
-
 const TEST_DURATION_MINUTES = 30; // Change this for different durations
 const MAX_ATTEMPTS = 3;
 
 export default function Quiz() {
+  const [questions, setQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState([]);
   const [showScore, setShowScore] = useState(false);
@@ -72,58 +15,83 @@ export default function Quiz() {
   const [isLoading, setIsLoading] = useState(true);
   const [timeLeft, setTimeLeft] = useState(TEST_DURATION_MINUTES * 60); // in seconds
   const [attemptsInfo, setAttemptsInfo] = useState(null);
+  const [error, setError] = useState('');
+  const [startTime, setStartTime] = useState(null);
   const timerRef = useRef();
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Check if payment was successful
-    const paymentSuccess = localStorage.getItem('paymentSuccess');
-    const paymentOrderId = localStorage.getItem('paymentOrderId');
-    
-    if (paymentSuccess === 'true' && paymentOrderId) {
-      setHasPayment(true);
-      // Fetch attempts for the user's email
-      fetchAttempts();
-    }
-    setIsLoading(false);
-  }, []);
-
-  const fetchAttempts = async () => {
-    try {
-      const studentEmail = localStorage.getItem('studentEmail') || 'test@yugayatra.com';
-      const response = await fetch(`http://localhost:5000/api/attempts/${encodeURIComponent(studentEmail)}`);
-      const data = await response.json();
-      
-      if (data.success) {
-        setAttemptsInfo(data);
-      } else {
-        console.error('Failed to fetch attempts:', data.message);
-        setAttemptsInfo({
-          attemptsUsed: 0,
-          totalAttempts: 5,
-          remainingAttempts: 5
-        });
+    const initializeQuiz = async () => {
+      // 1. Check for payment
+      const paymentSuccess = localStorage.getItem('paymentSuccess');
+      if (!paymentSuccess) {
+        setError('Payment has not been completed.');
+        setIsLoading(false);
+        return;
       }
-    } catch (error) {
-      console.error('Error fetching attempts:', error);
-      setAttemptsInfo({
-        attemptsUsed: 0,
-        totalAttempts: 5,
-        remainingAttempts: 5
-      });
-    }
-  };
+      setHasPayment(true);
+
+      // 2. Fetch user's attempt history
+      const studentEmail = localStorage.getItem('studentEmail') || 'test@yugayatra.com';
+      try {
+        const attemptsRes = await fetch(`http://localhost:5000/api/attempts/${encodeURIComponent(studentEmail)}`);
+        const attemptsData = await attemptsRes.json();
+        if (attemptsData.success) {
+          if (attemptsData.remainingAttempts <= 0) {
+            setError('You have no remaining attempts.');
+            setIsLoading(false);
+            return;
+          }
+          setAttemptsInfo(attemptsData);
+        } else {
+          throw new Error(attemptsData.message || 'Failed to fetch attempts.');
+        }
+      } catch (err) {
+        setError('Could not verify your test attempts. Please try again.');
+        setIsLoading(false);
+        return;
+      }
+      
+      // 3. Fetch questions
+      const domain = localStorage.getItem('testDomain');
+      console.log('Selected domain for quiz:', domain);
+      if (!domain) {
+        setError('No domain selected. Please go back and select a domain.');
+        setIsLoading(false);
+        return;
+      }
+
+      try {
+        const questionsRes = await fetch(`http://localhost:5000/api/test/questions?domain=${encodeURIComponent(domain)}`);
+        const questionsData = await questionsRes.json();
+        console.log('Questions API response:', questionsData);
+        if (questionsData.success && questionsData.questions.length > 0) {
+          setQuestions(questionsData.questions);
+          setSelected(new Array(questionsData.questions.length).fill(null));
+          setStartTime(new Date());
+        } else {
+          setError(questionsData.error || 'No questions available for this domain.');
+        }
+      } catch (err) {
+        setError(err.message || 'Could not connect to the server.');
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    initializeQuiz();
+  }, [navigate]);
 
   // Timer logic
   useEffect(() => {
-    if (showScore || reviewMode) return; // Pause timer if test is submitted
+    if (isLoading || showScore || reviewMode) return;
     if (timeLeft <= 0) {
       handleAutoSubmit();
       return;
     }
     timerRef.current = setTimeout(() => setTimeLeft(timeLeft - 1), 1000);
     return () => clearTimeout(timerRef.current);
-  }, [timeLeft, showScore, reviewMode]);
+  }, [timeLeft, showScore, reviewMode, isLoading]);
 
   const formatTime = (seconds) => {
     const m = Math.floor(seconds / 60).toString().padStart(2, '0');
@@ -156,113 +124,57 @@ export default function Quiz() {
     }
   };
 
-  // Submission logic
-  const handleManualSubmit = () => {
-    const attempts = getRemainingAttempts();
-    if (attempts <= 0) {
-      alert('No attempts remaining.');
-      return;
+  const submitTest = async () => {
+    if (showScore) return; // Prevent double submission
+
+    const endTime = new Date();
+    const timeTaken = Math.round((endTime - startTime) / 1000); // in seconds
+
+    const submissionData = {
+      studentName: localStorage.getItem('studentName') || 'Test User',
+      email: localStorage.getItem('studentEmail') || 'test@example.com',
+      domain: localStorage.getItem('testDomain'),
+      questions: questions.map((q, idx) => ({
+        _id: q._id,
+        question: q.question,
+        options: q.options,
+        category: q.category,
+        difficulty: q.difficulty,
+        selectedOption: Object.keys(q.options).find(key => q.options[key] === selected[idx]) || null
+      })),
+      timeTaken,
+      startedOn: startTime,
+      completedOn: endTime,
+    };
+
+    try {
+      const response = await fetch('http://localhost:5000/api/test/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(submissionData),
+      });
+      const data = await response.json();
+
+      if (data.success) {
+        navigate(`/result/${data.resultId}`);
+      } else {
+        setError(data.error || 'Failed to submit test results.');
+        setShowScore(false); // Allow retry
+      }
+    } catch (err) {
+      setError('Could not connect to the server to submit results.');
+      setShowScore(false); // Allow retry
     }
-    const score = selected.filter((ans, idx) => ans === questions[idx].answer).length;
-    setAttemptsInfo({
-      ...attemptsInfo,
-      attemptsUsed: attemptsInfo.attemptsUsed + 1,
-      remainingAttempts: attemptsInfo.remainingAttempts - 1
-    });
-    localStorage.setItem('lastScore', JSON.stringify(score));
-    localStorage.setItem('lastTotal', JSON.stringify(questions.length));
-    setShowScore(true);
-    setReviewMode(true);
-    
-    // Save test result to backend
-    saveTestResult(score, questions.length, attemptsInfo.attemptsUsed);
-    
-    // Redirect to result page after a short delay for UX
-    setTimeout(() => {
-      navigate('/result', { state: { score, total: questions.length, attempts: attemptsInfo.attemptsUsed } });
-    }, 1000);
+  };
+
+  const handleManualSubmit = () => {
+    setShowScore(true); // Show a submitting state
+    submitTest();
   };
 
   const handleAutoSubmit = () => {
-    const attempts = getRemainingAttempts();
-    if (attempts <= 0) {
-      alert('No attempts remaining.');
-      return;
-    }
-    const score = selected.filter((ans, idx) => ans === questions[idx].answer).length;
-    setAttemptsInfo({
-      ...attemptsInfo,
-      attemptsUsed: attemptsInfo.attemptsUsed + 1,
-      remainingAttempts: attemptsInfo.remainingAttempts - 1
-    });
-    localStorage.setItem('lastScore', JSON.stringify(score));
-    localStorage.setItem('lastTotal', JSON.stringify(questions.length));
     setShowScore(true);
-    setReviewMode(true);
-    
-    // Save test result to backend
-    saveTestResult(score, questions.length, attemptsInfo.attemptsUsed);
-    
-    setTimeout(() => {
-      navigate('/result', { state: { score, total: questions.length, attempts: attemptsInfo.attemptsUsed } });
-    }, 1000);
-  };
-
-  // Save test result to backend
-  const saveTestResult = async (score, totalQuestions, attemptsUsed) => {
-    try {
-      const paymentOrderId = localStorage.getItem('paymentOrderId');
-      const paymentId = localStorage.getItem('paymentId');
-      
-      // Get student information (you might want to collect this during the test)
-      const studentName = localStorage.getItem('studentName') || 'Test User';
-      const studentEmail = localStorage.getItem('studentEmail') || 'test@yugayatra.com';
-      
-      // Calculate time taken
-      const timeTaken = `${Math.floor((TEST_DURATION_MINUTES * 60 - timeLeft) / 60)} mins ${(TEST_DURATION_MINUTES * 60 - timeLeft) % 60} secs`;
-      
-      // Prepare questions data with answers
-      const questionsData = questions.map((q, idx) => ({
-        question: q.question,
-        selectedAnswer: selected[idx] || 'Not answered',
-        correctAnswer: q.answer,
-        isCorrect: selected[idx] === q.answer
-      }));
-      
-      // Get domain from localStorage
-      const domain = localStorage.getItem('testDomain') || '';
-      
-      const response = await fetch('http://localhost:3000/save-test-result', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          studentName,
-          email: studentEmail,
-          score,
-          totalQuestions,
-          attemptsUsed: attemptsUsed + 1, // This is the attempt number (1-based)
-          totalAttempts: 5, // Total attempts allowed
-          paymentId,
-          orderId: paymentOrderId,
-          timeTaken,
-          startedOn: new Date(Date.now() - (TEST_DURATION_MINUTES * 60 - timeLeft) * 1000).toISOString(),
-          completedOn: new Date().toISOString(),
-          questions: questionsData,
-          domain
-        })
-      });
-
-      const data = await response.json();
-      if (data.success) {
-        console.log('Test result saved successfully:', data.record);
-      } else {
-        console.error('Failed to save test result:', data.error);
-      }
-    } catch (error) {
-      console.error('Error saving test result:', error);
-    }
+    submitTest();
   };
 
   const handleGoToPayment = () => {
@@ -270,11 +182,51 @@ export default function Quiz() {
   };
 
   if (isLoading) {
+    console.log('Quiz loading...');
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
         <div className="text-center">
           <div className="w-8 h-8 border-4 border-lavish-gold border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-gray-600">Loading...</p>
+          <p className="text-gray-600">Initializing Test...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    console.error('Quiz error:', error);
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4 py-12">
+        <div className="bg-white rounded-2xl shadow-xl p-8 max-w-md w-full text-center">
+          <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <ExclamationTriangleIcon className="w-8 h-8 text-red-600" />
+          </div>
+          <h2 className="text-2xl font-bold text-rich-black mb-4">Could Not Start Test</h2>
+          <p className="text-gray-600 mb-6">{error}</p>
+          <button
+            onClick={() => navigate('/test-terms')}
+            className="w-full px-6 py-3 bg-lavish-gold text-white rounded-lg font-semibold hover:bg-yellow-600 transition-colors"
+          >
+            Go Back
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  if (!questions || questions.length === 0) {
+    console.warn('No questions loaded:', questions);
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4 py-12">
+        <div className="bg-white rounded-2xl shadow-xl p-8 max-w-md w-full text-center">
+          <h2 className="text-2xl font-bold text-rich-black mb-4">No Questions Available</h2>
+          <p className="text-gray-600 mb-6">There are no questions available for this test. Please contact support or try again later.</p>
+          <button
+            onClick={() => navigate('/test-terms')}
+            className="w-full px-6 py-3 bg-lavish-gold text-white rounded-lg font-semibold hover:bg-yellow-600 transition-colors"
+          >
+            Go Back
+          </button>
         </div>
       </div>
     );
@@ -351,91 +303,40 @@ export default function Quiz() {
                       name={`q${current}`}
                       value={option}
                       checked={selected[current] === option}
-                      disabled={selected[current] !== undefined || reviewMode}
                       onChange={() => handleOptionClick(option)}
-                      className="accent-lavish-gold"
                     />
-                    <label htmlFor={`q${current}_opt${idx}`} className="text-base cursor-pointer">
-                      {option}
-                      {showScore && selected[current] === option && (
-                        selected[current] === questions[current].answer ? (
-                          <span className="ml-2 text-green-600 font-bold">&#10003;</span>
-                        ) : (
-                          <span className="ml-2 text-red-600 font-bold">&#10007;</span>
-                        )
-                      )}
-                      {showScore && option === questions[current].answer && selected[current] !== questions[current].answer && (
-                        <span className="ml-2 text-green-600 font-bold">(Correct)</span>
-                      )}
-                    </label>
+                    <label htmlFor={`q${current}_opt${idx}`} className="text-gray-700">{option}</label>
                   </div>
                 ))}
               </div>
             </div>
-            {/* Navigation Buttons */}
-            {!showScore && (
-              <div className="flex flex-wrap gap-4 mt-8 justify-between items-center">
-                <button
-                  className="px-6 py-2 bg-gray-200 text-rich-black rounded-lg font-semibold hover:bg-gray-300 transition"
-                  onClick={handlePrevious}
-                  disabled={current === 0}
-                >
-                  Previous
-                </button>
-                <button
-                  className="px-6 py-2 bg-lavish-gold text-white rounded-lg font-semibold hover:bg-yellow-600 transition"
-                  onClick={handleNext}
-                  disabled={selected[current] === undefined}
-                >
-                  {current === questions.length - 1 ? 'Submit' : 'Next'}
-                </button>
-              </div>
-            )}
-            {/* Show auto-submit message if time is up */}
-            {showScore && timeLeft === 0 && (
-              <div className="mt-6 p-4 bg-yellow-100 border-l-4 border-yellow-500 text-yellow-800 rounded">
-                Time is up! Your test has been auto-submitted.
-              </div>
-            )}
-          </div>
-        </div>
-        {/* Right Sidebar Navigation (20%) */}
-        <div className="w-64 bg-white rounded-2xl shadow-xl p-6 flex flex-col items-center h-fit sticky top-24">
-          <h2 className="text-lg font-bold mb-4 text-rich-black">Quiz navigation</h2>
-          <div className="flex flex-wrap gap-2 justify-center mb-4">
-            {questions.map((_, idx) => (
+            <div className="flex justify-between">
               <button
-                key={idx}
-                className={`w-8 h-8 rounded border text-sm font-bold transition-all
-                  ${current === idx ? 'bg-lavish-gold text-white border-lavish-gold' : ''}
-                  ${selected[idx] !== undefined && current !== idx ? 'bg-green-100 border-green-400 text-green-700' : ''}
-                  ${selected[idx] === undefined && current !== idx ? 'bg-gray-100 border-gray-300 text-gray-400' : ''}
-                `}
-                onClick={() => setCurrent(idx)}
-                disabled={reviewMode}
-                title={`Go to question ${idx + 1}`}
+                onClick={handlePrevious}
+                disabled={current === 0}
+                className="px-4 py-2 bg-lavish-gold text-white rounded-lg font-semibold hover:bg-yellow-600 transition-colors"
               >
-                {idx + 1}
+                Previous
               </button>
-            ))}
+              <button
+                onClick={handleNext}
+                disabled={current === questions.length - 1}
+                className="px-4 py-2 bg-lavish-gold text-white rounded-lg font-semibold hover:bg-yellow-600 transition-colors"
+              >
+                Next
+              </button>
+            </div>
+            <div className="mt-6">
+              <button
+                onClick={handleManualSubmit}
+                className="w-full px-6 py-3 bg-lavish-gold text-white rounded-lg font-semibold hover:bg-yellow-600 transition-colors"
+              >
+                Submit
+              </button>
+            </div>
           </div>
-          <div className="mb-2 text-sm">
-            <span className="font-semibold">Total:</span> {questions.length}
-          </div>
-          <div className="mb-4 text-sm">
-            <span className="font-semibold">Attempted:</span> {selected.filter(ans => ans !== undefined).length}
-          </div>
-          {/* Submit button in sidebar */}
-          {!showScore && (
-            <button
-              className="w-full px-6 py-3 bg-lavish-gold text-white rounded-lg font-semibold hover:bg-yellow-600 transition mt-4"
-              onClick={handleManualSubmit}
-            >
-              Submit
-            </button>
-          )}
         </div>
       </div>
     </div>
   );
-} 
+}
