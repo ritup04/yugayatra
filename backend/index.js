@@ -7,6 +7,7 @@ import TestResult from './models/TestResult.js';
 import Razorpay from 'razorpay';
 import crypto from 'crypto';
 import Question from './models/Question.js';
+import User from './models/User.js';
 
 dotenv.config();
 
@@ -135,6 +136,7 @@ app.post('/api/test/submit', async (req, res) => {
         question: q.question,
         options: q.options,
         selectedOption: q.selectedOption,
+        selectedAnswer: q.selectedOption,
         correctAnswer: correctAnswer,
         isCorrect: isCorrect,
         category: q.category,
@@ -156,6 +158,17 @@ app.post('/api/test/submit', async (req, res) => {
     });
 
     const savedResult = await newTestResult.save();
+
+    // Update user attempts
+    let user = await User.findOne({ email });
+    if (!user) {
+      user = new User({ name: studentName, email, attemptsUsed: 1, lastTestDate: new Date(), eligibilityStatus: 'Pending' });
+    } else {
+      user.attemptsUsed = (user.attemptsUsed || 0) + 1;
+      user.lastTestDate = new Date();
+    }
+    await user.save();
+
     res.status(201).json({ success: true, resultId: savedResult._id, result: savedResult });
 
   } catch (error) {
@@ -315,9 +328,32 @@ app.get('/api/test-results/:id', async (req, res) => {
         message: 'Test result not found'
       });
     }
+
+    // Always set totalAttempts to 5
+    testResult.totalAttempts = 5;
+
+    // Fetch all original questions to get options
+    const questionTexts = testResult.questions.map(q => q.question);
+    const originalQuestions = await Question.find({ question: { $in: questionTexts } });
+    const optionsMap = {};
+    originalQuestions.forEach(q => {
+      optionsMap[q.question] = q.options;
+    });
+
+    // Merge options into each result question
+    const questionsWithOptions = testResult.questions.map(q => ({
+      ...q._doc ? q._doc : q,
+      options: optionsMap[q.question] ? Object.fromEntries(optionsMap[q.question]) : undefined
+    }));
+
+    // Return the modified result
     res.json({
       success: true,
-      record: testResult
+      record: {
+        ...testResult._doc ? testResult._doc : testResult,
+        totalAttempts: 5,
+        questions: questionsWithOptions
+      }
     });
   } catch (err) {
     console.error('Error fetching test result:', err);
@@ -355,6 +391,70 @@ app.get('/api/attempts/:email', async (req, res) => {
       message: 'Error fetching attempts', 
       error: err.message 
     });
+  }
+});
+
+// Get user profile by email
+app.get('/api/user/:email', async (req, res) => {
+  try {
+    const user = await User.findOne({ email: req.params.email });
+    if (!user) {
+      return res.status(404).json({ success: false, message: 'User not found' });
+    }
+    res.json({ success: true, user });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Error fetching user', error: err.message });
+  }
+});
+
+// Create or update user profile
+app.post('/api/user', async (req, res) => {
+  try {
+    const { name, email } = req.body;
+    if (!name || !email) {
+      return res.status(400).json({ success: false, message: 'Name and email are required' });
+    }
+    let user = await User.findOne({ email });
+    if (user) {
+      user.name = name;
+      user.updatedAt = new Date();
+      await user.save();
+    } else {
+      user = new User({ name, email });
+      await user.save();
+    }
+    res.json({ success: true, user });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Error saving user', error: err.message });
+  }
+});
+
+// Update eligibility status or attempts
+app.patch('/api/user/:email', async (req, res) => {
+  try {
+    const { eligibilityStatus, attemptsUsed, lastTestDate } = req.body;
+    const user = await User.findOne({ email: req.params.email });
+    if (!user) {
+      return res.status(404).json({ success: false, message: 'User not found' });
+    }
+    if (eligibilityStatus) user.eligibilityStatus = eligibilityStatus;
+    if (typeof attemptsUsed === 'number') user.attemptsUsed = attemptsUsed;
+    if (lastTestDate) user.lastTestDate = new Date(lastTestDate);
+    user.updatedAt = new Date();
+    await user.save();
+    res.json({ success: true, user });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Error updating user', error: err.message });
+  }
+});
+
+// Get all test results for a user
+app.get('/api/user/:email/results', async (req, res) => {
+  try {
+    const results = await TestResult.find({ email: req.params.email }).sort({ testDate: -1 });
+    res.json({ success: true, results });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Error fetching test results', error: err.message });
   }
 });
 

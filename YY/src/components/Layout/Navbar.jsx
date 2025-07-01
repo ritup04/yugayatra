@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import emailjs from '@emailjs/browser';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -17,6 +17,7 @@ const Navbar = () => {
     skills: '',
     message: ''
   });
+  const studentEmail = typeof window !== 'undefined' ? localStorage.getItem('studentEmail') : null;
   
   // Check if we're on the home page
   const isHomePage = location.pathname === '/';
@@ -172,6 +173,11 @@ const Navbar = () => {
             <Link to="/admin" className="text-sm bg-gray-800 text-white px-3 py-1 rounded-lg hover:bg-gray-700 transition-colors duration-300">
               Admin
             </Link>
+            {studentEmail && (
+              <Link to="/profile" className="text-rich-black hover:text-lavish-gold transition-colors duration-300 font-medium">
+                Profile
+              </Link>
+            )}
           </div>
 
           {/* Mobile Menu Button */}
@@ -239,6 +245,15 @@ const Navbar = () => {
             >
               Admin
             </Link>
+            {studentEmail && (
+              <Link
+                to="/profile"
+                className="text-rich-black hover:text-lavish-gold transition-colors duration-300 font-medium py-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Profile
+              </Link>
+            )}
           </div>
         </div>
       </div>

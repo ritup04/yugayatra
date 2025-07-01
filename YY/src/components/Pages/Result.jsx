@@ -93,11 +93,22 @@ export default function Result() {
               <div className="text-sm text-gray-600">Time Taken</div>
             </div>
           </div>
-           <div className="mt-8">
-              <Link to="/" className="px-8 py-3 bg-lavish-gold text-white rounded-lg font-semibold hover:bg-yellow-600 transition">
-                Go to Homepage
-              </Link>
+           <div className="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
+            <Link to="/" className="px-8 py-3 bg-lavish-gold text-white rounded-lg font-semibold hover:bg-yellow-600 transition">
+              Go to Homepage
+            </Link>
+            <button
+              onClick={() => navigate('/quiz')}
+              className="px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition"
+            >
+              Retake Test
+            </button>
           </div>
+          {typeof result.attemptsUsed === 'number' && typeof result.totalAttempts === 'number' && (
+            <div className="mt-4 text-lg text-gray-700">
+              Attempts: {result.attemptsUsed}/{result.totalAttempts} (Remaining: {result.totalAttempts - result.attemptsUsed})
+            </div>
+          )}
         </div>
 
         {/* Question Review */}
@@ -108,16 +119,29 @@ export default function Result() {
               <div key={index} className={`p-4 rounded-lg border-l-4 ${q.isCorrect ? 'border-green-500 bg-green-50' : 'border-red-500 bg-red-50'}`}>
                 <p className="font-semibold text-rich-black mb-2">{index + 1}. {q.question}</p>
                 <div className="space-y-1 text-sm">
-                  {Object.entries(q.options).map(([key, value]) => (
-                    <p key={key} className={`
-                      ${q.selectedOption === key && !q.isCorrect ? 'text-red-700 font-semibold' : ''}
-                      ${key === q.correctAnswer ? 'text-green-700 font-semibold' : ''}
-                    `}>
-                      {key.toUpperCase()}: {value}
-                      {key === q.correctAnswer && <span className="ml-2 text-green-700">(Correct Answer)</span>}
-                      {q.selectedOption === key && !q.isCorrect && <span className="ml-2 text-red-700">(Your Answer)</span>}
-                    </p>
-                  ))}
+                  {q.options && typeof q.options === 'object' ? (
+                    Object.entries(q.options).map(([key, value]) => (
+                      <p key={key} className={`
+                        rounded px-2 py-1
+                        ${key === q.correctAnswer ? 'bg-green-100 text-green-800 font-bold border border-green-400' : ''}
+                        ${q.selectedOption === key && key !== q.correctAnswer ? 'bg-red-100 text-red-800 font-semibold border border-red-400' : ''}
+                      `}>
+                        {key.toUpperCase()}: {value}
+                        {key === q.correctAnswer && <span className="ml-2">(Correct Answer)</span>}
+                        {q.selectedOption === key && key !== q.correctAnswer && <span className="ml-2">(Your Answer)</span>}
+                      </p>
+                    ))
+                  ) : (
+                    <>
+                      <p className="text-red-600">No options available for this question.</p>
+                      {q.correctAnswer && q.optionsText && q.optionsText[q.correctAnswer] && (
+                        <p className="text-green-700 font-semibold">Correct Answer: {q.optionsText[q.correctAnswer]}</p>
+                      )}
+                      {q.correctAnswer && (!q.optionsText || !q.optionsText[q.correctAnswer]) && (
+                        <p className="text-green-700 font-semibold">Correct Answer: {q.correctAnswer}</p>
+                      )}
+                    </>
+                  )}
                 </div>
               </div>
             ))}

@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { ExclamationTriangleIcon } from '@heroicons/react/24/outline';
 
 const TEST_DURATION_MINUTES = 30; // Change this for different durations
-const MAX_ATTEMPTS = 3;
+const MAX_ATTEMPTS = 5;
 
 export default function Quiz() {
   const [questions, setQuestions] = useState([]);
@@ -104,10 +104,10 @@ export default function Quiz() {
     return attemptsInfo ? attemptsInfo.remainingAttempts : 0;
   };
 
-  const handleOptionClick = (option) => {
-    if (selected[current] === undefined && !reviewMode) {
+  const handleOptionClick = (option, idx) => {
+    if (!reviewMode) {
       const newSelected = [...selected];
-      newSelected[current] = option;
+      newSelected[idx] = option;
       setSelected(newSelected);
     }
   };
@@ -140,7 +140,7 @@ export default function Quiz() {
         options: q.options,
         category: q.category,
         difficulty: q.difficulty,
-        selectedOption: Object.keys(q.options).find(key => q.options[key] === selected[idx]) || null
+        selectedOption: selected[idx] || null
       })),
       timeTaken,
       startedOn: startTime,
@@ -264,78 +264,76 @@ export default function Quiz() {
 
   return (
     <div className="min-h-screen flex flex-col items-center bg-gray-50 px-4 py-8 mt-24">
-      {/* Timer Bar */}
-      <div className="w-full max-w-6xl flex justify-between items-center mb-6">
-        <div />
-        <div className="flex items-center gap-4">
-          {attemptsInfo && (
-            <div className="text-lg font-semibold text-blue-600 bg-blue-50 px-4 py-2 rounded-xl">
-              Attempts: {attemptsInfo.attemptsUsed}/{attemptsInfo.totalAttempts} (Remaining: {attemptsInfo.remainingAttempts})
-            </div>
-          )}
-          <div className="text-2xl font-bold text-lavish-gold bg-white px-6 py-2 rounded-xl shadow">
-            Time Left: {formatTime(timeLeft)}
+      {/* Progress Bar and Timer */}
+      <div className="w-full max-w-2xl flex items-center justify-between mb-8">
+        <div className="flex-1 mr-4">
+          <div className="text-xs font-semibold text-gray-500 mb-1">Progress</div>
+          <div className="w-full bg-gray-200 rounded-full h-2">
+            <div
+              className="bg-lavish-gold h-2 rounded-full transition-all"
+              style={{ width: `${((current + 1) / questions.length) * 100}%` }}
+            ></div>
           </div>
         </div>
-        <div />
+        <div className="text-right">
+          <div className="text-xs font-semibold text-gray-500 mb-1">Time Left</div>
+          <div className="text-lg font-bold text-lavish-gold">{formatTime(timeLeft)}</div>
+        </div>
       </div>
-      <h1 className="text-3xl font-extrabold text-rich-black mb-6 text-center">YugaYatra Internship Test</h1>
-      <div className="flex w-full max-w-6xl gap-8">
-        {/* Main Question Area (80%) */}
-        <div className="flex-1 min-w-0">
-          <div className="bg-white rounded-2xl shadow-xl p-10 w-full text-left mx-auto">
-            <div className="mb-6">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="font-semibold text-gray-700">Question {current + 1}</span>
-                {showScore && (
-                  <span className={`text-xs font-bold ml-2 ${selected[current] === questions[current].answer ? 'text-green-600' : 'text-red-600'}`}>
-                    {selected[current] === questions[current].answer ? 'Correct' : 'Incorrect'}
-                  </span>
-                )}
-              </div>
-              <div className="text-gray-800 mb-4 text-lg">{questions[current].question}</div>
-              <div className="space-y-2">
-                {questions[current].options.map((option, idx) => (
-                  <div key={option} className="flex items-center gap-2">
-                    <input
-                      type="radio"
-                      id={`q${current}_opt${idx}`}
-                      name={`q${current}`}
-                      value={option}
-                      checked={selected[current] === option}
-                      onChange={() => handleOptionClick(option)}
-                    />
-                    <label htmlFor={`q${current}_opt${idx}`} className="text-gray-700">{option}</label>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="flex justify-between">
-              <button
-                onClick={handlePrevious}
-                disabled={current === 0}
-                className="px-4 py-2 bg-lavish-gold text-white rounded-lg font-semibold hover:bg-yellow-600 transition-colors"
-              >
-                Previous
-              </button>
-              <button
-                onClick={handleNext}
-                disabled={current === questions.length - 1}
-                className="px-4 py-2 bg-lavish-gold text-white rounded-lg font-semibold hover:bg-yellow-600 transition-colors"
-              >
-                Next
-              </button>
-            </div>
-            <div className="mt-6">
-              <button
-                onClick={handleManualSubmit}
-                className="w-full px-6 py-3 bg-lavish-gold text-white rounded-lg font-semibold hover:bg-yellow-600 transition-colors"
-              >
-                Submit
-              </button>
-            </div>
-          </div>
+
+      {/* Question Card */}
+      <div className="w-full max-w-2xl bg-white rounded-2xl shadow-xl p-8 mb-8">
+        <div className="text-gray-400 text-sm mb-2">Question {current + 1} of {questions.length}</div>
+        <div className="text-lg font-semibold text-rich-black mb-6">{questions[current].question}</div>
+        <div className="space-y-4">
+          {Object.entries(questions[current].options).map(([key, value]) => (
+            <label
+              key={key}
+              className={`flex items-center w-full px-4 py-3 rounded-lg border cursor-pointer transition-all
+                ${selected[current] === key
+                  ? 'bg-lavish-gold/10 border-lavish-gold ring-2 ring-lavish-gold'
+                  : 'bg-gray-50 border-gray-300 hover:bg-yellow-50 hover:border-lavish-gold'}
+              `}
+            >
+              <input
+                type="radio"
+                name={`q${current}`}
+                value={key}
+                checked={selected[current] === key}
+                onChange={() => handleOptionClick(key, current)}
+                className="form-radio h-5 w-5 text-lavish-gold focus:ring-lavish-gold mr-4"
+              />
+              <span className="text-gray-800 text-base">{value}</span>
+            </label>
+          ))}
         </div>
+      </div>
+
+      {/* Navigation Buttons */}
+      <div className="w-full max-w-2xl flex justify-between items-center mt-4">
+        <button
+          onClick={handlePrevious}
+          disabled={current === 0}
+          className={`px-8 py-3 rounded-lg font-semibold transition-colors text-lg
+            ${current === 0 ? 'bg-gray-200 text-gray-400 cursor-not-allowed' : 'bg-lavish-gold text-white hover:bg-yellow-600'}`}
+        >
+          Previous
+        </button>
+        {current < questions.length - 1 ? (
+          <button
+            onClick={handleNext}
+            className="px-8 py-3 bg-lavish-gold text-white rounded-lg font-semibold text-lg hover:bg-yellow-600 transition-colors"
+          >
+            Next
+          </button>
+        ) : (
+          <button
+            onClick={handleManualSubmit}
+            className="px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors"
+          >
+            Finish
+          </button>
+        )}
       </div>
     </div>
   );

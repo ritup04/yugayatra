@@ -28,6 +28,7 @@ import Test from './components/Pages/Test';
 import Quiz from './components/Pages/Quiz';
 import PaymentPage from './components/Pages/PaymentPage';
 import Result from './components/Pages/Result';
+import Profile from './components/Pages/Profile';
 import './App.css';
 import Contact from './components/Home/Contact';
 // import TimelineSection from './components/Home/TimelineSection';
@@ -126,7 +127,9 @@ function AppContent() {
         {/* Quiz Page */}
         <Route path="/quiz" element={<Quiz />} />
         {/* Result Page */}
-        <Route path="/result" element={<Result />} />
+        <Route path="/result/:resultId" element={<Result />} />
+        {/* Profile Page */}
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </>
   );
