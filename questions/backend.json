@@ -1,0 +1,1082 @@
+[
+  {
+    "question": "Which language is commonly used with Node.js?",
+    "options": {
+      "a": "JavaScript",
+      "b": "Python",
+      "c": "Java",
+      "d": "Ruby"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the use of an ORM in backend development?",
+    "options": {
+      "a": "To create APIs",
+      "b": "To map database tables to objects",
+      "c": "To handle user sessions",
+      "d": "To encrypt passwords"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does REST stand for?",
+    "options": {
+      "a": "Remote Server Transaction",
+      "b": "Rapid Service Tunnel",
+      "c": "Representational State Transfer",
+      "d": "Reliable Secure Transfer"
+    },
+    "correctAnswer": "c",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which database is commonly used with Django?",
+    "options": {
+      "a": "MongoDB",
+      "b": "PostgreSQL",
+      "c": "Redis",
+      "d": "Elasticsearch"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of middleware in Express.js?",
+    "options": {
+      "a": "To handle database queries",
+      "b": "To modify request/response objects",
+      "c": "To render frontend templates",
+      "d": "To manage user authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a NoSQL database?",
+    "options": {
+      "a": "A database that uses SQL for queries",
+      "b": "A database that does not use tables",
+      "c": "A database optimized for structured data",
+      "d": "A database that only runs on Linux"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTTP method is used to retrieve data in REST APIs?",
+    "options": {
+      "a": "POST",
+      "b": "PUT",
+      "c": "GET",
+      "d": "DELETE"
+    },
+    "correctAnswer": "c",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is JWT used for in backend development?",
+    "options": {
+      "a": "Database indexing",
+      "b": "User authentication",
+      "c": "File storage",
+      "d": "Load balancing"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of NGINX in backend architecture?",
+    "options": {
+      "a": "A programming language",
+      "b": "A web server and reverse proxy",
+      "c": "A database management system",
+      "d": "A frontend framework"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which framework is commonly used for Python backend development?",
+    "options": {
+      "a": "Laravel",
+      "b": "Django",
+      "c": "Spring",
+      "d": "Express"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of Docker in backend development?",
+    "options": {
+      "a": "To write frontend code",
+      "b": "To containerize applications",
+      "c": "To manage databases",
+      "d": "To design UI components"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is GraphQL primarily used for?",
+    "options": {
+      "a": "Database indexing",
+      "b": "API querying",
+      "c": "File compression",
+      "d": "User authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a caching system?",
+    "options": {
+      "a": "MySQL",
+      "b": "Redis",
+      "c": "PostgreSQL",
+      "d": "MongoDB"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main advantage of microservices architecture?",
+    "options": {
+      "a": "Tight coupling of components",
+      "b": "Single codebase for all services",
+      "c": "Independent scalability of services",
+      "d": "Reduced need for APIs"
+    },
+    "correctAnswer": "c",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the CAP theorem in distributed systems?",
+    "options": {
+      "a": "A theorem about frontend design",
+      "b": "A theorem about database consistency, availability, and partition tolerance",
+      "c": "A theorem about CPU performance",
+      "d": "A theorem about network security"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which protocol is used for secure communication over HTTP?",
+    "options": {
+      "a": "FTP",
+      "b": "HTTPS",
+      "c": "SMTP",
+      "d": "TCP"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of WebSockets?",
+    "options": {
+      "a": "To serve static files",
+      "b": "To enable real-time bidirectional communication",
+      "c": "To manage databases",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of Kubernetes in backend development?",
+    "options": {
+      "a": "To manage containerized applications",
+      "b": "To write SQL queries",
+      "c": "To design UI components",
+      "d": "To handle frontend routing"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a serverless computing platform?",
+    "options": {
+      "a": "AWS Lambda",
+      "b": "Apache Tomcat",
+      "c": "NGINX",
+      "d": "Docker"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a CDN in backend architecture?",
+    "options": {
+      "a": "To store user sessions",
+      "b": "To distribute content geographically for faster access",
+      "c": "To manage databases",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the primary use of RabbitMQ?",
+    "options": {
+      "a": "To serve static files",
+      "b": "To manage message queues",
+      "c": "To render frontend templates",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a relational database?",
+    "options": {
+      "a": "MongoDB",
+      "b": "PostgreSQL",
+      "c": "Redis",
+      "d": "Elasticsearch"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the .env file in backend development?",
+    "options": {
+      "a": "To store environment variables",
+      "b": "To define API routes",
+      "c": "To manage database schemas",
+      "d": "To handle user sessions"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of OAuth in backend systems?",
+    "options": {
+      "a": "To optimize database queries",
+      "b": "To provide secure authentication",
+      "c": "To manage file storage",
+      "d": "To render frontend components"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for API testing?",
+    "options": {
+      "a": "Postman",
+      "b": "Docker",
+      "c": "Kubernetes",
+      "d": "NGINX"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of indexing in databases?",
+    "options": {
+      "a": "To slow down queries",
+      "b": "To speed up data retrieval",
+      "c": "To increase storage usage",
+      "d": "To delete records"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between SQL and NoSQL databases?",
+    "options": {
+      "a": "SQL is schema-less, NoSQL is structured",
+      "b": "SQL is relational, NoSQL is non-relational",
+      "c": "SQL is only for frontend, NoSQL is for backend",
+      "d": "SQL is faster, NoSQL is slower"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTTP status code indicates 'Not Found'?",
+    "options": {
+      "a": "200",
+      "b": "404",
+      "c": "500",
+      "d": "302"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a reverse proxy?",
+    "options": {
+      "a": "To serve static files",
+      "b": "To forward client requests to backend servers",
+      "c": "To manage databases",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of a load balancer?",
+    "options": {
+      "a": "To distribute traffic across multiple servers",
+      "b": "To write SQL queries",
+      "c": "To manage frontend state",
+      "d": "To handle user sessions"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a key-value store?",
+    "options": {
+      "a": "MySQL",
+      "b": "PostgreSQL",
+      "c": "Redis",
+      "d": "MongoDB"
+    },
+    "correctAnswer": "c",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of CORS in backend development?",
+    "options": {
+      "a": "To block all requests",
+      "b": "To restrict access to APIs from different domains",
+      "c": "To manage databases",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between horizontal and vertical scaling?",
+    "options": {
+      "a": "Horizontal adds more machines, vertical upgrades existing ones",
+      "b": "Horizontal is for frontend, vertical is for backend",
+      "c": "Horizontal reduces performance, vertical improves it",
+      "d": "Horizontal is cheaper, vertical is more expensive"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a server-side scripting language?",
+    "options": {
+      "a": "HTML",
+      "b": "CSS",
+      "c": "PHP",
+      "d": "JavaScript (frontend)"
+    },
+    "correctAnswer": "c",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a transaction in databases?",
+    "options": {
+      "a": "To group multiple operations into a single atomic unit",
+      "b": "To delete records",
+      "c": "To slow down queries",
+      "d": "To manage frontend state"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of a message broker in backend systems?",
+    "options": {
+      "a": "To manage frontend routing",
+      "b": "To handle communication between microservices",
+      "c": "To render UI components",
+      "d": "To optimize database queries"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a document-based NoSQL database?",
+    "options": {
+      "a": "MySQL",
+      "b": "PostgreSQL",
+      "c": "MongoDB",
+      "d": "Redis"
+    },
+    "correctAnswer": "c",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of rate limiting in APIs?",
+    "options": {
+      "a": "To block all requests",
+      "b": "To restrict the number of requests a client can make",
+      "c": "To speed up responses",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between monolithic and microservices architecture?",
+    "options": {
+      "a": "Monolithic is for frontend, microservices is for backend",
+      "b": "Monolithic has a single codebase, microservices has independent services",
+      "c": "Monolithic is slower, microservices is faster",
+      "d": "Monolithic is newer, microservices is older"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a cloud computing platform?",
+    "options": {
+      "a": "AWS",
+      "b": "Docker",
+      "c": "NGINX",
+      "d": "Postman"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a health check in backend systems?",
+    "options": {
+      "a": "To monitor the status of services",
+      "b": "To delete old records",
+      "c": "To manage frontend state",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of a cache in backend performance?",
+    "options": {
+      "a": "To slow down responses",
+      "b": "To store frequently accessed data for faster retrieval",
+      "c": "To manage databases",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a backend framework for JavaScript?",
+    "options": {
+      "a": "React",
+      "b": "Angular",
+      "c": "Express",
+      "d": "Vue"
+    },
+    "correctAnswer": "c",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a database migration?",
+    "options": {
+      "a": "To delete all data",
+      "b": "To manage changes in database schema over time",
+      "c": "To slow down queries",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous programming?",
+    "options": {
+      "a": "Synchronous is faster, asynchronous is slower",
+      "b": "Synchronous blocks execution, asynchronous does not",
+      "c": "Synchronous is for frontend, asynchronous is for backend",
+      "d": "Synchronous is newer, asynchronous is older"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a backend language?",
+    "options": {
+      "a": "HTML",
+      "b": "CSS",
+      "c": "Python",
+      "d": "JavaScript (frontend)"
+    },
+    "correctAnswer": "c",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a circuit breaker in microservices?",
+    "options": {
+      "a": "To block all requests",
+      "b": "To prevent cascading failures in distributed systems",
+      "c": "To manage databases",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of a service mesh in backend architecture?",
+    "options": {
+      "a": "To manage frontend routing",
+      "b": "To handle communication between microservices",
+      "c": "To render UI components",
+      "d": "To optimize database queries"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a backend testing framework?",
+    "options": {
+      "a": "Jest",
+      "b": "Mocha",
+      "c": "Cypress",
+      "d": "Selenium"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a distributed lock in backend systems?",
+    "options": {
+      "a": "To block all requests",
+      "b": "To prevent race conditions in distributed environments",
+      "c": "To manage databases",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between stateful and stateless services?",
+    "options": {
+      "a": "Stateful stores session data, stateless does not",
+      "b": "Stateful is for frontend, stateless is for backend",
+      "c": "Stateful is slower, stateless is faster",
+      "d": "Stateful is newer, stateless is older"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a backend caching strategy?",
+    "options": {
+      "a": "CSS-in-JS",
+      "b": "Server-side rendering",
+      "c": "Redis caching",
+      "d": "Lazy loading"
+    },
+    "correctAnswer": "c",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a dead letter queue in message brokers?",
+    "options": {
+      "a": "To block all messages",
+      "b": "To store messages that cannot be processed",
+      "c": "To manage databases",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of a reverse proxy in backend security?",
+    "options": {
+      "a": "To expose backend servers directly",
+      "b": "To hide backend servers and provide an additional security layer",
+      "c": "To manage databases",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a backend logging tool?",
+    "options": {
+      "a": "Postman",
+      "b": "ELK Stack (Elasticsearch, Logstash, Kibana)",
+      "c": "Docker",
+      "d": "Kubernetes"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a blue-green deployment?",
+    "options": {
+      "a": "To delete old versions of an application",
+      "b": "To reduce downtime during deployments",
+      "c": "To manage databases",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between SQL injection and XSS?",
+    "options": {
+      "a": "SQL injection targets databases, XSS targets frontend scripts",
+      "b": "SQL injection is harmless, XSS is dangerous",
+      "c": "SQL injection is for frontend, XSS is for backend",
+      "d": "SQL injection is newer, XSS is older"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a backend monitoring tool?",
+    "options": {
+      "a": "React",
+      "b": "Prometheus",
+      "c": "Vue",
+      "d": "Angular"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a canary release?",
+    "options": {
+      "a": "To deploy new features to a small subset of users",
+      "b": "To delete old versions of an application",
+      "c": "To manage databases",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of a reverse proxy in load balancing?",
+    "options": {
+      "a": "To distribute traffic across multiple servers",
+      "b": "To manage databases",
+      "c": "To handle authentication",
+      "d": "To render frontend components"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a backend security best practice?",
+    "options": {
+      "a": "Storing passwords in plaintext",
+      "b": "Using HTTPS for all communications",
+      "c": "Exposing database credentials in APIs",
+      "d": "Disabling CORS"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a circuit breaker pattern?",
+    "options": {
+      "a": "To block all requests",
+      "b": "To prevent cascading failures in distributed systems",
+      "c": "To manage databases",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between horizontal and vertical partitioning in databases?",
+    "options": {
+      "a": "Horizontal splits tables by rows, vertical by columns",
+      "b": "Horizontal is for frontend, vertical is for backend",
+      "c": "Horizontal is slower, vertical is faster",
+      "d": "Horizontal is newer, vertical is older"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a backend task queue?",
+    "options": {
+      "a": "Redis",
+      "b": "Celery",
+      "c": "Postman",
+      "d": "Docker"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a rate limiter in APIs?",
+    "options": {
+      "a": "To block all requests",
+      "b": "To restrict the number of requests a client can make",
+      "c": "To speed up responses",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of a service registry in microservices?",
+    "options": {
+      "a": "To manage frontend routing",
+      "b": "To track the location of microservices",
+      "c": "To render UI components",
+      "d": "To optimize database queries"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a backend performance optimization technique?",
+    "options": {
+      "a": "Lazy loading images",
+      "b": "Database indexing",
+      "c": "CSS minification",
+      "d": "Frontend caching"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a deadlock in databases?",
+    "options": {
+      "a": "To speed up queries",
+      "b": "To block transactions waiting for each other indefinitely",
+      "c": "To manage frontend state",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between optimistic and pessimistic locking?",
+    "options": {
+      "a": "Optimistic assumes conflicts are rare, pessimistic assumes they are common",
+      "b": "Optimistic is for frontend, pessimistic is for backend",
+      "c": "Optimistic is slower, pessimistic is faster",
+      "d": "Optimistic is newer, pessimistic is older"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a backend deployment strategy?",
+    "options": {
+      "a": "Blue-green deployment",
+      "b": "CSS-in-JS",
+      "c": "Lazy loading",
+      "d": "Server-side rendering"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a reverse proxy in caching?",
+    "options": {
+      "a": "To block all requests",
+      "b": "To store responses for faster retrieval",
+      "c": "To manage databases",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of a database shard in scalability?",
+    "options": {
+      "a": "To distribute data across multiple servers",
+      "b": "To manage frontend routing",
+      "c": "To render UI components",
+      "d": "To optimize database queries"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a backend authentication protocol?",
+    "options": {
+      "a": "OAuth",
+      "b": "CSS",
+      "c": "HTML",
+      "d": "JavaScript"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a database replica?",
+    "options": {
+      "a": "To delete data",
+      "b": "To provide redundancy and improve read performance",
+      "c": "To manage frontend state",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous replication?",
+    "options": {
+      "a": "Synchronous waits for confirmation, asynchronous does not",
+      "b": "Synchronous is for frontend, asynchronous is for backend",
+      "c": "Synchronous is slower, asynchronous is faster",
+      "d": "Synchronous is newer, asynchronous is older"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a backend logging best practice?",
+    "options": {
+      "a": "Logging sensitive user data",
+      "b": "Using structured logging",
+      "c": "Disabling all logs in production",
+      "d": "Logging only frontend errors"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a circuit breaker in API design?",
+    "options": {
+      "a": "To block all requests",
+      "b": "To prevent cascading failures when a service is down",
+      "c": "To manage databases",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of a reverse proxy in SSL termination?",
+    "options": {
+      "a": "To manage frontend routing",
+      "b": "To offload SSL decryption from backend servers",
+      "c": "To render UI components",
+      "d": "To optimize database queries"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a backend performance metric?",
+    "options": {
+      "a": "Page load time",
+      "b": "Response time",
+      "c": "CSS complexity",
+      "d": "JavaScript bundle size"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a database connection pool?",
+    "options": {
+      "a": "To delete database connections",
+      "b": "To reuse existing connections for better performance",
+      "c": "To manage frontend state",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between SQL and NoSQL transactions?",
+    "options": {
+      "a": "SQL supports ACID, NoSQL does not",
+      "b": "SQL is for frontend, NoSQL is for backend",
+      "c": "SQL is slower, NoSQL is faster",
+      "d": "SQL is newer, NoSQL is older"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a backend caching tool?",
+    "options": {
+      "a": "Redis",
+      "b": "Postman",
+      "c": "Docker",
+      "d": "Kubernetes"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a reverse proxy in compression?",
+    "options": {
+      "a": "To block all requests",
+      "b": "To compress responses for faster transmission",
+      "c": "To manage databases",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of a database index in query performance?",
+    "options": {
+      "a": "To slow down queries",
+      "b": "To speed up data retrieval",
+      "c": "To manage frontend state",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a backend security vulnerability?",
+    "options": {
+      "a": "SQL injection",
+      "b": "CSS minification",
+      "c": "Lazy loading",
+      "d": "Server-side rendering"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a reverse proxy in request filtering?",
+    "options": {
+      "a": "To block malicious requests",
+      "b": "To manage databases",
+      "c": "To handle authentication",
+      "d": "To render frontend components"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between horizontal and vertical scaling in databases?",
+    "options": {
+      "a": "Horizontal adds more machines, vertical upgrades existing ones",
+      "b": "Horizontal is for frontend, vertical is for backend",
+      "c": "Horizontal is slower, vertical is faster",
+      "d": "Horizontal is newer, vertical is older"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a backend monitoring tool?",
+    "options": {
+      "a": "Prometheus",
+      "b": "React",
+      "c": "Vue",
+      "d": "Angular"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a reverse proxy in request routing?",
+    "options": {
+      "a": "To block all requests",
+      "b": "To direct requests to the appropriate backend service",
+      "c": "To manage databases",
+      "d": "To handle authentication"
+    },
+    "correctAnswer": "b",
+    "category": "backend development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of a database trigger?",
+    "options": {
+      "a": "To execute code automatically in response to database events",
+      "b": "To manage frontend routing",
+      "c": "To render UI components",
+      "d": "To optimize database queries"
+    },
+    "correctAnswer": "a",
+    "category": "backend development",
+    "difficulty": "hard"
+  }
+]

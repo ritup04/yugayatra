@@ -12,7 +12,7 @@
     "difficulty": "easy"
   },
   {
-    "question": "What is 360-degree feedback? (1)",
+    "question": "What is 360-degree feedback?",
     "options": {
       "a": "Peer feedback",
       "b": "Feedback from all levels",
@@ -24,7 +24,7 @@
     "difficulty": "medium"
   },
   {
-    "question": "What is the purpose of succession planning? (2)",
+    "question": "What is the purpose of succession planning?",
     "options": {
       "a": "To train interns",
       "b": "To track attendance",
@@ -36,1167 +36,1035 @@
     "difficulty": "hard"
   },
   {
-    "question": "What is the primary role of HR? (3)",
+    "question": "Which of these is NOT typically an HR function?",
     "options": {
-      "a": "Managing employee lifecycle",
-      "b": "Designing websites",
-      "c": "Creating code",
-      "d": "Selling products"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (4)",
-    "options": {
-      "a": "Manager feedback",
-      "b": "Peer feedback",
-      "c": "Customer reviews",
-      "d": "Feedback from all levels"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (5)",
-    "options": {
-      "a": "To prepare employees for future roles",
-      "b": "To train interns",
-      "c": "To promote culture",
-      "d": "To track attendance"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (6)",
-    "options": {
-      "a": "Managing employee lifecycle",
-      "b": "Designing websites",
-      "c": "Creating code",
-      "d": "Selling products"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (7)",
-    "options": {
-      "a": "Manager feedback",
-      "b": "Peer feedback",
-      "c": "Customer reviews",
-      "d": "Feedback from all levels"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (8)",
-    "options": {
-      "a": "To prepare employees for future roles",
-      "b": "To train interns",
-      "c": "To track attendance",
-      "d": "To promote culture"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (9)",
-    "options": {
-      "a": "Managing employee lifecycle",
-      "b": "Creating code",
-      "c": "Selling products",
-      "d": "Designing websites"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (10)",
-    "options": {
-      "a": "Feedback from all levels",
-      "b": "Peer feedback",
-      "c": "Customer reviews",
-      "d": "Manager feedback"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (11)",
-    "options": {
-      "a": "To track attendance",
-      "b": "To promote culture",
-      "c": "To prepare employees for future roles",
-      "d": "To train interns"
+      "a": "Recruitment",
+      "b": "Performance management",
+      "c": "Software development",
+      "d": "Employee relations"
     },
     "correctAnswer": "c",
     "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (12)",
-    "options": {
-      "a": "Managing employee lifecycle",
-      "b": "Selling products",
-      "c": "Designing websites",
-      "d": "Creating code"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
     "difficulty": "easy"
   },
   {
-    "question": "What is 360-degree feedback? (13)",
+    "question": "What does KPI stand for in HR management?",
     "options": {
-      "a": "Feedback from all levels",
-      "b": "Customer reviews",
-      "c": "Peer feedback",
-      "d": "Manager feedback"
+      "a": "Key Performance Indicator",
+      "b": "Knowledge Process Integration",
+      "c": "Key Personnel Information",
+      "d": "Knowledge Performance Index"
     },
     "correctAnswer": "a",
     "category": "hr",
     "difficulty": "medium"
   },
   {
-    "question": "What is the purpose of succession planning? (14)",
+    "question": "What is the main purpose of a performance appraisal?",
     "options": {
-      "a": "To prepare employees for future roles",
+      "a": "To reduce salaries",
+      "b": "To evaluate and improve employee performance",
+      "c": "To assign parking spaces",
+      "d": "To schedule vacations"
+    },
+    "correctAnswer": "b",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the first step in the recruitment process?",
+    "options": {
+      "a": "Job analysis",
+      "b": "Interviewing candidates",
+      "c": "Writing rejection letters",
+      "d": "Setting salaries"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does FMLA stand for?",
+    "options": {
+      "a": "Family and Medical Leave Act",
+      "b": "Federal Minimum Labor Agreement",
+      "c": "Financial Management and Legal Advisory",
+      "d": "Full-time Management Leave Allowance"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a skills gap analysis?",
+    "options": {
+      "a": "To identify missing competencies in the workforce",
+      "b": "To measure office temperature",
+      "c": "To analyze payroll errors",
+      "d": "To schedule team lunches"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which document outlines an employee's job responsibilities?",
+    "options": {
+      "a": "Job description",
+      "b": "Pay stub",
+      "c": "Company newsletter",
+      "d": "Employee handbook"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of an employee engagement survey?",
+    "options": {
+      "a": "To measure employee satisfaction and commitment",
+      "b": "To schedule meetings",
+      "c": "To assign parking spaces",
+      "d": "To calculate taxes"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'onboarding' in HR?",
+    "options": {
+      "a": "The process of integrating a new employee",
+      "b": "A type of office furniture",
+      "c": "A payroll calculation method",
+      "d": "A disciplinary procedure"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary purpose of a compensation strategy?",
+    "options": {
+      "a": "To attract, motivate and retain employees",
+      "b": "To reduce company expenses",
+      "c": "To complicate payroll",
+      "d": "To track vacation days"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does ADA stand for in HR context?",
+    "options": {
+      "a": "Americans with Disabilities Act",
+      "b": "Annual Departmental Assessment",
+      "c": "Advanced Development Agreement",
+      "d": "Administrative Duties Assignment"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a common method for internal recruitment?",
+    "options": {
+      "a": "Job postings on company bulletin boards",
+      "b": "Radio advertisements",
+      "c": "Billboards",
+      "d": "Cold calling"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'talent management' in HR?",
+    "options": {
+      "a": "The process of attracting, developing and retaining skilled employees",
+      "b": "Managing celebrity endorsements",
+      "c": "Organizing talent shows",
+      "d": "Tracking employee birthdays"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of an exit interview?",
+    "options": {
+      "a": "To understand why employees are leaving",
+      "b": "To finalize payroll",
+      "c": "To collect office keys",
+      "d": "To schedule farewell parties"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of these is NOT a type of employee benefit?",
+    "options": {
+      "a": "Health insurance",
+      "b": "Retirement plans",
+      "c": "Company car",
+      "d": "Mandatory overtime"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'workforce planning'?",
+    "options": {
+      "a": "Aligning workforce needs with business strategy",
+      "b": "Scheduling coffee breaks",
+      "c": "Planning office parties",
+      "d": "Assigning parking spaces"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a non-compete agreement?",
+    "options": {
+      "a": "To prevent employees from working with competitors",
+      "b": "To schedule lunch breaks",
+      "c": "To organize team building events",
+      "d": "To track vacation days"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does COBRA provide for employees?",
+    "options": {
+      "a": "Continued health insurance coverage",
+      "b": "Free snacks",
+      "c": "Company cars",
+      "d": "Extra vacation days"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'change management' in HR?",
+    "options": {
+      "a": "Helping organizations and employees adapt to change",
+      "b": "Managing petty cash",
+      "c": "Organizing office moves",
+      "d": "Tracking weather changes"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a diversity and inclusion program?",
+    "options": {
+      "a": "To create a workplace that values differences",
+      "b": "To standardize employee uniforms",
+      "c": "To schedule meetings",
+      "d": "To track office supplies"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of these is a common HR metric?",
+    "options": {
+      "a": "Employee turnover rate",
+      "b": "Office temperature",
+      "c": "Number of coffee breaks",
+      "d": "Parking space utilization"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'employer branding'?",
+    "options": {
+      "a": "A company's reputation as an employer",
+      "b": "Logo design",
+      "c": "Office decoration",
+      "d": "Employee uniforms"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a probationary period?",
+    "options": {
+      "a": "To evaluate a new employee's performance",
+      "b": "To test office equipment",
+      "c": "To schedule team lunches",
+      "d": "To track vacation requests"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does EEOC stand for?",
+    "options": {
+      "a": "Equal Employment Opportunity Commission",
+      "b": "Employee Experience Oversight Committee",
+      "c": "Executive Employment Operations Center",
+      "d": "Enterprise Efficiency and Organization Council"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'job enrichment'?",
+    "options": {
+      "a": "Adding more meaningful tasks to a job",
+      "b": "Increasing salary",
+      "c": "Providing free snacks",
+      "d": "Offering more vacation days"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a skills inventory?",
+    "options": {
+      "a": "To assess employees' skills and competencies",
+      "b": "To track office supplies",
+      "c": "To schedule meetings",
+      "d": "To organize team buildings"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of these is NOT a common type of interview?",
+    "options": {
+      "a": "Structured interview",
+      "b": "Case interview",
+      "c": "Lunch interview",
+      "d": "Dream interpretation interview"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'benchmarking' in HR?",
+    "options": {
+      "a": "Comparing practices with industry standards",
+      "b": "Measuring office chairs",
+      "c": "Testing new office equipment",
+      "d": "Tracking employee birthdays"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a grievance procedure?",
+    "options": {
+      "a": "To address employee complaints formally",
+      "b": "To schedule performance reviews",
+      "c": "To organize team lunches",
+      "d": "To track vacation days"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'at-will employment' mean?",
+    "options": {
+      "a": "Either party can terminate employment at any time",
+      "b": "Employees can work whenever they want",
+      "c": "Employers must give 30 days notice",
+      "d": "Employees must work weekends"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'job rotation'?",
+    "options": {
+      "a": "Moving employees between different jobs",
+      "b": "Adjusting office chairs",
+      "c": "Changing work schedules",
+      "d": "Rotating team leaders"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a retention strategy?",
+    "options": {
+      "a": "To keep valuable employees from leaving",
+      "b": "To store files",
+      "c": "To schedule meetings",
+      "d": "To track office supplies"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of these is NOT a common type of training?",
+    "options": {
+      "a": "On-the-job training",
+      "b": "Classroom training",
+      "c": "E-learning",
+      "d": "Sleep training"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'outsourcing' in HR?",
+    "options": {
+      "a": "Contracting external providers for HR functions",
+      "b": "Finding office space",
+      "c": "Scheduling vacations",
+      "d": "Tracking employee birthdays"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a job evaluation?",
+    "options": {
+      "a": "To determine the relative worth of jobs",
+      "b": "To assess employee performance",
+      "c": "To schedule interviews",
+      "d": "To organize team buildings"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'FLSA' stand for?",
+    "options": {
+      "a": "Fair Labor Standards Act",
+      "b": "Federal Leave and Salary Administration",
+      "c": "Full-time Labor Statistics Agency",
+      "d": "Financial and Legal Standards Association"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'competency mapping'?",
+    "options": {
+      "a": "Identifying key skills needed for jobs",
+      "b": "Creating office floor plans",
+      "c": "Tracking employee locations",
+      "d": "Scheduling meetings"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a mentorship program?",
+    "options": {
+      "a": "To facilitate knowledge transfer and development",
+      "b": "To schedule coffee breaks",
+      "c": "To track office supplies",
+      "d": "To organize parties"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of these is NOT a common employee recognition method?",
+    "options": {
+      "a": "Employee of the month",
+      "b": "Bonus payments",
+      "c": "Thank you notes",
+      "d": "Mandatory overtime"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'job sharing'?",
+    "options": {
+      "a": "Two people splitting one full-time position",
+      "b": "Sharing office supplies",
+      "c": "Rotating job titles",
+      "d": "Swapping business cards"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a skills assessment?",
+    "options": {
+      "a": "To evaluate employees' abilities",
+      "b": "To schedule vacations",
+      "c": "To track office expenses",
+      "d": "To organize team lunches"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'PTO' stand for?",
+    "options": {
+      "a": "Paid Time Off",
+      "b": "Personal Time Only",
+      "c": "Professional Training Opportunity",
+      "d": "Part-Time Option"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'knowledge management' in HR?",
+    "options": {
+      "a": "Capturing and sharing organizational knowledge",
+      "b": "Managing office libraries",
+      "c": "Tracking employee education",
+      "d": "Scheduling training sessions"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a flexible benefits plan?",
+    "options": {
+      "a": "To allow employees to choose benefits that suit them",
+      "b": "To reduce HR workload",
+      "c": "To standardize benefits",
+      "d": "To track office supplies"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of these is NOT a common type of leave?",
+    "options": {
+      "a": "Sick leave",
+      "b": "Vacation leave",
+      "c": "Parental leave",
+      "d": "Permanent leave"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'strategic HRM'?",
+    "options": {
+      "a": "Aligning HR practices with organizational goals",
+      "b": "Planning office parties",
+      "c": "Tracking employee birthdays",
+      "d": "Managing office supplies"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a workforce analytics?",
+    "options": {
+      "a": "To make data-driven HR decisions",
+      "b": "To schedule meetings",
+      "c": "To track office expenses",
+      "d": "To organize team buildings"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'OSHA' stand for?",
+    "options": {
+      "a": "Occupational Safety and Health Administration",
+      "b": "Office Safety and Health Agency",
+      "c": "Organizational Standards and Health Authority",
+      "d": "Operational Safety and Health Assessment"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'job crafting'?",
+    "options": {
+      "a": "Employees shaping their own job roles",
+      "b": "Creating job descriptions",
+      "c": "Designing office spaces",
+      "d": "Planning career paths"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a talent pipeline?",
+    "options": {
+      "a": "To develop future leaders internally",
+      "b": "To schedule interviews",
+      "c": "To track applicants",
+      "d": "To organize training"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of these is NOT a common HR software?",
+    "options": {
+      "a": "Payroll system",
+      "b": "ATS (Applicant Tracking System)",
+      "c": "LMS (Learning Management System)",
+      "d": "GPS navigation system"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'employer of choice'?",
+    "options": {
+      "a": "A company that top talent wants to work for",
+      "b": "An HR selection process",
+      "c": "A type of benefits package",
+      "d": "A recruitment strategy"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a compensation survey?",
+    "options": {
+      "a": "To benchmark salaries against the market",
+      "b": "To track employee satisfaction",
+      "c": "To schedule raises",
+      "d": "To organize benefits"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'D&I' stand for in HR?",
+    "options": {
+      "a": "Diversity and Inclusion",
+      "b": "Development and Innovation",
+      "c": "Discipline and Improvement",
+      "d": "Data and Information"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'quiet hiring'?",
+    "options": {
+      "a": "Filling skills gaps with existing employees",
+      "b": "Hiring without interviews",
+      "c": "Secret recruitment",
+      "d": "Hiring temporary workers"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a career path framework?",
+    "options": {
+      "a": "To show potential progression routes",
       "b": "To track attendance",
-      "c": "To train interns",
-      "d": "To promote culture"
+      "c": "To schedule training",
+      "d": "To organize teams"
     },
     "correctAnswer": "a",
     "category": "hr",
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "question": "What is the primary role of HR? (15)",
+    "question": "Which of these is NOT a common type of organizational culture?",
     "options": {
-      "a": "Creating code",
-      "b": "Selling products",
-      "c": "Designing websites",
-      "d": "Managing employee lifecycle"
+      "a": "Hierarchical culture",
+      "b": "Clan culture",
+      "c": "Adhocracy culture",
+      "d": "Lunar culture"
     },
     "correctAnswer": "d",
     "category": "hr",
     "difficulty": "easy"
   },
   {
-    "question": "What is 360-degree feedback? (16)",
+    "question": "What is 'internal mobility'?",
     "options": {
-      "a": "Manager feedback",
-      "b": "Feedback from all levels",
-      "c": "Customer reviews",
-      "d": "Peer feedback"
+      "a": "Employees moving between roles within a company",
+      "b": "Flexible work locations",
+      "c": "Job rotation programs",
+      "d": "Office relocation"
     },
-    "correctAnswer": "b",
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a skills matrix?",
+    "options": {
+      "a": "To visualize team competencies",
+      "b": "To schedule training",
+      "c": "To track attendance",
+      "d": "To organize teams"
+    },
+    "correctAnswer": "a",
     "category": "hr",
     "difficulty": "medium"
   },
   {
-    "question": "What is the purpose of succession planning? (17)",
+    "question": "What does 'RPO' stand for in recruitment?",
     "options": {
-      "a": "To prepare employees for future roles",
+      "a": "Recruitment Process Outsourcing",
+      "b": "Recruitment Personnel Organization",
+      "c": "Resource Planning Operation",
+      "d": "Recruitment Performance Objective"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'quiet quitting'?",
+    "options": {
+      "a": "Employees doing only the minimum required",
+      "b": "Resigning without notice",
+      "c": "Secretly job hunting",
+      "d": "Reducing work hours"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a competency framework?",
+    "options": {
+      "a": "To define skills needed for roles",
+      "b": "To schedule training",
+      "c": "To track performance",
+      "d": "To organize teams"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of these is NOT a common type of interview bias?",
+    "options": {
+      "a": "Halo effect",
+      "b": "Similarity bias",
+      "c": "Contrast effect",
+      "d": "Weather bias"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'gigification' of work?",
+    "options": {
+      "a": "Increase in short-term contract work",
+      "b": "Workplace entertainment",
+      "c": "Team building activities",
+      "d": "Flexible hours"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a talent review?",
+    "options": {
+      "a": "To assess employee potential",
+      "b": "To schedule promotions",
+      "c": "To track attendance",
+      "d": "To organize training"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'L&D' stand for in HR?",
+    "options": {
+      "a": "Learning and Development",
+      "b": "Labor and Discipline",
+      "c": "Leadership and Direction",
+      "d": "Loyalty and Dedication"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'boomerang hiring'?",
+    "options": {
+      "a": "Rehiring former employees",
+      "b": "Rotating hires between departments",
+      "c": "Hiring remote workers",
+      "d": "Seasonal hiring"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a workforce planning?",
+    "options": {
+      "a": "To align workforce with future needs",
+      "b": "To schedule shifts",
+      "c": "To track attendance",
+      "d": "To organize teams"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of these is NOT a common HR certification?",
+    "options": {
+      "a": "PHR (Professional in Human Resources)",
+      "b": "SHRM-CP (Society for HR Management)",
+      "c": "HRCI (HR Certification Institute)",
+      "d": "MBA in Office Management"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'skills-based hiring'?",
+    "options": {
+      "a": "Focusing on competencies rather than degrees",
+      "b": "Hiring only certified professionals",
+      "c": "Requiring multiple degrees",
+      "d": "Testing physical skills"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of an employee value proposition?",
+    "options": {
+      "a": "To communicate what employees gain from working there",
+      "b": "To set salaries",
+      "c": "To track performance",
+      "d": "To organize benefits"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'VUCA' stand for in HR context?",
+    "options": {
+      "a": "Volatility, Uncertainty, Complexity, Ambiguity",
+      "b": "Vision, Understanding, Clarity, Action",
+      "c": "Values, Unity, Culture, Alignment",
+      "d": "Verification, Utilization, Compliance, Assessment"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'hybrid work policy'?",
+    "options": {
+      "a": "Combination of remote and office work",
+      "b": "Working two jobs",
+      "c": "Flexible job roles",
+      "d": "Seasonal work arrangements"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a people analytics?",
+    "options": {
+      "a": "To make data-driven decisions about workforce",
       "b": "To track attendance",
-      "c": "To promote culture",
-      "d": "To train interns"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (18)",
-    "options": {
-      "a": "Creating code",
-      "b": "Managing employee lifecycle",
-      "c": "Designing websites",
-      "d": "Selling products"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (19)",
-    "options": {
-      "a": "Feedback from all levels",
-      "b": "Peer feedback",
-      "c": "Manager feedback",
-      "d": "Customer reviews"
+      "c": "To schedule training",
+      "d": "To organize teams"
     },
     "correctAnswer": "a",
     "category": "hr",
     "difficulty": "medium"
   },
   {
-    "question": "What is the purpose of succession planning? (20)",
+    "question": "Which of these is NOT a common type of flexible work arrangement?",
     "options": {
-      "a": "To train interns",
+      "a": "Telecommuting",
+      "b": "Compressed workweek",
+      "c": "Job sharing",
+      "d": "Mandatory overtime"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'employee experience'?",
+    "options": {
+      "a": "An employee's journey through all touchpoints with a company",
+      "b": "Workplace events",
+      "c": "Training programs",
+      "d": "Performance reviews"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a competency-based interview?",
+    "options": {
+      "a": "To assess skills through behavior-based questions",
+      "b": "To test knowledge",
+      "c": "To evaluate education",
+      "d": "To check references"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'DEI' stand for in HR?",
+    "options": {
+      "a": "Diversity, Equity and Inclusion",
+      "b": "Development, Education and Innovation",
+      "c": "Discipline, Ethics and Integrity",
+      "d": "Data, Evaluation and Improvement"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'reskilling'?",
+    "options": {
+      "a": "Training employees for new roles",
+      "b": "Improving interview skills",
+      "c": "Updating resumes",
+      "d": "Changing job titles"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of an employee engagement survey?",
+    "options": {
+      "a": "To measure employee satisfaction and commitment",
+      "b": "To schedule meetings",
+      "c": "To assign parking spaces",
+      "d": "To calculate taxes"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of these is NOT a common HR technology?",
+    "options": {
+      "a": "HRIS (Human Resource Information System)",
+      "b": "ATS (Applicant Tracking System)",
+      "c": "LMS (Learning Management System)",
+      "d": "GPS (Global Positioning System)"
+    },
+    "correctAnswer": "d",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'upward feedback'?",
+    "options": {
+      "a": "Employees evaluating their managers",
+      "b": "Performance improvement suggestions",
+      "c": "Complaint resolution process",
+      "d": "Training evaluation forms"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a talent acquisition strategy?",
+    "options": {
+      "a": "To attract and hire top talent",
+      "b": "To schedule interviews",
+      "c": "To track applicants",
+      "d": "To organize onboarding"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'HRBP' stand for?",
+    "options": {
+      "a": "Human Resources Business Partner",
+      "b": "Human Resources Best Practices",
+      "c": "Human Resources Budget Planning",
+      "d": "Human Resources Benefit Program"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'quiet firing'?",
+    "options": {
+      "a": "Making work conditions unpleasant to force resignations",
+      "b": "Terminating employees without notice",
+      "c": "Laying off remote workers",
+      "d": "Reducing workforce gradually"
+    },
+    "correctAnswer": "a",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of an organizational chart?",
+    "options": {
+      "a": "To visualize reporting relationships",
       "b": "To track attendance",
-      "c": "To promote culture",
-      "d": "To prepare employees for future roles"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (21)",
-    "options": {
-      "a": "Selling products",
-      "b": "Managing employee lifecycle",
-      "c": "Creating code",
-      "d": "Designing websites"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (22)",
-    "options": {
-      "a": "Peer feedback",
-      "b": "Feedback from all levels",
-      "c": "Manager feedback",
-      "d": "Customer reviews"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (23)",
-    "options": {
-      "a": "To train interns",
-      "b": "To promote culture",
-      "c": "To prepare employees for future roles",
-      "d": "To track attendance"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (24)",
-    "options": {
-      "a": "Managing employee lifecycle",
-      "b": "Designing websites",
-      "c": "Selling products",
-      "d": "Creating code"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (25)",
-    "options": {
-      "a": "Peer feedback",
-      "b": "Manager feedback",
-      "c": "Customer reviews",
-      "d": "Feedback from all levels"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (26)",
-    "options": {
-      "a": "To promote culture",
-      "b": "To prepare employees for future roles",
-      "c": "To track attendance",
-      "d": "To train interns"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (27)",
-    "options": {
-      "a": "Creating code",
-      "b": "Managing employee lifecycle",
-      "c": "Selling products",
-      "d": "Designing websites"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (28)",
-    "options": {
-      "a": "Feedback from all levels",
-      "b": "Peer feedback",
-      "c": "Manager feedback",
-      "d": "Customer reviews"
+      "c": "To schedule meetings",
+      "d": "To organize teams"
     },
     "correctAnswer": "a",
     "category": "hr",
     "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (29)",
-    "options": {
-      "a": "To track attendance",
-      "b": "To promote culture",
-      "c": "To prepare employees for future roles",
-      "d": "To train interns"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (30)",
-    "options": {
-      "a": "Managing employee lifecycle",
-      "b": "Designing websites",
-      "c": "Selling products",
-      "d": "Creating code"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (31)",
-    "options": {
-      "a": "Manager feedback",
-      "b": "Peer feedback",
-      "c": "Feedback from all levels",
-      "d": "Customer reviews"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (32)",
-    "options": {
-      "a": "To prepare employees for future roles",
-      "b": "To promote culture",
-      "c": "To train interns",
-      "d": "To track attendance"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (33)",
-    "options": {
-      "a": "Managing employee lifecycle",
-      "b": "Designing websites",
-      "c": "Selling products",
-      "d": "Creating code"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (34)",
-    "options": {
-      "a": "Feedback from all levels",
-      "b": "Manager feedback",
-      "c": "Customer reviews",
-      "d": "Peer feedback"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (35)",
-    "options": {
-      "a": "To train interns",
-      "b": "To prepare employees for future roles",
-      "c": "To track attendance",
-      "d": "To promote culture"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (36)",
-    "options": {
-      "a": "Designing websites",
-      "b": "Creating code",
-      "c": "Selling products",
-      "d": "Managing employee lifecycle"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (37)",
-    "options": {
-      "a": "Customer reviews",
-      "b": "Feedback from all levels",
-      "c": "Manager feedback",
-      "d": "Peer feedback"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (38)",
-    "options": {
-      "a": "To prepare employees for future roles",
-      "b": "To train interns",
-      "c": "To track attendance",
-      "d": "To promote culture"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (39)",
-    "options": {
-      "a": "Creating code",
-      "b": "Selling products",
-      "c": "Managing employee lifecycle",
-      "d": "Designing websites"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (40)",
-    "options": {
-      "a": "Feedback from all levels",
-      "b": "Manager feedback",
-      "c": "Peer feedback",
-      "d": "Customer reviews"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (41)",
-    "options": {
-      "a": "To prepare employees for future roles",
-      "b": "To train interns",
-      "c": "To track attendance",
-      "d": "To promote culture"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (42)",
-    "options": {
-      "a": "Creating code",
-      "b": "Designing websites",
-      "c": "Selling products",
-      "d": "Managing employee lifecycle"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (43)",
-    "options": {
-      "a": "Customer reviews",
-      "b": "Manager feedback",
-      "c": "Feedback from all levels",
-      "d": "Peer feedback"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (44)",
-    "options": {
-      "a": "To prepare employees for future roles",
-      "b": "To train interns",
-      "c": "To track attendance",
-      "d": "To promote culture"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (45)",
-    "options": {
-      "a": "Selling products",
-      "b": "Designing websites",
-      "c": "Creating code",
-      "d": "Managing employee lifecycle"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (46)",
-    "options": {
-      "a": "Feedback from all levels",
-      "b": "Manager feedback",
-      "c": "Customer reviews",
-      "d": "Peer feedback"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (47)",
-    "options": {
-      "a": "To promote culture",
-      "b": "To prepare employees for future roles",
-      "c": "To track attendance",
-      "d": "To train interns"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (48)",
-    "options": {
-      "a": "Selling products",
-      "b": "Designing websites",
-      "c": "Managing employee lifecycle",
-      "d": "Creating code"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (49)",
-    "options": {
-      "a": "Peer feedback",
-      "b": "Customer reviews",
-      "c": "Manager feedback",
-      "d": "Feedback from all levels"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (50)",
-    "options": {
-      "a": "To promote culture",
-      "b": "To prepare employees for future roles",
-      "c": "To train interns",
-      "d": "To track attendance"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (51)",
-    "options": {
-      "a": "Designing websites",
-      "b": "Selling products",
-      "c": "Managing employee lifecycle",
-      "d": "Creating code"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (52)",
-    "options": {
-      "a": "Customer reviews",
-      "b": "Peer feedback",
-      "c": "Feedback from all levels",
-      "d": "Manager feedback"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (53)",
-    "options": {
-      "a": "To promote culture",
-      "b": "To track attendance",
-      "c": "To train interns",
-      "d": "To prepare employees for future roles"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (54)",
-    "options": {
-      "a": "Managing employee lifecycle",
-      "b": "Selling products",
-      "c": "Creating code",
-      "d": "Designing websites"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (55)",
-    "options": {
-      "a": "Feedback from all levels",
-      "b": "Peer feedback",
-      "c": "Customer reviews",
-      "d": "Manager feedback"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (56)",
-    "options": {
-      "a": "To track attendance",
-      "b": "To train interns",
-      "c": "To prepare employees for future roles",
-      "d": "To promote culture"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (57)",
-    "options": {
-      "a": "Selling products",
-      "b": "Managing employee lifecycle",
-      "c": "Designing websites",
-      "d": "Creating code"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (58)",
-    "options": {
-      "a": "Manager feedback",
-      "b": "Feedback from all levels",
-      "c": "Customer reviews",
-      "d": "Peer feedback"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (59)",
-    "options": {
-      "a": "To train interns",
-      "b": "To prepare employees for future roles",
-      "c": "To track attendance",
-      "d": "To promote culture"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (60)",
-    "options": {
-      "a": "Managing employee lifecycle",
-      "b": "Selling products",
-      "c": "Designing websites",
-      "d": "Creating code"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (61)",
-    "options": {
-      "a": "Feedback from all levels",
-      "b": "Manager feedback",
-      "c": "Peer feedback",
-      "d": "Customer reviews"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (62)",
-    "options": {
-      "a": "To prepare employees for future roles",
-      "b": "To train interns",
-      "c": "To promote culture",
-      "d": "To track attendance"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (63)",
-    "options": {
-      "a": "Designing websites",
-      "b": "Creating code",
-      "c": "Selling products",
-      "d": "Managing employee lifecycle"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (64)",
-    "options": {
-      "a": "Customer reviews",
-      "b": "Peer feedback",
-      "c": "Feedback from all levels",
-      "d": "Manager feedback"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (65)",
-    "options": {
-      "a": "To prepare employees for future roles",
-      "b": "To track attendance",
-      "c": "To train interns",
-      "d": "To promote culture"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (66)",
-    "options": {
-      "a": "Creating code",
-      "b": "Selling products",
-      "c": "Managing employee lifecycle",
-      "d": "Designing websites"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (67)",
-    "options": {
-      "a": "Manager feedback",
-      "b": "Customer reviews",
-      "c": "Feedback from all levels",
-      "d": "Peer feedback"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (68)",
-    "options": {
-      "a": "To track attendance",
-      "b": "To prepare employees for future roles",
-      "c": "To promote culture",
-      "d": "To train interns"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (69)",
-    "options": {
-      "a": "Designing websites",
-      "b": "Selling products",
-      "c": "Managing employee lifecycle",
-      "d": "Creating code"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (70)",
-    "options": {
-      "a": "Peer feedback",
-      "b": "Customer reviews",
-      "c": "Manager feedback",
-      "d": "Feedback from all levels"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (71)",
-    "options": {
-      "a": "To train interns",
-      "b": "To prepare employees for future roles",
-      "c": "To promote culture",
-      "d": "To track attendance"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (72)",
-    "options": {
-      "a": "Designing websites",
-      "b": "Managing employee lifecycle",
-      "c": "Creating code",
-      "d": "Selling products"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (73)",
-    "options": {
-      "a": "Feedback from all levels",
-      "b": "Peer feedback",
-      "c": "Manager feedback",
-      "d": "Customer reviews"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (74)",
-    "options": {
-      "a": "To prepare employees for future roles",
-      "b": "To promote culture",
-      "c": "To track attendance",
-      "d": "To train interns"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (75)",
-    "options": {
-      "a": "Managing employee lifecycle",
-      "b": "Creating code",
-      "c": "Designing websites",
-      "d": "Selling products"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (76)",
-    "options": {
-      "a": "Customer reviews",
-      "b": "Feedback from all levels",
-      "c": "Peer feedback",
-      "d": "Manager feedback"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (77)",
-    "options": {
-      "a": "To promote culture",
-      "b": "To prepare employees for future roles",
-      "c": "To track attendance",
-      "d": "To train interns"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (78)",
-    "options": {
-      "a": "Designing websites",
-      "b": "Creating code",
-      "c": "Managing employee lifecycle",
-      "d": "Selling products"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (79)",
-    "options": {
-      "a": "Peer feedback",
-      "b": "Manager feedback",
-      "c": "Customer reviews",
-      "d": "Feedback from all levels"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (80)",
-    "options": {
-      "a": "To prepare employees for future roles",
-      "b": "To promote culture",
-      "c": "To train interns",
-      "d": "To track attendance"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (81)",
-    "options": {
-      "a": "Designing websites",
-      "b": "Creating code",
-      "c": "Selling products",
-      "d": "Managing employee lifecycle"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (82)",
-    "options": {
-      "a": "Customer reviews",
-      "b": "Manager feedback",
-      "c": "Peer feedback",
-      "d": "Feedback from all levels"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (83)",
-    "options": {
-      "a": "To prepare employees for future roles",
-      "b": "To train interns",
-      "c": "To promote culture",
-      "d": "To track attendance"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (84)",
-    "options": {
-      "a": "Selling products",
-      "b": "Designing websites",
-      "c": "Creating code",
-      "d": "Managing employee lifecycle"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (85)",
-    "options": {
-      "a": "Peer feedback",
-      "b": "Customer reviews",
-      "c": "Manager feedback",
-      "d": "Feedback from all levels"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (86)",
-    "options": {
-      "a": "To prepare employees for future roles",
-      "b": "To promote culture",
-      "c": "To train interns",
-      "d": "To track attendance"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (87)",
-    "options": {
-      "a": "Creating code",
-      "b": "Designing websites",
-      "c": "Managing employee lifecycle",
-      "d": "Selling products"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (88)",
-    "options": {
-      "a": "Peer feedback",
-      "b": "Manager feedback",
-      "c": "Feedback from all levels",
-      "d": "Customer reviews"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (89)",
-    "options": {
-      "a": "To prepare employees for future roles",
-      "b": "To promote culture",
-      "c": "To train interns",
-      "d": "To track attendance"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (90)",
-    "options": {
-      "a": "Designing websites",
-      "b": "Creating code",
-      "c": "Managing employee lifecycle",
-      "d": "Selling products"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (91)",
-    "options": {
-      "a": "Peer feedback",
-      "b": "Customer reviews",
-      "c": "Feedback from all levels",
-      "d": "Manager feedback"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (92)",
-    "options": {
-      "a": "To track attendance",
-      "b": "To train interns",
-      "c": "To prepare employees for future roles",
-      "d": "To promote culture"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (93)",
-    "options": {
-      "a": "Designing websites",
-      "b": "Creating code",
-      "c": "Selling products",
-      "d": "Managing employee lifecycle"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (94)",
-    "options": {
-      "a": "Customer reviews",
-      "b": "Feedback from all levels",
-      "c": "Manager feedback",
-      "d": "Peer feedback"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (95)",
-    "options": {
-      "a": "To promote culture",
-      "b": "To train interns",
-      "c": "To track attendance",
-      "d": "To prepare employees for future roles"
-    },
-    "correctAnswer": "d",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (96)",
-    "options": {
-      "a": "Selling products",
-      "b": "Designing websites",
-      "c": "Managing employee lifecycle",
-      "d": "Creating code"
-    },
-    "correctAnswer": "c",
-    "category": "hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 360-degree feedback? (97)",
-    "options": {
-      "a": "Manager feedback",
-      "b": "Feedback from all levels",
-      "c": "Peer feedback",
-      "d": "Customer reviews"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of succession planning? (98)",
-    "options": {
-      "a": "To train interns",
-      "b": "To prepare employees for future roles",
-      "c": "To track attendance",
-      "d": "To promote culture"
-    },
-    "correctAnswer": "b",
-    "category": "hr",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the primary role of HR? (99)",
-    "options": {
-      "a": "Managing employee lifecycle",
-      "b": "Designing websites",
-      "c": "Selling products",
-      "d": "Creating code"
-    },
-    "correctAnswer": "a",
-    "category": "hr",
-    "difficulty": "easy"
   }
 ]

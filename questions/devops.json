@@ -1,6 +1,6 @@
 [
   {
-    "question": "What is CI/CD?",
+    "question": "What is CI/CD in DevOps?",
     "options": {
       "a": "Client Integration/Code Debugging",
       "b": "Continuous Integration/Continuous Deployment",
@@ -12,7 +12,7 @@
     "difficulty": "easy"
   },
   {
-    "question": "What does Docker use to create containers? (1)",
+    "question": "What does Docker use as the building blocks for containers?",
     "options": {
       "a": "Scripts",
       "b": "Repositories",
@@ -24,1179 +24,1119 @@
     "difficulty": "medium"
   },
   {
-    "question": "What is the purpose of infrastructure as code? (2)",
+    "question": "What is the primary benefit of infrastructure as code?",
     "options": {
-      "a": "To manage infrastructure using scripts",
-      "b": "To compile code",
-      "c": "To deploy applications",
-      "d": "To store data"
+      "a": "Managing infrastructure using version-controlled configuration files",
+      "b": "Compiling application code faster",
+      "c": "Deploying applications without testing",
+      "d": "Storing large amounts of data"
     },
     "correctAnswer": "a",
     "category": "devops",
     "difficulty": "hard"
   },
   {
-    "question": "What is CI/CD? (3)",
+    "question": "Which tool is commonly used for container orchestration?",
     "options": {
-      "a": "Client Integration/Code Debugging",
-      "b": "Code Initialization/Code Deployment",
-      "c": "Continuous Integration/Continuous Deployment",
-      "d": "Configuration Interface/Container Development"
+      "a": "Jenkins",
+      "b": "Kubernetes",
+      "c": "Git",
+      "d": "Ansible"
+    },
+    "correctAnswer": "b",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a blue-green deployment?",
+    "options": {
+      "a": "To reduce downtime during deployments",
+      "b": "To color-code server racks",
+      "c": "To separate development and production environments",
+      "d": "To manage database migrations"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is immutable infrastructure in DevOps?",
+    "options": {
+      "a": "Infrastructure that cannot be changed once deployed",
+      "b": "Infrastructure that changes frequently",
+      "c": "Infrastructure that only uses virtual machines",
+      "d": "Infrastructure without security controls"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is NOT a configuration management tool?",
+    "options": {
+      "a": "Chef",
+      "b": "Puppet",
+      "c": "Terraform",
+      "d": "Ansible"
     },
     "correctAnswer": "c",
     "category": "devops",
     "difficulty": "easy"
   },
   {
-    "question": "What does Docker use to create containers? (4)",
+    "question": "What is the purpose of a canary release?",
     "options": {
-      "a": "Scripts",
-      "b": "Images",
-      "c": "Repositories",
-      "d": "Binaries"
+      "a": "To test new versions on a small subset of users",
+      "b": "To deploy only during certain hours",
+      "c": "To monitor bird migrations near data centers",
+      "d": "To release features to all users simultaneously"
     },
-    "correctAnswer": "b",
+    "correctAnswer": "a",
     "category": "devops",
     "difficulty": "medium"
   },
   {
-    "question": "What is the purpose of infrastructure as code? (5)",
+    "question": "What is GitOps in DevOps practices?",
     "options": {
-      "a": "To compile code",
-      "b": "To store data",
-      "c": "To manage infrastructure using scripts",
-      "d": "To deploy applications"
+      "a": "Using Git as the single source of truth for deployments",
+      "b": "Operating Git repositories",
+      "c": "A version control system for operations teams",
+      "d": "Git commands for system administration"
     },
-    "correctAnswer": "c",
+    "correctAnswer": "a",
     "category": "devops",
     "difficulty": "hard"
   },
   {
-    "question": "What is CI/CD? (6)",
+    "question": "What is the primary purpose of Jenkins in CI/CD pipelines?",
     "options": {
-      "a": "Client Integration/Code Debugging",
-      "b": "Continuous Integration/Continuous Deployment",
-      "c": "Configuration Interface/Container Development",
-      "d": "Code Initialization/Code Deployment"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (7)",
-    "options": {
-      "a": "Binaries",
-      "b": "Repositories",
-      "c": "Images",
-      "d": "Scripts"
-    },
-    "correctAnswer": "c",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (8)",
-    "options": {
-      "a": "To deploy applications",
-      "b": "To manage infrastructure using scripts",
-      "c": "To store data",
-      "d": "To compile code"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (9)",
-    "options": {
-      "a": "Configuration Interface/Container Development",
-      "b": "Code Initialization/Code Deployment",
-      "c": "Client Integration/Code Debugging",
-      "d": "Continuous Integration/Continuous Deployment"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (10)",
-    "options": {
-      "a": "Repositories",
-      "b": "Scripts",
-      "c": "Binaries",
-      "d": "Images"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (11)",
-    "options": {
-      "a": "To store data",
-      "b": "To compile code",
-      "c": "To deploy applications",
-      "d": "To manage infrastructure using scripts"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (12)",
-    "options": {
-      "a": "Client Integration/Code Debugging",
-      "b": "Continuous Integration/Continuous Deployment",
-      "c": "Configuration Interface/Container Development",
-      "d": "Code Initialization/Code Deployment"
+      "a": "Container orchestration",
+      "b": "Automating the build and deployment process",
+      "c": "Managing cloud infrastructure",
+      "d": "Monitoring application performance"
     },
     "correctAnswer": "b",
     "category": "devops",
     "difficulty": "easy"
   },
   {
-    "question": "What does Docker use to create containers? (13)",
+    "question": "What is the difference between Docker and Kubernetes?",
     "options": {
-      "a": "Scripts",
-      "b": "Binaries",
-      "c": "Images",
-      "d": "Repositories"
+      "a": "Docker packages applications, Kubernetes manages containers",
+      "b": "They are the same technology",
+      "c": "Kubernetes creates containers, Docker orchestrates them",
+      "d": "Docker is only for Windows, Kubernetes for Linux"
     },
-    "correctAnswer": "c",
+    "correctAnswer": "a",
     "category": "devops",
     "difficulty": "medium"
   },
   {
-    "question": "What is the purpose of infrastructure as code? (14)",
+    "question": "What is service mesh in microservices architecture?",
     "options": {
-      "a": "To manage infrastructure using scripts",
-      "b": "To compile code",
-      "c": "To deploy applications",
-      "d": "To store data"
+      "a": "A dedicated infrastructure layer for service-to-service communication",
+      "b": "A network of physical servers",
+      "c": "A type of database connection",
+      "d": "A security firewall for APIs"
     },
     "correctAnswer": "a",
     "category": "devops",
     "difficulty": "hard"
   },
   {
-    "question": "What is CI/CD? (15)",
+    "question": "Which protocol is commonly used for container registries?",
     "options": {
-      "a": "Code Initialization/Code Deployment",
-      "b": "Continuous Integration/Continuous Deployment",
-      "c": "Configuration Interface/Container Development",
-      "d": "Client Integration/Code Debugging"
+      "a": "HTTP",
+      "b": "FTP",
+      "c": "SSH",
+      "d": "DNS"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of Helm in Kubernetes?",
+    "options": {
+      "a": "Package manager for Kubernetes applications",
+      "b": "Monitoring tool for clusters",
+      "c": "Security scanner for containers",
+      "d": "Load balancer for services"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is chaos engineering in DevOps?",
+    "options": {
+      "a": "Intentionally introducing failures to test system resilience",
+      "b": "Randomly deleting production data",
+      "c": "A development methodology without planning",
+      "d": "Testing only in chaotic environments"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Prometheus?",
+    "options": {
+      "a": "Container orchestration",
+      "b": "Monitoring and alerting",
+      "c": "Configuration management",
+      "d": "Continuous integration"
     },
     "correctAnswer": "b",
     "category": "devops",
     "difficulty": "easy"
   },
   {
-    "question": "What does Docker use to create containers? (16)",
+    "question": "What is the difference between horizontal and vertical scaling?",
     "options": {
-      "a": "Images",
-      "b": "Scripts",
-      "c": "Repositories",
-      "d": "Binaries"
+      "a": "Horizontal adds more machines, vertical adds resources to existing machines",
+      "b": "They are the same",
+      "c": "Vertical is for databases, horizontal for applications",
+      "d": "Horizontal is cheaper than vertical"
     },
     "correctAnswer": "a",
     "category": "devops",
     "difficulty": "medium"
   },
   {
-    "question": "What is the purpose of infrastructure as code? (17)",
+    "question": "What is a sidecar container pattern?",
     "options": {
-      "a": "To manage infrastructure using scripts",
-      "b": "To store data",
-      "c": "To deploy applications",
-      "d": "To compile code"
+      "a": "A helper container that extends the main application container",
+      "b": "A container that runs beside the host OS",
+      "c": "A backup container for failover",
+      "d": "A container that monitors network traffic"
     },
     "correctAnswer": "a",
     "category": "devops",
     "difficulty": "hard"
   },
   {
-    "question": "What is CI/CD? (18)",
+    "question": "Which cloud service model provides the most abstraction?",
     "options": {
-      "a": "Client Integration/Code Debugging",
-      "b": "Configuration Interface/Container Development",
-      "c": "Code Initialization/Code Deployment",
-      "d": "Continuous Integration/Continuous Deployment"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (19)",
-    "options": {
-      "a": "Images",
-      "b": "Repositories",
-      "c": "Binaries",
-      "d": "Scripts"
-    },
-    "correctAnswer": "a",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (20)",
-    "options": {
-      "a": "To compile code",
-      "b": "To store data",
-      "c": "To manage infrastructure using scripts",
-      "d": "To deploy applications"
-    },
-    "correctAnswer": "c",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (21)",
-    "options": {
-      "a": "Continuous Integration/Continuous Deployment",
-      "b": "Client Integration/Code Debugging",
-      "c": "Code Initialization/Code Deployment",
-      "d": "Configuration Interface/Container Development"
-    },
-    "correctAnswer": "a",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (22)",
-    "options": {
-      "a": "Repositories",
-      "b": "Scripts",
-      "c": "Images",
-      "d": "Binaries"
-    },
-    "correctAnswer": "c",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (23)",
-    "options": {
-      "a": "To compile code",
-      "b": "To manage infrastructure using scripts",
-      "c": "To deploy applications",
-      "d": "To store data"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (24)",
-    "options": {
-      "a": "Configuration Interface/Container Development",
-      "b": "Code Initialization/Code Deployment",
-      "c": "Client Integration/Code Debugging",
-      "d": "Continuous Integration/Continuous Deployment"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (25)",
-    "options": {
-      "a": "Repositories",
-      "b": "Images",
-      "c": "Scripts",
-      "d": "Binaries"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (26)",
-    "options": {
-      "a": "To manage infrastructure using scripts",
-      "b": "To deploy applications",
-      "c": "To compile code",
-      "d": "To store data"
-    },
-    "correctAnswer": "a",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (27)",
-    "options": {
-      "a": "Continuous Integration/Continuous Deployment",
-      "b": "Client Integration/Code Debugging",
-      "c": "Configuration Interface/Container Development",
-      "d": "Code Initialization/Code Deployment"
-    },
-    "correctAnswer": "a",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (28)",
-    "options": {
-      "a": "Scripts",
-      "b": "Repositories",
-      "c": "Images",
-      "d": "Binaries"
-    },
-    "correctAnswer": "c",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (29)",
-    "options": {
-      "a": "To manage infrastructure using scripts",
-      "b": "To compile code",
-      "c": "To store data",
-      "d": "To deploy applications"
-    },
-    "correctAnswer": "a",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (30)",
-    "options": {
-      "a": "Client Integration/Code Debugging",
-      "b": "Code Initialization/Code Deployment",
-      "c": "Continuous Integration/Continuous Deployment",
-      "d": "Configuration Interface/Container Development"
+      "a": "IaaS",
+      "b": "PaaS",
+      "c": "SaaS",
+      "d": "FaaS"
     },
     "correctAnswer": "c",
     "category": "devops",
     "difficulty": "easy"
   },
   {
-    "question": "What does Docker use to create containers? (31)",
+    "question": "What is the purpose of Istio in microservices?",
     "options": {
-      "a": "Binaries",
-      "b": "Repositories",
-      "c": "Images",
-      "d": "Scripts"
-    },
-    "correctAnswer": "c",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (32)",
-    "options": {
-      "a": "To compile code",
-      "b": "To manage infrastructure using scripts",
-      "c": "To store data",
-      "d": "To deploy applications"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (33)",
-    "options": {
-      "a": "Code Initialization/Code Deployment",
-      "b": "Configuration Interface/Container Development",
-      "c": "Continuous Integration/Continuous Deployment",
-      "d": "Client Integration/Code Debugging"
-    },
-    "correctAnswer": "c",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (34)",
-    "options": {
-      "a": "Repositories",
-      "b": "Images",
-      "c": "Binaries",
-      "d": "Scripts"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (35)",
-    "options": {
-      "a": "To store data",
-      "b": "To compile code",
-      "c": "To deploy applications",
-      "d": "To manage infrastructure using scripts"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (36)",
-    "options": {
-      "a": "Configuration Interface/Container Development",
-      "b": "Code Initialization/Code Deployment",
-      "c": "Client Integration/Code Debugging",
-      "d": "Continuous Integration/Continuous Deployment"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (37)",
-    "options": {
-      "a": "Repositories",
-      "b": "Binaries",
-      "c": "Scripts",
-      "d": "Images"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (38)",
-    "options": {
-      "a": "To deploy applications",
-      "b": "To store data",
-      "c": "To manage infrastructure using scripts",
-      "d": "To compile code"
-    },
-    "correctAnswer": "c",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (39)",
-    "options": {
-      "a": "Code Initialization/Code Deployment",
-      "b": "Client Integration/Code Debugging",
-      "c": "Configuration Interface/Container Development",
-      "d": "Continuous Integration/Continuous Deployment"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (40)",
-    "options": {
-      "a": "Images",
-      "b": "Scripts",
-      "c": "Repositories",
-      "d": "Binaries"
+      "a": "Service mesh implementation",
+      "b": "Container runtime",
+      "c": "Configuration management",
+      "d": "Source code versioning"
     },
     "correctAnswer": "a",
     "category": "devops",
     "difficulty": "medium"
   },
   {
-    "question": "What is the purpose of infrastructure as code? (41)",
+    "question": "What is GitLab CI/CD?",
     "options": {
-      "a": "To manage infrastructure using scripts",
-      "b": "To compile code",
-      "c": "To store data",
-      "d": "To deploy applications"
-    },
-    "correctAnswer": "a",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (42)",
-    "options": {
-      "a": "Configuration Interface/Container Development",
-      "b": "Continuous Integration/Continuous Deployment",
-      "c": "Code Initialization/Code Deployment",
-      "d": "Client Integration/Code Debugging"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (43)",
-    "options": {
-      "a": "Scripts",
-      "b": "Binaries",
-      "c": "Repositories",
-      "d": "Images"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (44)",
-    "options": {
-      "a": "To compile code",
-      "b": "To store data",
-      "c": "To manage infrastructure using scripts",
-      "d": "To deploy applications"
-    },
-    "correctAnswer": "c",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (45)",
-    "options": {
-      "a": "Client Integration/Code Debugging",
-      "b": "Continuous Integration/Continuous Deployment",
-      "c": "Code Initialization/Code Deployment",
-      "d": "Configuration Interface/Container Development"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (46)",
-    "options": {
-      "a": "Binaries",
-      "b": "Images",
-      "c": "Scripts",
-      "d": "Repositories"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (47)",
-    "options": {
-      "a": "To store data",
-      "b": "To deploy applications",
-      "c": "To compile code",
-      "d": "To manage infrastructure using scripts"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (48)",
-    "options": {
-      "a": "Code Initialization/Code Deployment",
-      "b": "Continuous Integration/Continuous Deployment",
-      "c": "Client Integration/Code Debugging",
-      "d": "Configuration Interface/Container Development"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (49)",
-    "options": {
-      "a": "Images",
-      "b": "Repositories",
-      "c": "Binaries",
-      "d": "Scripts"
-    },
-    "correctAnswer": "a",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (50)",
-    "options": {
-      "a": "To compile code",
-      "b": "To deploy applications",
-      "c": "To store data",
-      "d": "To manage infrastructure using scripts"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (51)",
-    "options": {
-      "a": "Code Initialization/Code Deployment",
-      "b": "Continuous Integration/Continuous Deployment",
-      "c": "Configuration Interface/Container Development",
-      "d": "Client Integration/Code Debugging"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (52)",
-    "options": {
-      "a": "Binaries",
-      "b": "Repositories",
-      "c": "Scripts",
-      "d": "Images"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (53)",
-    "options": {
-      "a": "To store data",
-      "b": "To manage infrastructure using scripts",
-      "c": "To compile code",
-      "d": "To deploy applications"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (54)",
-    "options": {
-      "a": "Continuous Integration/Continuous Deployment",
-      "b": "Configuration Interface/Container Development",
-      "c": "Client Integration/Code Debugging",
-      "d": "Code Initialization/Code Deployment"
+      "a": "A built-in continuous integration tool in GitLab",
+      "b": "A version control system",
+      "c": "A container orchestration platform",
+      "d": "A monitoring solution"
     },
     "correctAnswer": "a",
     "category": "devops",
     "difficulty": "easy"
   },
   {
-    "question": "What does Docker use to create containers? (55)",
+    "question": "What is the difference between Docker Compose and Docker Swarm?",
     "options": {
-      "a": "Images",
-      "b": "Binaries",
-      "c": "Repositories",
-      "d": "Scripts"
+      "a": "Compose is for local multi-container apps, Swarm is for clustering",
+      "b": "They are the same",
+      "c": "Swarm is older than Compose",
+      "d": "Compose is for production, Swarm for development"
     },
     "correctAnswer": "a",
     "category": "devops",
     "difficulty": "medium"
   },
   {
-    "question": "What is the purpose of infrastructure as code? (56)",
+    "question": "What is a circuit breaker pattern in microservices?",
     "options": {
-      "a": "To deploy applications",
-      "b": "To manage infrastructure using scripts",
-      "c": "To store data",
-      "d": "To compile code"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (57)",
-    "options": {
-      "a": "Continuous Integration/Continuous Deployment",
-      "b": "Configuration Interface/Container Development",
-      "c": "Client Integration/Code Debugging",
-      "d": "Code Initialization/Code Deployment"
-    },
-    "correctAnswer": "a",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (58)",
-    "options": {
-      "a": "Binaries",
-      "b": "Repositories",
-      "c": "Images",
-      "d": "Scripts"
-    },
-    "correctAnswer": "c",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (59)",
-    "options": {
-      "a": "To store data",
-      "b": "To manage infrastructure using scripts",
-      "c": "To deploy applications",
-      "d": "To compile code"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (60)",
-    "options": {
-      "a": "Configuration Interface/Container Development",
-      "b": "Continuous Integration/Continuous Deployment",
-      "c": "Client Integration/Code Debugging",
-      "d": "Code Initialization/Code Deployment"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (61)",
-    "options": {
-      "a": "Images",
-      "b": "Repositories",
-      "c": "Scripts",
-      "d": "Binaries"
-    },
-    "correctAnswer": "a",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (62)",
-    "options": {
-      "a": "To compile code",
-      "b": "To store data",
-      "c": "To deploy applications",
-      "d": "To manage infrastructure using scripts"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (63)",
-    "options": {
-      "a": "Code Initialization/Code Deployment",
-      "b": "Configuration Interface/Container Development",
-      "c": "Client Integration/Code Debugging",
-      "d": "Continuous Integration/Continuous Deployment"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (64)",
-    "options": {
-      "a": "Scripts",
-      "b": "Repositories",
-      "c": "Binaries",
-      "d": "Images"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (65)",
-    "options": {
-      "a": "To manage infrastructure using scripts",
-      "b": "To store data",
-      "c": "To compile code",
-      "d": "To deploy applications"
+      "a": "A fail-safe mechanism to prevent cascading failures",
+      "b": "A power management system",
+      "c": "A network segmentation technique",
+      "d": "A container isolation method"
     },
     "correctAnswer": "a",
     "category": "devops",
     "difficulty": "hard"
   },
   {
-    "question": "What is CI/CD? (66)",
+    "question": "What is the primary purpose of Terraform?",
     "options": {
-      "a": "Configuration Interface/Container Development",
-      "b": "Continuous Integration/Continuous Deployment",
-      "c": "Client Integration/Code Debugging",
-      "d": "Code Initialization/Code Deployment"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (67)",
-    "options": {
-      "a": "Binaries",
-      "b": "Scripts",
-      "c": "Repositories",
-      "d": "Images"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (68)",
-    "options": {
-      "a": "To deploy applications",
-      "b": "To store data",
-      "c": "To compile code",
-      "d": "To manage infrastructure using scripts"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (69)",
-    "options": {
-      "a": "Code Initialization/Code Deployment",
-      "b": "Configuration Interface/Container Development",
-      "c": "Continuous Integration/Continuous Deployment",
-      "d": "Client Integration/Code Debugging"
-    },
-    "correctAnswer": "c",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (70)",
-    "options": {
-      "a": "Images",
-      "b": "Binaries",
-      "c": "Scripts",
-      "d": "Repositories"
-    },
-    "correctAnswer": "a",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (71)",
-    "options": {
-      "a": "To manage infrastructure using scripts",
-      "b": "To store data",
-      "c": "To compile code",
-      "d": "To deploy applications"
-    },
-    "correctAnswer": "a",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (72)",
-    "options": {
-      "a": "Client Integration/Code Debugging",
-      "b": "Continuous Integration/Continuous Deployment",
-      "c": "Code Initialization/Code Deployment",
-      "d": "Configuration Interface/Container Development"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (73)",
-    "options": {
-      "a": "Binaries",
-      "b": "Images",
-      "c": "Scripts",
-      "d": "Repositories"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (74)",
-    "options": {
-      "a": "To deploy applications",
-      "b": "To manage infrastructure using scripts",
-      "c": "To compile code",
-      "d": "To store data"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (75)",
-    "options": {
-      "a": "Configuration Interface/Container Development",
-      "b": "Continuous Integration/Continuous Deployment",
-      "c": "Client Integration/Code Debugging",
-      "d": "Code Initialization/Code Deployment"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (76)",
-    "options": {
-      "a": "Scripts",
-      "b": "Images",
-      "c": "Repositories",
-      "d": "Binaries"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (77)",
-    "options": {
-      "a": "To store data",
-      "b": "To manage infrastructure using scripts",
-      "c": "To deploy applications",
-      "d": "To compile code"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (78)",
-    "options": {
-      "a": "Continuous Integration/Continuous Deployment",
-      "b": "Code Initialization/Code Deployment",
-      "c": "Client Integration/Code Debugging",
-      "d": "Configuration Interface/Container Development"
+      "a": "Infrastructure as code provisioning",
+      "b": "Container runtime",
+      "c": "Continuous integration",
+      "d": "Application performance monitoring"
     },
     "correctAnswer": "a",
     "category": "devops",
     "difficulty": "easy"
   },
   {
-    "question": "What does Docker use to create containers? (79)",
+    "question": "What is the difference between Ansible and Puppet?",
     "options": {
-      "a": "Scripts",
-      "b": "Binaries",
-      "c": "Images",
-      "d": "Repositories"
-    },
-    "correctAnswer": "c",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (80)",
-    "options": {
-      "a": "To store data",
-      "b": "To manage infrastructure using scripts",
-      "c": "To deploy applications",
-      "d": "To compile code"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (81)",
-    "options": {
-      "a": "Client Integration/Code Debugging",
-      "b": "Code Initialization/Code Deployment",
-      "c": "Continuous Integration/Continuous Deployment",
-      "d": "Configuration Interface/Container Development"
-    },
-    "correctAnswer": "c",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (82)",
-    "options": {
-      "a": "Binaries",
-      "b": "Scripts",
-      "c": "Images",
-      "d": "Repositories"
-    },
-    "correctAnswer": "c",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (83)",
-    "options": {
-      "a": "To manage infrastructure using scripts",
-      "b": "To compile code",
-      "c": "To deploy applications",
-      "d": "To store data"
-    },
-    "correctAnswer": "a",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (84)",
-    "options": {
-      "a": "Continuous Integration/Continuous Deployment",
-      "b": "Configuration Interface/Container Development",
-      "c": "Code Initialization/Code Deployment",
-      "d": "Client Integration/Code Debugging"
-    },
-    "correctAnswer": "a",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (85)",
-    "options": {
-      "a": "Repositories",
-      "b": "Images",
-      "c": "Scripts",
-      "d": "Binaries"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (86)",
-    "options": {
-      "a": "To compile code",
-      "b": "To store data",
-      "c": "To deploy applications",
-      "d": "To manage infrastructure using scripts"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (87)",
-    "options": {
-      "a": "Client Integration/Code Debugging",
-      "b": "Continuous Integration/Continuous Deployment",
-      "c": "Configuration Interface/Container Development",
-      "d": "Code Initialization/Code Deployment"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (88)",
-    "options": {
-      "a": "Scripts",
-      "b": "Binaries",
-      "c": "Images",
-      "d": "Repositories"
-    },
-    "correctAnswer": "c",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (89)",
-    "options": {
-      "a": "To store data",
-      "b": "To compile code",
-      "c": "To manage infrastructure using scripts",
-      "d": "To deploy applications"
-    },
-    "correctAnswer": "c",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (90)",
-    "options": {
-      "a": "Client Integration/Code Debugging",
-      "b": "Continuous Integration/Continuous Deployment",
-      "c": "Configuration Interface/Container Development",
-      "d": "Code Initialization/Code Deployment"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (91)",
-    "options": {
-      "a": "Binaries",
-      "b": "Scripts",
-      "c": "Repositories",
-      "d": "Images"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (92)",
-    "options": {
-      "a": "To manage infrastructure using scripts",
-      "b": "To deploy applications",
-      "c": "To compile code",
-      "d": "To store data"
-    },
-    "correctAnswer": "a",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (93)",
-    "options": {
-      "a": "Continuous Integration/Continuous Deployment",
-      "b": "Configuration Interface/Container Development",
-      "c": "Code Initialization/Code Deployment",
-      "d": "Client Integration/Code Debugging"
-    },
-    "correctAnswer": "a",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (94)",
-    "options": {
-      "a": "Repositories",
-      "b": "Images",
-      "c": "Binaries",
-      "d": "Scripts"
-    },
-    "correctAnswer": "b",
-    "category": "devops",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the purpose of infrastructure as code? (95)",
-    "options": {
-      "a": "To manage infrastructure using scripts",
-      "b": "To deploy applications",
-      "c": "To compile code",
-      "d": "To store data"
-    },
-    "correctAnswer": "a",
-    "category": "devops",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is CI/CD? (96)",
-    "options": {
-      "a": "Client Integration/Code Debugging",
-      "b": "Code Initialization/Code Deployment",
-      "c": "Configuration Interface/Container Development",
-      "d": "Continuous Integration/Continuous Deployment"
-    },
-    "correctAnswer": "d",
-    "category": "devops",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does Docker use to create containers? (97)",
-    "options": {
-      "a": "Images",
-      "b": "Binaries",
-      "c": "Scripts",
-      "d": "Repositories"
+      "a": "Ansible is agentless, Puppet requires agents",
+      "b": "They are identical",
+      "c": "Puppet is only for Windows",
+      "d": "Ansible doesn't support configuration management"
     },
     "correctAnswer": "a",
     "category": "devops",
     "difficulty": "medium"
   },
   {
-    "question": "What is the purpose of infrastructure as code? (98)",
+    "question": "What is a service level objective (SLO) in DevOps?",
     "options": {
-      "a": "To compile code",
-      "b": "To manage infrastructure using scripts",
-      "c": "To deploy applications",
-      "d": "To store data"
+      "a": "A measurable reliability target for a service",
+      "b": "A list of services to deploy",
+      "c": "An organizational objective",
+      "d": "A server load measurement"
     },
-    "correctAnswer": "b",
+    "correctAnswer": "a",
     "category": "devops",
     "difficulty": "hard"
   },
   {
-    "question": "What is CI/CD? (99)",
+    "question": "Which file defines a Docker container's configuration?",
     "options": {
-      "a": "Client Integration/Code Debugging",
-      "b": "Code Initialization/Code Deployment",
-      "c": "Continuous Integration/Continuous Deployment",
-      "d": "Configuration Interface/Container Development"
+      "a": "Dockerfile",
+      "b": "Container.yml",
+      "c": "Docker.conf",
+      "d": "Image.json"
     },
-    "correctAnswer": "c",
+    "correctAnswer": "a",
     "category": "devops",
     "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of Grafana in monitoring?",
+    "options": {
+      "a": "Data visualization and dashboarding",
+      "b": "Log collection",
+      "c": "Incident management",
+      "d": "Performance testing"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a pod in Kubernetes?",
+    "options": {
+      "a": "The smallest deployable unit containing one or more containers",
+      "b": "A virtual machine instance",
+      "c": "A network partition",
+      "d": "A storage volume"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Nagios?",
+    "options": {
+      "a": "Infrastructure monitoring",
+      "b": "Container orchestration",
+      "c": "Configuration management",
+      "d": "Continuous integration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between rolling and recreate deployment strategies?",
+    "options": {
+      "a": "Rolling updates gradually, recreate replaces all at once",
+      "b": "They are the same",
+      "c": "Recreate is for databases, rolling for applications",
+      "d": "Rolling is faster than recreate"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a daemon set in Kubernetes?",
+    "options": {
+      "a": "Ensures a copy of a pod runs on all or some nodes",
+      "b": "A set of system daemons",
+      "c": "A security policy",
+      "d": "A backup strategy"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of SonarQube?",
+    "options": {
+      "a": "Code quality analysis",
+      "b": "Container security scanning",
+      "c": "Infrastructure provisioning",
+      "d": "Performance testing"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between stateful and stateless applications?",
+    "options": {
+      "a": "Stateful remembers past interactions, stateless does not",
+      "b": "They are the same",
+      "c": "Stateless is always better",
+      "d": "Stateful is only for databases"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a ConfigMap in Kubernetes?",
+    "options": {
+      "a": "A way to store non-confidential configuration data",
+      "b": "A geographical map of clusters",
+      "c": "A security configuration",
+      "d": "A network topology diagram"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Vault by HashiCorp?",
+    "options": {
+      "a": "Secret management and data protection",
+      "b": "Container orchestration",
+      "c": "Continuous integration",
+      "d": "Infrastructure monitoring"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between imperative and declarative configuration?",
+    "options": {
+      "a": "Imperative specifies steps, declarative specifies desired state",
+      "b": "They are the same",
+      "c": "Declarative is outdated",
+      "d": "Imperative is only for containers"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes operator?",
+    "options": {
+      "a": "A method of packaging and managing complex applications",
+      "b": "A person managing the cluster",
+      "c": "A mathematical operator",
+      "d": "A network operation"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Selenium in DevOps?",
+    "options": {
+      "a": "Browser automation for testing",
+      "b": "Container management",
+      "c": "Infrastructure provisioning",
+      "d": "Performance monitoring"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between Docker Hub and a private registry?",
+    "options": {
+      "a": "Docker Hub is public, private registry is organization-controlled",
+      "b": "They are the same",
+      "c": "Private registry is only for paid users",
+      "d": "Docker Hub doesn't store images"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a service mesh architecture?",
+    "options": {
+      "a": "A dedicated infrastructure layer for service communication",
+      "b": "A network of physical servers",
+      "c": "A type of database connection",
+      "d": "A security firewall"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Artifactory?",
+    "options": {
+      "a": "Binary repository management",
+      "b": "Container orchestration",
+      "c": "Continuous integration",
+      "d": "Infrastructure monitoring"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between monolithic and microservices architecture?",
+    "options": {
+      "a": "Monolithic is single unit, microservices are independently deployable",
+      "b": "They are the same",
+      "c": "Microservices are outdated",
+      "d": "Monolithic is only for small apps"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes ingress?",
+    "options": {
+      "a": "Manages external access to services in a cluster",
+      "b": "A type of storage",
+      "c": "A security policy",
+      "d": "A monitoring tool"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Spinnaker?",
+    "options": {
+      "a": "Multi-cloud continuous delivery",
+      "b": "Container runtime",
+      "c": "Configuration management",
+      "d": "Code versioning"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between Docker and containerd?",
+    "options": {
+      "a": "Docker is a full platform, containerd is a core container runtime",
+      "b": "They are the same",
+      "c": "containerd is only for Linux",
+      "d": "Docker doesn't use containers"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes CRD (Custom Resource Definition)?",
+    "options": {
+      "a": "Extends Kubernetes API with custom resources",
+      "b": "A security policy",
+      "c": "A backup resource",
+      "d": "A network configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Fluentd?",
+    "options": {
+      "a": "Log collection and forwarding",
+      "b": "Container orchestration",
+      "c": "Configuration management",
+      "d": "Continuous integration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between Git and GitHub?",
+    "options": {
+      "a": "Git is version control, GitHub is a hosting service",
+      "b": "They are the same",
+      "c": "GitHub is outdated",
+      "d": "Git doesn't support version control"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes StatefulSet?",
+    "options": {
+      "a": "Manages stateful applications with stable network identities",
+      "b": "A security policy",
+      "c": "A backup strategy",
+      "d": "A monitoring configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Nexus Repository?",
+    "options": {
+      "a": "Artifact repository management",
+      "b": "Container orchestration",
+      "c": "Continuous integration",
+      "d": "Infrastructure monitoring"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between AWS ECS and EKS?",
+    "options": {
+      "a": "ECS is Amazon's container service, EKS is managed Kubernetes",
+      "b": "They are the same",
+      "c": "EKS is outdated",
+      "d": "ECS doesn't support containers"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes Horizontal Pod Autoscaler?",
+    "options": {
+      "a": "Automatically scales pods based on metrics",
+      "b": "A security policy",
+      "c": "A backup strategy",
+      "d": "A network configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Packer?",
+    "options": {
+      "a": "Creating identical machine images for multiple platforms",
+      "b": "Container orchestration",
+      "c": "Configuration management",
+      "d": "Continuous integration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between Azure AKS and ACI?",
+    "options": {
+      "a": "AKS is Kubernetes service, ACI is container instances",
+      "b": "They are the same",
+      "c": "ACI is outdated",
+      "d": "AKS doesn't support containers"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes PersistentVolume?",
+    "options": {
+      "a": "Storage resource that persists beyond pod lifecycle",
+      "b": "A temporary storage",
+      "c": "A security policy",
+      "d": "A network configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Consul?",
+    "options": {
+      "a": "Service networking and service mesh",
+      "b": "Container orchestration",
+      "c": "Configuration management",
+      "d": "Continuous integration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between GKE and Cloud Run?",
+    "options": {
+      "a": "GKE is managed Kubernetes, Cloud Run is serverless containers",
+      "b": "They are the same",
+      "c": "Cloud Run is outdated",
+      "d": "GKE doesn't support containers"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes NetworkPolicy?",
+    "options": {
+      "a": "Specifies how pods communicate with each other",
+      "b": "A security policy for users",
+      "c": "A backup strategy",
+      "d": "A storage configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Rancher?",
+    "options": {
+      "a": "Kubernetes management platform",
+      "b": "Container runtime",
+      "c": "Configuration management",
+      "d": "Continuous integration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between serverless and containers?",
+    "options": {
+      "a": "Serverless abstracts infrastructure completely, containers package apps",
+      "b": "They are the same",
+      "c": "Containers are outdated",
+      "d": "Serverless requires managing servers"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes Job?",
+    "options": {
+      "a": "Runs a task to completion",
+      "b": "A security policy",
+      "c": "A backup strategy",
+      "d": "A network configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Argo CD?",
+    "options": {
+      "a": "Declarative GitOps continuous delivery",
+      "b": "Container runtime",
+      "c": "Configuration management",
+      "d": "Infrastructure monitoring"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between Docker Swarm and Kubernetes?",
+    "options": {
+      "a": "Kubernetes is more feature-rich and complex than Swarm",
+      "b": "They are the same",
+      "c": "Swarm is newer than Kubernetes",
+      "d": "Kubernetes doesn't support containers"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes CronJob?",
+    "options": {
+      "a": "Runs Jobs on a time-based schedule",
+      "b": "A security policy",
+      "c": "A backup strategy",
+      "d": "A network configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Falco?",
+    "options": {
+      "a": "Runtime security for containers",
+      "b": "Container orchestration",
+      "c": "Configuration management",
+      "d": "Continuous integration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between Docker and Podman?",
+    "options": {
+      "a": "Podman is daemonless, Docker uses a daemon",
+      "b": "They are the same",
+      "c": "Podman is outdated",
+      "d": "Docker doesn't support containers"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes ReplicaSet?",
+    "options": {
+      "a": "Ensures a specified number of pod replicas are running",
+      "b": "A security policy",
+      "c": "A backup strategy",
+      "d": "A network configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Trivy?",
+    "options": {
+      "a": "Container vulnerability scanning",
+      "b": "Container orchestration",
+      "c": "Configuration management",
+      "d": "Continuous integration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between Azure DevOps and GitHub Actions?",
+    "options": {
+      "a": "Both are CI/CD tools but from different providers",
+      "b": "They are the same",
+      "c": "GitHub Actions is outdated",
+      "d": "Azure DevOps doesn't support CI/CD"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes Namespace?",
+    "options": {
+      "a": "A virtual cluster within a physical cluster",
+      "b": "A security policy",
+      "c": "A backup strategy",
+      "d": "A network configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Harbor?",
+    "options": {
+      "a": "Open source container registry",
+      "b": "Container orchestration",
+      "c": "Configuration management",
+      "d": "Continuous integration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between AWS Lambda and Fargate?",
+    "options": {
+      "a": "Lambda is serverless functions, Fargate is serverless containers",
+      "b": "They are the same",
+      "c": "Fargate is outdated",
+      "d": "Lambda doesn't support cloud computing"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes Service?",
+    "options": {
+      "a": "An abstraction to expose an application running on pods",
+      "b": "A security policy",
+      "c": "A backup strategy",
+      "d": "A network configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Kiali?",
+    "options": {
+      "a": "Service mesh observability",
+      "b": "Container orchestration",
+      "c": "Configuration management",
+      "d": "Continuous integration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between Terraform and CloudFormation?",
+    "options": {
+      "a": "Terraform is multi-cloud, CloudFormation is AWS-specific",
+      "b": "They are the same",
+      "c": "CloudFormation is outdated",
+      "d": "Terraform doesn't support infrastructure as code"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes Deployment?",
+    "options": {
+      "a": "Manages updates to applications running on pods",
+      "b": "A security policy",
+      "c": "A backup strategy",
+      "d": "A network configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Linkerd?",
+    "options": {
+      "a": "Lightweight service mesh",
+      "b": "Container orchestration",
+      "c": "Configuration management",
+      "d": "Continuous integration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between GitLab and GitHub?",
+    "options": {
+      "a": "Both are Git repositories but with different features",
+      "b": "They are the same",
+      "c": "GitHub is outdated",
+      "d": "GitLab doesn't support version control"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes ConfigMap?",
+    "options": {
+      "a": "Stores non-confidential configuration data",
+      "b": "A security policy",
+      "c": "A backup strategy",
+      "d": "A network configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Drone CI?",
+    "options": {
+      "a": "Container-native continuous integration",
+      "b": "Container orchestration",
+      "c": "Configuration management",
+      "d": "Infrastructure monitoring"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between Azure DevOps and Azure Pipelines?",
+    "options": {
+      "a": "Azure Pipelines is a component of Azure DevOps",
+      "b": "They are the same",
+      "c": "Azure Pipelines is outdated",
+      "d": "Azure DevOps doesn't support CI/CD"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes Secret?",
+    "options": {
+      "a": "Stores sensitive information like passwords",
+      "b": "A security policy",
+      "c": "A backup strategy",
+      "d": "A network configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Tekton?",
+    "options": {
+      "a": "Cloud-native continuous integration and delivery",
+      "b": "Container orchestration",
+      "c": "Configuration management",
+      "d": "Infrastructure monitoring"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between AWS CodePipeline and CodeBuild?",
+    "options": {
+      "a": "CodePipeline orchestrates workflows, CodeBuild compiles source code",
+      "b": "They are the same",
+      "c": "CodeBuild is outdated",
+      "d": "CodePipeline doesn't support CI/CD"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes DaemonSet?",
+    "options": {
+      "a": "Ensures a copy of a pod runs on all or some nodes",
+      "b": "A security policy",
+      "c": "A backup strategy",
+      "d": "A network configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Brigade?",
+    "options": {
+      "a": "Event-driven scripting for Kubernetes",
+      "b": "Container orchestration",
+      "c": "Configuration management",
+      "d": "Infrastructure monitoring"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between Google Cloud Build and Cloud Run?",
+    "options": {
+      "a": "Cloud Build is CI/CD service, Cloud Run is serverless containers",
+      "b": "They are the same",
+      "c": "Cloud Run is outdated",
+      "d": "Cloud Build doesn't support CI/CD"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes HorizontalPodAutoscaler?",
+    "options": {
+      "a": "Automatically scales pods based on CPU utilization",
+      "b": "A security policy",
+      "c": "A backup strategy",
+      "d": "A network configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Cloud Native Buildpacks?",
+    "options": {
+      "a": "Transform application source code into container images",
+      "b": "Container orchestration",
+      "c": "Configuration management",
+      "d": "Infrastructure monitoring"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between Azure Container Registry and Docker Hub?",
+    "options": {
+      "a": "ACR is Azure's private registry, Docker Hub is public",
+      "b": "They are the same",
+      "c": "Docker Hub is outdated",
+      "d": "ACR doesn't support containers"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes Volume?",
+    "options": {
+      "a": "Directory accessible to containers in a pod",
+      "b": "A security policy",
+      "c": "A backup strategy",
+      "d": "A network configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Crossplane?",
+    "options": {
+      "a": "Open source multicloud control plane",
+      "b": "Container orchestration",
+      "c": "Configuration management",
+      "d": "Infrastructure monitoring"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between AWS ECR and ECS?",
+    "options": {
+      "a": "ECR is container registry, ECS is container service",
+      "b": "They are the same",
+      "c": "ECS is outdated",
+      "d": "ECR doesn't support containers"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Kubernetes ClusterIP Service?",
+    "options": {
+      "a": "Exposes the service on an internal IP in the cluster",
+      "b": "A security policy",
+      "c": "A backup strategy",
+      "d": "A network configuration"
+    },
+    "correctAnswer": "a",
+    "category": "devops",
+    "difficulty": "hard"
   }
 ]

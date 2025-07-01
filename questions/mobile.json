@@ -1,0 +1,1046 @@
+[
+  {
+    "question": "Which language is used for Android native development?",
+    "options": {
+      "a": "Java",
+      "b": "Kotlin",
+      "c": "Dart",
+      "d": "Swift"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is Flutter primarily used for?",
+    "options": {
+      "a": "IoT programming",
+      "b": "Game development",
+      "c": "Database design",
+      "d": "Cross-platform mobile development"
+    },
+    "correctAnswer": "d",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the use of Gradle in Android?",
+    "options": {
+      "a": "To compile Java code",
+      "b": "To automate the build process",
+      "c": "To manage UI",
+      "d": "To test devices"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary language for iOS development?",
+    "options": {
+      "a": "Kotlin",
+      "b": "Swift",
+      "c": "Dart",
+      "d": "Java"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does React Native use to build mobile apps?",
+    "options": {
+      "a": "WebViews",
+      "b": "Native components",
+      "c": "Java bytecode",
+      "d": "Dart VM"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is Jetpack Compose used for in Android?",
+    "options": {
+      "a": "Database management",
+      "b": "Declarative UI creation",
+      "c": "Network requests",
+      "d": "Background processing"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which framework uses Dart as its programming language?",
+    "options": {
+      "a": "React Native",
+      "b": "Xamarin",
+      "c": "Flutter",
+      "d": "Ionic"
+    },
+    "correctAnswer": "c",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the Android Manifest file?",
+    "options": {
+      "a": "To declare app components",
+      "b": "To store app resources",
+      "c": "To manage dependencies",
+      "d": "To write business logic"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main advantage of using Kotlin for Android development?",
+    "options": {
+      "a": "Better performance than Java",
+      "b": "Null safety features",
+      "c": "Smaller APK size",
+      "d": "Faster compilation"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for iOS app development?",
+    "options": {
+      "a": "Android Studio",
+      "b": "Xcode",
+      "c": "Visual Studio",
+      "d": "Eclipse"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a pubspec.yaml file in Flutter?",
+    "options": {
+      "a": "To define app permissions",
+      "b": "To manage dependencies and assets",
+      "c": "To configure build settings",
+      "d": "To declare app activities"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of ProGuard in Android?",
+    "options": {
+      "a": "To optimize and obfuscate code",
+      "b": "To manage UI layouts",
+      "c": "To handle network requests",
+      "d": "To test app performance"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which architecture pattern is commonly used in Android development?",
+    "options": {
+      "a": "MVC",
+      "b": "MVVM",
+      "c": "Singleton",
+      "d": "Factory"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of SwiftUI in iOS development?",
+    "options": {
+      "a": "Database management",
+      "b": "Declarative UI framework",
+      "c": "Network layer",
+      "d": "Background tasks"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main benefit of using cross-platform frameworks?",
+    "options": {
+      "a": "Better performance",
+      "b": "Single codebase for multiple platforms",
+      "c": "Access to all native features",
+      "d": "Smaller app size"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which component handles UI in Android?",
+    "options": {
+      "a": "Service",
+      "b": "BroadcastReceiver",
+      "c": "Activity",
+      "d": "ContentProvider"
+    },
+    "correctAnswer": "c",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the Hot Reload feature in Flutter?",
+    "options": {
+      "a": "To restart the app",
+      "b": "To see changes without full rebuild",
+      "c": "To deploy to production",
+      "d": "To test on multiple devices"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is Android Jetpack?",
+    "options": {
+      "a": "A new programming language",
+      "b": "A set of libraries and tools",
+      "c": "An IDE for Android",
+      "d": "A testing framework"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which database is commonly used with Room in Android?",
+    "options": {
+      "a": "MySQL",
+      "b": "MongoDB",
+      "c": "SQLite",
+      "d": "PostgreSQL"
+    },
+    "correctAnswer": "c",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the ViewModel in Android?",
+    "options": {
+      "a": "To manage UI layout",
+      "b": "To store and manage UI-related data",
+      "c": "To handle network requests",
+      "d": "To define app navigation"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main advantage of using Swift over Objective-C?",
+    "options": {
+      "a": "Better performance",
+      "b": "More modern syntax",
+      "c": "Smaller binary size",
+      "d": "Easier memory management"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for Android emulation?",
+    "options": {
+      "a": "iOS Simulator",
+      "b": "Android Virtual Device",
+      "c": "Genymotion",
+      "d": "Both b and c"
+    },
+    "correctAnswer": "d",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the Navigator in Flutter?",
+    "options": {
+      "a": "To manage app state",
+      "b": "To handle routing and navigation",
+      "c": "To make network calls",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of LiveData in Android?",
+    "options": {
+      "a": "To observe data changes",
+      "b": "To create UI layouts",
+      "c": "To handle permissions",
+      "d": "To manage dependencies"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which package manager is used in Flutter?",
+    "options": {
+      "a": "npm",
+      "b": "pub",
+      "c": "gradle",
+      "d": "cocoapods"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of Core Data in iOS?",
+    "options": {
+      "a": "Network communication",
+      "b": "Data persistence",
+      "c": "UI rendering",
+      "d": "Background processing"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main difference between Stateful and Stateless widgets in Flutter?",
+    "options": {
+      "a": "Stateful can be redrawn, Stateless cannot",
+      "b": "Stateless can be redrawn, Stateful cannot",
+      "c": "Stateful can change over time, Stateless cannot",
+      "d": "Stateless can change over time, Stateful cannot"
+    },
+    "correctAnswer": "c",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which service is used for push notifications in Android?",
+    "options": {
+      "a": "Firebase Cloud Messaging",
+      "b": "Apple Push Notification",
+      "c": "Google Drive",
+      "d": "AWS SNS"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the AppDelegate in iOS?",
+    "options": {
+      "a": "To manage app's high-level behaviors",
+      "b": "To create UI layouts",
+      "c": "To handle database operations",
+      "d": "To manage dependencies"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main advantage of using Compose over XML layouts in Android?",
+    "options": {
+      "a": "Better performance",
+      "b": "Declarative UI approach",
+      "c": "Smaller APK size",
+      "d": "Easier testing"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used for hybrid app development with Ionic?",
+    "options": {
+      "a": "Java",
+      "b": "Swift",
+      "c": "JavaScript",
+      "d": "Dart"
+    },
+    "correctAnswer": "c",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the WidgetsBindingObserver in Flutter?",
+    "options": {
+      "a": "To observe app lifecycle changes",
+      "b": "To manage state",
+      "c": "To handle navigation",
+      "d": "To make network calls"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of the Dalvik Virtual Machine in Android?",
+    "options": {
+      "a": "To execute Java bytecode",
+      "b": "To render UI",
+      "c": "To manage memory",
+      "d": "To handle network requests"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which framework uses XAML for UI definition?",
+    "options": {
+      "a": "React Native",
+      "b": "Xamarin.Forms",
+      "c": "Flutter",
+      "d": "Ionic"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the MainActivity in Android?",
+    "options": {
+      "a": "To handle background tasks",
+      "b": "To serve as the entry point",
+      "c": "To manage databases",
+      "d": "To handle permissions"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main advantage of using SwiftUI over UIKit?",
+    "options": {
+      "a": "Better performance",
+      "b": "Declarative syntax",
+      "c": "Smaller binary size",
+      "d": "Easier memory management"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is used for dependency injection in Android?",
+    "options": {
+      "a": "Dagger",
+      "b": "Gradle",
+      "c": "ProGuard",
+      "d": "Room"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the BLoC pattern in Flutter?",
+    "options": {
+      "a": "To manage business logic and state",
+      "b": "To create UI layouts",
+      "c": "To handle navigation",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of ARCore in Android?",
+    "options": {
+      "a": "To enable augmented reality",
+      "b": "To manage app resources",
+      "c": "To handle network requests",
+      "d": "To optimize performance"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used for native iOS development?",
+    "options": {
+      "a": "Kotlin",
+      "b": "Java",
+      "c": "Swift",
+      "d": "Dart"
+    },
+    "correctAnswer": "c",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the ViewHolder pattern in Android?",
+    "options": {
+      "a": "To improve RecyclerView performance",
+      "b": "To manage app state",
+      "c": "To handle permissions",
+      "d": "To make network calls"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main advantage of using Kotlin Multiplatform?",
+    "options": {
+      "a": "Single codebase for multiple platforms",
+      "b": "Better performance than native",
+      "c": "Smaller binary size",
+      "d": "Easier memory management"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which component is responsible for long-running operations in Android?",
+    "options": {
+      "a": "Activity",
+      "b": "Service",
+      "c": "BroadcastReceiver",
+      "d": "ContentProvider"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the MaterialApp widget in Flutter?",
+    "options": {
+      "a": "To define the app's visual structure",
+      "b": "To manage state",
+      "c": "To handle navigation",
+      "d": "To make network calls"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of the ART runtime in Android?",
+    "options": {
+      "a": "To execute apps",
+      "b": "To render UI",
+      "c": "To manage memory",
+      "d": "To handle network requests"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which framework uses WebView for rendering?",
+    "options": {
+      "a": "React Native",
+      "b": "Flutter",
+      "c": "Ionic",
+      "d": "Xamarin"
+    },
+    "correctAnswer": "c",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the ViewBinding in Android?",
+    "options": {
+      "a": "To bind UI components to code",
+      "b": "To manage app state",
+      "c": "To handle permissions",
+      "d": "To make network calls"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main advantage of using Firebase in mobile development?",
+    "options": {
+      "a": "Provides backend services without server management",
+      "b": "Better performance than custom solutions",
+      "c": "Smaller app size",
+      "d": "Easier memory management"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which component handles system-wide broadcast announcements in Android?",
+    "options": {
+      "a": "Activity",
+      "b": "Service",
+      "c": "BroadcastReceiver",
+      "d": "ContentProvider"
+    },
+    "correctAnswer": "c",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the Provider package in Flutter?",
+    "options": {
+      "a": "To manage state",
+      "b": "To create UI layouts",
+      "c": "To handle navigation",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of the Android NDK?",
+    "options": {
+      "a": "To enable native code development",
+      "b": "To render UI",
+      "c": "To manage memory",
+      "d": "To handle network requests"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which framework is backed by Microsoft?",
+    "options": {
+      "a": "React Native",
+      "b": "Xamarin",
+      "c": "Flutter",
+      "d": "Ionic"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the WorkManager in Android?",
+    "options": {
+      "a": "To manage background tasks",
+      "b": "To create UI layouts",
+      "c": "To handle navigation",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main advantage of using Compose Multiplatform?",
+    "options": {
+      "a": "Shared UI across multiple platforms",
+      "b": "Better performance than native",
+      "c": "Smaller binary size",
+      "d": "Easier memory management"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which component manages shared app data in Android?",
+    "options": {
+      "a": "Activity",
+      "b": "Service",
+      "c": "BroadcastReceiver",
+      "d": "ContentProvider"
+    },
+    "correctAnswer": "d",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the Navigator 2.0 API in Flutter?",
+    "options": {
+      "a": "To manage app state",
+      "b": "To provide more control over navigation",
+      "c": "To create UI layouts",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of the Skia graphics engine in Flutter?",
+    "options": {
+      "a": "To render UI",
+      "b": "To manage state",
+      "c": "To handle network requests",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which framework uses a virtual DOM?",
+    "options": {
+      "a": "React Native",
+      "b": "Flutter",
+      "c": "Xamarin",
+      "d": "Ionic"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the Hilt library in Android?",
+    "options": {
+      "a": "To simplify dependency injection",
+      "b": "To create UI layouts",
+      "c": "To handle navigation",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main advantage of using declarative UI frameworks?",
+    "options": {
+      "a": "More intuitive UI development",
+      "b": "Better performance",
+      "c": "Smaller binary size",
+      "d": "Easier memory management"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which component is the entry point for an Android app?",
+    "options": {
+      "a": "Activity",
+      "b": "Service",
+      "c": "BroadcastReceiver",
+      "d": "ContentProvider"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the InheritedWidget in Flutter?",
+    "options": {
+      "a": "To efficiently propagate information down the widget tree",
+      "b": "To create UI layouts",
+      "c": "To handle navigation",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of the Bionic library in Android?",
+    "options": {
+      "a": "To provide C library implementations",
+      "b": "To render UI",
+      "c": "To manage memory",
+      "d": "To handle network requests"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which framework uses a single codebase for iOS and Android?",
+    "options": {
+      "a": "UIKit",
+      "b": "Jetpack Compose",
+      "c": "Flutter",
+      "d": "SwiftUI"
+    },
+    "correctAnswer": "c",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the DataBinding library in Android?",
+    "options": {
+      "a": "To bind UI components to data sources",
+      "b": "To create UI layouts",
+      "c": "To handle navigation",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main advantage of using native development over cross-platform?",
+    "options": {
+      "a": "Better access to platform-specific features",
+      "b": "Easier development process",
+      "c": "Single codebase",
+      "d": "Faster time to market"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which component handles user interactions in Android?",
+    "options": {
+      "a": "Activity",
+      "b": "Service",
+      "c": "BroadcastReceiver",
+      "d": "ContentProvider"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the GestureDetector widget in Flutter?",
+    "options": {
+      "a": "To recognize gestures",
+      "b": "To create UI layouts",
+      "c": "To handle navigation",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of the SurfaceFlinger in Android?",
+    "options": {
+      "a": "To compose surfaces into the display",
+      "b": "To render UI",
+      "c": "To manage memory",
+      "d": "To handle network requests"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which framework is developed by Facebook?",
+    "options": {
+      "a": "React Native",
+      "b": "Flutter",
+      "c": "Xamarin",
+      "d": "Ionic"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the Paging library in Android?",
+    "options": {
+      "a": "To load data gradually",
+      "b": "To create UI layouts",
+      "c": "To handle navigation",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main advantage of using Flutter's widget system?",
+    "options": {
+      "a": "Highly composable UI",
+      "b": "Better performance than native",
+      "c": "Smaller binary size",
+      "d": "Easier memory management"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which component handles background tasks in iOS?",
+    "options": {
+      "a": "ViewController",
+      "b": "AppDelegate",
+      "c": "OperationQueue",
+      "d": "Storyboard"
+    },
+    "correctAnswer": "c",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the MediaQuery widget in Flutter?",
+    "options": {
+      "a": "To access device characteristics",
+      "b": "To create UI layouts",
+      "c": "To handle navigation",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of the RenderObject in Flutter?",
+    "options": {
+      "a": "To handle low-level rendering",
+      "b": "To manage state",
+      "c": "To handle network requests",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which framework uses a bridge to communicate with native modules?",
+    "options": {
+      "a": "React Native",
+      "b": "Flutter",
+      "c": "Xamarin",
+      "d": "Ionic"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the Navigation component in Android?",
+    "options": {
+      "a": "To simplify navigation implementation",
+      "b": "To create UI layouts",
+      "c": "To manage state",
+      "d": "To handle databases"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main advantage of using Kotlin coroutines in Android?",
+    "options": {
+      "a": "Simplified asynchronous programming",
+      "b": "Better performance than threads",
+      "c": "Smaller binary size",
+      "d": "Easier memory management"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which component manages the app's lifecycle in iOS?",
+    "options": {
+      "a": "ViewController",
+      "b": "AppDelegate",
+      "c": "SceneDelegate",
+      "d": "Storyboard"
+    },
+    "correctAnswer": "b",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the FutureBuilder widget in Flutter?",
+    "options": {
+      "a": "To handle asynchronous operations",
+      "b": "To create UI layouts",
+      "c": "To handle navigation",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of the Platform Channel in Flutter?",
+    "options": {
+      "a": "To communicate with platform-specific code",
+      "b": "To render UI",
+      "c": "To manage state",
+      "d": "To handle network requests"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which framework uses a JavaScript bridge for native communication?",
+    "options": {
+      "a": "React Native",
+      "b": "Flutter",
+      "c": "Xamarin",
+      "d": "Ionic"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the ViewModelScope in Android?",
+    "options": {
+      "a": "To manage coroutine lifecycle",
+      "b": "To create UI layouts",
+      "c": "To handle navigation",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main advantage of using Swift's value types?",
+    "options": {
+      "a": "Safer multithreading",
+      "b": "Better performance than classes",
+      "c": "Smaller binary size",
+      "d": "Easier memory management"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which component handles memory management in iOS?",
+    "options": {
+      "a": "ARC (Automatic Reference Counting)",
+      "b": "Garbage Collector",
+      "c": "Memory Manager",
+      "d": "Heap Allocator"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the StreamBuilder widget in Flutter?",
+    "options": {
+      "a": "To handle asynchronous data streams",
+      "b": "To create UI layouts",
+      "c": "To handle navigation",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of the Flutter Engine?",
+    "options": {
+      "a": "To provide the low-level implementation of Flutter",
+      "b": "To manage state",
+      "c": "To handle network requests",
+      "d": "To manage databases"
+    },
+    "correctAnswer": "a",
+    "category": "mobile development",
+    "difficulty": "hard"
+  }
+]

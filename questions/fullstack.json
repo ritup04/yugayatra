@@ -1,0 +1,1142 @@
+[
+  {
+    "question": "Which stack includes MongoDB, Express.js, Angular, and Node.js?",
+    "options": {
+      "a": "JAM",
+      "b": "MEAN",
+      "c": "MERN",
+      "d": "LAMP"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In full stack apps, what is a 'middleware'?",
+    "options": {
+      "a": "A backend framework",
+      "b": "A function that processes requests before reaching the route handler",
+      "c": "A login interface",
+      "d": "A CSS preprocessor"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which language is used both in frontend and backend in full stack?",
+    "options": {
+      "a": "Python",
+      "b": "Java",
+      "c": "PHP",
+      "d": "JavaScript"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of Express.js in the MEAN/MERN stack?",
+    "options": {
+      "a": "Frontend framework",
+      "b": "Database management",
+      "c": "Backend server framework",
+      "d": "CSS preprocessing"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does the term 'full stack' refer to in web development?",
+    "options": {
+      "a": "Only frontend technologies",
+      "b": "Only backend technologies",
+      "c": "Both frontend and backend technologies",
+      "d": "Only database technologies"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of using a full stack JavaScript approach?",
+    "options": {
+      "a": "Code reuse between frontend and backend",
+      "b": "Consistent language across the stack",
+      "c": "No need for database knowledge",
+      "d": "Easier context switching for developers"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In the MERN stack, what does the 'R' stand for?",
+    "options": {
+      "a": "Ruby",
+      "b": "React",
+      "c": "Redis",
+      "d": "Router"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary role of MongoDB in the MEAN stack?",
+    "options": {
+      "a": "Handling HTTP requests",
+      "b": "Managing frontend state",
+      "c": "Storing and retrieving data",
+      "d": "Processing CSS"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is a key advantage of using Node.js for backend in full stack development?",
+    "options": {
+      "a": "Single-threaded event loop architecture",
+      "b": "Built-in ORM capabilities",
+      "c": "Native support for SQL databases",
+      "d": "Automatic frontend rendering"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of package.json in a full stack JavaScript project?",
+    "options": {
+      "a": "To define HTML templates",
+      "b": "To manage project metadata and dependencies",
+      "c": "To configure database connections",
+      "d": "To store CSS styles"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which tool is commonly used to manage dependencies in a full stack JavaScript project?",
+    "options": {
+      "a": "npm or yarn",
+      "b": "git",
+      "c": "webpack",
+      "d": "babel"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of a bundler like Webpack in full stack development?",
+    "options": {
+      "a": "To manage database migrations",
+      "b": "To bundle and optimize frontend assets",
+      "c": "To handle server-side routing",
+      "d": "To create API endpoints"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In full stack development, what is the purpose of CORS?",
+    "options": {
+      "a": "To optimize database queries",
+      "b": "To manage cross-origin requests between frontend and backend",
+      "c": "To style web components",
+      "d": "To handle user authentication"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is NOT typically part of a full stack developer's responsibilities?",
+    "options": {
+      "a": "Creating database schemas",
+      "b": "Implementing user interfaces",
+      "c": "Configuring web servers",
+      "d": "Designing CPU architectures"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary purpose of RESTful APIs in full stack applications?",
+    "options": {
+      "a": "To style web pages",
+      "b": "To enable communication between frontend and backend",
+      "c": "To replace databases",
+      "d": "To compile JavaScript"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of these is a common authentication method used in full stack applications?",
+    "options": {
+      "a": "JWT (JSON Web Tokens)",
+      "b": "CSS preprocessors",
+      "c": "DOM manipulation",
+      "d": "Virtual DOM"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of environment variables in full stack development?",
+    "options": {
+      "a": "To store sensitive configuration data",
+      "b": "To define CSS styles",
+      "c": "To create HTML templates",
+      "d": "To replace JavaScript functions"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which database type is MongoDB?",
+    "options": {
+      "a": "Relational",
+      "b": "NoSQL",
+      "c": "Graph",
+      "d": "Key-value"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the virtual DOM in React?",
+    "options": {
+      "a": "A database concept",
+      "b": "A lightweight copy of the real DOM for performance optimization",
+      "c": "A backend server",
+      "d": "A CSS framework"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTTP method is typically used to retrieve data from an API?",
+    "options": {
+      "a": "POST",
+      "b": "GET",
+      "c": "PUT",
+      "d": "DELETE"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of state management libraries like Redux in full stack applications?",
+    "options": {
+      "a": "To manage application state in a predictable way",
+      "b": "To replace databases",
+      "c": "To handle server-side rendering",
+      "d": "To optimize database queries"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a common testing framework for JavaScript full stack applications?",
+    "options": {
+      "a": "Jest",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the .env file in a full stack project?",
+    "options": {
+      "a": "To store environment variables",
+      "b": "To define React components",
+      "c": "To configure webpack",
+      "d": "To style components"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is NOT a common full stack JavaScript architecture?",
+    "options": {
+      "a": "MEAN",
+      "b": "MERN",
+      "c": "LAMP",
+      "d": "JAM"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is server-side rendering in full stack development?",
+    "options": {
+      "a": "Rendering HTML on the server before sending it to the client",
+      "b": "A database optimization technique",
+      "c": "A CSS preprocessing method",
+      "d": "A way to bundle JavaScript files"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which command is used to start a Node.js server?",
+    "options": {
+      "a": "node start",
+      "b": "npm run",
+      "c": "node server.js",
+      "d": "npm server"
+    },
+    "correctAnswer": "c",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+    "options": {
+      "a": "To enforce stricter parsing and error handling",
+      "b": "To optimize database queries",
+      "c": "To enable CSS modules",
+      "d": "To configure webpack"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is a common ORM used with Node.js?",
+    "options": {
+      "a": "Mongoose",
+      "b": "Redux",
+      "c": "Webpack",
+      "d": "Babel"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the useEffect hook in React?",
+    "options": {
+      "a": "To perform side effects in function components",
+      "b": "To define routes",
+      "c": "To create database models",
+      "d": "To style components"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is a common architectural pattern for organizing full stack applications?",
+    "options": {
+      "a": "MVC (Model-View-Controller)",
+      "b": "CSS-in-JS",
+      "c": "DOM manipulation",
+      "d": "Virtual scrolling"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the package-lock.json file?",
+    "options": {
+      "a": "To lock dependency versions for consistent installations",
+      "b": "To define React components",
+      "c": "To configure the database",
+      "d": "To store CSS styles"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is NOT a JavaScript runtime?",
+    "options": {
+      "a": "Node.js",
+      "b": "Deno",
+      "c": "Bun",
+      "d": "Python"
+    },
+    "correctAnswer": "d",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the async/await syntax in JavaScript?",
+    "options": {
+      "a": "To write asynchronous code that looks synchronous",
+      "b": "To define CSS animations",
+      "c": "To create database schemas",
+      "d": "To optimize images"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a common tool for API testing in full stack development?",
+    "options": {
+      "a": "Postman",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "ESLint"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'proxy' setting in package.json?",
+    "options": {
+      "a": "To redirect API requests in development to avoid CORS issues",
+      "b": "To optimize database queries",
+      "c": "To replace React with another framework",
+      "d": "To configure CSS modules"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a common CSS-in-JS library used in full stack applications?",
+    "options": {
+      "a": "Styled-components",
+      "b": "Express",
+      "c": "Mongoose",
+      "d": "Webpack"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'build' script in package.json?",
+    "options": {
+      "a": "To compile and bundle the application for production",
+      "b": "To start the development server",
+      "c": "To run tests",
+      "d": "To create database migrations"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a common performance optimization in React applications?",
+    "options": {
+      "a": "Code splitting",
+      "b": "Database normalization",
+      "c": "Server configuration",
+      "d": "CSS preprocessing"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'devDependencies' section in package.json?",
+    "options": {
+      "a": "To list dependencies only needed for development",
+      "b": "To define production environment variables",
+      "c": "To configure the database",
+      "d": "To style components"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is a common tool for linting JavaScript code?",
+    "options": {
+      "a": "ESLint",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'routes' folder in a full stack application?",
+    "options": {
+      "a": "To define API endpoints",
+      "b": "To store CSS files",
+      "c": "To configure webpack",
+      "d": "To define database schemas"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is a common pattern for state management in React?",
+    "options": {
+      "a": "Context API",
+      "b": "Database triggers",
+      "c": "Server middleware",
+      "d": "CSS animations"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'models' folder in a full stack application?",
+    "options": {
+      "a": "To define data structures and database schemas",
+      "b": "To store React components",
+      "c": "To configure the server",
+      "d": "To define CSS styles"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is a common tool for database migration management?",
+    "options": {
+      "a": "Mongoose",
+      "b": "Sequelize",
+      "c": "Webpack",
+      "d": "Babel"
+    },
+    "correctAnswer": "b",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'controllers' folder in a full stack application?",
+    "options": {
+      "a": "To handle business logic for API endpoints",
+      "b": "To store configuration files",
+      "c": "To define CSS styles",
+      "d": "To bundle JavaScript"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is a common tool for containerization in full stack development?",
+    "options": {
+      "a": "Docker",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'services' folder in a full stack application?",
+    "options": {
+      "a": "To encapsulate business logic that can be reused across controllers",
+      "b": "To store static assets",
+      "c": "To configure the database",
+      "d": "To define React hooks"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is a common tool for continuous integration in full stack development?",
+    "options": {
+      "a": "GitHub Actions",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'utils' folder in a full stack application?",
+    "options": {
+      "a": "To store utility functions and helper modules",
+      "b": "To define database schemas",
+      "c": "To configure the server",
+      "d": "To store CSS files"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a common tool for monitoring full stack applications?",
+    "options": {
+      "a": "Prometheus",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'config' folder in a full stack application?",
+    "options": {
+      "a": "To store configuration files for different environments",
+      "b": "To define React components",
+      "c": "To handle database migrations",
+      "d": "To store CSS styles"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is a common tool for logging in full stack applications?",
+    "options": {
+      "a": "Winston",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'middleware' folder in a full stack application?",
+    "options": {
+      "a": "To store functions that process requests before they reach route handlers",
+      "b": "To define database models",
+      "c": "To configure webpack",
+      "d": "To style components"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a common tool for API documentation in full stack development?",
+    "options": {
+      "a": "Swagger",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'public' folder in a full stack application?",
+    "options": {
+      "a": "To store static assets that are publicly accessible",
+      "b": "To define database schemas",
+      "c": "To configure the server",
+      "d": "To store React components"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a common tool for real-time communication in full stack applications?",
+    "options": {
+      "a": "Socket.io",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'tests' folder in a full stack application?",
+    "options": {
+      "a": "To store test files for the application",
+      "b": "To define database models",
+      "c": "To configure the server",
+      "d": "To store CSS styles"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is a common tool for performance monitoring in full stack applications?",
+    "options": {
+      "a": "New Relic",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'scripts' folder in a full stack application?",
+    "options": {
+      "a": "To store utility scripts for database migrations or other tasks",
+      "b": "To define React components",
+      "c": "To configure webpack",
+      "d": "To store CSS files"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a common tool for error tracking in full stack applications?",
+    "options": {
+      "a": "Sentry",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'client' and 'server' folders in a full stack application?",
+    "options": {
+      "a": "To separate frontend and backend code",
+      "b": "To store database configurations",
+      "c": "To define CSS styles",
+      "d": "To configure webpack"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a common tool for database visualization?",
+    "options": {
+      "a": "MongoDB Compass",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'assets' folder in a full stack application?",
+    "options": {
+      "a": "To store images, fonts, and other static files",
+      "b": "To define database models",
+      "c": "To configure the server",
+      "d": "To store React components"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a common tool for code formatting in full stack development?",
+    "options": {
+      "a": "Prettier",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'hooks' folder in a React application?",
+    "options": {
+      "a": "To store custom React hooks",
+      "b": "To define database schemas",
+      "c": "To configure the server",
+      "d": "To store CSS styles"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a common tool for database seeding?",
+    "options": {
+      "a": "Faker.js",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'constants' folder in a full stack application?",
+    "options": {
+      "a": "To store constant values used throughout the application",
+      "b": "To define database models",
+      "c": "To configure the server",
+      "d": "To store React components"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a common tool for API mocking during development?",
+    "options": {
+      "a": "JSON Server",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'contexts' folder in a React application?",
+    "options": {
+      "a": "To store React context providers",
+      "b": "To define database schemas",
+      "c": "To configure the server",
+      "d": "To store CSS styles"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a common tool for database backup?",
+    "options": {
+      "a": "MongoDB Atlas",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'layouts' folder in a full stack application?",
+    "options": {
+      "a": "To store reusable layout components",
+      "b": "To define database models",
+      "c": "To configure the server",
+      "d": "To store CSS files"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a common tool for dependency vulnerability scanning?",
+    "options": {
+      "a": "npm audit",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'store' folder in a Redux application?",
+    "options": {
+      "a": "To configure the Redux store and related logic",
+      "b": "To define database schemas",
+      "c": "To configure the server",
+      "d": "To store CSS styles"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a common tool for database indexing?",
+    "options": {
+      "a": "MongoDB indexes",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'helpers' folder in a full stack application?",
+    "options": {
+      "a": "To store helper functions used throughout the application",
+      "b": "To define database models",
+      "c": "To configure the server",
+      "d": "To store React components"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a common tool for API versioning?",
+    "options": {
+      "a": "URL path versioning (e.g., /api/v1/)",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'validators' folder in a full stack application?",
+    "options": {
+      "a": "To store validation logic for incoming data",
+      "b": "To define database schemas",
+      "c": "To configure the server",
+      "d": "To store CSS styles"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a common tool for database transactions?",
+    "options": {
+      "a": "MongoDB sessions",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'reducers' folder in a Redux application?",
+    "options": {
+      "a": "To store Redux reducer functions",
+      "b": "To define database models",
+      "c": "To configure the server",
+      "d": "To store CSS files"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is a common tool for API rate limiting?",
+    "options": {
+      "a": "express-rate-limit",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'actions' folder in a Redux application?",
+    "options": {
+      "a": "To store Redux action creators",
+      "b": "To define database schemas",
+      "c": "To configure the server",
+      "d": "To store React components"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which of the following is a common tool for API caching?",
+    "options": {
+      "a": "Redis",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'selectors' folder in a Redux application?",
+    "options": {
+      "a": "To store Redux selector functions",
+      "b": "To define database models",
+      "c": "To configure the server",
+      "d": "To store CSS styles"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a common tool for API documentation generation?",
+    "options": {
+      "a": "Swagger UI",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'sagas' folder in a Redux-Saga application?",
+    "options": {
+      "a": "To store Redux-Saga generator functions",
+      "b": "To define database schemas",
+      "c": "To configure the server",
+      "d": "To store React components"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a common tool for API authentication?",
+    "options": {
+      "a": "Passport.js",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'thunks' folder in a Redux-Thunk application?",
+    "options": {
+      "a": "To store Redux-Thunk action creators",
+      "b": "To define database models",
+      "c": "To configure the server",
+      "d": "To store CSS files"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a common tool for API validation?",
+    "options": {
+      "a": "Joi",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'epics' folder in a Redux-Observable application?",
+    "options": {
+      "a": "To store Redux-Observable epics",
+      "b": "To define database schemas",
+      "c": "To configure the server",
+      "d": "To store React components"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a common tool for API testing in CI/CD pipelines?",
+    "options": {
+      "a": "Supertest",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'resolvers' folder in a GraphQL application?",
+    "options": {
+      "a": "To store GraphQL resolver functions",
+      "b": "To define database models",
+      "c": "To configure the server",
+      "d": "To store CSS styles"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a common tool for GraphQL schema definition?",
+    "options": {
+      "a": "GraphQL SDL",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'typeDefs' folder in a GraphQL application?",
+    "options": {
+      "a": "To store GraphQL type definitions",
+      "b": "To define database schemas",
+      "c": "To configure the server",
+      "d": "To store React components"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a common tool for GraphQL API development?",
+    "options": {
+      "a": "Apollo Server",
+      "b": "Webpack",
+      "c": "Babel",
+      "d": "Express"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'directives' folder in a GraphQL application?",
+    "options": {
+      "a": "To store custom GraphQL directives",
+      "b": "To define database models",
+      "c": "To configure the server",
+      "d": "To store CSS files"
+    },
+    "correctAnswer": "a",
+    "category": "full stack development",
+    "difficulty": "hard"
+  }
+]

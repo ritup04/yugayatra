@@ -1,6 +1,6 @@
 [
   {
-    "question": "Which library is used for data manipulation in Python?",
+    "question": "Which library is primarily used for data manipulation in Python?",
     "options": {
       "a": "matplotlib",
       "b": "pandas",
@@ -12,7 +12,7 @@
     "difficulty": "easy"
   },
   {
-    "question": "What does EDA stand for in data science? (1)",
+    "question": "What does EDA stand for in data science?",
     "options": {
       "a": "Extended Data Assessment",
       "b": "Exploratory Data Analysis",
@@ -24,7 +24,7 @@
     "difficulty": "medium"
   },
   {
-    "question": "What is overfitting in machine learning? (2)",
+    "question": "What is overfitting in machine learning?",
     "options": {
       "a": "Model trains too quickly",
       "b": "Model performs well on training but poorly on testing data",
@@ -36,983 +36,191 @@
     "difficulty": "hard"
   },
   {
-    "question": "Which library is used for data manipulation in Python? (3)",
+    "question": "What is the primary purpose of NumPy in Python?",
     "options": {
-      "a": "numpy",
-      "b": "pandas",
-      "c": "matplotlib",
-      "d": "seaborn"
+      "a": "Data visualization",
+      "b": "Numerical computing with arrays",
+      "c": "Statistical analysis",
+      "d": "Machine learning model building"
     },
     "correctAnswer": "b",
     "category": "data science",
     "difficulty": "easy"
   },
   {
-    "question": "What does EDA stand for in data science? (4)",
+    "question": "Which of these is NOT a supervised learning algorithm?",
     "options": {
-      "a": "Exploratory Data Analysis",
-      "b": "Electronic Data Architecture",
-      "c": "Efficient Data Aggregation",
-      "d": "Extended Data Assessment"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (5)",
-    "options": {
-      "a": "Model trains too quickly",
-      "b": "Model performs poorly on both",
-      "c": "Model performs well on training but poorly on testing data",
-      "d": "Model skips training"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (6)",
-    "options": {
-      "a": "matplotlib",
-      "b": "seaborn",
-      "c": "pandas",
-      "d": "numpy"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (7)",
-    "options": {
-      "a": "Electronic Data Architecture",
-      "b": "Exploratory Data Analysis",
-      "c": "Efficient Data Aggregation",
-      "d": "Extended Data Assessment"
+      "a": "Random Forest",
+      "b": "K-Means",
+      "c": "Support Vector Machine",
+      "d": "Linear Regression"
     },
     "correctAnswer": "b",
     "category": "data science",
     "difficulty": "medium"
   },
   {
-    "question": "What is overfitting in machine learning? (8)",
+    "question": "What is the purpose of feature scaling in machine learning?",
     "options": {
-      "a": "Model performs poorly on both",
-      "b": "Model trains too quickly",
-      "c": "Model skips training",
-      "d": "Model performs well on training but poorly on testing data"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (9)",
-    "options": {
-      "a": "matplotlib",
-      "b": "seaborn",
-      "c": "pandas",
-      "d": "numpy"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (10)",
-    "options": {
-      "a": "Electronic Data Architecture",
-      "b": "Exploratory Data Analysis",
-      "c": "Efficient Data Aggregation",
-      "d": "Extended Data Assessment"
-    },
-    "correctAnswer": "b",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (11)",
-    "options": {
-      "a": "Model trains too quickly",
-      "b": "Model skips training",
-      "c": "Model performs poorly on both",
-      "d": "Model performs well on training but poorly on testing data"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (12)",
-    "options": {
-      "a": "matplotlib",
-      "b": "numpy",
-      "c": "seaborn",
-      "d": "pandas"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (13)",
-    "options": {
-      "a": "Efficient Data Aggregation",
-      "b": "Electronic Data Architecture",
-      "c": "Extended Data Assessment",
-      "d": "Exploratory Data Analysis"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (14)",
-    "options": {
-      "a": "Model trains too quickly",
-      "b": "Model performs well on training but poorly on testing data",
-      "c": "Model performs poorly on both",
-      "d": "Model skips training"
+      "a": "To increase model complexity",
+      "b": "To ensure features contribute equally to the result",
+      "c": "To reduce the number of features",
+      "d": "To visualize high-dimensional data"
     },
     "correctAnswer": "b",
     "category": "data science",
     "difficulty": "hard"
   },
   {
-    "question": "Which library is used for data manipulation in Python? (15)",
+    "question": "What does API stand for in programming?",
     "options": {
-      "a": "pandas",
-      "b": "numpy",
-      "c": "seaborn",
-      "d": "matplotlib"
+      "a": "Automated Programming Interface",
+      "b": "Application Programming Interface",
+      "c": "Advanced Programming Instruction",
+      "d": "Algorithmic Protocol Interface"
     },
-    "correctAnswer": "a",
+    "correctAnswer": "b",
     "category": "data science",
     "difficulty": "easy"
   },
   {
-    "question": "What does EDA stand for in data science? (16)",
+    "question": "What is the purpose of a confusion matrix?",
     "options": {
-      "a": "Efficient Data Aggregation",
-      "b": "Extended Data Assessment",
-      "c": "Electronic Data Architecture",
-      "d": "Exploratory Data Analysis"
+      "a": "To visualize data distributions",
+      "b": "To evaluate classification model performance",
+      "c": "To clean messy data",
+      "d": "To store large datasets"
     },
-    "correctAnswer": "d",
+    "correctAnswer": "b",
     "category": "data science",
     "difficulty": "medium"
   },
   {
-    "question": "What is overfitting in machine learning? (17)",
+    "question": "What is the bias-variance tradeoff in machine learning?",
     "options": {
-      "a": "Model performs well on training but poorly on testing data",
-      "b": "Model trains too quickly",
-      "c": "Model performs poorly on both",
-      "d": "Model skips training"
+      "a": "Balancing model complexity to avoid under/overfitting",
+      "b": "Choosing between different algorithms",
+      "c": "Deciding which features to include",
+      "d": "Selecting the right evaluation metric"
     },
     "correctAnswer": "a",
     "category": "data science",
     "difficulty": "hard"
   },
   {
-    "question": "Which library is used for data manipulation in Python? (18)",
-    "options": {
-      "a": "numpy",
-      "b": "pandas",
-      "c": "matplotlib",
-      "d": "seaborn"
-    },
-    "correctAnswer": "b",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (19)",
-    "options": {
-      "a": "Efficient Data Aggregation",
-      "b": "Electronic Data Architecture",
-      "c": "Exploratory Data Analysis",
-      "d": "Extended Data Assessment"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (20)",
-    "options": {
-      "a": "Model performs poorly on both",
-      "b": "Model skips training",
-      "c": "Model trains too quickly",
-      "d": "Model performs well on training but poorly on testing data"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (21)",
-    "options": {
-      "a": "numpy",
-      "b": "seaborn",
-      "c": "matplotlib",
-      "d": "pandas"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (22)",
-    "options": {
-      "a": "Exploratory Data Analysis",
-      "b": "Extended Data Assessment",
-      "c": "Electronic Data Architecture",
-      "d": "Efficient Data Aggregation"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (23)",
-    "options": {
-      "a": "Model trains too quickly",
-      "b": "Model skips training",
-      "c": "Model performs well on training but poorly on testing data",
-      "d": "Model performs poorly on both"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (24)",
-    "options": {
-      "a": "matplotlib",
-      "b": "seaborn",
-      "c": "numpy",
-      "d": "pandas"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (25)",
-    "options": {
-      "a": "Electronic Data Architecture",
-      "b": "Extended Data Assessment",
-      "c": "Exploratory Data Analysis",
-      "d": "Efficient Data Aggregation"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (26)",
-    "options": {
-      "a": "Model performs poorly on both",
-      "b": "Model trains too quickly",
-      "c": "Model skips training",
-      "d": "Model performs well on training but poorly on testing data"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (27)",
-    "options": {
-      "a": "numpy",
-      "b": "matplotlib",
-      "c": "seaborn",
-      "d": "pandas"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (28)",
-    "options": {
-      "a": "Efficient Data Aggregation",
-      "b": "Exploratory Data Analysis",
-      "c": "Electronic Data Architecture",
-      "d": "Extended Data Assessment"
-    },
-    "correctAnswer": "b",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (29)",
-    "options": {
-      "a": "Model performs poorly on both",
-      "b": "Model performs well on training but poorly on testing data",
-      "c": "Model trains too quickly",
-      "d": "Model skips training"
-    },
-    "correctAnswer": "b",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (30)",
-    "options": {
-      "a": "numpy",
-      "b": "pandas",
-      "c": "matplotlib",
-      "d": "seaborn"
-    },
-    "correctAnswer": "b",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (31)",
-    "options": {
-      "a": "Efficient Data Aggregation",
-      "b": "Extended Data Assessment",
-      "c": "Electronic Data Architecture",
-      "d": "Exploratory Data Analysis"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (32)",
-    "options": {
-      "a": "Model performs well on training but poorly on testing data",
-      "b": "Model trains too quickly",
-      "c": "Model performs poorly on both",
-      "d": "Model skips training"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (33)",
-    "options": {
-      "a": "seaborn",
-      "b": "numpy",
-      "c": "matplotlib",
-      "d": "pandas"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (34)",
-    "options": {
-      "a": "Exploratory Data Analysis",
-      "b": "Efficient Data Aggregation",
-      "c": "Electronic Data Architecture",
-      "d": "Extended Data Assessment"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (35)",
-    "options": {
-      "a": "Model performs poorly on both",
-      "b": "Model performs well on training but poorly on testing data",
-      "c": "Model skips training",
-      "d": "Model trains too quickly"
-    },
-    "correctAnswer": "b",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (36)",
-    "options": {
-      "a": "matplotlib",
-      "b": "seaborn",
-      "c": "numpy",
-      "d": "pandas"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (37)",
-    "options": {
-      "a": "Exploratory Data Analysis",
-      "b": "Electronic Data Architecture",
-      "c": "Efficient Data Aggregation",
-      "d": "Extended Data Assessment"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (38)",
-    "options": {
-      "a": "Model performs well on training but poorly on testing data",
-      "b": "Model performs poorly on both",
-      "c": "Model skips training",
-      "d": "Model trains too quickly"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (39)",
-    "options": {
-      "a": "seaborn",
-      "b": "matplotlib",
-      "c": "numpy",
-      "d": "pandas"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (40)",
-    "options": {
-      "a": "Exploratory Data Analysis",
-      "b": "Efficient Data Aggregation",
-      "c": "Electronic Data Architecture",
-      "d": "Extended Data Assessment"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (41)",
-    "options": {
-      "a": "Model performs well on training but poorly on testing data",
-      "b": "Model performs poorly on both",
-      "c": "Model trains too quickly",
-      "d": "Model skips training"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (42)",
-    "options": {
-      "a": "matplotlib",
-      "b": "numpy",
-      "c": "seaborn",
-      "d": "pandas"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (43)",
-    "options": {
-      "a": "Electronic Data Architecture",
-      "b": "Exploratory Data Analysis",
-      "c": "Extended Data Assessment",
-      "d": "Efficient Data Aggregation"
-    },
-    "correctAnswer": "b",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (44)",
-    "options": {
-      "a": "Model trains too quickly",
-      "b": "Model performs poorly on both",
-      "c": "Model performs well on training but poorly on testing data",
-      "d": "Model skips training"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (45)",
-    "options": {
-      "a": "seaborn",
-      "b": "matplotlib",
-      "c": "numpy",
-      "d": "pandas"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (46)",
-    "options": {
-      "a": "Efficient Data Aggregation",
-      "b": "Electronic Data Architecture",
-      "c": "Extended Data Assessment",
-      "d": "Exploratory Data Analysis"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (47)",
-    "options": {
-      "a": "Model trains too quickly",
-      "b": "Model skips training",
-      "c": "Model performs poorly on both",
-      "d": "Model performs well on training but poorly on testing data"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (48)",
-    "options": {
-      "a": "matplotlib",
-      "b": "seaborn",
-      "c": "pandas",
-      "d": "numpy"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (49)",
-    "options": {
-      "a": "Efficient Data Aggregation",
-      "b": "Extended Data Assessment",
-      "c": "Exploratory Data Analysis",
-      "d": "Electronic Data Architecture"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (50)",
-    "options": {
-      "a": "Model performs poorly on both",
-      "b": "Model trains too quickly",
-      "c": "Model performs well on training but poorly on testing data",
-      "d": "Model skips training"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (51)",
-    "options": {
-      "a": "numpy",
-      "b": "pandas",
-      "c": "matplotlib",
-      "d": "seaborn"
-    },
-    "correctAnswer": "b",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (52)",
-    "options": {
-      "a": "Exploratory Data Analysis",
-      "b": "Efficient Data Aggregation",
-      "c": "Extended Data Assessment",
-      "d": "Electronic Data Architecture"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (53)",
-    "options": {
-      "a": "Model performs well on training but poorly on testing data",
-      "b": "Model skips training",
-      "c": "Model performs poorly on both",
-      "d": "Model trains too quickly"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (54)",
-    "options": {
-      "a": "numpy",
-      "b": "pandas",
-      "c": "seaborn",
-      "d": "matplotlib"
-    },
-    "correctAnswer": "b",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (55)",
-    "options": {
-      "a": "Extended Data Assessment",
-      "b": "Efficient Data Aggregation",
-      "c": "Exploratory Data Analysis",
-      "d": "Electronic Data Architecture"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (56)",
-    "options": {
-      "a": "Model performs well on training but poorly on testing data",
-      "b": "Model skips training",
-      "c": "Model performs poorly on both",
-      "d": "Model trains too quickly"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (57)",
-    "options": {
-      "a": "numpy",
-      "b": "matplotlib",
-      "c": "seaborn",
-      "d": "pandas"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (58)",
-    "options": {
-      "a": "Efficient Data Aggregation",
-      "b": "Extended Data Assessment",
-      "c": "Electronic Data Architecture",
-      "d": "Exploratory Data Analysis"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (59)",
-    "options": {
-      "a": "Model trains too quickly",
-      "b": "Model skips training",
-      "c": "Model performs well on training but poorly on testing data",
-      "d": "Model performs poorly on both"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (60)",
-    "options": {
-      "a": "numpy",
-      "b": "pandas",
-      "c": "seaborn",
-      "d": "matplotlib"
-    },
-    "correctAnswer": "b",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (61)",
-    "options": {
-      "a": "Extended Data Assessment",
-      "b": "Exploratory Data Analysis",
-      "c": "Efficient Data Aggregation",
-      "d": "Electronic Data Architecture"
-    },
-    "correctAnswer": "b",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (62)",
-    "options": {
-      "a": "Model performs poorly on both",
-      "b": "Model trains too quickly",
-      "c": "Model skips training",
-      "d": "Model performs well on training but poorly on testing data"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (63)",
-    "options": {
-      "a": "numpy",
-      "b": "matplotlib",
-      "c": "pandas",
-      "d": "seaborn"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (64)",
-    "options": {
-      "a": "Extended Data Assessment",
-      "b": "Electronic Data Architecture",
-      "c": "Exploratory Data Analysis",
-      "d": "Efficient Data Aggregation"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (65)",
-    "options": {
-      "a": "Model trains too quickly",
-      "b": "Model performs well on training but poorly on testing data",
-      "c": "Model skips training",
-      "d": "Model performs poorly on both"
-    },
-    "correctAnswer": "b",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (66)",
-    "options": {
-      "a": "seaborn",
-      "b": "numpy",
-      "c": "pandas",
-      "d": "matplotlib"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (67)",
-    "options": {
-      "a": "Electronic Data Architecture",
-      "b": "Efficient Data Aggregation",
-      "c": "Exploratory Data Analysis",
-      "d": "Extended Data Assessment"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (68)",
-    "options": {
-      "a": "Model performs poorly on both",
-      "b": "Model skips training",
-      "c": "Model trains too quickly",
-      "d": "Model performs well on training but poorly on testing data"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (69)",
-    "options": {
-      "a": "numpy",
-      "b": "matplotlib",
-      "c": "pandas",
-      "d": "seaborn"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (70)",
-    "options": {
-      "a": "Exploratory Data Analysis",
-      "b": "Electronic Data Architecture",
-      "c": "Efficient Data Aggregation",
-      "d": "Extended Data Assessment"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (71)",
-    "options": {
-      "a": "Model trains too quickly",
-      "b": "Model skips training",
-      "c": "Model performs poorly on both",
-      "d": "Model performs well on training but poorly on testing data"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (72)",
+    "question": "Which Python library is best for creating static visualizations?",
     "options": {
       "a": "pandas",
       "b": "seaborn",
-      "c": "matplotlib",
-      "d": "numpy"
+      "c": "scikit-learn",
+      "d": "tensorflow"
     },
-    "correctAnswer": "a",
+    "correctAnswer": "b",
     "category": "data science",
     "difficulty": "easy"
   },
   {
-    "question": "What does EDA stand for in data science? (73)",
+    "question": "What is the purpose of cross-validation?",
     "options": {
-      "a": "Electronic Data Architecture",
-      "b": "Exploratory Data Analysis",
-      "c": "Extended Data Assessment",
-      "d": "Efficient Data Aggregation"
+      "a": "To increase training speed",
+      "b": "To assess model performance more reliably",
+      "c": "To reduce the number of features",
+      "d": "To visualize decision boundaries"
     },
     "correctAnswer": "b",
     "category": "data science",
     "difficulty": "medium"
   },
   {
-    "question": "What is overfitting in machine learning? (74)",
+    "question": "What is transfer learning in deep learning?",
     "options": {
-      "a": "Model performs poorly on both",
-      "b": "Model skips training",
-      "c": "Model performs well on training but poorly on testing data",
-      "d": "Model trains too quickly"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (75)",
-    "options": {
-      "a": "matplotlib",
-      "b": "numpy",
-      "c": "pandas",
-      "d": "seaborn"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (76)",
-    "options": {
-      "a": "Efficient Data Aggregation",
-      "b": "Electronic Data Architecture",
-      "c": "Extended Data Assessment",
-      "d": "Exploratory Data Analysis"
-    },
-    "correctAnswer": "d",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (77)",
-    "options": {
-      "a": "Model performs well on training but poorly on testing data",
-      "b": "Model performs poorly on both",
-      "c": "Model skips training",
-      "d": "Model trains too quickly"
+      "a": "Using a pre-trained model as starting point",
+      "b": "Transferring data between servers",
+      "c": "Converting models between frameworks",
+      "d": "Learning without labeled data"
     },
     "correctAnswer": "a",
     "category": "data science",
     "difficulty": "hard"
   },
   {
-    "question": "Which library is used for data manipulation in Python? (78)",
+    "question": "What is the primary use of Jupyter Notebooks?",
     "options": {
-      "a": "seaborn",
-      "b": "matplotlib",
-      "c": "numpy",
-      "d": "pandas"
+      "a": "Creating production web applications",
+      "b": "Interactive computing and data analysis",
+      "c": "Building machine learning APIs",
+      "d": "Managing databases"
     },
-    "correctAnswer": "d",
+    "correctAnswer": "b",
     "category": "data science",
     "difficulty": "easy"
   },
   {
-    "question": "What does EDA stand for in data science? (79)",
+    "question": "What is the purpose of regularization in machine learning?",
     "options": {
-      "a": "Extended Data Assessment",
-      "b": "Exploratory Data Analysis",
-      "c": "Electronic Data Architecture",
-      "d": "Efficient Data Aggregation"
+      "a": "To speed up training",
+      "b": "To prevent overfitting",
+      "c": "To handle missing data",
+      "d": "To visualize model performance"
     },
     "correctAnswer": "b",
     "category": "data science",
     "difficulty": "medium"
   },
   {
-    "question": "What is overfitting in machine learning? (80)",
+    "question": "What is a GAN in deep learning?",
     "options": {
-      "a": "Model performs well on training but poorly on testing data",
-      "b": "Model performs poorly on both",
-      "c": "Model trains too quickly",
-      "d": "Model skips training"
+      "a": "Generalized Activation Network",
+      "b": "Generative Adversarial Network",
+      "c": "Gradient Adjustment Normalizer",
+      "d": "Global Average Normalization"
     },
-    "correctAnswer": "a",
+    "correctAnswer": "b",
     "category": "data science",
     "difficulty": "hard"
   },
   {
-    "question": "Which library is used for data manipulation in Python? (81)",
+    "question": "What is the primary purpose of SQL in data science?",
     "options": {
-      "a": "seaborn",
-      "b": "numpy",
-      "c": "matplotlib",
-      "d": "pandas"
+      "a": "Data visualization",
+      "b": "Querying and manipulating databases",
+      "c": "Building machine learning models",
+      "d": "Creating statistical reports"
     },
-    "correctAnswer": "d",
+    "correctAnswer": "b",
     "category": "data science",
     "difficulty": "easy"
   },
   {
-    "question": "What does EDA stand for in data science? (82)",
+    "question": "What is feature engineering?",
     "options": {
-      "a": "Extended Data Assessment",
-      "b": "Exploratory Data Analysis",
-      "c": "Electronic Data Architecture",
-      "d": "Efficient Data Aggregation"
+      "a": "Designing the user interface",
+      "b": "Creating new features from existing data",
+      "c": "Writing the algorithm code",
+      "d": "Collecting more data"
     },
     "correctAnswer": "b",
     "category": "data science",
     "difficulty": "medium"
   },
   {
-    "question": "What is overfitting in machine learning? (83)",
+    "question": "What is the vanishing gradient problem in neural networks?",
     "options": {
-      "a": "Model performs well on training but poorly on testing data",
-      "b": "Model trains too quickly",
-      "c": "Model skips training",
-      "d": "Model performs poorly on both"
+      "a": "Weights becoming too large during training",
+      "b": "Gradients becoming too small to learn effectively",
+      "c": "Too many layers in the network",
+      "d": "Overfitting to the training data"
     },
-    "correctAnswer": "a",
+    "correctAnswer": "b",
     "category": "data science",
     "difficulty": "hard"
   },
   {
-    "question": "Which library is used for data manipulation in Python? (84)",
+    "question": "Which of these is NOT a Python data visualization library?",
     "options": {
       "a": "matplotlib",
       "b": "seaborn",
-      "c": "numpy",
+      "c": "plotly",
       "d": "pandas"
     },
     "correctAnswer": "d",
@@ -1020,183 +228,783 @@
     "difficulty": "easy"
   },
   {
-    "question": "What does EDA stand for in data science? (85)",
+    "question": "What is the purpose of a ROC curve?",
     "options": {
-      "a": "Exploratory Data Analysis",
-      "b": "Efficient Data Aggregation",
-      "c": "Electronic Data Architecture",
-      "d": "Extended Data Assessment"
+      "a": "To visualize data distributions",
+      "b": "To evaluate binary classification performance",
+      "c": "To clean messy data",
+      "d": "To store model parameters"
     },
-    "correctAnswer": "a",
+    "correctAnswer": "b",
     "category": "data science",
     "difficulty": "medium"
   },
   {
-    "question": "What is overfitting in machine learning? (86)",
+    "question": "What is batch normalization in deep learning?",
     "options": {
-      "a": "Model performs well on training but poorly on testing data",
-      "b": "Model skips training",
-      "c": "Model trains too quickly",
-      "d": "Model performs poorly on both"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (87)",
-    "options": {
-      "a": "pandas",
-      "b": "matplotlib",
-      "c": "seaborn",
-      "d": "numpy"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (88)",
-    "options": {
-      "a": "Electronic Data Architecture",
-      "b": "Extended Data Assessment",
-      "c": "Exploratory Data Analysis",
-      "d": "Efficient Data Aggregation"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (89)",
-    "options": {
-      "a": "Model performs poorly on both",
-      "b": "Model performs well on training but poorly on testing data",
-      "c": "Model trains too quickly",
-      "d": "Model skips training"
+      "a": "Normalizing input data before training",
+      "b": "Standardizing layer inputs for each mini-batch",
+      "c": "Reducing batch size during training",
+      "d": "Balancing class distribution in batches"
     },
     "correctAnswer": "b",
     "category": "data science",
     "difficulty": "hard"
   },
   {
-    "question": "Which library is used for data manipulation in Python? (90)",
+    "question": "What is the primary use of scikit-learn?",
     "options": {
-      "a": "pandas",
-      "b": "numpy",
-      "c": "matplotlib",
-      "d": "seaborn"
+      "a": "Data visualization",
+      "b": "Machine learning algorithms",
+      "c": "Web development",
+      "d": "Database management"
     },
-    "correctAnswer": "a",
+    "correctAnswer": "b",
     "category": "data science",
     "difficulty": "easy"
   },
   {
-    "question": "What does EDA stand for in data science? (91)",
+    "question": "What is the curse of dimensionality?",
     "options": {
-      "a": "Exploratory Data Analysis",
-      "b": "Efficient Data Aggregation",
-      "c": "Electronic Data Architecture",
-      "d": "Extended Data Assessment"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (92)",
-    "options": {
-      "a": "Model skips training",
-      "b": "Model performs well on training but poorly on testing data",
-      "c": "Model performs poorly on both",
-      "d": "Model trains too quickly"
-    },
-    "correctAnswer": "b",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (93)",
-    "options": {
-      "a": "seaborn",
-      "b": "matplotlib",
-      "c": "numpy",
-      "d": "pandas"
+      "a": "Difficulty visualizing high-dimensional data",
+      "b": "Increased computational requirements with more features",
+      "c": "Data sparsity in high-dimensional spaces",
+      "d": "All of the above"
     },
     "correctAnswer": "d",
     "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (94)",
-    "options": {
-      "a": "Exploratory Data Analysis",
-      "b": "Efficient Data Aggregation",
-      "c": "Electronic Data Architecture",
-      "d": "Extended Data Assessment"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
     "difficulty": "medium"
   },
   {
-    "question": "What is overfitting in machine learning? (95)",
+    "question": "What is attention mechanism in neural networks?",
     "options": {
-      "a": "Model performs well on training but poorly on testing data",
-      "b": "Model trains too quickly",
-      "c": "Model performs poorly on both",
-      "d": "Model skips training"
+      "a": "Focusing on specific parts of input data",
+      "b": "Monitoring training progress",
+      "c": "Alerting about model degradation",
+      "d": "Selecting important features"
     },
     "correctAnswer": "a",
     "category": "data science",
     "difficulty": "hard"
   },
   {
-    "question": "Which library is used for data manipulation in Python? (96)",
+    "question": "What is the primary purpose of Git in data science?",
     "options": {
-      "a": "pandas",
-      "b": "matplotlib",
-      "c": "numpy",
-      "d": "seaborn"
-    },
-    "correctAnswer": "a",
-    "category": "data science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What does EDA stand for in data science? (97)",
-    "options": {
-      "a": "Extended Data Assessment",
-      "b": "Efficient Data Aggregation",
-      "c": "Exploratory Data Analysis",
-      "d": "Electronic Data Architecture"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is overfitting in machine learning? (98)",
-    "options": {
-      "a": "Model skips training",
-      "b": "Model performs poorly on both",
-      "c": "Model performs well on training but poorly on testing data",
-      "d": "Model trains too quickly"
-    },
-    "correctAnswer": "c",
-    "category": "data science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which library is used for data manipulation in Python? (99)",
-    "options": {
-      "a": "matplotlib",
-      "b": "pandas",
-      "c": "seaborn",
-      "d": "numpy"
+      "a": "Data visualization",
+      "b": "Version control",
+      "c": "Model training",
+      "d": "Data cleaning"
     },
     "correctAnswer": "b",
     "category": "data science",
     "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between bagging and boosting?",
+    "options": {
+      "a": "Bagging builds models in parallel, boosting sequentially",
+      "b": "Boosting reduces variance, bagging reduces bias",
+      "c": "They are the same thing",
+      "d": "Bagging is for regression, boosting for classification"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is transformer architecture in deep learning?",
+    "options": {
+      "a": "Self-attention based architecture",
+      "b": "Image transformation network",
+      "c": "Data format converter",
+      "d": "Model compression technique"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary use of Docker in data science?",
+    "options": {
+      "a": "Data visualization",
+      "b": "Containerization of applications",
+      "c": "Model evaluation",
+      "d": "Feature engineering"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of A/B testing?",
+    "options": {
+      "a": "Comparing two versions to determine better performance",
+      "b": "Testing if A comes before B in the alphabet",
+      "c": "Analyzing only the first two options in a dataset",
+      "d": "Combining two datasets"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is federated learning?",
+    "options": {
+      "a": "Training models across decentralized devices",
+      "b": "Learning federal government policies",
+      "c": "Combining models from different countries",
+      "d": "Training on encrypted data"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of PyTorch?",
+    "options": {
+      "a": "Data cleaning",
+      "b": "Deep learning research and development",
+      "c": "Database management",
+      "d": "Statistical analysis"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between precision and recall?",
+    "options": {
+      "a": "Precision measures true positives among predicted positives, recall measures true positives among actual positives",
+      "b": "They are the same metric",
+      "c": "Precision is for regression, recall for classification",
+      "d": "Recall measures accuracy, precision measures speed"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is reinforcement learning?",
+    "options": {
+      "a": "Learning by trial and error using rewards",
+      "b": "Repeating the same training multiple times",
+      "c": "Reinforcing correct predictions",
+      "d": "Learning from reinforced data structures"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary use of TensorFlow?",
+    "options": {
+      "a": "Data visualization",
+      "b": "Building and deploying machine learning models",
+      "c": "Database management",
+      "d": "Statistical analysis"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of principal component analysis (PCA)?",
+    "options": {
+      "a": "To increase dimensionality of data",
+      "b": "To reduce dimensionality while preserving variance",
+      "c": "To classify data points",
+      "d": "To visualize raw data"
+    },
+    "correctAnswer": "b",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a variational autoencoder?",
+    "options": {
+      "a": "A type of generative model",
+      "b": "A data compression technique",
+      "c": "A feature selection method",
+      "d": "A classification algorithm"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Keras?",
+    "options": {
+      "a": "High-level neural networks API",
+      "b": "Data cleaning",
+      "c": "Database management",
+      "d": "Statistical analysis"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between L1 and L2 regularization?",
+    "options": {
+      "a": "L1 can lead to sparse models, L2 doesn't",
+      "b": "They are the same",
+      "c": "L1 is for classification, L2 for regression",
+      "d": "L2 is stronger than L1"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Boltzmann machine?",
+    "options": {
+      "a": "A type of stochastic recurrent neural network",
+      "b": "A physics simulation tool",
+      "c": "A temperature measurement device",
+      "d": "A data compression algorithm"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of BeautifulSoup?",
+    "options": {
+      "a": "Web scraping",
+      "b": "Data visualization",
+      "c": "Machine learning",
+      "d": "Database management"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between batch and stochastic gradient descent?",
+    "options": {
+      "a": "Batch uses all data, stochastic uses one sample per update",
+      "b": "They are the same",
+      "c": "Batch is faster than stochastic",
+      "d": "Stochastic is for classification, batch for regression"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a capsule network?",
+    "options": {
+      "a": "A neural network that models hierarchical relationships",
+      "b": "A network security tool",
+      "c": "A data packaging format",
+      "d": "A type of hardware accelerator"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Selenium in data science?",
+    "options": {
+      "a": "Automating web browsers",
+      "b": "Data visualization",
+      "c": "Machine learning",
+      "d": "Statistical analysis"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between parametric and non-parametric models?",
+    "options": {
+      "a": "Parametric has fixed number of parameters, non-parametric grows with data",
+      "b": "They are the same",
+      "c": "Parametric is for regression, non-parametric for classification",
+      "d": "Non-parametric is always better"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a diffusion model in machine learning?",
+    "options": {
+      "a": "A generative model that gradually adds noise then learns to reverse it",
+      "b": "A model that spreads information through a network",
+      "c": "A technique for distributing computation",
+      "d": "A method for data compression"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Flask in data science?",
+    "options": {
+      "a": "Creating web applications and APIs",
+      "b": "Data visualization",
+      "c": "Machine learning",
+      "d": "Database management"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between classification and regression?",
+    "options": {
+      "a": "Classification predicts categories, regression predicts continuous values",
+      "b": "They are the same",
+      "c": "Classification is unsupervised, regression is supervised",
+      "d": "Regression is for numbers, classification for text"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a spiking neural network?",
+    "options": {
+      "a": "A neural network that models precise timing of spikes",
+      "b": "A network with intermittent connectivity",
+      "c": "A model that detects anomalies",
+      "d": "A type of recurrent network"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Apache Spark?",
+    "options": {
+      "a": "Distributed data processing",
+      "b": "Data visualization",
+      "c": "Machine learning model building",
+      "d": "Database management"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between supervised and unsupervised learning?",
+    "options": {
+      "a": "Supervised uses labeled data, unsupervised uses unlabeled data",
+      "b": "They are the same",
+      "c": "Supervised is faster than unsupervised",
+      "d": "Unsupervised is always better"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a liquid state machine?",
+    "options": {
+      "a": "A type of reservoir computing",
+      "b": "A fluid dynamics simulator",
+      "c": "A model for liquid markets",
+      "d": "A hardware cooling system"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Dask?",
+    "options": {
+      "a": "Parallel computing in Python",
+      "b": "Data visualization",
+      "c": "Machine learning",
+      "d": "Database management"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between machine learning and deep learning?",
+    "options": {
+      "a": "Deep learning uses neural networks with many layers",
+      "b": "They are the same",
+      "c": "Machine learning is faster than deep learning",
+      "d": "Deep learning doesn't require data"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a neuromorphic chip?",
+    "options": {
+      "a": "Hardware designed to mimic neuro-biological architectures",
+      "b": "A chip for neural network compression",
+      "c": "A brain imaging device",
+      "d": "A type of GPU"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Airflow?",
+    "options": {
+      "a": "Workflow automation and scheduling",
+      "b": "Data visualization",
+      "c": "Machine learning",
+      "d": "Database management"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between a CPU and GPU for deep learning?",
+    "options": {
+      "a": "GPU is better for parallel matrix operations",
+      "b": "They are the same",
+      "c": "CPU is always faster",
+      "d": "GPU can't be used for deep learning"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is quantum machine learning?",
+    "options": {
+      "a": "Using quantum computing for ML algorithms",
+      "b": "Learning quantum physics",
+      "c": "A very small machine learning model",
+      "d": "A theoretical concept not yet implemented"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of FastAPI?",
+    "options": {
+      "a": "Building high-performance APIs",
+      "b": "Data visualization",
+      "c": "Machine learning",
+      "d": "Database management"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between RNN and LSTM?",
+    "options": {
+      "a": "LSTM has memory cells to handle long-term dependencies",
+      "b": "They are the same",
+      "c": "RNN is always better",
+      "d": "LSTM can't handle sequences"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a transformer model in NLP?",
+    "options": {
+      "a": "A model using self-attention mechanisms",
+      "b": "A data transformation tool",
+      "c": "A model that converts text to images",
+      "d": "A hardware component"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of Plotly?",
+    "options": {
+      "a": "Interactive data visualization",
+      "b": "Machine learning",
+      "c": "Database management",
+      "d": "Statistical analysis"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between bag of words and word embeddings?",
+    "options": {
+      "a": "Word embeddings capture semantic meaning",
+      "b": "They are the same",
+      "c": "Bag of words is always better",
+      "d": "Word embeddings are simpler"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a GNN (Graph Neural Network)?",
+    "options": {
+      "a": "A neural network that operates on graph structures",
+      "b": "A network for generating graphs",
+      "c": "A visualization tool",
+      "d": "A type of database"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of SciPy?",
+    "options": {
+      "a": "Scientific computing",
+      "b": "Data visualization",
+      "c": "Web development",
+      "d": "Database management"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between precision and accuracy?",
+    "options": {
+      "a": "Precision is about consistency, accuracy is about correctness",
+      "b": "They are the same",
+      "c": "Precision is for regression, accuracy for classification",
+      "d": "Accuracy is always better"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a vision transformer?",
+    "options": {
+      "a": "Transformer model adapted for computer vision",
+      "b": "A tool for image conversion",
+      "c": "A hardware device",
+      "d": "A data visualization technique"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of NLTK?",
+    "options": {
+      "a": "Natural language processing",
+      "b": "Data visualization",
+      "c": "Machine learning",
+      "d": "Database management"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between stemming and lemmatization?",
+    "options": {
+      "a": "Lemmatization uses dictionary, stemming uses heuristics",
+      "b": "They are the same",
+      "c": "Stemming is always better",
+      "d": "Lemmatization is faster"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a diffusion model in computer vision?",
+    "options": {
+      "a": "Generative model that creates images by reversing noise",
+      "b": "A model for image compression",
+      "c": "A technique for edge detection",
+      "d": "A hardware component"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of spaCy?",
+    "options": {
+      "a": "Industrial-strength NLP",
+      "b": "Data visualization",
+      "c": "Machine learning",
+      "d": "Database management"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between CRISP-DM and SEMMA?",
+    "options": {
+      "a": "Similar methodologies with different naming",
+      "b": "They are completely different",
+      "c": "CRISP-DM is outdated",
+      "d": "SEMMA is only for small data"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a knowledge graph?",
+    "options": {
+      "a": "A graph-based knowledge representation",
+      "b": "A visualization technique",
+      "c": "A type of chart",
+      "d": "A hardware architecture"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of OpenCV?",
+    "options": {
+      "a": "Computer vision",
+      "b": "Data visualization",
+      "c": "Machine learning",
+      "d": "Database management"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between SQL and NoSQL databases?",
+    "options": {
+      "a": "SQL is relational, NoSQL is non-relational",
+      "b": "They are the same",
+      "c": "NoSQL is always better",
+      "d": "SQL is outdated"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a digital twin in data science?",
+    "options": {
+      "a": "A virtual representation of a physical system",
+      "b": "A duplicate dataset",
+      "c": "A backup model",
+      "d": "A visualization technique"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of XGBoost?",
+    "options": {
+      "a": "Gradient boosting framework",
+      "b": "Data visualization",
+      "c": "Database management",
+      "d": "Statistical analysis"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between ARIMA and SARIMA models?",
+    "options": {
+      "a": "SARIMA includes seasonal components",
+      "b": "They are the same",
+      "c": "ARIMA is always better",
+      "d": "SARIMA is for classification"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is federated analytics?",
+    "options": {
+      "a": "Analyzing data across decentralized sources without centralization",
+      "b": "Analyzing federal government data",
+      "c": "A type of statistical analysis",
+      "d": "A visualization technique"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of LightGBM?",
+    "options": {
+      "a": "Gradient boosting framework",
+      "b": "Data visualization",
+      "c": "Database management",
+      "d": "Statistical analysis"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between CRF and HMM in NLP?",
+    "options": {
+      "a": "CRF considers future observations, HMM doesn't",
+      "b": "They are the same",
+      "c": "HMM is always better",
+      "d": "CRF is outdated"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is differential privacy?",
+    "options": {
+      "a": "A system for sharing information while preserving privacy",
+      "b": "A type of neural network",
+      "c": "A data visualization technique",
+      "d": "A database management system"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of CatBoost?",
+    "options": {
+      "a": "Gradient boosting with categorical features",
+      "b": "Data visualization",
+      "c": "Database management",
+      "d": "Statistical analysis"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between active and passive learning?",
+    "options": {
+      "a": "Active learning selects informative samples to label",
+      "b": "They are the same",
+      "c": "Passive learning is always better",
+      "d": "Active learning doesn't require labels"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is synthetic data generation?",
+    "options": {
+      "a": "Creating artificial data that mimics real data",
+      "b": "Copying existing datasets",
+      "c": "A data visualization technique",
+      "d": "A database management approach"
+    },
+    "correctAnswer": "a",
+    "category": "data science",
+    "difficulty": "hard"
   }
 ]

@@ -72,12 +72,12 @@
     "difficulty": "hard"
   },
   {
-    "question": "Find the simple interest on \u20b95000 for 2 years at 10% per annum.",
+    "question": "Find the simple interest on ₹5000 for 2 years at 10% per annum.",
     "options": {
-      "a": "\u20b91000",
-      "b": "\u20b9500",
-      "c": "\u20b91500",
-      "d": "\u20b92000"
+      "a": "₹1000",
+      "b": "₹500",
+      "c": "₹1500",
+      "d": "₹2000"
     },
     "correctAnswer": "a",
     "category": "aptitude",
@@ -252,7 +252,7 @@
     "difficulty": "easy"
   },
   {
-    "question": "A man buys an article for \u20b9250 and sells it for \u20b9300. What is his profit percentage?",
+    "question": "A man buys an article for ₹250 and sells it for ₹300. What is his profit percentage?",
     "options": {
       "a": "20%",
       "b": "25%",
@@ -324,7 +324,7 @@
     "difficulty": "easy"
   },
   {
-    "question": "What is the value of pi (\u03c0) to two decimal places?",
+    "question": "What is the value of pi (π) to two decimal places?",
     "options": {
       "a": "3.14",
       "b": "3.15",
@@ -1104,12 +1104,12 @@
     "difficulty": "medium"
   },
   {
-    "question": "A shopkeeper gives 10% discount on a product of \u20b9500. What is the selling price?",
+    "question": "A shopkeeper gives 10% discount on a product of ₹500. What is the selling price?",
     "options": {
-      "a": "\u20b9450",
-      "b": "\u20b9460",
-      "c": "\u20b9480",
-      "d": "\u20b9470"
+      "a": "₹450",
+      "b": "₹460",
+      "c": "₹480",
+      "d": "₹470"
     },
     "correctAnswer": "a",
     "category": "aptitude",

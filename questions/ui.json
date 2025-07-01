@@ -1,0 +1,1082 @@
+[
+  {
+    "question": "What does UI stand for?",
+    "options": {
+      "a": "User Interface",
+      "b": "User Integration",
+      "c": "Universal Interface",
+      "d": "Unified Integration"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a wireframe?",
+    "options": {
+      "a": "A website mockup",
+      "b": "A button design",
+      "c": "A basic visual guide to suggest structure",
+      "d": "A data model"
+    },
+    "correctAnswer": "c",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does usability testing focus on?",
+    "options": {
+      "a": "Ease of use for users",
+      "b": "Design layout",
+      "c": "Code quality",
+      "d": "Performance"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does UX stand for?",
+    "options": {
+      "a": "User Experience",
+      "b": "User Exploration",
+      "c": "Universal Experience",
+      "d": "Unified Execution"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a mood board in design?",
+    "options": {
+      "a": "To establish the visual direction",
+      "b": "To write code",
+      "c": "To test performance",
+      "d": "To debug errors"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the golden ratio in design?",
+    "options": {
+      "a": "A mathematical ratio for pleasing proportions",
+      "b": "A color scheme",
+      "c": "A type of grid system",
+      "d": "A font pairing technique"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is commonly used for UI design?",
+    "options": {
+      "a": "Figma",
+      "b": "Visual Studio Code",
+      "c": "MySQL",
+      "d": "Git"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a style guide?",
+    "options": {
+      "a": "To maintain design consistency",
+      "b": "To write documentation",
+      "c": "To test functionality",
+      "d": "To optimize performance"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the Fitts's Law in UX design?",
+    "options": {
+      "a": "A principle about target size and distance",
+      "b": "A color theory",
+      "c": "A typography rule",
+      "d": "A grid system"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the 60-30-10 rule in design?",
+    "options": {
+      "a": "A color proportion guideline",
+      "b": "A layout structure",
+      "c": "A font size ratio",
+      "d": "A spacing system"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of A/B testing in UX?",
+    "options": {
+      "a": "To compare two design versions",
+      "b": "To check code quality",
+      "c": "To test server performance",
+      "d": "To debug applications"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the Von Restorff effect in UX?",
+    "options": {
+      "a": "The tendency to remember distinctive items",
+      "b": "A color contrast principle",
+      "c": "A typography guideline",
+      "d": "A layout structure"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a persona in UX design?",
+    "options": {
+      "a": "A fictional user representation",
+      "b": "A design template",
+      "c": "A type of wireframe",
+      "d": "A color palette"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of white space in design?",
+    "options": {
+      "a": "To improve readability and focus",
+      "b": "To save ink",
+      "c": "To reduce file size",
+      "d": "To meet accessibility standards"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the Hick's Law in UX design?",
+    "options": {
+      "a": "Decision time increases with more options",
+      "b": "Color affects mood",
+      "c": "Font size impacts readability",
+      "d": "Spacing improves comprehension"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a design system?",
+    "options": {
+      "a": "A collection of reusable components",
+      "b": "A single design file",
+      "c": "A programming language",
+      "d": "A testing framework"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of card sorting in UX?",
+    "options": {
+      "a": "To organize information architecture",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the Zeigarnik effect in UX?",
+    "options": {
+      "a": "People remember uncompleted tasks better",
+      "b": "Color affects perception",
+      "c": "Spacing impacts navigation",
+      "d": "Font choice influences trust"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the fold in web design?",
+    "options": {
+      "a": "The portion visible without scrolling",
+      "b": "A design template",
+      "c": "A type of animation",
+      "d": "A color gradient"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a heat map in UX?",
+    "options": {
+      "a": "To visualize user interaction",
+      "b": "To test color contrast",
+      "c": "To evaluate performance",
+      "d": "To check accessibility"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the serial position effect in UX?",
+    "options": {
+      "a": "Users remember first and last items best",
+      "b": "Color affects memory",
+      "c": "Spacing impacts retention",
+      "d": "Typography influences recall"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is accessibility in design?",
+    "options": {
+      "a": "Designing for all users",
+      "b": "Making designs colorful",
+      "c": "Using complex layouts",
+      "d": "Focusing only on aesthetics"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a prototype?",
+    "options": {
+      "a": "To test and validate designs",
+      "b": "To write production code",
+      "c": "To evaluate performance",
+      "d": "To check SEO ranking"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the Pareto principle in UX?",
+    "options": {
+      "a": "80% of effects come from 20% of causes",
+      "b": "Color affects 50% of decisions",
+      "c": "Spacing impacts 75% of navigation",
+      "d": "Typography influences 90% of readability"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is responsive design?",
+    "options": {
+      "a": "Designs that adapt to different screens",
+      "b": "Quick design iterations",
+      "c": "Color-changing interfaces",
+      "d": "Animated user interfaces"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a user journey map?",
+    "options": {
+      "a": "To visualize the user's experience",
+      "b": "To test color schemes",
+      "c": "To evaluate code quality",
+      "d": "To check server performance"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the Gestalt principle of proximity?",
+    "options": {
+      "a": "Elements close together are perceived as related",
+      "b": "Color affects grouping",
+      "c": "Spacing impacts hierarchy",
+      "d": "Size influences perception"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a hamburger menu?",
+    "options": {
+      "a": "A navigation menu icon",
+      "b": "A color scheme",
+      "c": "A type of animation",
+      "d": "A layout structure"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of eye tracking in UX?",
+    "options": {
+      "a": "To understand visual attention",
+      "b": "To test color blindness",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the Jakob's Law in UX design?",
+    "options": {
+      "a": "Users prefer familiar patterns",
+      "b": "Color affects mood",
+      "c": "Spacing impacts comprehension",
+      "d": "Typography influences trust"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a high-fidelity prototype?",
+    "options": {
+      "a": "A detailed, interactive design",
+      "b": "A rough sketch",
+      "c": "A color palette",
+      "d": "A style guide"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of information architecture?",
+    "options": {
+      "a": "To organize and structure content",
+      "b": "To choose color schemes",
+      "c": "To test performance",
+      "d": "To write code"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the Miller's Law in UX?",
+    "options": {
+      "a": "The average person can hold 7±2 items in memory",
+      "b": "Color affects retention",
+      "c": "Spacing impacts memory",
+      "d": "Typography influences recall"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is skeuomorphism in design?",
+    "options": {
+      "a": "Designs that mimic real-world objects",
+      "b": "Flat color schemes",
+      "c": "Minimalist interfaces",
+      "d": "Abstract representations"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a usability report?",
+    "options": {
+      "a": "To document findings from testing",
+      "b": "To showcase color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the peak-end rule in UX?",
+    "options": {
+      "a": "People judge experiences by their peak and end",
+      "b": "Color affects perception",
+      "c": "Spacing impacts navigation",
+      "d": "Typography influences trust"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a design sprint?",
+    "options": {
+      "a": "A time-constrained design process",
+      "b": "A color selection method",
+      "c": "A type of animation",
+      "d": "A layout technique"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a heuristic evaluation?",
+    "options": {
+      "a": "To identify usability issues",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the aesthetic-usability effect?",
+    "options": {
+      "a": "Beautiful designs are perceived as more usable",
+      "b": "Color affects functionality",
+      "c": "Spacing impacts aesthetics",
+      "d": "Typography influences usability"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a low-fidelity prototype?",
+    "options": {
+      "a": "A simple, rough design",
+      "b": "A detailed mockup",
+      "c": "A color palette",
+      "d": "A style guide"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a task analysis?",
+    "options": {
+      "a": "To understand user workflows",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the paradox of choice in UX?",
+    "options": {
+      "a": "Too many options can overwhelm users",
+      "b": "Color affects decision making",
+      "c": "Spacing impacts selection",
+      "d": "Typography influences choices"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is microinteraction in design?",
+    "options": {
+      "a": "Small, functional animations",
+      "b": "Color transitions",
+      "c": "Layout changes",
+      "d": "Font adjustments"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a cognitive walkthrough?",
+    "options": {
+      "a": "To evaluate learnability",
+      "b": "To test color schemes",
+      "c": "To check performance",
+      "d": "To review code"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the signal-to-noise ratio in UX?",
+    "options": {
+      "a": "Relevant vs irrelevant information",
+      "b": "Color contrast",
+      "c": "Spacing balance",
+      "d": "Typography clarity"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a design token?",
+    "options": {
+      "a": "A reusable design variable",
+      "b": "A color swatch",
+      "c": "A layout template",
+      "d": "A font family"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a UX audit?",
+    "options": {
+      "a": "To evaluate overall user experience",
+      "b": "To test color schemes",
+      "c": "To check performance",
+      "d": "To review code"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the recency effect in UX?",
+    "options": {
+      "a": "Users remember most recent items better",
+      "b": "Color affects recall",
+      "c": "Spacing impacts memory",
+      "d": "Typography influences retention"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a design critique?",
+    "options": {
+      "a": "A structured feedback session",
+      "b": "A color evaluation",
+      "c": "A performance test",
+      "d": "A code review"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a UX roadmap?",
+    "options": {
+      "a": "To plan UX initiatives",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the halo effect in UX?",
+    "options": {
+      "a": "Positive first impressions influence later perceptions",
+      "b": "Color affects mood",
+      "c": "Spacing impacts trust",
+      "d": "Typography influences credibility"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a design pattern?",
+    "options": {
+      "a": "A reusable solution to common problems",
+      "b": "A color scheme",
+      "c": "A layout template",
+      "d": "A font pairing"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a UX strategy?",
+    "options": {
+      "a": "To align UX with business goals",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the novelty effect in UX?",
+    "options": {
+      "a": "New features initially attract attention",
+      "b": "Color affects perception",
+      "c": "Spacing impacts navigation",
+      "d": "Typography influences engagement"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a UI kit?",
+    "options": {
+      "a": "A collection of reusable UI components",
+      "b": "A color palette",
+      "c": "A layout template",
+      "d": "A font library"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a UX metric?",
+    "options": {
+      "a": "To measure user experience",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the false consensus effect in UX?",
+    "options": {
+      "a": "Overestimating how others will behave",
+      "b": "Color affects perception",
+      "c": "Spacing impacts expectations",
+      "d": "Typography influences assumptions"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a design sprint?",
+    "options": {
+      "a": "A time-constrained design process",
+      "b": "A color selection method",
+      "c": "A type of animation",
+      "d": "A layout technique"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a UX workshop?",
+    "options": {
+      "a": "To collaborate on UX solutions",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the endowment effect in UX?",
+    "options": {
+      "a": "Users value what they already have more",
+      "b": "Color affects perception",
+      "c": "Spacing impacts ownership",
+      "d": "Typography influences value"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a design system?",
+    "options": {
+      "a": "A collection of reusable components",
+      "b": "A single design file",
+      "c": "A programming language",
+      "d": "A testing framework"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a UX research plan?",
+    "options": {
+      "a": "To outline research objectives and methods",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the sunk cost fallacy in UX?",
+    "options": {
+      "a": "Continuing with something due to prior investment",
+      "b": "Color affects commitment",
+      "c": "Spacing impacts persistence",
+      "d": "Typography influences dedication"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a design thinking?",
+    "options": {
+      "a": "A human-centered problem-solving approach",
+      "b": "A color theory",
+      "c": "A layout technique",
+      "d": "A typography method"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a UX case study?",
+    "options": {
+      "a": "To document and showcase UX work",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the IKEA effect in UX?",
+    "options": {
+      "a": "Users value what they help create",
+      "b": "Color affects perception",
+      "c": "Spacing impacts ownership",
+      "d": "Typography influences value"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a design sprint?",
+    "options": {
+      "a": "A time-constrained design process",
+      "b": "A color selection method",
+      "c": "A type of animation",
+      "d": "A layout technique"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a UX portfolio?",
+    "options": {
+      "a": "To showcase UX skills and projects",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the anchoring effect in UX?",
+    "options": {
+      "a": "First information influences decisions",
+      "b": "Color affects perception",
+      "c": "Spacing impacts choices",
+      "d": "Typography influences decisions"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a design principle?",
+    "options": {
+      "a": "A fundamental guideline for design",
+      "b": "A color scheme",
+      "c": "A layout template",
+      "d": "A font pairing"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a UX deliverable?",
+    "options": {
+      "a": "To communicate design decisions",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the confirmation bias in UX?",
+    "options": {
+      "a": "Favoring information that confirms beliefs",
+      "b": "Color affects perception",
+      "c": "Spacing impacts interpretation",
+      "d": "Typography influences understanding"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a design language?",
+    "options": {
+      "a": "A system of design elements and rules",
+      "b": "A color palette",
+      "c": "A layout template",
+      "d": "A font family"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a UX interview?",
+    "options": {
+      "a": "To gather user insights",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the framing effect in UX?",
+    "options": {
+      "a": "Decisions are influenced by how information is presented",
+      "b": "Color affects choices",
+      "c": "Spacing impacts decisions",
+      "d": "Typography influences selection"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a design critique?",
+    "options": {
+      "a": "A structured feedback session",
+      "b": "A color evaluation",
+      "c": "A performance test",
+      "d": "A code review"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a UX survey?",
+    "options": {
+      "a": "To collect quantitative user data",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the availability heuristic in UX?",
+    "options": {
+      "a": "Judging based on readily available information",
+      "b": "Color affects memory",
+      "c": "Spacing impacts recall",
+      "d": "Typography influences judgment"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a design sprint?",
+    "options": {
+      "a": "A time-constrained design process",
+      "b": "A color selection method",
+      "c": "A type of animation",
+      "d": "A layout technique"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a UX diary study?",
+    "options": {
+      "a": "To understand long-term user behavior",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the social proof effect in UX?",
+    "options": {
+      "a": "Users follow actions of others",
+      "b": "Color affects trust",
+      "c": "Spacing impacts credibility",
+      "d": "Typography influences perception"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a design sprint?",
+    "options": {
+      "a": "A time-constrained design process",
+      "b": "A color selection method",
+      "c": "A type of animation",
+      "d": "A layout technique"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a UX benchmark?",
+    "options": {
+      "a": "To measure against standards",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the loss aversion principle in UX?",
+    "options": {
+      "a": "Users prefer avoiding losses to acquiring gains",
+      "b": "Color affects perception",
+      "c": "Spacing impacts decisions",
+      "d": "Typography influences choices"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a design sprint?",
+    "options": {
+      "a": "A time-constrained design process",
+      "b": "A color selection method",
+      "c": "A type of animation",
+      "d": "A layout technique"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a UX hypothesis?",
+    "options": {
+      "a": "To make testable predictions about UX",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the mere exposure effect in UX?",
+    "options": {
+      "a": "Users prefer things they're familiar with",
+      "b": "Color affects preference",
+      "c": "Spacing impacts liking",
+      "d": "Typography influences favorability"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a design sprint?",
+    "options": {
+      "a": "A time-constrained design process",
+      "b": "A color selection method",
+      "c": "A type of animation",
+      "d": "A layout technique"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a UX KPI?",
+    "options": {
+      "a": "To measure UX success metrics",
+      "b": "To test color schemes",
+      "c": "To evaluate performance",
+      "d": "To check code quality"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the choice overload effect in UX?",
+    "options": {
+      "a": "Too many options lead to decision paralysis",
+      "b": "Color affects selection",
+      "c": "Spacing impacts choices",
+      "d": "Typography influences decisions"
+    },
+    "correctAnswer": "a",
+    "category": "ui/ux design",
+    "difficulty": "hard"
+  }
+]

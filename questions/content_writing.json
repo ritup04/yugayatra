@@ -12,7 +12,7 @@
     "difficulty": "easy"
   },
   {
-    "question": "What is a CTA in content? (1)",
+    "question": "What is a CTA in content?",
     "options": {
       "a": "Call to Action",
       "b": "Click to Advertise",
@@ -24,7 +24,7 @@
     "difficulty": "medium"
   },
   {
-    "question": "Why is plagiarism bad in content writing? (2)",
+    "question": "Why is plagiarism bad in content writing?",
     "options": {
       "a": "It improves SEO",
       "b": "It is encouraged",
@@ -36,1167 +36,939 @@
     "difficulty": "hard"
   },
   {
-    "question": "What is SEO content writing? (3)",
+    "question": "What is the ideal word count for a blog post?",
     "options": {
-      "a": "Writing content optimized for search engines",
-      "b": "Writing novels",
-      "c": "Writing press releases",
-      "d": "Creating social media posts"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (4)",
-    "options": {
-      "a": "Call Timing Average",
-      "b": "Click to Advertise",
-      "c": "Create Text Announcement",
-      "d": "Call to Action"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (5)",
-    "options": {
-      "a": "It affects originality and search ranking",
-      "b": "It enhances clarity",
-      "c": "It is encouraged",
-      "d": "It improves SEO"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (6)",
-    "options": {
-      "a": "Writing content optimized for search engines",
-      "b": "Writing press releases",
-      "c": "Creating social media posts",
-      "d": "Writing novels"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (7)",
-    "options": {
-      "a": "Click to Advertise",
-      "b": "Create Text Announcement",
-      "c": "Call to Action",
-      "d": "Call Timing Average"
-    },
-    "correctAnswer": "c",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (8)",
-    "options": {
-      "a": "It affects originality and search ranking",
-      "b": "It enhances clarity",
-      "c": "It improves SEO",
-      "d": "It is encouraged"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (9)",
-    "options": {
-      "a": "Writing content optimized for search engines",
-      "b": "Creating social media posts",
-      "c": "Writing press releases",
-      "d": "Writing novels"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (10)",
-    "options": {
-      "a": "Click to Advertise",
-      "b": "Call to Action",
-      "c": "Create Text Announcement",
-      "d": "Call Timing Average"
+      "a": "300-500 words",
+      "b": "1000-1500 words",
+      "c": "50-100 words",
+      "d": "5000+ words"
     },
     "correctAnswer": "b",
     "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (11)",
-    "options": {
-      "a": "It enhances clarity",
-      "b": "It is encouraged",
-      "c": "It improves SEO",
-      "d": "It affects originality and search ranking"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (12)",
-    "options": {
-      "a": "Writing content optimized for search engines",
-      "b": "Creating social media posts",
-      "c": "Writing novels",
-      "d": "Writing press releases"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
     "difficulty": "easy"
   },
   {
-    "question": "What is a CTA in content? (13)",
+    "question": "What is the purpose of a meta description?",
     "options": {
-      "a": "Click to Advertise",
-      "b": "Call Timing Average",
-      "c": "Create Text Announcement",
-      "d": "Call to Action"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (14)",
-    "options": {
-      "a": "It is encouraged",
-      "b": "It enhances clarity",
-      "c": "It improves SEO",
-      "d": "It affects originality and search ranking"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (15)",
-    "options": {
-      "a": "Writing novels",
-      "b": "Writing press releases",
-      "c": "Creating social media posts",
-      "d": "Writing content optimized for search engines"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (16)",
-    "options": {
-      "a": "Call Timing Average",
-      "b": "Create Text Announcement",
-      "c": "Call to Action",
-      "d": "Click to Advertise"
-    },
-    "correctAnswer": "c",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (17)",
-    "options": {
-      "a": "It enhances clarity",
-      "b": "It affects originality and search ranking",
-      "c": "It is encouraged",
-      "d": "It improves SEO"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (18)",
-    "options": {
-      "a": "Writing content optimized for search engines",
-      "b": "Creating social media posts",
-      "c": "Writing press releases",
-      "d": "Writing novels"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (19)",
-    "options": {
-      "a": "Create Text Announcement",
-      "b": "Call to Action",
-      "c": "Call Timing Average",
-      "d": "Click to Advertise"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (20)",
-    "options": {
-      "a": "It enhances clarity",
-      "b": "It affects originality and search ranking",
-      "c": "It is encouraged",
-      "d": "It improves SEO"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (21)",
-    "options": {
-      "a": "Writing novels",
-      "b": "Creating social media posts",
-      "c": "Writing press releases",
-      "d": "Writing content optimized for search engines"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (22)",
-    "options": {
-      "a": "Call to Action",
-      "b": "Call Timing Average",
-      "c": "Create Text Announcement",
-      "d": "Click to Advertise"
+      "a": "To summarize the content for search engines",
+      "b": "To add images to the page",
+      "c": "To create internal links",
+      "d": "To track user behavior"
     },
     "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "medium"
   },
   {
-    "question": "Why is plagiarism bad in content writing? (23)",
+    "question": "What is the Flesch Reading Ease score used for?",
     "options": {
-      "a": "It improves SEO",
-      "b": "It affects originality and search ranking",
-      "c": "It enhances clarity",
-      "d": "It is encouraged"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (24)",
-    "options": {
-      "a": "Writing content optimized for search engines",
-      "b": "Writing press releases",
-      "c": "Writing novels",
-      "d": "Creating social media posts"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (25)",
-    "options": {
-      "a": "Click to Advertise",
-      "b": "Call to Action",
-      "c": "Call Timing Average",
-      "d": "Create Text Announcement"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (26)",
-    "options": {
-      "a": "It is encouraged",
-      "b": "It affects originality and search ranking",
-      "c": "It improves SEO",
-      "d": "It enhances clarity"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (27)",
-    "options": {
-      "a": "Creating social media posts",
-      "b": "Writing novels",
-      "c": "Writing press releases",
-      "d": "Writing content optimized for search engines"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (28)",
-    "options": {
-      "a": "Click to Advertise",
-      "b": "Call Timing Average",
-      "c": "Call to Action",
-      "d": "Create Text Announcement"
-    },
-    "correctAnswer": "c",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (29)",
-    "options": {
-      "a": "It is encouraged",
-      "b": "It affects originality and search ranking",
-      "c": "It improves SEO",
-      "d": "It enhances clarity"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (30)",
-    "options": {
-      "a": "Writing novels",
-      "b": "Writing content optimized for search engines",
-      "c": "Creating social media posts",
-      "d": "Writing press releases"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (31)",
-    "options": {
-      "a": "Create Text Announcement",
-      "b": "Click to Advertise",
-      "c": "Call Timing Average",
-      "d": "Call to Action"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (32)",
-    "options": {
-      "a": "It is encouraged",
-      "b": "It affects originality and search ranking",
-      "c": "It enhances clarity",
-      "d": "It improves SEO"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (33)",
-    "options": {
-      "a": "Writing press releases",
-      "b": "Creating social media posts",
-      "c": "Writing novels",
-      "d": "Writing content optimized for search engines"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (34)",
-    "options": {
-      "a": "Call to Action",
-      "b": "Click to Advertise",
-      "c": "Create Text Announcement",
-      "d": "Call Timing Average"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (35)",
-    "options": {
-      "a": "It is encouraged",
-      "b": "It enhances clarity",
-      "c": "It affects originality and search ranking",
-      "d": "It improves SEO"
-    },
-    "correctAnswer": "c",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (36)",
-    "options": {
-      "a": "Writing press releases",
-      "b": "Writing novels",
-      "c": "Writing content optimized for search engines",
-      "d": "Creating social media posts"
-    },
-    "correctAnswer": "c",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (37)",
-    "options": {
-      "a": "Call to Action",
-      "b": "Create Text Announcement",
-      "c": "Call Timing Average",
-      "d": "Click to Advertise"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (38)",
-    "options": {
-      "a": "It affects originality and search ranking",
-      "b": "It is encouraged",
-      "c": "It improves SEO",
-      "d": "It enhances clarity"
+      "a": "To measure the readability of content",
+      "b": "To count the number of words",
+      "c": "To check for plagiarism",
+      "d": "To analyze keyword density"
     },
     "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "hard"
   },
   {
-    "question": "What is SEO content writing? (39)",
+    "question": "Which of the following is a primary keyword?",
     "options": {
-      "a": "Writing press releases",
-      "b": "Writing content optimized for search engines",
-      "c": "Creating social media posts",
-      "d": "Writing novels"
+      "a": "A keyword with low search volume",
+      "b": "The main focus keyword of the content",
+      "c": "A keyword used only in headings",
+      "d": "A keyword with no competition"
     },
     "correctAnswer": "b",
     "category": "content writing",
     "difficulty": "easy"
   },
   {
-    "question": "What is a CTA in content? (40)",
+    "question": "What is the role of subheadings in content?",
     "options": {
-      "a": "Click to Advertise",
-      "b": "Call Timing Average",
-      "c": "Call to Action",
-      "d": "Create Text Announcement"
-    },
-    "correctAnswer": "c",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (41)",
-    "options": {
-      "a": "It improves SEO",
-      "b": "It affects originality and search ranking",
-      "c": "It enhances clarity",
-      "d": "It is encouraged"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (42)",
-    "options": {
-      "a": "Writing novels",
-      "b": "Creating social media posts",
-      "c": "Writing press releases",
-      "d": "Writing content optimized for search engines"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (43)",
-    "options": {
-      "a": "Call Timing Average",
-      "b": "Call to Action",
-      "c": "Click to Advertise",
-      "d": "Create Text Announcement"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (44)",
-    "options": {
-      "a": "It improves SEO",
-      "b": "It enhances clarity",
-      "c": "It is encouraged",
-      "d": "It affects originality and search ranking"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (45)",
-    "options": {
-      "a": "Writing content optimized for search engines",
-      "b": "Creating social media posts",
-      "c": "Writing press releases",
-      "d": "Writing novels"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (46)",
-    "options": {
-      "a": "Call Timing Average",
-      "b": "Call to Action",
-      "c": "Create Text Announcement",
-      "d": "Click to Advertise"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (47)",
-    "options": {
-      "a": "It enhances clarity",
-      "b": "It is encouraged",
-      "c": "It improves SEO",
-      "d": "It affects originality and search ranking"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (48)",
-    "options": {
-      "a": "Creating social media posts",
-      "b": "Writing content optimized for search engines",
-      "c": "Writing press releases",
-      "d": "Writing novels"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (49)",
-    "options": {
-      "a": "Call to Action",
-      "b": "Call Timing Average",
-      "c": "Click to Advertise",
-      "d": "Create Text Announcement"
+      "a": "To break up text and improve readability",
+      "b": "To increase word count",
+      "c": "To add images",
+      "d": "To track user engagement"
     },
     "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "medium"
   },
   {
-    "question": "Why is plagiarism bad in content writing? (50)",
+    "question": "What is the difference between evergreen and trending content?",
     "options": {
-      "a": "It is encouraged",
-      "b": "It enhances clarity",
-      "c": "It improves SEO",
-      "d": "It affects originality and search ranking"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (51)",
-    "options": {
-      "a": "Creating social media posts",
-      "b": "Writing content optimized for search engines",
-      "c": "Writing novels",
-      "d": "Writing press releases"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (52)",
-    "options": {
-      "a": "Call Timing Average",
-      "b": "Call to Action",
-      "c": "Click to Advertise",
-      "d": "Create Text Announcement"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (53)",
-    "options": {
-      "a": "It enhances clarity",
-      "b": "It is encouraged",
-      "c": "It improves SEO",
-      "d": "It affects originality and search ranking"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (54)",
-    "options": {
-      "a": "Writing content optimized for search engines",
-      "b": "Creating social media posts",
-      "c": "Writing press releases",
-      "d": "Writing novels"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (55)",
-    "options": {
-      "a": "Call to Action",
-      "b": "Call Timing Average",
-      "c": "Create Text Announcement",
-      "d": "Click to Advertise"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (56)",
-    "options": {
-      "a": "It enhances clarity",
-      "b": "It is encouraged",
-      "c": "It improves SEO",
-      "d": "It affects originality and search ranking"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (57)",
-    "options": {
-      "a": "Writing novels",
-      "b": "Creating social media posts",
-      "c": "Writing press releases",
-      "d": "Writing content optimized for search engines"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (58)",
-    "options": {
-      "a": "Create Text Announcement",
-      "b": "Call Timing Average",
-      "c": "Call to Action",
-      "d": "Click to Advertise"
-    },
-    "correctAnswer": "c",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (59)",
-    "options": {
-      "a": "It improves SEO",
-      "b": "It enhances clarity",
-      "c": "It affects originality and search ranking",
-      "d": "It is encouraged"
-    },
-    "correctAnswer": "c",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (60)",
-    "options": {
-      "a": "Writing press releases",
-      "b": "Writing content optimized for search engines",
-      "c": "Writing novels",
-      "d": "Creating social media posts"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (61)",
-    "options": {
-      "a": "Click to Advertise",
-      "b": "Call to Action",
-      "c": "Create Text Announcement",
-      "d": "Call Timing Average"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (62)",
-    "options": {
-      "a": "It is encouraged",
-      "b": "It improves SEO",
-      "c": "It affects originality and search ranking",
-      "d": "It enhances clarity"
-    },
-    "correctAnswer": "c",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (63)",
-    "options": {
-      "a": "Writing content optimized for search engines",
-      "b": "Writing press releases",
-      "c": "Creating social media posts",
-      "d": "Writing novels"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (64)",
-    "options": {
-      "a": "Call to Action",
-      "b": "Call Timing Average",
-      "c": "Click to Advertise",
-      "d": "Create Text Announcement"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (65)",
-    "options": {
-      "a": "It enhances clarity",
-      "b": "It improves SEO",
-      "c": "It affects originality and search ranking",
-      "d": "It is encouraged"
-    },
-    "correctAnswer": "c",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (66)",
-    "options": {
-      "a": "Creating social media posts",
-      "b": "Writing press releases",
-      "c": "Writing content optimized for search engines",
-      "d": "Writing novels"
-    },
-    "correctAnswer": "c",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (67)",
-    "options": {
-      "a": "Call Timing Average",
-      "b": "Call to Action",
-      "c": "Create Text Announcement",
-      "d": "Click to Advertise"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (68)",
-    "options": {
-      "a": "It affects originality and search ranking",
-      "b": "It enhances clarity",
-      "c": "It improves SEO",
-      "d": "It is encouraged"
+      "a": "Evergreen content is always relevant, while trending content is time-sensitive",
+      "b": "Evergreen content is shorter, while trending content is longer",
+      "c": "Evergreen content is for social media, while trending content is for blogs",
+      "d": "Evergreen content uses more images"
     },
     "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "hard"
   },
   {
-    "question": "What is SEO content writing? (69)",
+    "question": "What is the purpose of a byline in an article?",
     "options": {
-      "a": "Writing content optimized for search engines",
-      "b": "Creating social media posts",
-      "c": "Writing press releases",
-      "d": "Writing novels"
+      "a": "To credit the author",
+      "b": "To summarize the content",
+      "c": "To add keywords",
+      "d": "To track page views"
     },
     "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "easy"
   },
   {
-    "question": "What is a CTA in content? (70)",
+    "question": "What is the ideal keyword density for SEO?",
     "options": {
-      "a": "Create Text Announcement",
-      "b": "Call Timing Average",
-      "c": "Click to Advertise",
-      "d": "Call to Action"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (71)",
-    "options": {
-      "a": "It is encouraged",
-      "b": "It improves SEO",
-      "c": "It enhances clarity",
-      "d": "It affects originality and search ranking"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (72)",
-    "options": {
-      "a": "Writing press releases",
-      "b": "Writing content optimized for search engines",
-      "c": "Creating social media posts",
-      "d": "Writing novels"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (73)",
-    "options": {
-      "a": "Click to Advertise",
-      "b": "Call to Action",
-      "c": "Call Timing Average",
-      "d": "Create Text Announcement"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (74)",
-    "options": {
-      "a": "It is encouraged",
-      "b": "It improves SEO",
-      "c": "It affects originality and search ranking",
-      "d": "It enhances clarity"
-    },
-    "correctAnswer": "c",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (75)",
-    "options": {
-      "a": "Writing novels",
-      "b": "Writing content optimized for search engines",
-      "c": "Creating social media posts",
-      "d": "Writing press releases"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (76)",
-    "options": {
-      "a": "Create Text Announcement",
-      "b": "Call to Action",
-      "c": "Call Timing Average",
-      "d": "Click to Advertise"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (77)",
-    "options": {
-      "a": "It enhances clarity",
-      "b": "It improves SEO",
-      "c": "It is encouraged",
-      "d": "It affects originality and search ranking"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (78)",
-    "options": {
-      "a": "Writing press releases",
-      "b": "Writing content optimized for search engines",
-      "c": "Writing novels",
-      "d": "Creating social media posts"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (79)",
-    "options": {
-      "a": "Call to Action",
-      "b": "Click to Advertise",
-      "c": "Call Timing Average",
-      "d": "Create Text Announcement"
+      "a": "1-2%",
+      "b": "5-10%",
+      "c": "20-30%",
+      "d": "No specific rule"
     },
     "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "medium"
   },
   {
-    "question": "Why is plagiarism bad in content writing? (80)",
+    "question": "What is the role of internal linking in content?",
     "options": {
-      "a": "It improves SEO",
-      "b": "It affects originality and search ranking",
-      "c": "It enhances clarity",
-      "d": "It is encouraged"
-    },
-    "correctAnswer": "b",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (81)",
-    "options": {
-      "a": "Writing content optimized for search engines",
-      "b": "Writing novels",
-      "c": "Writing press releases",
-      "d": "Creating social media posts"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (82)",
-    "options": {
-      "a": "Call Timing Average",
-      "b": "Create Text Announcement",
-      "c": "Call to Action",
-      "d": "Click to Advertise"
-    },
-    "correctAnswer": "c",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (83)",
-    "options": {
-      "a": "It affects originality and search ranking",
-      "b": "It enhances clarity",
-      "c": "It is encouraged",
-      "d": "It improves SEO"
+      "a": "To improve site navigation and SEO",
+      "b": "To increase word count",
+      "c": "To add external references",
+      "d": "To track user behavior"
     },
     "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "hard"
   },
   {
-    "question": "What is SEO content writing? (84)",
+    "question": "What is a headline in content writing?",
     "options": {
-      "a": "Creating social media posts",
-      "b": "Writing press releases",
-      "c": "Writing novels",
-      "d": "Writing content optimized for search engines"
-    },
-    "correctAnswer": "d",
-    "category": "content writing",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a CTA in content? (85)",
-    "options": {
-      "a": "Create Text Announcement",
-      "b": "Click to Advertise",
-      "c": "Call to Action",
-      "d": "Call Timing Average"
-    },
-    "correctAnswer": "c",
-    "category": "content writing",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Why is plagiarism bad in content writing? (86)",
-    "options": {
-      "a": "It affects originality and search ranking",
-      "b": "It is encouraged",
-      "c": "It improves SEO",
-      "d": "It enhances clarity"
-    },
-    "correctAnswer": "a",
-    "category": "content writing",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is SEO content writing? (87)",
-    "options": {
-      "a": "Writing content optimized for search engines",
-      "b": "Creating social media posts",
-      "c": "Writing press releases",
-      "d": "Writing novels"
+      "a": "The title of the content",
+      "b": "The conclusion of the article",
+      "c": "A subheading",
+      "d": "A call to action"
     },
     "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "easy"
   },
   {
-    "question": "What is a CTA in content? (88)",
+    "question": "What is the purpose of a content brief?",
     "options": {
-      "a": "Create Text Announcement",
-      "b": "Click to Advertise",
-      "c": "Call Timing Average",
-      "d": "Call to Action"
+      "a": "To outline the structure and goals of the content",
+      "b": "To summarize the article",
+      "c": "To add keywords",
+      "d": "To track user engagement"
     },
-    "correctAnswer": "d",
+    "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "medium"
   },
   {
-    "question": "Why is plagiarism bad in content writing? (89)",
+    "question": "What is the difference between active and passive voice?",
     "options": {
-      "a": "It enhances clarity",
-      "b": "It is encouraged",
-      "c": "It improves SEO",
-      "d": "It affects originality and search ranking"
+      "a": "Active voice is direct, passive voice is indirect",
+      "b": "Active voice is longer, passive voice is shorter",
+      "c": "Active voice is for blogs, passive voice is for social media",
+      "d": "Active voice uses more keywords"
     },
-    "correctAnswer": "d",
+    "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "hard"
   },
   {
-    "question": "What is SEO content writing? (90)",
+    "question": "What is the purpose of a hook in content?",
     "options": {
-      "a": "Writing novels",
-      "b": "Writing press releases",
-      "c": "Writing content optimized for search engines",
-      "d": "Creating social media posts"
+      "a": "To grab the reader's attention",
+      "b": "To summarize the content",
+      "c": "To add keywords",
+      "d": "To track page views"
     },
-    "correctAnswer": "c",
+    "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "easy"
   },
   {
-    "question": "What is a CTA in content? (91)",
+    "question": "What is the role of bullet points in content?",
     "options": {
-      "a": "Create Text Announcement",
-      "b": "Click to Advertise",
-      "c": "Call to Action",
-      "d": "Call Timing Average"
+      "a": "To improve readability and highlight key points",
+      "b": "To increase word count",
+      "c": "To add images",
+      "d": "To track user engagement"
     },
-    "correctAnswer": "c",
+    "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "medium"
   },
   {
-    "question": "Why is plagiarism bad in content writing? (92)",
+    "question": "What is the difference between B2B and B2C content?",
     "options": {
-      "a": "It improves SEO",
-      "b": "It enhances clarity",
-      "c": "It affects originality and search ranking",
-      "d": "It is encouraged"
+      "a": "B2B targets businesses, B2C targets consumers",
+      "b": "B2B is shorter, B2C is longer",
+      "c": "B2B uses more images, B2C uses fewer",
+      "d": "B2B is for social media, B2C is for blogs"
     },
-    "correctAnswer": "c",
+    "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "hard"
   },
   {
-    "question": "What is SEO content writing? (93)",
+    "question": "What is the purpose of a content calendar?",
     "options": {
-      "a": "Creating social media posts",
-      "b": "Writing novels",
-      "c": "Writing press releases",
-      "d": "Writing content optimized for search engines"
+      "a": "To plan and organize content publishing",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
     },
-    "correctAnswer": "d",
+    "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "easy"
   },
   {
-    "question": "What is a CTA in content? (94)",
+    "question": "What is the ideal length for a meta title?",
     "options": {
-      "a": "Click to Advertise",
-      "b": "Call to Action",
-      "c": "Call Timing Average",
-      "d": "Create Text Announcement"
+      "a": "50-60 characters",
+      "b": "100-150 characters",
+      "c": "200+ characters",
+      "d": "No specific rule"
     },
-    "correctAnswer": "b",
+    "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "medium"
   },
   {
-    "question": "Why is plagiarism bad in content writing? (95)",
+    "question": "What is the role of storytelling in content marketing?",
     "options": {
-      "a": "It is encouraged",
-      "b": "It enhances clarity",
-      "c": "It improves SEO",
-      "d": "It affects originality and search ranking"
+      "a": "To engage and connect with the audience emotionally",
+      "b": "To increase word count",
+      "c": "To add keywords",
+      "d": "To track user behavior"
     },
-    "correctAnswer": "d",
+    "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "hard"
   },
   {
-    "question": "What is SEO content writing? (96)",
+    "question": "What is a content pillar?",
     "options": {
-      "a": "Creating social media posts",
-      "b": "Writing press releases",
-      "c": "Writing content optimized for search engines",
-      "d": "Writing novels"
+      "a": "A comprehensive guide on a broad topic",
+      "b": "A short social media post",
+      "c": "A press release",
+      "d": "A product description"
     },
-    "correctAnswer": "c",
+    "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "easy"
   },
   {
-    "question": "What is a CTA in content? (97)",
+    "question": "What is the purpose of A/B testing in content?",
     "options": {
-      "a": "Click to Advertise",
-      "b": "Call to Action",
-      "c": "Create Text Announcement",
-      "d": "Call Timing Average"
+      "a": "To compare two versions of content for effectiveness",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between copywriting and content writing?",
+    "options": {
+      "a": "Copywriting is persuasive, content writing is informative",
+      "b": "Copywriting is longer, content writing is shorter",
+      "c": "Copywriting is for blogs, content writing is for social media",
+      "d": "Copywriting uses more images"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a content audit?",
+    "options": {
+      "a": "To evaluate and improve existing content",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal length for a social media post?",
+    "options": {
+      "a": "50-100 characters",
+      "b": "200-300 characters",
+      "c": "500+ characters",
+      "d": "No specific rule"
     },
     "correctAnswer": "b",
     "category": "content writing",
     "difficulty": "medium"
   },
   {
-    "question": "Why is plagiarism bad in content writing? (98)",
+    "question": "What is the role of user-generated content?",
     "options": {
-      "a": "It enhances clarity",
-      "b": "It improves SEO",
-      "c": "It is encouraged",
-      "d": "It affects originality and search ranking"
+      "a": "To build trust and engagement with the audience",
+      "b": "To increase word count",
+      "c": "To add keywords",
+      "d": "To track user behavior"
     },
-    "correctAnswer": "d",
+    "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "hard"
   },
   {
-    "question": "What is SEO content writing? (99)",
+    "question": "What is a content funnel?",
     "options": {
-      "a": "Writing content optimized for search engines",
-      "b": "Creating social media posts",
-      "c": "Writing press releases",
-      "d": "Writing novels"
+      "a": "A strategy to guide users through the buyer's journey",
+      "b": "A short social media post",
+      "c": "A press release",
+      "d": "A product description"
     },
     "correctAnswer": "a",
     "category": "content writing",
     "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a style guide in content writing?",
+    "options": {
+      "a": "To maintain consistency in tone and style",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between evergreen and seasonal content?",
+    "options": {
+      "a": "Evergreen content is always relevant, seasonal content is time-specific",
+      "b": "Evergreen content is shorter, seasonal content is longer",
+      "c": "Evergreen content is for blogs, seasonal content is for social media",
+      "d": "Evergreen content uses more images"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a lead magnet in content marketing?",
+    "options": {
+      "a": "To attract and capture leads",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal frequency for publishing blog posts?",
+    "options": {
+      "a": "Once a week",
+      "b": "Once a month",
+      "c": "Once a year",
+      "d": "No specific rule"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of multimedia in content?",
+    "options": {
+      "a": "To enhance engagement and understanding",
+      "b": "To increase word count",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a content cluster?",
+    "options": {
+      "a": "A group of interlinked articles on a topic",
+      "b": "A short social media post",
+      "c": "A press release",
+      "d": "A product description"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a content gap analysis?",
+    "options": {
+      "a": "To identify missing topics in content strategy",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between qualitative and quantitative content analysis?",
+    "options": {
+      "a": "Qualitative focuses on themes, quantitative focuses on numbers",
+      "b": "Qualitative is shorter, quantitative is longer",
+      "c": "Qualitative is for blogs, quantitative is for social media",
+      "d": "Qualitative uses more images"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a content style sheet?",
+    "options": {
+      "a": "To ensure consistency in formatting and style",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal length for a YouTube video description?",
+    "options": {
+      "a": "50-100 words",
+      "b": "200-300 words",
+      "c": "500+ words",
+      "d": "No specific rule"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of emotional appeal in content?",
+    "options": {
+      "a": "To connect with the audience on a personal level",
+      "b": "To increase word count",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a content repurposing strategy?",
+    "options": {
+      "a": "Reusing existing content in different formats",
+      "b": "Deleting old content",
+      "c": "Creating new content from scratch",
+      "d": "Ignoring outdated content"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a content performance report?",
+    "options": {
+      "a": "To analyze the effectiveness of content",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between owned, earned, and paid media?",
+    "options": {
+      "a": "Owned is your content, earned is publicity, paid is ads",
+      "b": "Owned is social media, earned is blogs, paid is press releases",
+      "c": "Owned is free, earned is paid, paid is shared",
+      "d": "Owned is long-form, earned is short-form, paid is multimedia"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a content collaboration?",
+    "options": {
+      "a": "To co-create content with others",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal length for a podcast description?",
+    "options": {
+      "a": "50-100 words",
+      "b": "200-300 words",
+      "c": "500+ words",
+      "d": "No specific rule"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of credibility in content?",
+    "options": {
+      "a": "To build trust with the audience",
+      "b": "To increase word count",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a content syndication strategy?",
+    "options": {
+      "a": "Republishing content on third-party platforms",
+      "b": "Deleting old content",
+      "c": "Creating new content from scratch",
+      "d": "Ignoring outdated content"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a content workflow?",
+    "options": {
+      "a": "To streamline the content creation process",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between B2B and B2C content marketing?",
+    "options": {
+      "a": "B2B targets businesses, B2C targets consumers",
+      "b": "B2B is shorter, B2C is longer",
+      "c": "B2B uses more images, B2C uses fewer",
+      "d": "B2B is for social media, B2C is for blogs"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a content style guide?",
+    "options": {
+      "a": "To maintain consistency in tone and style",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal length for a LinkedIn post?",
+    "options": {
+      "a": "50-100 words",
+      "b": "200-300 words",
+      "c": "500+ words",
+      "d": "No specific rule"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of storytelling in brand content?",
+    "options": {
+      "a": "To engage and connect with the audience emotionally",
+      "b": "To increase word count",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a content amplification strategy?",
+    "options": {
+      "a": "To increase the reach of content",
+      "b": "To delete old content",
+      "c": "To create new content from scratch",
+      "d": "To ignore outdated content"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a content review process?",
+    "options": {
+      "a": "To ensure quality and accuracy",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between evergreen and trending content strategies?",
+    "options": {
+      "a": "Evergreen is always relevant, trending is time-sensitive",
+      "b": "Evergreen is shorter, trending is longer",
+      "c": "Evergreen is for blogs, trending is for social media",
+      "d": "Evergreen uses more images"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a content distribution plan?",
+    "options": {
+      "a": "To share content across multiple channels",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal length for a Twitter thread?",
+    "options": {
+      "a": "1-2 tweets",
+      "b": "5-10 tweets",
+      "c": "20+ tweets",
+      "d": "No specific rule"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of humor in content?",
+    "options": {
+      "a": "To engage and entertain the audience",
+      "b": "To increase word count",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a content personalization strategy?",
+    "options": {
+      "a": "Tailoring content to individual audience preferences",
+      "b": "Deleting old content",
+      "c": "Creating new content from scratch",
+      "d": "Ignoring outdated content"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a content engagement metric?",
+    "options": {
+      "a": "To measure audience interaction with content",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between organic and paid content reach?",
+    "options": {
+      "a": "Organic is free, paid involves advertising",
+      "b": "Organic is shorter, paid is longer",
+      "c": "Organic is for blogs, paid is for social media",
+      "d": "Organic uses more images"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a content localization strategy?",
+    "options": {
+      "a": "To adapt content for different regions and cultures",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal length for a Facebook post?",
+    "options": {
+      "a": "50-100 characters",
+      "b": "200-300 characters",
+      "c": "500+ characters",
+      "d": "No specific rule"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of data-driven content?",
+    "options": {
+      "a": "To create content based on audience insights",
+      "b": "To increase word count",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a content curation strategy?",
+    "options": {
+      "a": "To gather and share relevant third-party content",
+      "b": "To delete old content",
+      "c": "To create new content from scratch",
+      "d": "To ignore outdated content"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a content optimization tool?",
+    "options": {
+      "a": "To improve content for SEO and readability",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between short-form and long-form content?",
+    "options": {
+      "a": "Short-form is concise, long-form is detailed",
+      "b": "Short-form is for blogs, long-form is for social media",
+      "c": "Short-form uses more images, long-form uses fewer",
+      "d": "Short-form is for B2B, long-form is for B2C"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a content segmentation strategy?",
+    "options": {
+      "a": "To target specific audience groups",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal length for an Instagram caption?",
+    "options": {
+      "a": "50-100 characters",
+      "b": "200-300 characters",
+      "c": "500+ characters",
+      "d": "No specific rule"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of interactive content?",
+    "options": {
+      "a": "To engage the audience through participation",
+      "b": "To increase word count",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a content republishing strategy?",
+    "options": {
+      "a": "To update and re-share old content",
+      "b": "To delete old content",
+      "c": "To create new content from scratch",
+      "d": "To ignore outdated content"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a content performance dashboard?",
+    "options": {
+      "a": "To track and analyze content metrics",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between owned and shared content?",
+    "options": {
+      "a": "Owned is on your platforms, shared is on others' platforms",
+      "b": "Owned is shorter, shared is longer",
+      "c": "Owned is for blogs, shared is for social media",
+      "d": "Owned uses more images, shared uses fewer"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a content governance policy?",
+    "options": {
+      "a": "To set standards for content creation and management",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal length for a Pinterest description?",
+    "options": {
+      "a": "50-100 characters",
+      "b": "200-300 characters",
+      "c": "500+ characters",
+      "d": "No specific rule"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of authenticity in content?",
+    "options": {
+      "a": "To build trust and credibility with the audience",
+      "b": "To increase word count",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a content testing strategy?",
+    "options": {
+      "a": "To experiment with different content formats",
+      "b": "To delete old content",
+      "c": "To create new content from scratch",
+      "d": "To ignore outdated content"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a content collaboration platform?",
+    "options": {
+      "a": "To facilitate teamwork in content creation",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between static and dynamic content?",
+    "options": {
+      "a": "Static is fixed, dynamic updates based on user interaction",
+      "b": "Static is shorter, dynamic is longer",
+      "c": "Static is for blogs, dynamic is for social media",
+      "d": "Static uses more images, dynamic uses fewer"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a content feedback loop?",
+    "options": {
+      "a": "To gather and implement audience feedback",
+      "b": "To summarize articles",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal length for a TikTok caption?",
+    "options": {
+      "a": "10-20 characters",
+      "b": "50-100 characters",
+      "c": "200+ characters",
+      "d": "No specific rule"
+    },
+    "correctAnswer": "b",
+    "category": "content writing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of inclusivity in content?",
+    "options": {
+      "a": "To ensure content is accessible and representative",
+      "b": "To increase word count",
+      "c": "To add keywords",
+      "d": "To track user behavior"
+    },
+    "correctAnswer": "a",
+    "category": "content writing",
+    "difficulty": "hard"
   }
 ]

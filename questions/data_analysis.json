@@ -12,7 +12,7 @@
     "difficulty": "easy"
   },
   {
-    "question": "What is a pivot table in Excel? (1)",
+    "question": "What is a pivot table in Excel?",
     "options": {
       "a": "A programming function",
       "b": "A chart type",
@@ -24,7 +24,7 @@
     "difficulty": "medium"
   },
   {
-    "question": "What is a p-value used for? (2)",
+    "question": "What is a p-value used for?",
     "options": {
       "a": "To visualize trends",
       "b": "To find average",
@@ -36,1167 +36,1059 @@
     "difficulty": "hard"
   },
   {
-    "question": "Which tool is used for data visualization? (3)",
+    "question": "Which of the following is a measure of central tendency?",
     "options": {
-      "a": "Python",
-      "b": "SQL",
-      "c": "Excel",
-      "d": "Tableau"
+      "a": "Standard deviation",
+      "b": "Variance",
+      "c": "Mean",
+      "d": "Range"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does SQL stand for?",
+    "options": {
+      "a": "Structured Query Language",
+      "b": "Statistical Query Language",
+      "c": "System Query Language",
+      "d": "Simple Query Language"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of data normalization?",
+    "options": {
+      "a": "To make data easier to visualize",
+      "b": "To reduce data redundancy",
+      "c": "To increase data storage size",
+      "d": "To encrypt sensitive data"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main purpose of a histogram?",
+    "options": {
+      "a": "To show relationships between variables",
+      "b": "To display the distribution of numerical data",
+      "c": "To compare categories",
+      "d": "To show trends over time"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the first step in the data analysis process?",
+    "options": {
+      "a": "Data visualization",
+      "b": "Data cleaning",
+      "c": "Data collection",
+      "d": "Data modeling"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a box plot?",
+    "options": {
+      "a": "To show the distribution of categorical data",
+      "b": "To display the five-number summary of a dataset",
+      "c": "To show trends over time",
+      "d": "To compare proportions"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does ETL stand for in data processing?",
+    "options": {
+      "a": "Extract, Transform, Load",
+      "b": "Enter, Test, Leave",
+      "c": "Evaluate, Transfer, Link",
+      "d": "Export, Translate, Locate"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the primary purpose of correlation analysis?",
+    "options": {
+      "a": "To establish cause-and-effect relationships",
+      "b": "To measure the strength of association between variables",
+      "c": "To predict future values",
+      "d": "To categorize data"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a scatter plot?",
+    "options": {
+      "a": "To show the distribution of a single variable",
+      "b": "To display the relationship between two numerical variables",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between supervised and unsupervised learning?",
+    "options": {
+      "a": "Supervised uses labeled data, unsupervised uses unlabeled data",
+      "b": "Supervised is faster than unsupervised",
+      "c": "Supervised requires more computational power",
+      "d": "There is no difference"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a confusion matrix?",
+    "options": {
+      "a": "To visualize data distributions",
+      "b": "To evaluate the performance of a classification model",
+      "c": "To clean messy data",
+      "d": "To store large datasets"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is feature engineering in machine learning?",
+    "options": {
+      "a": "Creating new features from existing data",
+      "b": "Designing the user interface",
+      "c": "Writing the algorithm code",
+      "d": "Collecting more data"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of A/B testing?",
+    "options": {
+      "a": "To compare two versions of something to determine which performs better",
+      "b": "To test if A comes before B in the alphabet",
+      "c": "To analyze only the first two options in a dataset",
+      "d": "To combine two datasets"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the main advantage of using Python for data analysis?",
+    "options": {
+      "a": "It has powerful libraries like Pandas and NumPy",
+      "b": "It's the fastest programming language",
+      "c": "It doesn't require any coding knowledge",
+      "d": "It only works with small datasets"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is data wrangling?",
+    "options": {
+      "a": "The process of cleaning and unifying messy data",
+      "b": "A type of data visualization",
+      "c": "A machine learning algorithm",
+      "d": "A database management system"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the GROUP BY clause in SQL?",
+    "options": {
+      "a": "To filter rows",
+      "b": "To sort results",
+      "c": "To group rows that have the same values",
+      "d": "To join tables"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between a parameter and a statistic?",
+    "options": {
+      "a": "A parameter describes a sample, a statistic describes a population",
+      "b": "A parameter describes a population, a statistic describes a sample",
+      "c": "They are the same thing",
+      "d": "A parameter is always larger than a statistic"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the HAVING clause in SQL?",
+    "options": {
+      "a": "To filter groups after aggregation",
+      "b": "To filter rows before grouping",
+      "c": "To sort the results",
+      "d": "To join tables"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the difference between inner join and outer join?",
+    "options": {
+      "a": "Inner join returns only matching rows, outer join returns all rows from at least one table",
+      "b": "Inner join is faster than outer join",
+      "c": "Outer join is used only for text data",
+      "d": "There is no difference"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the WHERE clause in SQL?",
+    "options": {
+      "a": "To group rows",
+      "b": "To filter rows before any groupings are made",
+      "c": "To sort results",
+      "d": "To join tables"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main purpose of regression analysis?",
+    "options": {
+      "a": "To predict the value of a dependent variable based on independent variables",
+      "b": "To classify data into categories",
+      "c": "To visualize data distributions",
+      "d": "To clean messy data"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between classification and regression?",
+    "options": {
+      "a": "Classification predicts categories, regression predicts continuous values",
+      "b": "Classification is unsupervised, regression is supervised",
+      "c": "There is no difference",
+      "d": "Classification is for numbers, regression is for text"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the ORDER BY clause in SQL?",
+    "options": {
+      "a": "To filter rows",
+      "b": "To group rows",
+      "c": "To sort the result set",
+      "d": "To join tables"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of data sampling?",
+    "options": {
+      "a": "To analyze the entire population",
+      "b": "To select a subset of data for analysis",
+      "c": "To visualize all data points",
+      "d": "To clean the data"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between a bar chart and a histogram?",
+    "options": {
+      "a": "Bar charts show categorical data, histograms show numerical distributions",
+      "b": "There is no difference",
+      "c": "Bar charts are always vertical, histograms are always horizontal",
+      "d": "Bar charts use lines, histograms use bars"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the SELECT statement in SQL?",
+    "options": {
+      "a": "To specify which columns to return",
+      "b": "To filter rows",
+      "c": "To group data",
+      "d": "To join tables"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of data aggregation?",
+    "options": {
+      "a": "To combine multiple values into a single value",
+      "b": "To visualize data",
+      "c": "To clean data",
+      "d": "To encrypt data"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between a left join and a right join?",
+    "options": {
+      "a": "Left join returns all rows from the left table, right join returns all rows from the right table",
+      "b": "There is no difference",
+      "c": "Left join is faster than right join",
+      "d": "Left join is used for text data, right join for numerical data"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the COUNT function in SQL?",
+    "options": {
+      "a": "To sum values",
+      "b": "To count the number of rows",
+      "c": "To calculate averages",
+      "d": "To find maximum values"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the SUM function in SQL?",
+    "options": {
+      "a": "To count rows",
+      "b": "To calculate the total of a numeric column",
+      "c": "To find averages",
+      "d": "To concatenate strings"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the AVG function in SQL?",
+    "options": {
+      "a": "To count rows",
+      "b": "To sum values",
+      "c": "To calculate the average of a numeric column",
+      "d": "To find maximum values"
+    },
+    "correctAnswer": "c",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the MAX function in SQL?",
+    "options": {
+      "a": "To count rows",
+      "b": "To sum values",
+      "c": "To calculate averages",
+      "d": "To find the highest value in a column"
     },
     "correctAnswer": "d",
     "category": "data analysis",
     "difficulty": "easy"
   },
   {
-    "question": "What is a pivot table in Excel? (4)",
+    "question": "What is the purpose of the MIN function in SQL?",
     "options": {
-      "a": "A chart type",
-      "b": "A programming function",
-      "c": "A tool to summarize data",
-      "d": "A database"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (5)",
-    "options": {
-      "a": "To determine statistical significance",
-      "b": "To visualize trends",
-      "c": "To calculate sum",
-      "d": "To find average"
-    },
-    "correctAnswer": "a",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (6)",
-    "options": {
-      "a": "Excel",
-      "b": "Tableau",
-      "c": "SQL",
-      "d": "Python"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (7)",
-    "options": {
-      "a": "A tool to summarize data",
-      "b": "A programming function",
-      "c": "A chart type",
-      "d": "A database"
-    },
-    "correctAnswer": "a",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (8)",
-    "options": {
-      "a": "To find average",
-      "b": "To calculate sum",
-      "c": "To visualize trends",
-      "d": "To determine statistical significance"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (9)",
-    "options": {
-      "a": "Python",
-      "b": "SQL",
-      "c": "Excel",
-      "d": "Tableau"
+      "a": "To count rows",
+      "b": "To sum values",
+      "c": "To calculate averages",
+      "d": "To find the lowest value in a column"
     },
     "correctAnswer": "d",
     "category": "data analysis",
     "difficulty": "easy"
   },
   {
-    "question": "What is a pivot table in Excel? (10)",
+    "question": "What is the purpose of data imputation?",
     "options": {
-      "a": "A programming function",
-      "b": "A database",
-      "c": "A tool to summarize data",
-      "d": "A chart type"
+      "a": "To remove missing values",
+      "b": "To replace missing values with substituted values",
+      "c": "To visualize missing data",
+      "d": "To encrypt data"
     },
-    "correctAnswer": "c",
+    "correctAnswer": "b",
     "category": "data analysis",
     "difficulty": "medium"
   },
   {
-    "question": "What is a p-value used for? (11)",
+    "question": "What is the purpose of outlier detection?",
     "options": {
-      "a": "To find average",
-      "b": "To visualize trends",
-      "c": "To determine statistical significance",
-      "d": "To calculate sum"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (12)",
-    "options": {
-      "a": "Excel",
-      "b": "Tableau",
-      "c": "Python",
-      "d": "SQL"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (13)",
-    "options": {
-      "a": "A database",
-      "b": "A programming function",
-      "c": "A tool to summarize data",
-      "d": "A chart type"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (14)",
-    "options": {
-      "a": "To visualize trends",
-      "b": "To calculate sum",
-      "c": "To determine statistical significance",
-      "d": "To find average"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (15)",
-    "options": {
-      "a": "Python",
-      "b": "SQL",
-      "c": "Tableau",
-      "d": "Excel"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (16)",
-    "options": {
-      "a": "A programming function",
-      "b": "A chart type",
-      "c": "A tool to summarize data",
-      "d": "A database"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (17)",
-    "options": {
-      "a": "To calculate sum",
-      "b": "To determine statistical significance",
-      "c": "To find average",
-      "d": "To visualize trends"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (18)",
-    "options": {
-      "a": "SQL",
-      "b": "Tableau",
-      "c": "Python",
-      "d": "Excel"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (19)",
-    "options": {
-      "a": "A tool to summarize data",
-      "b": "A database",
-      "c": "A programming function",
-      "d": "A chart type"
+      "a": "To identify data points that differ significantly from other observations",
+      "b": "To remove all extreme values",
+      "c": "To visualize all data points",
+      "d": "To clean text data"
     },
     "correctAnswer": "a",
     "category": "data analysis",
     "difficulty": "medium"
   },
   {
-    "question": "What is a p-value used for? (20)",
+    "question": "What is the purpose of data binning?",
     "options": {
-      "a": "To calculate sum",
-      "b": "To determine statistical significance",
-      "c": "To find average",
-      "d": "To visualize trends"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (21)",
-    "options": {
-      "a": "SQL",
-      "b": "Python",
-      "c": "Tableau",
-      "d": "Excel"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (22)",
-    "options": {
-      "a": "A database",
-      "b": "A tool to summarize data",
-      "c": "A chart type",
-      "d": "A programming function"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (23)",
-    "options": {
-      "a": "To determine statistical significance",
-      "b": "To find average",
-      "c": "To calculate sum",
-      "d": "To visualize trends"
-    },
-    "correctAnswer": "a",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (24)",
-    "options": {
-      "a": "Tableau",
-      "b": "Excel",
-      "c": "SQL",
-      "d": "Python"
-    },
-    "correctAnswer": "a",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (25)",
-    "options": {
-      "a": "A tool to summarize data",
-      "b": "A database",
-      "c": "A chart type",
-      "d": "A programming function"
+      "a": "To group data points into bins or intervals",
+      "b": "To remove outliers",
+      "c": "To visualize correlations",
+      "d": "To clean text data"
     },
     "correctAnswer": "a",
     "category": "data analysis",
     "difficulty": "medium"
   },
   {
-    "question": "What is a p-value used for? (26)",
+    "question": "What is the purpose of a heatmap?",
     "options": {
-      "a": "To visualize trends",
-      "b": "To find average",
-      "c": "To determine statistical significance",
-      "d": "To calculate sum"
+      "a": "To show the distribution of a single variable",
+      "b": "To visualize the magnitude of a phenomenon as color in two dimensions",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
     },
-    "correctAnswer": "c",
+    "correctAnswer": "b",
     "category": "data analysis",
-    "difficulty": "hard"
+    "difficulty": "easy"
   },
   {
-    "question": "Which tool is used for data visualization? (27)",
+    "question": "What is the purpose of a pie chart?",
     "options": {
-      "a": "Tableau",
-      "b": "SQL",
-      "c": "Excel",
-      "d": "Python"
+      "a": "To show trends over time",
+      "b": "To compare parts of a whole",
+      "c": "To show distributions",
+      "d": "To show relationships between variables"
+    },
+    "correctAnswer": "b",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a line chart?",
+    "options": {
+      "a": "To show trends over time",
+      "b": "To compare categories",
+      "c": "To show distributions",
+      "d": "To show parts of a whole"
     },
     "correctAnswer": "a",
     "category": "data analysis",
     "difficulty": "easy"
   },
   {
-    "question": "What is a pivot table in Excel? (28)",
+    "question": "What is the purpose of a bar chart?",
     "options": {
-      "a": "A chart type",
-      "b": "A tool to summarize data",
-      "c": "A programming function",
-      "d": "A database"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (29)",
-    "options": {
-      "a": "To calculate sum",
-      "b": "To determine statistical significance",
-      "c": "To find average",
-      "d": "To visualize trends"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (30)",
-    "options": {
-      "a": "SQL",
-      "b": "Tableau",
-      "c": "Excel",
-      "d": "Python"
+      "a": "To show trends over time",
+      "b": "To compare categories",
+      "c": "To show distributions",
+      "d": "To show parts of a whole"
     },
     "correctAnswer": "b",
     "category": "data analysis",
     "difficulty": "easy"
   },
   {
-    "question": "What is a pivot table in Excel? (31)",
+    "question": "What is the purpose of a bubble chart?",
     "options": {
-      "a": "A chart type",
-      "b": "A tool to summarize data",
-      "c": "A programming function",
-      "d": "A database"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (32)",
-    "options": {
-      "a": "To determine statistical significance",
-      "b": "To visualize trends",
-      "c": "To find average",
-      "d": "To calculate sum"
-    },
-    "correctAnswer": "a",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (33)",
-    "options": {
-      "a": "Python",
-      "b": "Excel",
-      "c": "SQL",
-      "d": "Tableau"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (34)",
-    "options": {
-      "a": "A tool to summarize data",
-      "b": "A database",
-      "c": "A chart type",
-      "d": "A programming function"
+      "a": "To display three dimensions of data",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
     },
     "correctAnswer": "a",
     "category": "data analysis",
     "difficulty": "medium"
   },
   {
-    "question": "What is a p-value used for? (35)",
+    "question": "What is the purpose of a treemap?",
     "options": {
-      "a": "To determine statistical significance",
-      "b": "To visualize trends",
-      "c": "To calculate sum",
-      "d": "To find average"
-    },
-    "correctAnswer": "a",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (36)",
-    "options": {
-      "a": "SQL",
-      "b": "Python",
-      "c": "Excel",
-      "d": "Tableau"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (37)",
-    "options": {
-      "a": "A chart type",
-      "b": "A programming function",
-      "c": "A tool to summarize data",
-      "d": "A database"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (38)",
-    "options": {
-      "a": "To find average",
-      "b": "To determine statistical significance",
-      "c": "To calculate sum",
-      "d": "To visualize trends"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (39)",
-    "options": {
-      "a": "Tableau",
-      "b": "Python",
-      "c": "SQL",
-      "d": "Excel"
-    },
-    "correctAnswer": "a",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (40)",
-    "options": {
-      "a": "A chart type",
-      "b": "A programming function",
-      "c": "A tool to summarize data",
-      "d": "A database"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (41)",
-    "options": {
-      "a": "To determine statistical significance",
-      "b": "To calculate sum",
-      "c": "To find average",
-      "d": "To visualize trends"
-    },
-    "correctAnswer": "a",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (42)",
-    "options": {
-      "a": "Excel",
-      "b": "SQL",
-      "c": "Python",
-      "d": "Tableau"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (43)",
-    "options": {
-      "a": "A chart type",
-      "b": "A programming function",
-      "c": "A database",
-      "d": "A tool to summarize data"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (44)",
-    "options": {
-      "a": "To determine statistical significance",
-      "b": "To find average",
-      "c": "To visualize trends",
-      "d": "To calculate sum"
-    },
-    "correctAnswer": "a",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (45)",
-    "options": {
-      "a": "Excel",
-      "b": "Tableau",
-      "c": "Python",
-      "d": "SQL"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (46)",
-    "options": {
-      "a": "A chart type",
-      "b": "A database",
-      "c": "A tool to summarize data",
-      "d": "A programming function"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (47)",
-    "options": {
-      "a": "To visualize trends",
-      "b": "To calculate sum",
-      "c": "To determine statistical significance",
-      "d": "To find average"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (48)",
-    "options": {
-      "a": "SQL",
-      "b": "Tableau",
-      "c": "Python",
-      "d": "Excel"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (49)",
-    "options": {
-      "a": "A chart type",
-      "b": "A tool to summarize data",
-      "c": "A programming function",
-      "d": "A database"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (50)",
-    "options": {
-      "a": "To find average",
-      "b": "To determine statistical significance",
-      "c": "To visualize trends",
-      "d": "To calculate sum"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (51)",
-    "options": {
-      "a": "SQL",
-      "b": "Python",
-      "c": "Excel",
-      "d": "Tableau"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (52)",
-    "options": {
-      "a": "A chart type",
-      "b": "A database",
-      "c": "A programming function",
-      "d": "A tool to summarize data"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (53)",
-    "options": {
-      "a": "To calculate sum",
-      "b": "To visualize trends",
-      "c": "To find average",
-      "d": "To determine statistical significance"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (54)",
-    "options": {
-      "a": "Tableau",
-      "b": "Python",
-      "c": "SQL",
-      "d": "Excel"
-    },
-    "correctAnswer": "a",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (55)",
-    "options": {
-      "a": "A database",
-      "b": "A chart type",
-      "c": "A tool to summarize data",
-      "d": "A programming function"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (56)",
-    "options": {
-      "a": "To calculate sum",
-      "b": "To determine statistical significance",
-      "c": "To visualize trends",
-      "d": "To find average"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (57)",
-    "options": {
-      "a": "Python",
-      "b": "Tableau",
-      "c": "Excel",
-      "d": "SQL"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (58)",
-    "options": {
-      "a": "A tool to summarize data",
-      "b": "A database",
-      "c": "A chart type",
-      "d": "A programming function"
+      "a": "To show hierarchical data as a set of nested rectangles",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show distributions"
     },
     "correctAnswer": "a",
     "category": "data analysis",
     "difficulty": "medium"
   },
   {
-    "question": "What is a p-value used for? (59)",
+    "question": "What is the purpose of a radar chart?",
     "options": {
-      "a": "To calculate sum",
-      "b": "To visualize trends",
-      "c": "To find average",
-      "d": "To determine statistical significance"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (60)",
-    "options": {
-      "a": "Excel",
-      "b": "Tableau",
-      "c": "SQL",
-      "d": "Python"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (61)",
-    "options": {
-      "a": "A programming function",
-      "b": "A tool to summarize data",
-      "c": "A database",
-      "d": "A chart type"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (62)",
-    "options": {
-      "a": "To determine statistical significance",
-      "b": "To find average",
-      "c": "To visualize trends",
-      "d": "To calculate sum"
-    },
-    "correctAnswer": "a",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (63)",
-    "options": {
-      "a": "Python",
-      "b": "SQL",
-      "c": "Excel",
-      "d": "Tableau"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (64)",
-    "options": {
-      "a": "A programming function",
-      "b": "A tool to summarize data",
-      "c": "A chart type",
-      "d": "A database"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (65)",
-    "options": {
-      "a": "To calculate sum",
-      "b": "To visualize trends",
-      "c": "To find average",
-      "d": "To determine statistical significance"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (66)",
-    "options": {
-      "a": "Python",
-      "b": "Tableau",
-      "c": "Excel",
-      "d": "SQL"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (67)",
-    "options": {
-      "a": "A database",
-      "b": "A chart type",
-      "c": "A tool to summarize data",
-      "d": "A programming function"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (68)",
-    "options": {
-      "a": "To calculate sum",
-      "b": "To visualize trends",
-      "c": "To determine statistical significance",
-      "d": "To find average"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (69)",
-    "options": {
-      "a": "Excel",
-      "b": "Python",
-      "c": "Tableau",
-      "d": "SQL"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (70)",
-    "options": {
-      "a": "A database",
-      "b": "A tool to summarize data",
-      "c": "A chart type",
-      "d": "A programming function"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (71)",
-    "options": {
-      "a": "To calculate sum",
-      "b": "To find average",
-      "c": "To visualize trends",
-      "d": "To determine statistical significance"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (72)",
-    "options": {
-      "a": "Python",
-      "b": "SQL",
-      "c": "Excel",
-      "d": "Tableau"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (73)",
-    "options": {
-      "a": "A database",
-      "b": "A tool to summarize data",
-      "c": "A programming function",
-      "d": "A chart type"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (74)",
-    "options": {
-      "a": "To calculate sum",
-      "b": "To find average",
-      "c": "To visualize trends",
-      "d": "To determine statistical significance"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (75)",
-    "options": {
-      "a": "Python",
-      "b": "Excel",
-      "c": "SQL",
-      "d": "Tableau"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (76)",
-    "options": {
-      "a": "A database",
-      "b": "A chart type",
-      "c": "A programming function",
-      "d": "A tool to summarize data"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (77)",
-    "options": {
-      "a": "To determine statistical significance",
-      "b": "To visualize trends",
-      "c": "To calculate sum",
-      "d": "To find average"
-    },
-    "correctAnswer": "a",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (78)",
-    "options": {
-      "a": "SQL",
-      "b": "Python",
-      "c": "Excel",
-      "d": "Tableau"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (79)",
-    "options": {
-      "a": "A tool to summarize data",
-      "b": "A programming function",
-      "c": "A database",
-      "d": "A chart type"
+      "a": "To display multivariate data on axes starting from the same point",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
     },
     "correctAnswer": "a",
     "category": "data analysis",
     "difficulty": "medium"
   },
   {
-    "question": "What is a p-value used for? (80)",
+    "question": "What is the purpose of a waterfall chart?",
     "options": {
-      "a": "To visualize trends",
-      "b": "To find average",
-      "c": "To calculate sum",
-      "d": "To determine statistical significance"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (81)",
-    "options": {
-      "a": "Excel",
-      "b": "Tableau",
-      "c": "Python",
-      "d": "SQL"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (82)",
-    "options": {
-      "a": "A chart type",
-      "b": "A tool to summarize data",
-      "c": "A database",
-      "d": "A programming function"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (83)",
-    "options": {
-      "a": "To visualize trends",
-      "b": "To find average",
-      "c": "To calculate sum",
-      "d": "To determine statistical significance"
-    },
-    "correctAnswer": "d",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (84)",
-    "options": {
-      "a": "SQL",
-      "b": "Excel",
-      "c": "Tableau",
-      "d": "Python"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (85)",
-    "options": {
-      "a": "A database",
-      "b": "A chart type",
-      "c": "A tool to summarize data",
-      "d": "A programming function"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (86)",
-    "options": {
-      "a": "To calculate sum",
-      "b": "To find average",
-      "c": "To determine statistical significance",
-      "d": "To visualize trends"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (87)",
-    "options": {
-      "a": "Excel",
-      "b": "Tableau",
-      "c": "Python",
-      "d": "SQL"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (88)",
-    "options": {
-      "a": "A tool to summarize data",
-      "b": "A programming function",
-      "c": "A database",
-      "d": "A chart type"
+      "a": "To show the cumulative effect of sequentially introduced positive or negative values",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
     },
     "correctAnswer": "a",
     "category": "data analysis",
     "difficulty": "medium"
   },
   {
-    "question": "What is a p-value used for? (89)",
+    "question": "What is the purpose of a funnel chart?",
     "options": {
-      "a": "To visualize trends",
-      "b": "To determine statistical significance",
-      "c": "To calculate sum",
-      "d": "To find average"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (90)",
-    "options": {
-      "a": "SQL",
-      "b": "Tableau",
-      "c": "Python",
-      "d": "Excel"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (91)",
-    "options": {
-      "a": "A database",
-      "b": "A programming function",
-      "c": "A tool to summarize data",
-      "d": "A chart type"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (92)",
-    "options": {
-      "a": "To calculate sum",
-      "b": "To visualize trends",
-      "c": "To determine statistical significance",
-      "d": "To find average"
-    },
-    "correctAnswer": "c",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (93)",
-    "options": {
-      "a": "Excel",
-      "b": "Tableau",
-      "c": "Python",
-      "d": "SQL"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (94)",
-    "options": {
-      "a": "A database",
-      "b": "A tool to summarize data",
-      "c": "A programming function",
-      "d": "A chart type"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a p-value used for? (95)",
-    "options": {
-      "a": "To visualize trends",
-      "b": "To determine statistical significance",
-      "c": "To calculate sum",
-      "d": "To find average"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which tool is used for data visualization? (96)",
-    "options": {
-      "a": "SQL",
-      "b": "Tableau",
-      "c": "Python",
-      "d": "Excel"
-    },
-    "correctAnswer": "b",
-    "category": "data analysis",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is a pivot table in Excel? (97)",
-    "options": {
-      "a": "A tool to summarize data",
-      "b": "A programming function",
-      "c": "A chart type",
-      "d": "A database"
+      "a": "To show stages in a process and the decreasing quantities at each stage",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
     },
     "correctAnswer": "a",
     "category": "data analysis",
     "difficulty": "medium"
   },
   {
-    "question": "What is a p-value used for? (98)",
+    "question": "What is the purpose of a choropleth map?",
     "options": {
-      "a": "To determine statistical significance",
-      "b": "To calculate sum",
-      "c": "To visualize trends",
-      "d": "To find average"
+      "a": "To show geographical data using color variations",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a word cloud?",
+    "options": {
+      "a": "To visualize text data where word size indicates frequency",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a network diagram?",
+    "options": {
+      "a": "To show relationships between entities",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
     },
     "correctAnswer": "a",
     "category": "data analysis",
     "difficulty": "hard"
   },
   {
-    "question": "Which tool is used for data visualization? (99)",
+    "question": "What is the purpose of a Sankey diagram?",
     "options": {
-      "a": "Tableau",
-      "b": "Python",
-      "c": "SQL",
-      "d": "Excel"
+      "a": "To visualize flows or transfers between entities",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a Gantt chart?",
+    "options": {
+      "a": "To illustrate project schedules",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a bullet graph?",
+    "options": {
+      "a": "To display performance against a target",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a candlestick chart?",
+    "options": {
+      "a": "To show price movements in financial markets",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a streamgraph?",
+    "options": {
+      "a": "To show changes in data over time with flowing, organic shapes",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a violin plot?",
+    "options": {
+      "a": "To show the distribution of numerical data and its probability density",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a parallel coordinates plot?",
+    "options": {
+      "a": "To visualize high-dimensional data",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a dendrogram?",
+    "options": {
+      "a": "To show hierarchical clustering relationships",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a hexbin plot?",
+    "options": {
+      "a": "To show the density of points in large datasets",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a 3D scatter plot?",
+    "options": {
+      "a": "To show relationships between three numerical variables",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a polar chart?",
+    "options": {
+      "a": "To display data in a circular format",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a sunburst chart?",
+    "options": {
+      "a": "To show hierarchical data with concentric circles",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a gauge chart?",
+    "options": {
+      "a": "To show a value within a range",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
     },
     "correctAnswer": "a",
     "category": "data analysis",
     "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a Pareto chart?",
+    "options": {
+      "a": "To highlight the most important factors in a dataset",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a control chart?",
+    "options": {
+      "a": "To determine whether a process is in statistical control",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a stem-and-leaf plot?",
+    "options": {
+      "a": "To show quantitative data in a graphical format",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a dot plot?",
+    "options": {
+      "a": "To display data points on a simple scale",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a area chart?",
+    "options": {
+      "a": "To show quantitative data over time with filled areas",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a stacked bar chart?",
+    "options": {
+      "a": "To show the composition of different categories",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a 100% stacked bar chart?",
+    "options": {
+      "a": "To show relative proportions of categories",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a bubble map?",
+    "options": {
+      "a": "To display data on a map with varying bubble sizes",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a cartogram?",
+    "options": {
+      "a": "To distort map areas based on a variable",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a isopleth map?",
+    "options": {
+      "a": "To show continuous data with contour lines",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a dot distribution map?",
+    "options": {
+      "a": "To show the density of points in geographic areas",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a proportional symbol map?",
+    "options": {
+      "a": "To show data with symbols of varying sizes",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a flow map?",
+    "options": {
+      "a": "To show movement between locations",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a spider chart?",
+    "options": {
+      "a": "To display multivariate data on axes starting from the same point",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a Marimekko chart?",
+    "options": {
+      "a": "To show market share and composition",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a timeline?",
+    "options": {
+      "a": "To display events in chronological order",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a horizon chart?",
+    "options": {
+      "a": "To display large amounts of time-series data in a compact space",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a bump chart?",
+    "options": {
+      "a": "To show changes in rank over time",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a small multiples display?",
+    "options": {
+      "a": "To show many charts arranged in a grid for easy comparison",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a matrix chart?",
+    "options": {
+      "a": "To show relationships between two or more variables in a grid",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a tree diagram?",
+    "options": {
+      "a": "To show hierarchical structures or decision paths",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a Venn diagram?",
+    "options": {
+      "a": "To show logical relationships between sets",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of a chord diagram?",
+    "options": {
+      "a": "To show relationships between entities",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a circular packing chart?",
+    "options": {
+      "a": "To show hierarchical data with nested circles",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a alluvial diagram?",
+    "options": {
+      "a": "To show changes in group composition over time",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of a mosaic plot?",
+    "options": {
+      "a": "To show relationships between categorical variables",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a waterfall chart in financial analysis?",
+    "options": {
+      "a": "To show how an initial value is affected by intermediate values",
+      "b": "To show trends over time",
+      "c": "To compare categories",
+      "d": "To show parts of a whole"
+    },
+    "correctAnswer": "a",
+    "category": "data analysis",
+    "difficulty": "hard"
   }
 ]

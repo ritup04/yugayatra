@@ -1,0 +1,1130 @@
+[
+  {
+    "question": "What does SEO stand for?",
+    "options": {
+      "a": "Social Engagement Order",
+      "b": "Search Engine Optimization",
+      "c": "Sales Enablement Offer",
+      "d": "Social Engine Organization"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a good CTR in email marketing?",
+    "options": {
+      "a": "Below 1%",
+      "b": "Exactly 5%",
+      "c": "Around 0.5%",
+      "d": "Above 2%"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of a landing page?",
+    "options": {
+      "a": "To store cookies",
+      "b": "To redirect traffic",
+      "c": "To post blogs",
+      "d": "To convert visitors into leads"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which platform is best for B2B marketing?",
+    "options": {
+      "a": "Instagram",
+      "b": "TikTok",
+      "c": "LinkedIn",
+      "d": "Snapchat"
+    },
+    "correctAnswer": "c",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does PPC stand for in digital marketing?",
+    "options": {
+      "a": "Pay Per Click",
+      "b": "Public Private Campaign",
+      "c": "Product Promotion Cost",
+      "d": "Personalized Page Content"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal length for a tweet?",
+    "options": {
+      "a": "50 characters",
+      "b": "100 characters",
+      "c": "150 characters",
+      "d": "280 characters"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is conversion rate optimization?",
+    "options": {
+      "a": "Increasing website traffic",
+      "b": "Improving the percentage of visitors who complete a desired action",
+      "c": "Reducing advertising costs",
+      "d": "Creating more social media posts"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which metric measures engagement on Facebook?",
+    "options": {
+      "a": "CPC",
+      "b": "CTR",
+      "c": "Reach",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the best time to post on Instagram?",
+    "options": {
+      "a": "Early morning (6-8 AM)",
+      "b": "Midday (11 AM-1 PM)",
+      "c": "Evening (5-7 PM)",
+      "d": "It depends on your audience"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a vanity URL?",
+    "options": {
+      "a": "A short, branded web address",
+      "b": "A URL with tracking parameters",
+      "c": "A redirect link",
+      "d": "A secure HTTPS link"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does CTA stand for?",
+    "options": {
+      "a": "Click Through Action",
+      "b": "Call To Action",
+      "c": "Content Targeting Algorithm",
+      "d": "Customer Tracking Analytics"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which email marketing metric indicates how many people opened your email?",
+    "options": {
+      "a": "Click-through rate",
+      "b": "Conversion rate",
+      "c": "Open rate",
+      "d": "Bounce rate"
+    },
+    "correctAnswer": "c",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the primary goal of A/B testing?",
+    "options": {
+      "a": "To create two different campaigns",
+      "b": "To compare two versions of something to determine which performs better",
+      "c": "To test different audiences",
+      "d": "To analyze competitor strategies"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which social media platform is best for visual content?",
+    "options": {
+      "a": "Twitter",
+      "b": "LinkedIn",
+      "c": "Instagram",
+      "d": "Facebook"
+    },
+    "correctAnswer": "c",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal frequency for sending marketing emails?",
+    "options": {
+      "a": "Once a day",
+      "b": "Once a week",
+      "c": "Once a month",
+      "d": "It depends on your audience and content"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the fold in web design?",
+    "options": {
+      "a": "The bottom of the webpage",
+      "b": "The part of the webpage visible without scrolling",
+      "c": "The navigation menu",
+      "d": "The footer section"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does KPI stand for?",
+    "options": {
+      "a": "Key Performance Indicator",
+      "b": "Key Parameter Index",
+      "c": "Known Performance Impact",
+      "d": "Keyword Position Indicator"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of content typically performs best on LinkedIn?",
+    "options": {
+      "a": "Funny memes",
+      "b": "Industry insights and professional content",
+      "c": "Personal vacation photos",
+      "d": "Political opinions"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of remarketing?",
+    "options": {
+      "a": "To target new customers",
+      "b": "To re-engage visitors who didn't convert",
+      "c": "To analyze competitors",
+      "d": "To create brand awareness"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the first step in creating a digital marketing strategy?",
+    "options": {
+      "a": "Creating content",
+      "b": "Setting up social media accounts",
+      "c": "Defining goals and objectives",
+      "d": "Running ads"
+    },
+    "correctAnswer": "c",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which platform allows for the creation of Stories content?",
+    "options": {
+      "a": "Instagram",
+      "b": "Facebook",
+      "c": "Snapchat",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of schema markup in SEO?",
+    "options": {
+      "a": "To increase website speed",
+      "b": "To help search engines understand content better",
+      "c": "To create backlinks",
+      "d": "To improve social sharing"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the main benefit of using email marketing?",
+    "options": {
+      "a": "It's free",
+      "b": "Direct communication with interested audience",
+      "c": "Guaranteed high open rates",
+      "d": "No need for content creation"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal length for a YouTube video title?",
+    "options": {
+      "a": "10 characters",
+      "b": "30 characters",
+      "c": "50 characters",
+      "d": "70 characters"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between SEO and SEM?",
+    "options": {
+      "a": "SEO is free, SEM is paid",
+      "b": "SEO is for social media, SEM is for search engines",
+      "c": "SEO is short-term, SEM is long-term",
+      "d": "There is no difference"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which tool is commonly used for keyword research?",
+    "options": {
+      "a": "Google Analytics",
+      "b": "Google Ads",
+      "c": "Google Keyword Planner",
+      "d": "Google Search Console"
+    },
+    "correctAnswer": "c",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the recommended image size for Facebook posts?",
+    "options": {
+      "a": "200x200 pixels",
+      "b": "600x600 pixels",
+      "c": "1200x630 pixels",
+      "d": "2000x2000 pixels"
+    },
+    "correctAnswer": "c",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is zero-click content in SEO?",
+    "options": {
+      "a": "Content that appears in featured snippets",
+      "b": "Content with no links",
+      "c": "Content that loads without clicking",
+      "d": "Content that's hidden from users"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does CRM stand for?",
+    "options": {
+      "a": "Customer Retention Management",
+      "b": "Customer Relationship Management",
+      "c": "Content Resource Management",
+      "d": "Campaign Response Measurement"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal frequency for posting on Twitter?",
+    "options": {
+      "a": "1-2 times per day",
+      "b": "3-5 times per day",
+      "c": "10-15 times per day",
+      "d": "Once a week"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of heatmap analysis?",
+    "options": {
+      "a": "To track website visitors' locations",
+      "b": "To visualize how users interact with a webpage",
+      "c": "To measure social media engagement",
+      "d": "To analyze email open rates"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which social platform is best for short-form video content?",
+    "options": {
+      "a": "LinkedIn",
+      "b": "TikTok",
+      "c": "Twitter",
+      "d": "Pinterest"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the recommended maximum length for a LinkedIn post?",
+    "options": {
+      "a": "300 characters",
+      "b": "700 characters",
+      "c": "1300 characters",
+      "d": "No limit"
+    },
+    "correctAnswer": "c",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the 'skyscraper technique' in content marketing?",
+    "options": {
+      "a": "Creating very tall images",
+      "b": "Building vertical social media campaigns",
+      "c": "Finding top-performing content and making it better",
+      "d": "Advertising on skyscraper websites"
+    },
+    "correctAnswer": "c",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of a sitemap?",
+    "options": {
+      "a": "To help search engines crawl your website",
+      "b": "To show visitors your site structure",
+      "c": "To track user behavior",
+      "d": "To improve page load speed"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal aspect ratio for Instagram posts?",
+    "options": {
+      "a": "1:1 (square)",
+      "b": "4:5 (portrait)",
+      "c": "16:9 (landscape)",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the 'bounce rate' in web analytics?",
+    "options": {
+      "a": "The percentage of visitors who leave after viewing one page",
+      "b": "The rate of email unsubscribes",
+      "c": "The number of failed credit card transactions",
+      "d": "The percentage of social media unfollows"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the main advantage of programmatic advertising?",
+    "options": {
+      "a": "Lower cost",
+      "b": "Automated ad buying",
+      "c": "Better creative control",
+      "d": "More personal interaction"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the recommended word count for a blog post?",
+    "options": {
+      "a": "300-500 words",
+      "b": "700-1000 words",
+      "c": "1500-2000 words",
+      "d": "As long as needed to cover the topic thoroughly"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the 'canonical tag' used for in SEO?",
+    "options": {
+      "a": "To indicate the preferred version of duplicate pages",
+      "b": "To mark important content",
+      "c": "To highlight featured snippets",
+      "d": "To identify mobile-friendly pages"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which platform is best for influencer marketing?",
+    "options": {
+      "a": "Instagram",
+      "b": "LinkedIn",
+      "c": "Twitter",
+      "d": "Depends on your target audience"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal length for a meta description?",
+    "options": {
+      "a": "50 characters",
+      "b": "100 characters",
+      "c": "155 characters",
+      "d": "No limit"
+    },
+    "correctAnswer": "c",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'dark social' in digital marketing?",
+    "options": {
+      "a": "Social media used for illegal activities",
+      "b": "Private sharing that analytics can't track",
+      "c": "Social platforms with dark mode",
+      "d": "Negative social media comments"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary benefit of using UTM parameters?",
+    "options": {
+      "a": "To make URLs shorter",
+      "b": "To track campaign performance",
+      "c": "To improve SEO",
+      "d": "To increase click-through rates"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the recommended video length for Facebook?",
+    "options": {
+      "a": "15 seconds",
+      "b": "1 minute",
+      "c": "2-3 minutes",
+      "d": "It depends on the content"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'growth hacking' in digital marketing?",
+    "options": {
+      "a": "Using unethical practices to grow quickly",
+      "b": "Rapid experimentation across channels to identify growth opportunities",
+      "c": "Hiring many employees quickly",
+      "d": "Buying competitors' customer lists"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the main purpose of a buyer persona?",
+    "options": {
+      "a": "To create fictional characters for ads",
+      "b": "To represent your ideal customer",
+      "c": "To track customer purchases",
+      "d": "To analyze competitor customers"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal number of hashtags for an Instagram post?",
+    "options": {
+      "a": "1-3",
+      "b": "5-10",
+      "c": "20-30",
+      "d": "As many as possible"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'content atomization' in digital marketing?",
+    "options": {
+      "a": "Breaking down content into smaller pieces",
+      "b": "Deleting old content",
+      "c": "Creating content for atomic topics",
+      "d": "Using scientific terminology in content"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which platform is best for visual storytelling?",
+    "options": {
+      "a": "Instagram Stories",
+      "b": "Twitter threads",
+      "c": "LinkedIn articles",
+      "d": "Facebook events"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal file size for website images?",
+    "options": {
+      "a": "Less than 100KB",
+      "b": "Less than 500KB",
+      "c": "Less than 1MB",
+      "d": "Size doesn't matter"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'voice search optimization'?",
+    "options": {
+      "a": "Optimizing for audio content",
+      "b": "Adjusting content for voice assistants",
+      "c": "Creating podcasts",
+      "d": "Using voice commands in ads"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the main benefit of using chatbots in marketing?",
+    "options": {
+      "a": "Reducing customer service costs",
+      "b": "24/7 customer interaction",
+      "c": "Personalized recommendations",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the recommended posting frequency for LinkedIn?",
+    "options": {
+      "a": "Once a month",
+      "b": "2-3 times per week",
+      "c": "5 times per day",
+      "d": "Once a year"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'omnichannel marketing'?",
+    "options": {
+      "a": "Marketing on all channels simultaneously",
+      "b": "Creating a seamless customer experience across all channels",
+      "c": "Using only digital channels",
+      "d": "Focusing on one primary channel"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which metric indicates how many people saw your ad?",
+    "options": {
+      "a": "Click-through rate",
+      "b": "Conversion rate",
+      "c": "Impressions",
+      "d": "Engagement rate"
+    },
+    "correctAnswer": "c",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal length for a podcast episode?",
+    "options": {
+      "a": "5 minutes",
+      "b": "20-30 minutes",
+      "c": "60 minutes",
+      "d": "It depends on your content and audience"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'micro-moments' in digital marketing?",
+    "options": {
+      "a": "Very short ads",
+      "b": "Critical touchpoints in customer journey",
+      "c": "Small social media interactions",
+      "d": "Brief analytics reports"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of a lead magnet?",
+    "options": {
+      "a": "To attract potential customers",
+      "b": "To generate email subscribers",
+      "c": "To increase social media followers",
+      "d": "Both a and b"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal width for a Pinterest image?",
+    "options": {
+      "a": "500 pixels",
+      "b": "800 pixels",
+      "c": "1000 pixels",
+      "d": "2000 pixels"
+    },
+    "correctAnswer": "c",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'account-based marketing'?",
+    "options": {
+      "a": "Marketing to individual bank accounts",
+      "b": "Targeting specific high-value accounts with personalized campaigns",
+      "c": "Managing social media accounts",
+      "d": "Tracking marketing expenses"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which platform is best for customer service interactions?",
+    "options": {
+      "a": "Twitter",
+      "b": "LinkedIn",
+      "c": "Pinterest",
+      "d": "TikTok"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal length for a Facebook video ad?",
+    "options": {
+      "a": "5 seconds",
+      "b": "15 seconds",
+      "c": "1 minute",
+      "d": "Depends on the objective"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'predictive analytics' in marketing?",
+    "options": {
+      "a": "Analyzing past campaigns",
+      "b": "Using data to forecast future outcomes",
+      "c": "Predicting competitor moves",
+      "d": "Guessing customer preferences"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the main advantage of video marketing?",
+    "options": {
+      "a": "Higher engagement rates",
+      "b": "Lower production costs",
+      "c": "Faster to create",
+      "d": "Works on all platforms"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal file format for website logos?",
+    "options": {
+      "a": "JPG",
+      "b": "PNG",
+      "c": "GIF",
+      "d": "PDF"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'neuro-marketing' in digital strategy?",
+    "options": {
+      "a": "Marketing to neuroscientists",
+      "b": "Using brain science to influence decisions",
+      "c": "Creating neurological content",
+      "d": "Analyzing brain scan data"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary goal of brand awareness campaigns?",
+    "options": {
+      "a": "Immediate sales",
+      "b": "Customer recognition and recall",
+      "c": "Website traffic",
+      "d": "Social media followers"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal aspect ratio for YouTube thumbnails?",
+    "options": {
+      "a": "1:1",
+      "b": "4:3",
+      "c": "16:9",
+      "d": "2:1"
+    },
+    "correctAnswer": "c",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'market segmentation' in digital marketing?",
+    "options": {
+      "a": "Dividing a market into distinct groups",
+      "b": "Creating separate websites",
+      "c": "Splitting advertising budgets",
+      "d": "Analyzing market size"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which platform is best for sharing long-form written content?",
+    "options": {
+      "a": "Instagram",
+      "b": "Medium",
+      "c": "TikTok",
+      "d": "Snapchat"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal length for a TikTok video?",
+    "options": {
+      "a": "7-15 seconds",
+      "b": "30 seconds",
+      "c": "1 minute",
+      "d": "3 minutes"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'attribution modeling' in digital marketing?",
+    "options": {
+      "a": "Giving credit to content creators",
+      "b": "Assigning credit to touchpoints in conversion paths",
+      "c": "Creating model releases for ads",
+      "d": "Analyzing personality traits"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the main purpose of a style guide in marketing?",
+    "options": {
+      "a": "To dictate fashion choices",
+      "b": "To maintain brand consistency",
+      "c": "To track style trends",
+      "d": "To analyze competitor styles"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal resolution for website hero images?",
+    "options": {
+      "a": "800x600",
+      "b": "1280x720",
+      "c": "1920x1080",
+      "d": "As high as possible"
+    },
+    "correctAnswer": "c",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'competitive intelligence' in digital marketing?",
+    "options": {
+      "a": "Spying on competitors",
+      "b": "Gathering and analyzing competitor data",
+      "c": "Creating competitive ads",
+      "d": "Monitoring employee competition"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which platform is best for B2C marketing?",
+    "options": {
+      "a": "LinkedIn",
+      "b": "Instagram",
+      "c": "Both a and b",
+      "d": "Neither"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal posting frequency for Instagram?",
+    "options": {
+      "a": "Once a month",
+      "b": "1-2 times per week",
+      "c": "3-7 times per week",
+      "d": "Multiple times per day"
+    },
+    "correctAnswer": "c",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'sentiment analysis' in social media marketing?",
+    "options": {
+      "a": "Analyzing emotional tone in content",
+      "b": "Measuring audience feelings",
+      "c": "Both a and b",
+      "d": "Creating emotional ads"
+    },
+    "correctAnswer": "c",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary benefit of influencer marketing?",
+    "options": {
+      "a": "Access to engaged audiences",
+      "b": "Lower cost than traditional ads",
+      "c": "Guaranteed sales",
+      "d": "No need for content creation"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal file size for email attachments?",
+    "options": {
+      "a": "Less than 1MB",
+      "b": "Less than 5MB",
+      "c": "Less than 10MB",
+      "d": "No limit"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'lookalike audience' in digital advertising?",
+    "options": {
+      "a": "An audience that resembles your target",
+      "b": "An audience that looks like your product",
+      "c": "An audience created to mimic your existing customers",
+      "d": "An audience of models"
+    },
+    "correctAnswer": "c",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the main purpose of AIDA in marketing?",
+    "options": {
+      "a": "To guide customers through the sales funnel",
+      "b": "To analyze data",
+      "c": "To create ads",
+      "d": "To measure performance"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal length for a Twitter thread?",
+    "options": {
+      "a": "1 tweet",
+      "b": "3-5 tweets",
+      "c": "10-15 tweets",
+      "d": "As many as needed to tell the story"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'customer lifetime value' in digital marketing?",
+    "options": {
+      "a": "How long a customer lives",
+      "b": "Total worth of a customer over entire relationship",
+      "c": "Value of a customer's first purchase",
+      "d": "Cost to acquire a customer"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which platform is best for sharing infographics?",
+    "options": {
+      "a": "Pinterest",
+      "b": "Twitter",
+      "c": "LinkedIn",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal character length for a LinkedIn headline?",
+    "options": {
+      "a": "50 characters",
+      "b": "120 characters",
+      "c": "200 characters",
+      "d": "No limit"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'social listening' in digital marketing?",
+    "options": {
+      "a": "Monitoring social media conversations",
+      "b": "Eavesdropping on private messages",
+      "c": "Creating audio content",
+      "d": "Analyzing competitor ads"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary purpose of a FAQ page?",
+    "options": {
+      "a": "To improve SEO",
+      "b": "To answer common customer questions",
+      "c": "To reduce customer service inquiries",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal video length for Instagram Reels?",
+    "options": {
+      "a": "15 seconds",
+      "b": "30 seconds",
+      "c": "60 seconds",
+      "d": "90 seconds"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'contextual marketing'?",
+    "options": {
+      "a": "Marketing based on surrounding content",
+      "b": "Creating content with context",
+      "c": "Analyzing historical context",
+      "d": "Marketing in specific locations"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the main benefit of using Google My Business?",
+    "options": {
+      "a": "Improved local search visibility",
+      "b": "Free advertising",
+      "c": "Automatic SEO",
+      "d": "Social media integration"
+    },
+    "correctAnswer": "a",
+    "category": "digital marketing",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ideal number of images in an Instagram carousel post?",
+    "options": {
+      "a": "1",
+      "b": "3-5",
+      "c": "10",
+      "d": "As many as needed"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 'agile marketing'?",
+    "options": {
+      "a": "Quick response marketing",
+      "b": "Data-driven, iterative approach to marketing",
+      "c": "Marketing for software companies",
+      "d": "Flexible budget allocation"
+    },
+    "correctAnswer": "b",
+    "category": "digital marketing",
+    "difficulty": "hard"
+  }
+]

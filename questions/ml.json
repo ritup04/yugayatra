@@ -1,0 +1,1082 @@
+[
+  {
+    "question": "Which algorithm is used for classification tasks?",
+    "options": {
+      "a": "PCA",
+      "b": "Logistic Regression",
+      "c": "Gradient Descent",
+      "d": "K-Means"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of activation functions in neural networks?",
+    "options": {
+      "a": "Reduce bias",
+      "b": "Speed up training",
+      "c": "Introduce non-linearity",
+      "d": "Improve memory"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'bias-variance tradeoff' refer to?",
+    "options": {
+      "a": "Precision vs Recall",
+      "b": "Balance between model accuracy and generalization",
+      "c": "Memory vs Speed",
+      "d": "Balancing model size"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is NOT a supervised learning algorithm?",
+    "options": {
+      "a": "Random Forest",
+      "b": "K-Means",
+      "c": "Support Vector Machines",
+      "d": "Linear Regression"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of regularization in machine learning?",
+    "options": {
+      "a": "To prevent overfitting",
+      "b": "To speed up training",
+      "c": "To increase model complexity",
+      "d": "To reduce dataset size"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the vanishing gradient problem in neural networks?",
+    "options": {
+      "a": "Gradients become too large during backpropagation",
+      "b": "Gradients become too small to effectively update weights",
+      "c": "Gradients change direction frequently",
+      "d": "Gradients become zero at initialization"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which metric is most appropriate for imbalanced classification problems?",
+    "options": {
+      "a": "Accuracy",
+      "b": "F1 Score",
+      "c": "Mean Squared Error",
+      "d": "R-squared"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does PCA stand for in machine learning?",
+    "options": {
+      "a": "Principal Component Analysis",
+      "b": "Primary Classification Algorithm",
+      "c": "Probabilistic Component Assessment",
+      "d": "Pattern Correlation Approach"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of dropout in neural networks?",
+    "options": {
+      "a": "To speed up training",
+      "b": "To reduce model complexity",
+      "c": "To prevent co-adaptation of neurons",
+      "d": "To increase learning rate"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is a clustering algorithm?",
+    "options": {
+      "a": "Decision Tree",
+      "b": "DBSCAN",
+      "c": "Linear Regression",
+      "d": "Logistic Regression"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of batch normalization in neural networks?",
+    "options": {
+      "a": "To reduce the number of training examples",
+      "b": "To stabilize and accelerate training",
+      "c": "To increase model complexity",
+      "d": "To remove outliers from data"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the curse of dimensionality in machine learning?",
+    "options": {
+      "a": "Models become simpler with more features",
+      "b": "Data becomes sparse as dimensions increase",
+      "c": "Training time decreases with more features",
+      "d": "Models always improve with more features"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is NOT a type of machine learning?",
+    "options": {
+      "a": "Supervised learning",
+      "b": "Unsupervised learning",
+      "c": "Reinforcement learning",
+      "d": "Random learning"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the learning rate in gradient descent?",
+    "options": {
+      "a": "To determine how quickly weights are updated",
+      "b": "To set the number of training epochs",
+      "c": "To choose the activation function",
+      "d": "To select the batch size"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is transfer learning in deep learning?",
+    "options": {
+      "a": "Using a pre-trained model for a new task",
+      "b": "Moving data between different servers",
+      "c": "Changing optimization algorithms during training",
+      "d": "Transferring model weights between layers"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is a common loss function for regression problems?",
+    "options": {
+      "a": "Cross-entropy",
+      "b": "Mean Squared Error",
+      "c": "Accuracy",
+      "d": "Precision"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of word embeddings in NLP?",
+    "options": {
+      "a": "To reduce vocabulary size",
+      "b": "To represent words as dense vectors",
+      "c": "To count word frequencies",
+      "d": "To remove stop words"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the exploding gradient problem in neural networks?",
+    "options": {
+      "a": "Gradients become too small during backpropagation",
+      "b": "Gradients become extremely large",
+      "c": "Gradients become zero",
+      "d": "Gradients change direction randomly"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which algorithm would you use for anomaly detection?",
+    "options": {
+      "a": "Linear Regression",
+      "b": "Isolation Forest",
+      "c": "K-Nearest Neighbors",
+      "d": "Logistic Regression"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the softmax function?",
+    "options": {
+      "a": "To introduce non-linearity",
+      "b": "To convert logits to probabilities",
+      "c": "To reduce dimensionality",
+      "d": "To speed up training"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the attention mechanism in neural networks?",
+    "options": {
+      "a": "Focusing on specific parts of input",
+      "b": "Increasing model capacity",
+      "c": "Speeding up backpropagation",
+      "d": "Reducing memory usage"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is a hyperparameter?",
+    "options": {
+      "a": "Model weights",
+      "b": "Learning rate",
+      "c": "Input data",
+      "d": "Output predictions"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of data augmentation?",
+    "options": {
+      "a": "To increase training data diversity",
+      "b": "To reduce dataset size",
+      "c": "To clean noisy data",
+      "d": "To normalize features"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is federated learning?",
+    "options": {
+      "a": "Training models across decentralized devices",
+      "b": "Combining multiple models into one",
+      "c": "Learning from federated databases",
+      "d": "Training models on government data"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is NOT a neural network architecture?",
+    "options": {
+      "a": "CNN",
+      "b": "RNN",
+      "c": "XGBoost",
+      "d": "Transformer"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of early stopping?",
+    "options": {
+      "a": "To prevent overfitting",
+      "b": "To speed up initialization",
+      "c": "To increase model complexity",
+      "d": "To reduce batch size"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the difference between bagging and boosting?",
+    "options": {
+      "a": "Bagging builds models in parallel, boosting sequentially",
+      "b": "Bagging reduces variance, boosting reduces bias",
+      "c": "Bagging uses subsets of data, boosting uses weights",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is a common activation function?",
+    "options": {
+      "a": "ReLU",
+      "b": "Sigmoid",
+      "c": "Tanh",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the Adam optimizer?",
+    "options": {
+      "a": "To combine momentum and RMSprop",
+      "b": "To reduce model size",
+      "c": "To increase training data",
+      "d": "To change activation functions"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is self-supervised learning?",
+    "options": {
+      "a": "Learning without any labels",
+      "b": "Learning from synthetic data",
+      "c": "Learning from the data's inherent structure",
+      "d": "Learning with minimal human supervision"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is a dimensionality reduction technique?",
+    "options": {
+      "a": "t-SNE",
+      "b": "Random Forest",
+      "c": "SVM",
+      "d": "Logistic Regression"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of batch size in training?",
+    "options": {
+      "a": "To determine how many samples to process before updating",
+      "b": "To set the total number of training epochs",
+      "c": "To choose the learning rate",
+      "d": "To select the activation function"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is multi-task learning?",
+    "options": {
+      "a": "Training on multiple datasets simultaneously",
+      "b": "Learning multiple related tasks together",
+      "c": "Using multiple models for one task",
+      "d": "Training with multiple optimization algorithms"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is NOT a feature selection method?",
+    "options": {
+      "a": "Recursive Feature Elimination",
+      "b": "Principal Component Analysis",
+      "c": "Random Forest Importance",
+      "d": "Gradient Descent"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the confusion matrix?",
+    "options": {
+      "a": "To visualize model performance",
+      "b": "To reduce dimensionality",
+      "c": "To initialize weights",
+      "d": "To select hyperparameters"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is few-shot learning?",
+    "options": {
+      "a": "Learning from very few examples",
+      "b": "Training with small batch sizes",
+      "c": "Using minimal computational resources",
+      "d": "Learning with few hidden layers"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is a common loss function for classification?",
+    "options": {
+      "a": "Mean Absolute Error",
+      "b": "Cross-Entropy",
+      "c": "R-squared",
+      "d": "Euclidean Distance"
+    },
+    "correctAnswer": "b",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the validation set?",
+    "options": {
+      "a": "To tune hyperparameters",
+      "b": "To train the final model",
+      "c": "To test model performance",
+      "d": "To clean the data"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is meta-learning in machine learning?",
+    "options": {
+      "a": "Learning how to learn",
+      "b": "Learning from metadata",
+      "c": "Learning multiple models",
+      "d": "Learning with meta-features"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is a reinforcement learning algorithm?",
+    "options": {
+      "a": "Q-Learning",
+      "b": "K-Means",
+      "c": "PCA",
+      "d": "Linear Regression"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the kernel trick in SVMs?",
+    "options": {
+      "a": "To enable non-linear decision boundaries",
+      "b": "To reduce training time",
+      "c": "To increase model interpretability",
+      "d": "To handle missing data"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is catastrophic forgetting in neural networks?",
+    "options": {
+      "a": "Forgetting previously learned information when learning new tasks",
+      "b": "Losing all weights during training",
+      "c": "Failing to converge",
+      "d": "Overfitting to training data"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is NOT a tree-based algorithm?",
+    "options": {
+      "a": "Decision Tree",
+      "b": "Random Forest",
+      "c": "Gradient Boosting",
+      "d": "Support Vector Machine"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of batch processing in deep learning?",
+    "options": {
+      "a": "To process data in chunks for memory efficiency",
+      "b": "To reduce model complexity",
+      "c": "To increase learning rate",
+      "d": "To change activation functions"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is contrastive learning?",
+    "options": {
+      "a": "Learning by comparing similar and dissimilar examples",
+      "b": "Learning with high contrast images",
+      "c": "Learning opposite concepts simultaneously",
+      "d": "Learning with contrasting hyperparameters"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is a common evaluation metric for binary classification?",
+    "options": {
+      "a": "ROC-AUC",
+      "b": "Mean Squared Error",
+      "c": "R-squared",
+      "d": "Silhouette Score"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the learning rate scheduler?",
+    "options": {
+      "a": "To adjust learning rate during training",
+      "b": "To choose initial learning rate",
+      "c": "To select batch size",
+      "d": "To determine model architecture"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is neural architecture search?",
+    "options": {
+      "a": "Automating neural network design",
+      "b": "Searching for optimal weights",
+      "c": "Finding the best activation function",
+      "d": "Optimizing hyperparameters"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is NOT a type of gradient descent?",
+    "options": {
+      "a": "Batch Gradient Descent",
+      "b": "Stochastic Gradient Descent",
+      "c": "Mini-batch Gradient Descent",
+      "d": "Random Gradient Descent"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the encoder in an autoencoder?",
+    "options": {
+      "a": "To compress input into a latent representation",
+      "b": "To reconstruct the input",
+      "c": "To classify the input",
+      "d": "To generate new samples"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is differential privacy in machine learning?",
+    "options": {
+      "a": "Protecting individual data points in training",
+      "b": "Differentiating between public and private data",
+      "c": "Using different models for different users",
+      "d": "Training with private gradients"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is a common regularization technique?",
+    "options": {
+      "a": "L1 regularization",
+      "b": "L2 regularization",
+      "c": "Dropout",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the decoder in a transformer model?",
+    "options": {
+      "a": "To generate output sequences",
+      "b": "To encode input sequences",
+      "c": "To compute attention weights",
+      "d": "To normalize inputs"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is continual learning in machine learning?",
+    "options": {
+      "a": "Learning continuously from streaming data",
+      "b": "Training without stopping",
+      "c": "Using continuous activation functions",
+      "d": "Learning with continuous labels"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is NOT a neural network layer type?",
+    "options": {
+      "a": "Convolutional",
+      "b": "Recurrent",
+      "c": "Decision",
+      "d": "Attention"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the query in attention mechanisms?",
+    "options": {
+      "a": "To determine what to focus on",
+      "b": "To store memory",
+      "c": "To normalize outputs",
+      "d": "To compute gradients"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is multi-modal learning?",
+    "options": {
+      "a": "Learning from multiple types of data",
+      "b": "Using multiple models",
+      "c": "Training with multiple objectives",
+      "d": "Learning at multiple rates"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is a common optimization algorithm?",
+    "options": {
+      "a": "Adam",
+      "b": "RMSprop",
+      "c": "SGD",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the key in attention mechanisms?",
+    "options": {
+      "a": "To represent the content to be attended to",
+      "b": "To store the query",
+      "c": "To normalize attention weights",
+      "d": "To compute gradients"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is self-attention in transformer models?",
+    "options": {
+      "a": "Attending to different positions of the same sequence",
+      "b": "Focusing on the model's own parameters",
+      "c": "Learning without external data",
+      "d": "Training on self-generated examples"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is NOT a common neural network initialization method?",
+    "options": {
+      "a": "Xavier/Glorot",
+      "b": "He initialization",
+      "c": "Random initialization",
+      "d": "PCA initialization"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the value in attention mechanisms?",
+    "options": {
+      "a": "To represent the actual content to be aggregated",
+      "b": "To store the query",
+      "c": "To compute importance weights",
+      "d": "To normalize outputs"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a GAN (Generative Adversarial Network)?",
+    "options": {
+      "a": "A system with generator and discriminator networks",
+      "b": "A type of reinforcement learning",
+      "c": "A neural network with gated units",
+      "d": "An attention-based model"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is a common technique for handling imbalanced datasets?",
+    "options": {
+      "a": "Oversampling minority class",
+      "b": "Undersampling majority class",
+      "c": "Using class weights",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of positional encoding in transformers?",
+    "options": {
+      "a": "To incorporate sequence order information",
+      "b": "To encode output positions",
+      "c": "To normalize attention scores",
+      "d": "To reduce model size"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is reinforcement learning from human feedback (RLHF)?",
+    "options": {
+      "a": "Using human preferences to guide RL training",
+      "b": "Humans performing reinforcement learning",
+      "c": "Learning from human demonstrations only",
+      "d": "Reinforcement learning for human behavior prediction"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is NOT a common neural network architecture for NLP?",
+    "options": {
+      "a": "LSTM",
+      "b": "Transformer",
+      "c": "CNN",
+      "d": "K-Means"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of layer normalization?",
+    "options": {
+      "a": "To stabilize training by normalizing layer inputs",
+      "b": "To reduce model depth",
+      "c": "To increase learning rate",
+      "d": "To change activation functions"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a diffusion model in generative AI?",
+    "options": {
+      "a": "A model that gradually adds noise then learns to reverse it",
+      "b": "A model that spreads information across layers",
+      "c": "A model that diffuses gradients during training",
+      "d": "A model for heat diffusion simulation"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is a common technique for time series forecasting?",
+    "options": {
+      "a": "ARIMA",
+      "b": "LSTM",
+      "c": "Prophet",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of teacher forcing in RNN training?",
+    "options": {
+      "a": "Using ground truth as input during training",
+      "b": "Forcing teachers to label data",
+      "c": "Making the model teach itself",
+      "d": "Increasing model capacity"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a Mixture of Experts model?",
+    "options": {
+      "a": "A system with specialized sub-networks for different inputs",
+      "b": "A combination of multiple expert opinions",
+      "c": "A model trained on expert-labeled data",
+      "d": "An ensemble of different model types"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is NOT a common data augmentation technique for images?",
+    "options": {
+      "a": "Random cropping",
+      "b": "Horizontal flipping",
+      "c": "Color jittering",
+      "d": "Data deletion"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of masked language modeling in BERT?",
+    "options": {
+      "a": "To predict masked tokens and learn context",
+      "b": "To hide sensitive information",
+      "c": "To reduce model size",
+      "d": "To speed up training"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a vision transformer (ViT)?",
+    "options": {
+      "a": "Applying transformer architecture to image data",
+      "b": "Transforming vision into text",
+      "c": "A model that visualizes attention",
+      "d": "A tool for image preprocessing"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is a common evaluation metric for clustering?",
+    "options": {
+      "a": "Silhouette Score",
+      "b": "Accuracy",
+      "c": "Precision",
+      "d": "Recall"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the reparameterization trick in VAEs?",
+    "options": {
+      "a": "To enable backpropagation through random sampling",
+      "b": "To reduce model parameters",
+      "c": "To increase training speed",
+      "d": "To change model architecture"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is neural tangent kernel theory?",
+    "options": {
+      "a": "Studying neural networks as they become infinitely wide",
+      "b": "A kernel method for neural networks",
+      "c": "Analyzing tangent spaces in neural networks",
+      "d": "A technique for network pruning"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is NOT a common technique for model interpretation?",
+    "options": {
+      "a": "SHAP values",
+      "b": "LIME",
+      "c": "Feature importance",
+      "d": "Data augmentation"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the CLS token in BERT?",
+    "options": {
+      "a": "To represent aggregate sequence information",
+      "b": "To classify sequences",
+      "c": "To clean input data",
+      "d": "To store learned parameters"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a latent space in machine learning?",
+    "options": {
+      "a": "A compressed representation of data",
+      "b": "A hidden layer in neural networks",
+      "c": "A space for unlabeled data",
+      "d": "A dimension reduction technique"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is a common technique for handling missing data?",
+    "options": {
+      "a": "Imputation",
+      "b": "Deletion",
+      "c": "Using algorithms that handle missing values",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the SEP token in BERT?",
+    "options": {
+      "a": "To separate different segments",
+      "b": "To mark special tokens",
+      "c": "To stop sequence processing",
+      "d": "To separate words"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a capsule network?",
+    "options": {
+      "a": "A neural network that encodes spatial hierarchies",
+      "b": "A network of small models",
+      "c": "A compressed neural network",
+      "d": "A network for capsule detection"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is NOT a common neural network optimization technique?",
+    "options": {
+      "a": "Batch Normalization",
+      "b": "Weight Decay",
+      "c": "Data Augmentation",
+      "d": "Gradient Clipping"
+    },
+    "correctAnswer": "c",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the pooler layer in BERT?",
+    "options": {
+      "a": "To create a fixed-size representation of the input",
+      "b": "To combine multiple layers",
+      "c": "To pool attention weights",
+      "d": "To reduce model size"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a spiking neural network?",
+    "options": {
+      "a": "A neural network that models biological neurons more closely",
+      "b": "A network with spike activations",
+      "c": "A network that detects spikes in data",
+      "d": "A network with intermittent training"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is a common technique for model compression?",
+    "options": {
+      "a": "Pruning",
+      "b": "Quantization",
+      "c": "Knowledge Distillation",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "machine learning",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the feed-forward layer in transformers?",
+    "options": {
+      "a": "To apply point-wise transformations",
+      "b": "To feed inputs forward",
+      "c": "To replace attention",
+      "d": "To reduce sequence length"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a liquid neural network?",
+    "options": {
+      "a": "A neural network with time-continuous dynamics",
+      "b": "A network that processes liquid data",
+      "c": "A model for fluid dynamics",
+      "d": "A network with liquid cooling"
+    },
+    "correctAnswer": "a",
+    "category": "machine learning",
+    "difficulty": "hard"
+  }
+]

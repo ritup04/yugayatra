@@ -1,0 +1,4202 @@
+[
+  {
+    "question": "What is the purpose of the 'flex' property in CSS Flexbox?",
+    "options": {
+      "a": "To set margin",
+      "b": "To define how a flex item grows or shrinks",
+      "c": "To define text color",
+      "d": "To define background"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list?",
+    "options": {
+      "a": "<li>",
+      "b": "<ul>",
+      "c": "<ol>",
+      "d": "<list>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does JSX stand for in React?",
+    "options": {
+      "a": "Java Syntax Extension",
+      "b": "JavaScript Xtreme",
+      "c": "JavaScript Extra",
+      "d": "JavaScript XML"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the HTML <head> element?",
+    "options": {
+      "a": "To contain the main content of the page",
+      "b": "To contain metadata and links to resources",
+      "c": "To create a header section",
+      "d": "To define a heading"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which CSS property is used to change the text color?",
+    "options": {
+      "a": "text-color",
+      "b": "font-color",
+      "c": "color",
+      "d": "text-style"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the virtual DOM in React?",
+    "options": {
+      "a": "A lightweight version of the actual DOM",
+      "b": "A 3D rendering of the DOM",
+      "c": "A DOM for virtual reality applications",
+      "d": "A backup of the DOM"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML attribute is used to define inline styles?",
+    "options": {
+      "a": "class",
+      "b": "styles",
+      "c": "style",
+      "d": "css"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'key' prop in React?",
+    "options": {
+      "a": "To unlock premium features",
+      "b": "To help React identify which items have changed",
+      "c": "To encrypt component data",
+      "d": "To define keyboard shortcuts"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property controls the space between elements?",
+    "options": {
+      "a": "spacing",
+      "b": "margin",
+      "c": "padding",
+      "d": "gap"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does CSS stand for?",
+    "options": {
+      "a": "Computer Style Sheets",
+      "b": "Creative Style Sheets",
+      "c": "Cascading Style Sheets",
+      "d": "Colorful Style Sheets"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a React Hook?",
+    "options": {
+      "a": "A tool for fishing components",
+      "b": "A function that lets you use state and other React features",
+      "c": "A way to connect components",
+      "d": "A type of event listener"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to create a hyperlink?",
+    "options": {
+      "a": "<link>",
+      "b": "<a>",
+      "c": "<href>",
+      "d": "<hyperlink>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of media queries in CSS?",
+    "options": {
+      "a": "To query media files",
+      "b": "To apply styles based on device characteristics",
+      "c": "To embed media content",
+      "d": "To optimize media loading"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which JavaScript method is used to select an HTML element by its ID?",
+    "options": {
+      "a": "document.querySelector()",
+      "b": "document.getElementById()",
+      "c": "document.getElementByClass()",
+      "d": "document.findElement()"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'useEffect' hook in React?",
+    "options": {
+      "a": "To measure element dimensions",
+      "b": "To perform side effects in function components",
+      "c": "To check for effects in styling",
+      "d": "To create visual effects"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to make text bold?",
+    "options": {
+      "a": "text-weight",
+      "b": "font-style",
+      "c": "font-weight",
+      "d": "text-style"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between 'let' and 'const' in JavaScript?",
+    "options": {
+      "a": "No difference, they are interchangeable",
+      "b": "'let' can be reassigned, 'const' cannot",
+      "c": "'const' can be reassigned, 'let' cannot",
+      "d": "'let' is for strings, 'const' is for numbers"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define JavaScript code?",
+    "options": {
+      "a": "<javascript>",
+      "b": "<js>",
+      "c": "<script>",
+      "d": "<code>"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is state in React?",
+    "options": {
+      "a": "A geographical location",
+      "b": "An object that stores a component's data",
+      "c": "The status of the application",
+      "d": "A lifecycle method"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to create rounded corners?",
+    "options": {
+      "a": "border-round",
+      "b": "corner-radius",
+      "c": "border-radius",
+      "d": "round-corner"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'alt' attribute in HTML images?",
+    "options": {
+      "a": "To add alternative styling",
+      "b": "To provide alternative text for screen readers",
+      "c": "To make the image load faster",
+      "d": "To align the image"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which method is used to add an element to the end of an array in JavaScript?",
+    "options": {
+      "a": "array.push()",
+      "b": "array.pop()",
+      "c": "array.shift()",
+      "d": "array.unshift()"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the HTML <meta> tag?",
+    "options": {
+      "a": "To create a table",
+      "b": "To define metadata about the document",
+      "c": "To link to external resources",
+      "d": "To create a form"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a React component?",
+    "options": {
+      "a": "A small part of a computer",
+      "b": "A reusable piece of UI",
+      "c": "A JavaScript framework",
+      "d": "A type of variable"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property controls the stacking order of elements?",
+    "options": {
+      "a": "z-position",
+      "b": "stack-order",
+      "c": "z-index",
+      "d": "layer"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'async' attribute in JavaScript scripts?",
+    "options": {
+      "a": "To make the script asynchronous",
+      "b": "To make the script run faster",
+      "c": "To automatically sync data",
+      "d": "To create animations"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a table row?",
+    "options": {
+      "a": "<row>",
+      "b": "<tr>",
+      "c": "<td>",
+      "d": "<table-row>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'useState' hook in React?",
+    "options": {
+      "a": "To manage state in function components",
+      "b": "To connect to a database",
+      "c": "To style components",
+      "d": "To create new components"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control the space inside an element?",
+    "options": {
+      "a": "margin",
+      "b": "spacing",
+      "c": "padding",
+      "d": "border"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'map()' function in JavaScript?",
+    "options": {
+      "a": "To create a geographical map",
+      "b": "To transform each element in an array",
+      "c": "To navigate between pages",
+      "d": "To create key-value pairs"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a paragraph?",
+    "options": {
+      "a": "<paragraph>",
+      "b": "<p>",
+      "c": "<para>",
+      "d": "<pg>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'defer' attribute in JavaScript scripts?",
+    "options": {
+      "a": "To defer payments",
+      "b": "To delay script execution until the document is parsed",
+      "c": "To make the script run slower",
+      "d": "To define a function"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to change the font of an element?",
+    "options": {
+      "a": "text-font",
+      "b": "font-family",
+      "c": "font-style",
+      "d": "text-family"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'reduce()' function in JavaScript?",
+    "options": {
+      "a": "To reduce the size of an array",
+      "b": "To reduce the number of elements",
+      "c": "To reduce an array to a single value",
+      "d": "To reduce memory usage"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a list item?",
+    "options": {
+      "a": "<list>",
+      "b": "<item>",
+      "c": "<li>",
+      "d": "<list-item>"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'filter()' function in JavaScript?",
+    "options": {
+      "a": "To apply CSS filters",
+      "b": "To create a new array with elements that pass a test",
+      "c": "To filter out all elements",
+      "d": "To blur images"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to create a shadow effect?",
+    "options": {
+      "a": "shadow-effect",
+      "b": "box-shadow",
+      "c": "text-shadow",
+      "d": "Both b and c"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'find()' function in JavaScript?",
+    "options": {
+      "a": "To find elements in the DOM",
+      "b": "To find the first element that satisfies a condition",
+      "c": "To search for files",
+      "d": "To locate geographical positions"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a header for a document or section?",
+    "options": {
+      "a": "<head>",
+      "b": "<header>",
+      "c": "<h1>",
+      "d": "<heading>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'some()' function in JavaScript?",
+    "options": {
+      "a": "To check if some elements meet a condition",
+      "b": "To add some elements to an array",
+      "c": "To remove some elements from an array",
+      "d": "To create some new elements"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control the transparency of an element?",
+    "options": {
+      "a": "visibility",
+      "b": "transparency",
+      "c": "opacity",
+      "d": "clear"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'every()' function in JavaScript?",
+    "options": {
+      "a": "To run a function on every element",
+      "b": "To check if every element meets a condition",
+      "c": "To select every element in the DOM",
+      "d": "To create elements for every item in a list"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a footer for a document or section?",
+    "options": {
+      "a": "<foot>",
+      "b": "<footer>",
+      "c": "<bottom>",
+      "d": "<end>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'includes()' function in JavaScript?",
+    "options": {
+      "a": "To include another file",
+      "b": "To check if an array includes a certain value",
+      "c": "To add elements to an array",
+      "d": "To create includes in a document"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control the position of an element?",
+    "options": {
+      "a": "layout",
+      "b": "position",
+      "c": "display",
+      "d": "align"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'indexOf()' function in JavaScript?",
+    "options": {
+      "a": "To get the index of an element in an array",
+      "b": "To create an index",
+      "c": "To define the order of elements",
+      "d": "To count elements"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a navigation section?",
+    "options": {
+      "a": "<nav>",
+      "b": "<navigation>",
+      "c": "<menu>",
+      "d": "<navigate>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'concat()' function in JavaScript?",
+    "options": {
+      "a": "To concatenate strings or arrays",
+      "b": "To concentrate elements",
+      "c": "To convert data types",
+      "d": "To create new objects"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to create a gradient background?",
+    "options": {
+      "a": "background-gradient",
+      "b": "gradient",
+      "c": "background-image",
+      "d": "color-gradient"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'slice()' function in JavaScript?",
+    "options": {
+      "a": "To cut elements from the DOM",
+      "b": "To return a portion of an array",
+      "c": "To divide the screen",
+      "d": "To create slices of data"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a section in a document?",
+    "options": {
+      "a": "<div>",
+      "b": "<section>",
+      "c": "<part>",
+      "d": "<area>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'splice()' function in JavaScript?",
+    "options": {
+      "a": "To join strings together",
+      "b": "To add/remove items from an array",
+      "c": "To split arrays into parts",
+      "d": "To create smooth transitions"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control the size of an element?",
+    "options": {
+      "a": "size",
+      "b": "dimension",
+      "c": "width/height",
+      "d": "scale"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'join()' function in JavaScript?",
+    "options": {
+      "a": "To combine arrays",
+      "b": "To join elements of an array into a string",
+      "c": "To connect DOM elements",
+      "d": "To merge objects"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a container for multiple images?",
+    "options": {
+      "a": "<gallery>",
+      "b": "<images>",
+      "c": "<figure>",
+      "d": "<picture>"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'reverse()' function in JavaScript?",
+    "options": {
+      "a": "To reverse the order of elements in an array",
+      "b": "To undo actions",
+      "c": "To create mirror effects",
+      "d": "To change the direction of text"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control the order of flex items?",
+    "options": {
+      "a": "flex-order",
+      "b": "order",
+      "c": "flex-direction",
+      "d": "item-order"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'sort()' function in JavaScript?",
+    "options": {
+      "a": "To organize elements in the DOM",
+      "b": "To sort the elements of an array",
+      "c": "To classify data types",
+      "d": "To arrange CSS properties"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a caption for a figure?",
+    "options": {
+      "a": "<caption>",
+      "b": "<figcaption>",
+      "c": "<description>",
+      "d": "<title>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'toString()' function in JavaScript?",
+    "options": {
+      "a": "To convert a value to a string",
+      "b": "To create a new string",
+      "c": "To print to the console",
+      "d": "To style text"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to align flex items along the main axis?",
+    "options": {
+      "a": "flex-align",
+      "b": "justify-content",
+      "c": "align-items",
+      "d": "flex-justify"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'toFixed()' function in JavaScript?",
+    "options": {
+      "a": "To fix errors",
+      "b": "To format a number with a fixed number of decimals",
+      "c": "To make elements stay in place",
+      "d": "To repair broken code"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a thematic break?",
+    "options": {
+      "a": "<break>",
+      "b": "<hr>",
+      "c": "<line>",
+      "d": "<separator>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'parseInt()' function in JavaScript?",
+    "options": {
+      "a": "To parse HTML",
+      "b": "To convert a string to an integer",
+      "c": "To analyze integers",
+      "d": "To create parameters"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to align flex items along the cross axis?",
+    "options": {
+      "a": "flex-align",
+      "b": "justify-content",
+      "c": "align-items",
+      "d": "cross-align"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'parseFloat()' function in JavaScript?",
+    "options": {
+      "a": "To parse floating elements",
+      "b": "To convert a string to a floating-point number",
+      "c": "To analyze floats",
+      "d": "To create floating menus"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a line break?",
+    "options": {
+      "a": "<lb>",
+      "b": "<break>",
+      "c": "<br>",
+      "d": "<newline>"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'isNaN()' function in JavaScript?",
+    "options": {
+      "a": "To check if a value is not a number",
+      "b": "To convert to a number",
+      "c": "To create NaN values",
+      "d": "To ignore numbers"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control the direction of flex items?",
+    "options": {
+      "a": "flex-direction",
+      "b": "flex-flow",
+      "c": "flex-order",
+      "d": "flex-align"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'JSON.parse()' function in JavaScript?",
+    "options": {
+      "a": "To analyze JSON",
+      "b": "To convert a JSON string to an object",
+      "c": "To create JSON",
+      "d": "To parse JavaScript"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a clickable button?",
+    "options": {
+      "a": "<click>",
+      "b": "<button>",
+      "c": "<btn>",
+      "d": "<press>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'JSON.stringify()' function in JavaScript?",
+    "options": {
+      "a": "To make strings JSON-compatible",
+      "b": "To convert an object to a JSON string",
+      "c": "To analyze strings",
+      "d": "To create JSON objects"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to make flex items wrap to multiple lines?",
+    "options": {
+      "a": "flex-wrap",
+      "b": "flex-flow",
+      "c": "wrap-items",
+      "d": "flex-line"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'Date' object in JavaScript?",
+    "options": {
+      "a": "To create date pickers",
+      "b": "To work with dates and times",
+      "c": "To schedule events",
+      "d": "To format calendars"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a form?",
+    "options": {
+      "a": "<input>",
+      "b": "<form>",
+      "c": "<fieldset>",
+      "d": "<submit>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'Math' object in JavaScript?",
+    "options": {
+      "a": "To perform mathematical operations",
+      "b": "To create math problems",
+      "c": "To solve equations",
+      "d": "To teach mathematics"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to combine flex-direction and flex-wrap?",
+    "options": {
+      "a": "flex-combine",
+      "b": "flex-flow",
+      "c": "flex-direction-wrap",
+      "d": "flex-style"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'RegExp' object in JavaScript?",
+    "options": {
+      "a": "To register expressions",
+      "b": "To work with regular expressions",
+      "c": "To record events",
+      "d": "To regulate performance"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define an input field?",
+    "options": {
+      "a": "<input>",
+      "b": "<textfield>",
+      "c": "<field>",
+      "d": "<type>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'Set' object in JavaScript?",
+    "options": {
+      "a": "To set values in the DOM",
+      "b": "To store unique values of any type",
+      "c": "To configure settings",
+      "d": "To create collections"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control the growth of flex items?",
+    "options": {
+      "a": "flex-grow",
+      "b": "flex-size",
+      "c": "flex-expand",
+      "d": "flex-scale"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'Map' object in JavaScript?",
+    "options": {
+      "a": "To create geographical maps",
+      "b": "To create image maps",
+      "c": "To store key-value pairs",
+      "d": "To map arrays to components"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a label for an input?",
+    "options": {
+      "a": "<label>",
+      "b": "<description>",
+      "c": "<input-label>",
+      "d": "<text>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'Promise' object in JavaScript?",
+    "options": {
+      "a": "To make promises to users",
+      "b": "To handle asynchronous operations",
+      "c": "To ensure code quality",
+      "d": "To create contracts"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control the shrinking of flex items?",
+    "options": {
+      "a": "flex-shrink",
+      "b": "flex-reduce",
+      "c": "flex-small",
+      "d": "flex-minimize"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'fetch()' function in JavaScript?",
+    "options": {
+      "a": "To fetch data from APIs",
+      "b": "To get user input",
+      "c": "To retrieve DOM elements",
+      "d": "To load images"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a dropdown list?",
+    "options": {
+      "a": "<dropdown>",
+      "b": "<select>",
+      "c": "<list>",
+      "d": "<option>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'async/await' syntax in JavaScript?",
+    "options": {
+      "a": "To make code run faster",
+      "b": "To write asynchronous code more cleanly",
+      "c": "To wait for user input",
+      "d": "To create animations"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to set the initial size of a flex item?",
+    "options": {
+      "a": "flex-initial",
+      "b": "flex-size",
+      "c": "flex-basis",
+      "d": "flex-start"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'localStorage' object in JavaScript?",
+    "options": {
+      "a": "To store data locally in the browser",
+      "b": "To manage local files",
+      "c": "To cache resources",
+      "d": "To create local databases"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define options in a dropdown list?",
+    "options": {
+      "a": "<item>",
+      "b": "<choice>",
+      "c": "<option>",
+      "d": "<select-item>"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'sessionStorage' object in JavaScript?",
+    "options": {
+      "a": "To store data for a session",
+      "b": "To manage server sessions",
+      "c": "To create temporary files",
+      "d": "To handle user sessions"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to align a flex container's lines within when there is extra space?",
+    "options": {
+      "a": "align-content",
+      "b": "justify-content",
+      "c": "align-items",
+      "d": "flex-align"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'this' keyword in JavaScript?",
+    "options": {
+      "a": "To refer to the current object",
+      "b": "To point to the document",
+      "c": "To reference the parent element",
+      "d": "To create new instances"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a text area?",
+    "options": {
+      "a": "<input type='text'>",
+      "b": "<text>",
+      "c": "<textarea>",
+      "d": "<textfield>"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'class' syntax in JavaScript?",
+    "options": {
+      "a": "To style elements",
+      "b": "To create CSS classes",
+      "c": "To create object blueprints",
+      "d": "To classify data"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to create animations?",
+    "options": {
+      "a": "animation",
+      "b": "transition",
+      "c": "move",
+      "d": "Both a and b"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'extends' keyword in JavaScript?",
+    "options": {
+      "a": "To extend arrays",
+      "b": "To create class inheritance",
+      "c": "To make elements larger",
+      "d": "To expand objects"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a checkbox?",
+    "options": {
+      "a": "<check>",
+      "b": "<input type='checkbox'>",
+      "c": "<box>",
+      "d": "<toggle>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'super' keyword in JavaScript?",
+    "options": {
+      "a": "To call parent class methods",
+      "b": "To create superior functions",
+      "c": "To reference the window object",
+      "d": "To make elements appear above others"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to transform elements?",
+    "options": {
+      "a": "transform",
+      "b": "transition",
+      "c": "translate",
+      "d": "modify"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'constructor' method in JavaScript classes?",
+    "options": {
+      "a": "To construct the DOM",
+      "b": "To initialize class objects",
+      "c": "To build HTML elements",
+      "d": "To create constructors for functions"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a radio button?",
+    "options": {
+      "a": "<radio>",
+      "b": "<input type='radio'>",
+      "c": "<option type='radio'>",
+      "d": "<button type='radio'>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'static' keyword in JavaScript classes?",
+    "options": {
+      "a": "To make elements stay in place",
+      "b": "To define static methods/properties",
+      "c": "To prevent changes",
+      "d": "To create stationary objects"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to create 3D transformations?",
+    "options": {
+      "a": "transform-3d",
+      "b": "transform",
+      "c": "perspective",
+      "d": "Both b and c"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'get' keyword in JavaScript classes?",
+    "options": {
+      "a": "To get elements from the DOM",
+      "b": "To define getter methods",
+      "c": "To retrieve data",
+      "d": "To fetch resources"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a submit button?",
+    "options": {
+      "a": "<submit>",
+      "b": "<input type='submit'>",
+      "c": "<button type='submit'>",
+      "d": "Both b and c"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'set' keyword in JavaScript classes?",
+    "options": {
+      "a": "To set element properties",
+      "b": "To define setter methods",
+      "c": "To assign values",
+      "d": "To create collections"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control the visibility of an element?",
+    "options": {
+      "a": "display",
+      "b": "visibility",
+      "c": "opacity",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'import' statement in JavaScript?",
+    "options": {
+      "a": "To import CSS files",
+      "b": "To import modules",
+      "c": "To include HTML",
+      "d": "To load images"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a table?",
+    "options": {
+      "a": "<table>",
+      "b": "<tab>",
+      "c": "<grid>",
+      "d": "<data>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'export' statement in JavaScript?",
+    "options": {
+      "a": "To export data",
+      "b": "To make modules available for import",
+      "c": "To save files",
+      "d": "To create backups"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to create a grid layout?",
+    "options": {
+      "a": "grid",
+      "b": "display: grid",
+      "c": "layout: grid",
+      "d": "Both a and b"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'default' keyword in JavaScript exports?",
+    "options": {
+      "a": "To set default values",
+      "b": "To export a default binding",
+      "c": "To handle missing imports",
+      "d": "To create fallbacks"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a table row?",
+    "options": {
+      "a": "<row>",
+      "b": "<tr>",
+      "c": "<table-row>",
+      "d": "<td>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'as' keyword in JavaScript imports?",
+    "options": {
+      "a": "To create aliases",
+      "b": "To compare values",
+      "c": "To assign types",
+      "d": "To handle errors"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to define grid columns?",
+    "options": {
+      "a": "grid-columns",
+      "b": "grid-template-columns",
+      "c": "columns",
+      "d": "grid-cols"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'from' keyword in JavaScript imports?",
+    "options": {
+      "a": "To specify the module location",
+      "b": "To create ranges",
+      "c": "To indicate source files",
+      "d": "To filter imports"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a table cell?",
+    "options": {
+      "a": "<cell>",
+      "b": "<td>",
+      "c": "<table-cell>",
+      "d": "<tc>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'require()' function in JavaScript?",
+    "options": {
+      "a": "To require user input",
+      "b": "To import modules in CommonJS",
+      "c": "To make fields mandatory",
+      "d": "To check for dependencies"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to define grid rows?",
+    "options": {
+      "a": "grid-rows",
+      "b": "grid-template-rows",
+      "c": "rows",
+      "d": "grid-r"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'module.exports' in JavaScript?",
+    "options": {
+      "a": "To export CSS modules",
+      "b": "To export values in CommonJS",
+      "c": "To create module templates",
+      "d": "To define module settings"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a table header cell?",
+    "options": {
+      "a": "<th>",
+      "b": "<header>",
+      "c": "<table-header>",
+      "d": "<thead>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'package.json' file in Node.js projects?",
+    "options": {
+      "a": "To package JavaScript files",
+      "b": "To define project metadata and dependencies",
+      "c": "To create JSON packages",
+      "d": "To store user data"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to place grid items?",
+    "options": {
+      "a": "grid-placement",
+      "b": "grid-area",
+      "c": "grid-position",
+      "d": "place-items"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'node_modules' folder in Node.js projects?",
+    "options": {
+      "a": "To store node applications",
+      "b": "To contain installed dependencies",
+      "c": "To modularize code",
+      "d": "To create node templates"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a table header?",
+    "options": {
+      "a": "<table-header>",
+      "b": "<thead>",
+      "c": "<header>",
+      "d": "<th>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm install' command?",
+    "options": {
+      "a": "To install Node.js",
+      "b": "To install project dependencies",
+      "c": "To install system packages",
+      "d": "To install npm"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control the gap between grid items?",
+    "options": {
+      "a": "grid-spacing",
+      "b": "gap",
+      "c": "grid-gap",
+      "d": "Both b and c"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the '--save' flag in npm install?",
+    "options": {
+      "a": "To save money",
+      "b": "To add dependencies to package.json",
+      "c": "To create backups",
+      "d": "To preserve files"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a table body?",
+    "options": {
+      "a": "<tbody>",
+      "b": "<table-body>",
+      "c": "<body>",
+      "d": "<tb>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the '--save-dev' flag in npm install?",
+    "options": {
+      "a": "To save development files",
+      "b": "To add devDependencies to package.json",
+      "c": "To develop saved files",
+      "d": "To create developer versions"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control the alignment of grid items?",
+    "options": {
+      "a": "grid-align",
+      "b": "justify-items",
+      "c": "place-items",
+      "d": "Both b and c"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm start' command?",
+    "options": {
+      "a": "To start a new project",
+      "b": "To run the 'start' script defined in package.json",
+      "c": "To initialize npm",
+      "d": "To launch the starter file"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a table footer?",
+    "options": {
+      "a": "<tfoot>",
+      "b": "<table-footer>",
+      "c": "<footer>",
+      "d": "<tf>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm run' command?",
+    "options": {
+      "a": "To execute any script defined in package.json",
+      "b": "To run the application",
+      "c": "To test running speed",
+      "d": "To compile scripts"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control the alignment of the entire grid?",
+    "options": {
+      "a": "grid-align",
+      "b": "justify-content",
+      "c": "place-content",
+      "d": "Both b and c"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm test' command?",
+    "options": {
+      "a": "To test npm installation",
+      "b": "To run the 'test' script defined in package.json",
+      "c": "To check for errors",
+      "d": "To validate packages"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a caption for a table?",
+    "options": {
+      "a": "<caption>",
+      "b": "<table-caption>",
+      "c": "<description>",
+      "d": "<summary>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm init' command?",
+    "options": {
+      "a": "To initialize a new npm project",
+      "b": "To create a new file",
+      "c": "To install initial packages",
+      "d": "To reset npm"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to define named grid areas?",
+    "options": {
+      "a": "grid-areas",
+      "b": "grid-template-areas",
+      "c": "area-names",
+      "d": "named-areas"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm update' command?",
+    "options": {
+      "a": "To update Node.js",
+      "b": "To update npm",
+      "c": "To update project dependencies",
+      "d": "To refresh the project"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to group header content in a table?",
+    "options": {
+      "a": "<group>",
+      "b": "<thead>",
+      "c": "<header-group>",
+      "d": "<th-group>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm uninstall' command?",
+    "options": {
+      "a": "To remove npm",
+      "b": "To uninstall Node.js",
+      "c": "To remove packages",
+      "d": "To delete projects"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control how auto-placed items are inserted in the grid?",
+    "options": {
+      "a": "grid-auto-flow",
+      "b": "grid-placement",
+      "c": "auto-grid",
+      "d": "flow-items"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm audit' command?",
+    "options": {
+      "a": "To check for security vulnerabilities",
+      "b": "To audit code quality",
+      "c": "To verify installations",
+      "d": "To count dependencies"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a column group in a table?",
+    "options": {
+      "a": "<colgroup>",
+      "b": "<column-group>",
+      "c": "<group>",
+      "d": "<table-group>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm cache' command?",
+    "options": {
+      "a": "To clear the npm cache",
+      "b": "To cache dependencies",
+      "c": "To store npm data",
+      "d": "To manage the package cache"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to define the size of implicitly created grid tracks?",
+    "options": {
+      "a": "grid-auto-rows",
+      "b": "grid-auto-columns",
+      "c": "grid-implicit-size",
+      "d": "Both a and b"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm version' command?",
+    "options": {
+      "a": "To check npm version",
+      "b": "To update package version",
+      "c": "To list version history",
+      "d": "To compare versions"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define an individual column in a table?",
+    "options": {
+      "a": "<col>",
+      "b": "<column>",
+      "c": "<td>",
+      "d": "<table-col>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm publish' command?",
+    "options": {
+      "a": "To publish websites",
+      "b": "To publish packages to the registry",
+      "c": "To make projects public",
+      "d": "To share code"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control how items are aligned along the inline axis?",
+    "options": {
+      "a": "align-items",
+      "b": "justify-items",
+      "c": "place-items",
+      "d": "inline-align"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm link' command?",
+    "options": {
+      "a": "To connect to npm",
+      "b": "To symlink a package folder",
+      "c": "To create hyperlinks",
+      "d": "To reference dependencies"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a media player?",
+    "options": {
+      "a": "<media>",
+      "b": "<video> or <audio>",
+      "c": "<player>",
+      "d": "<embed>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm config' command?",
+    "options": {
+      "a": "To configure npm settings",
+      "b": "To set up new projects",
+      "c": "To manage configurations",
+      "d": "To install config files"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control how items are aligned along the block axis?",
+    "options": {
+      "a": "align-items",
+      "b": "justify-items",
+      "c": "place-items",
+      "d": "block-align"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm doctor' command?",
+    "options": {
+      "a": "To check npm installation",
+      "b": "To diagnose npm issues",
+      "c": "To verify package health",
+      "d": "To test for errors"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a progress bar?",
+    "options": {
+      "a": "<progress>",
+      "b": "<meter>",
+      "c": "<bar>",
+      "d": "<load>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm rebuild' command?",
+    "options": {
+      "a": "To rebuild npm",
+      "b": "To rebuild package binaries",
+      "c": "To reconstruct projects",
+      "d": "To refresh installations"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to create multi-column layouts?",
+    "options": {
+      "a": "columns",
+      "b": "multi-column",
+      "c": "column-count",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm dedupe' command?",
+    "options": {
+      "a": "To remove duplicate packages",
+      "b": "To delete unused dependencies",
+      "c": "To clean up node_modules",
+      "d": "To optimize installations"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a meter gauge?",
+    "options": {
+      "a": "<gauge>",
+      "b": "<meter>",
+      "c": "<measure>",
+      "d": "<progress>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm prune' command?",
+    "options": {
+      "a": "To remove extraneous packages",
+      "b": "To clean up the project",
+      "c": "To delete node_modules",
+      "d": "To uninstall npm"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control the gap between columns?",
+    "options": {
+      "a": "column-gap",
+      "b": "gap",
+      "c": "column-spacing",
+      "d": "Both a and b"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm search' command?",
+    "options": {
+      "a": "To search for packages",
+      "b": "To find code snippets",
+      "c": "To look for errors",
+      "d": "To explore npm"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a dialog box?",
+    "options": {
+      "a": "<dialog>",
+      "b": "<popup>",
+      "c": "<modal>",
+      "d": "<window>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm outdated' command?",
+    "options": {
+      "a": "To check for outdated packages",
+      "b": "To find deprecated code",
+      "c": "To list old versions",
+      "d": "To show unused packages"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control column width?",
+    "options": {
+      "a": "column-width",
+      "b": "width",
+      "c": "col-width",
+      "d": "size"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm repo' command?",
+    "options": {
+      "a": "To create repositories",
+      "b": "To open package repository page",
+      "c": "To manage git repos",
+      "d": "To browse npm source"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a details disclosure widget?",
+    "options": {
+      "a": "<details>",
+      "b": "<disclosure>",
+      "c": "<widget>",
+      "d": "<expand>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm docs' command?",
+    "options": {
+      "a": "To create documentation",
+      "b": "To open package documentation",
+      "c": "To generate docs",
+      "d": "To read markdown files"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control column fill behavior?",
+    "options": {
+      "a": "column-fill",
+      "b": "fill",
+      "c": "content-fill",
+      "d": "balance"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm bin' command?",
+    "options": {
+      "a": "To show npm bin folder location",
+      "b": "To create binary files",
+      "c": "To install binaries",
+      "d": "To manage binary packages"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a summary for a details element?",
+    "options": {
+      "a": "<summary>",
+      "b": "<caption>",
+      "c": "<title>",
+      "d": "<head>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm prefix' command?",
+    "options": {
+      "a": "To add prefixes to packages",
+      "b": "To show prefix configuration",
+      "c": "To manage package names",
+      "d": "To set up naming conventions"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to create a rule between columns?",
+    "options": {
+      "a": "column-rule",
+      "b": "rule",
+      "c": "border-column",
+      "d": "divider"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm root' command?",
+    "options": {
+      "a": "To display npm root folder",
+      "b": "To manage root packages",
+      "c": "To install root dependencies",
+      "d": "To access root files"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for external content?",
+    "options": {
+      "a": "<container>",
+      "b": "<embed>",
+      "c": "<external>",
+      "d": "<object>"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm ls' command?",
+    "options": {
+      "a": "To list installed packages",
+      "b": "To show file structure",
+      "c": "To search for packages",
+      "d": "To display licenses"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control column span?",
+    "options": {
+      "a": "column-span",
+      "b": "span",
+      "c": "grid-column",
+      "d": "multi-column"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm edit' command?",
+    "options": {
+      "a": "To edit package files",
+      "b": "To modify npm configuration",
+      "c": "To open package in editor",
+      "d": "To create editable packages"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a parameter for an object?",
+    "options": {
+      "a": "<parameter>",
+      "b": "<param>",
+      "c": "<option>",
+      "d": "<set>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm explore' command?",
+    "options": {
+      "a": "To browse package files",
+      "b": "To discover new packages",
+      "c": "To examine npm",
+      "d": "To research dependencies"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to create a multi-column layout with a specified column count?",
+    "options": {
+      "a": "column-count",
+      "b": "multi-column",
+      "c": "columns",
+      "d": "layout-columns"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm restart' command?",
+    "options": {
+      "a": "To restart npm",
+      "b": "To restart Node.js",
+      "c": "To run the 'restart' script",
+      "d": "To refresh installations"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a time or date?",
+    "options": {
+      "a": "<date>",
+      "b": "<time>",
+      "c": "<datetime>",
+      "d": "<calendar>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm stop' command?",
+    "options": {
+      "a": "To stop npm",
+      "b": "To stop Node.js",
+      "c": "To run the 'stop' script",
+      "d": "To halt processes"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to create a multi-column layout with a specified column width?",
+    "options": {
+      "a": "column-width",
+      "b": "width",
+      "c": "multi-column-width",
+      "d": "layout-width"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm completion' command?",
+    "options": {
+      "a": "To complete installations",
+      "b": "To set up tab completion",
+      "c": "To finish processes",
+      "d": "To mark tasks as complete"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a variable in code?",
+    "options": {
+      "a": "<var>",
+      "b": "<variable>",
+      "c": "<code>",
+      "d": "<v>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm help' command?",
+    "options": {
+      "a": "To get help with npm",
+      "b": "To assist other users",
+      "c": "To find helpers",
+      "d": "To display documentation"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which CSS property is used to control column breaks?",
+    "options": {
+      "a": "break-column",
+      "b": "column-break",
+      "c": "break-inside",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm help-search' command?",
+    "options": {
+      "a": "To search help topics",
+      "b": "To find assistance",
+      "c": "To locate documentation",
+      "d": "To get support"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a word break opportunity?",
+    "options": {
+      "a": "<break>",
+      "b": "<wbr>",
+      "c": "<br>",
+      "d": "<wordbreak>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm ping' command?",
+    "options": {
+      "a": "To test npm registry connection",
+      "b": "To check server status",
+      "c": "To test internet connection",
+      "d": "To verify installations"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to create a multi-column layout with both count and width?",
+    "options": {
+      "a": "columns",
+      "b": "multi-column",
+      "c": "column-layout",
+      "d": "layout"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm star' command?",
+    "options": {
+      "a": "To mark favorite packages",
+      "b": "To highlight important packages",
+      "c": "To rate packages",
+      "d": "To bookmark packages"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a line break opportunity?",
+    "options": {
+      "a": "<br>",
+      "b": "<wbr>",
+      "c": "<lb>",
+      "d": "<break>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm stars' command?",
+    "options": {
+      "a": "To view starred packages",
+      "b": "To display package ratings",
+      "c": "To show popular packages",
+      "d": "To count stars"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control the appearance of list items?",
+    "options": {
+      "a": "list-style",
+      "b": "list-type",
+      "c": "list-appearance",
+      "d": "item-style"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm whoami' command?",
+    "options": {
+      "a": "To display npm username",
+      "b": "To identify the user",
+      "c": "To check login status",
+      "d": "To show permissions"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a container for SVG graphics?",
+    "options": {
+      "a": "<svg>",
+      "b": "<graphic>",
+      "c": "<canvas>",
+      "d": "<vector>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm adduser' command?",
+    "options": {
+      "a": "To create a new user",
+      "b": "To add a collaborator",
+      "c": "To log in or create a user",
+      "d": "To manage users"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control the position of list markers?",
+    "options": {
+      "a": "list-position",
+      "b": "marker-position",
+      "c": "list-style-position",
+      "d": "bullet-position"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm logout' command?",
+    "options": {
+      "a": "To log out from npm",
+      "b": "To exit the terminal",
+      "c": "To close sessions",
+      "d": "To remove users"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a container for MathML content?",
+    "options": {
+      "a": "<math>",
+      "b": "<formula>",
+      "c": "<equation>",
+      "d": "<ml>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm token' command?",
+    "options": {
+      "a": "To manage authentication tokens",
+      "b": "To create security tokens",
+      "c": "To generate API keys",
+      "d": "To encrypt data"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control the type of list marker?",
+    "options": {
+      "a": "list-type",
+      "b": "list-style-type",
+      "c": "marker-type",
+      "d": "bullet-type"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm profile' command?",
+    "options": {
+      "a": "To view npm profile",
+      "b": "To create user profiles",
+      "c": "To manage account settings",
+      "d": "To display statistics"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for external applications?",
+    "options": {
+      "a": "<app>",
+      "b": "<embed>",
+      "c": "<object>",
+      "d": "<external>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm org' command?",
+    "options": {
+      "a": "To organize packages",
+      "b": "To manage npm organizations",
+      "c": "To create structures",
+      "d": "To sort dependencies"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control the image for list markers?",
+    "options": {
+      "a": "list-image",
+      "b": "list-style-image",
+      "c": "marker-image",
+      "d": "bullet-image"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm fund' command?",
+    "options": {
+      "a": "To fund open source projects",
+      "b": "To view funding information",
+      "c": "To donate to npm",
+      "d": "To manage finances"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a container for plug-ins?",
+    "options": {
+      "a": "<plugin>",
+      "b": "<object>",
+      "c": "<embed>",
+      "d": "Both b and c"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm ci' command?",
+    "options": {
+      "a": "To clean install dependencies",
+      "b": "To check installations",
+      "c": "To verify packages",
+      "d": "To initialize projects"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to create a counter for lists?",
+    "options": {
+      "a": "counter",
+      "b": "list-counter",
+      "c": "counter-increment",
+      "d": "count"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm shorthands' command?",
+    "options": {
+      "a": "To create shortcuts",
+      "b": "To display command aliases",
+      "c": "To manage abbreviations",
+      "d": "To show brief help"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for Ruby annotations?",
+    "options": {
+      "a": "<ruby>",
+      "b": "<annotation>",
+      "c": "<rt>",
+      "d": "<rp>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm bugs' command?",
+    "options": {
+      "a": "To report bugs",
+      "b": "To view package bug reports",
+      "c": "To find errors",
+      "d": "To debug code"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to reset a counter?",
+    "options": {
+      "a": "counter-reset",
+      "b": "reset-counter",
+      "c": "counter-clear",
+      "d": "clear-counter"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm owner' command?",
+    "options": {
+      "a": "To claim ownership",
+      "b": "To manage package owners",
+      "c": "To transfer packages",
+      "d": "To verify authors"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define Ruby text?",
+    "options": {
+      "a": "<rt>",
+      "b": "<ruby-text>",
+      "c": "<annotation>",
+      "d": "<rtext>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm dist-tag' command?",
+    "options": {
+      "a": "To distribute tags",
+      "b": "To manage distribution tags",
+      "c": "To categorize packages",
+      "d": "To label versions"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to display the value of a counter?",
+    "options": {
+      "a": "counter",
+      "b": "counter-display",
+      "c": "content",
+      "d": "display-counter"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm view' command?",
+    "options": {
+      "a": "To display package information",
+      "b": "To preview packages",
+      "c": "To inspect npm",
+      "d": "To show details"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define Ruby parentheses?",
+    "options": {
+      "a": "<rp>",
+      "b": "<ruby-paren>",
+      "c": "<parentheses>",
+      "d": "<rparen>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm team' command?",
+    "options": {
+      "a": "To manage team members",
+      "b": "To organize groups",
+      "c": "To create teams",
+      "d": "To collaborate"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to create generated content?",
+    "options": {
+      "a": "content",
+      "b": "generate",
+      "c": "before",
+      "d": "after"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm access' command?",
+    "options": {
+      "a": "To control package access",
+      "b": "To manage permissions",
+      "c": "To grant access",
+      "d": "To secure packages"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for video content?",
+    "options": {
+      "a": "<video>",
+      "b": "<media>",
+      "c": "<movie>",
+      "d": "<play>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm repo' command?",
+    "options": {
+      "a": "To open package repository in browser",
+      "b": "To create repositories",
+      "c": "To manage git repos",
+      "d": "To browse source code"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to insert content before an element?",
+    "options": {
+      "a": "content-before",
+      "b": "before",
+      "c": "::before",
+      "d": "prepend"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm diff' command?",
+    "options": {
+      "a": "To compare package versions",
+      "b": "To find differences",
+      "c": "To check changes",
+      "d": "To analyze code"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for audio content?",
+    "options": {
+      "a": "<audio>",
+      "b": "<sound>",
+      "c": "<music>",
+      "d": "<play>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm help' command?",
+    "options": {
+      "a": "To display help information",
+      "b": "To get assistance",
+      "c": "To find documentation",
+      "d": "To show commands"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which CSS property is used to insert content after an element?",
+    "options": {
+      "a": "content-after",
+      "b": "after",
+      "c": "::after",
+      "d": "append"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm help-search' command?",
+    "options": {
+      "a": "To search help topics",
+      "b": "To find answers",
+      "c": "To locate documentation",
+      "d": "To get support"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a track for media elements?",
+    "options": {
+      "a": "<track>",
+      "b": "<media-track>",
+      "c": "<caption>",
+      "d": "<subtitles>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm config' command?",
+    "options": {
+      "a": "To manage npm configuration",
+      "b": "To set up projects",
+      "c": "To configure settings",
+      "d": "To install configs"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control the appearance of quotes?",
+    "options": {
+      "a": "quotes",
+      "b": "quote-style",
+      "c": "text-quotes",
+      "d": "quote-mark"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm cache' command?",
+    "options": {
+      "a": "To manage the npm cache",
+      "b": "To store data",
+      "c": "To clear memory",
+      "d": "To speed up installations"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a source for media elements?",
+    "options": {
+      "a": "<source>",
+      "b": "<src>",
+      "c": "<media-source>",
+      "d": "<file>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm set' command?",
+    "options": {
+      "a": "To set configuration values",
+      "b": "To define variables",
+      "c": "To assign properties",
+      "d": "To create settings"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control the behavior of quotes?",
+    "options": {
+      "a": "quote-behavior",
+      "b": "quotes",
+      "c": "quote-style",
+      "d": "text-quotes"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm get' command?",
+    "options": {
+      "a": "To retrieve configuration values",
+      "b": "To fetch packages",
+      "c": "To obtain data",
+      "d": "To read settings"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for canvas graphics?",
+    "options": {
+      "a": "<canvas>",
+      "b": "<graphic>",
+      "c": "<draw>",
+      "d": "<paint>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm set-script' command?",
+    "options": {
+      "a": "To create package.json scripts",
+      "b": "To define commands",
+      "c": "To set up automation",
+      "d": "To write scripts"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control the appearance of the cursor?",
+    "options": {
+      "a": "pointer",
+      "b": "cursor",
+      "c": "mouse",
+      "d": "pointer-style"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm exec' command?",
+    "options": {
+      "a": "To execute package binaries",
+      "b": "To run commands",
+      "c": "To create executables",
+      "d": "To test scripts"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for vector graphics?",
+    "options": {
+      "a": "<vector>",
+      "b": "<svg>",
+      "c": "<graphic>",
+      "d": "<draw>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm run-script' command?",
+    "options": {
+      "a": "To run package scripts",
+      "b": "To execute JavaScript",
+      "c": "To test code",
+      "d": "To automate tasks"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control pointer events?",
+    "options": {
+      "a": "pointer",
+      "b": "pointer-events",
+      "c": "mouse-events",
+      "d": "click"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm test' command?",
+    "options": {
+      "a": "To run tests",
+      "b": "To check code quality",
+      "c": "To verify installations",
+      "d": "To test npm"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a container for embedded content?",
+    "options": {
+      "a": "<embed>",
+      "b": "<object>",
+      "c": "<iframe>",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm start' command?",
+    "options": {
+      "a": "To start applications",
+      "b": "To run the start script",
+      "c": "To launch servers",
+      "d": "To initialize projects"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control touch actions?",
+    "options": {
+      "a": "touch",
+      "b": "touch-action",
+      "c": "pointer-action",
+      "d": "gesture"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm stop' command?",
+    "options": {
+      "a": "To stop applications",
+      "b": "To run the stop script",
+      "c": "To halt processes",
+      "d": "To end services"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define an inline frame?",
+    "options": {
+      "a": "<frame>",
+      "b": "<iframe>",
+      "c": "<inline>",
+      "d": "<embed>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm restart' command?",
+    "options": {
+      "a": "To restart applications",
+      "b": "To run the restart script",
+      "c": "To refresh services",
+      "d": "To reload configurations"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control scroll behavior?",
+    "options": {
+      "a": "scroll",
+      "b": "scroll-behavior",
+      "c": "smooth-scroll",
+      "d": "scroll-type"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm shrinkwrap' command?",
+    "options": {
+      "a": "To lock down dependency versions",
+      "b": "To reduce package size",
+      "c": "To compress files",
+      "d": "To optimize installations"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for external content?",
+    "options": {
+      "a": "<object>",
+      "b": "<embed>",
+      "c": "<external>",
+      "d": "<include>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm pack' command?",
+    "options": {
+      "a": "To create a package tarball",
+      "b": "To compress files",
+      "c": "To bundle dependencies",
+      "d": "To prepare for publishing"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control overscroll behavior?",
+    "options": {
+      "a": "overscroll",
+      "b": "overscroll-behavior",
+      "c": "scroll-limit",
+      "d": "scroll-boundary"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm help' command?",
+    "options": {
+      "a": "To get help with npm",
+      "b": "To display documentation",
+      "c": "To find commands",
+      "d": "To show usage"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which HTML element is used to define a parameter for plugins?",
+    "options": {
+      "a": "<parameter>",
+      "b": "<param>",
+      "c": "<option>",
+      "d": "<setting>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm help-search' command?",
+    "options": {
+      "a": "To search help topics",
+      "b": "To find documentation",
+      "c": "To locate commands",
+      "d": "To get answers"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control text selection?",
+    "options": {
+      "a": "select",
+      "b": "user-select",
+      "c": "text-select",
+      "d": "selection"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm view' command?",
+    "options": {
+      "a": "To view package information",
+      "b": "To inspect npm",
+      "c": "To show details",
+      "d": "To display metadata"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a container for interactive content?",
+    "options": {
+      "a": "<interactive>",
+      "b": "<canvas>",
+      "c": "<svg>",
+      "d": "Both b and c"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm search' command?",
+    "options": {
+      "a": "To search for packages",
+      "b": "To find code",
+      "c": "To locate dependencies",
+      "d": "To explore npm"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control hyphenation?",
+    "options": {
+      "a": "hyphenate",
+      "b": "hyphens",
+      "c": "text-hyphen",
+      "d": "word-break"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm list' command?",
+    "options": {
+      "a": "To list installed packages",
+      "b": "To show dependencies",
+      "c": "To display tree",
+      "d": "To view modules"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a container for fallback content?",
+    "options": {
+      "a": "<fallback>",
+      "b": "<noembed>",
+      "c": "<noframes>",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm outdated' command?",
+    "options": {
+      "a": "To check for outdated packages",
+      "b": "To find deprecated code",
+      "c": "To list old versions",
+      "d": "To show unused packages"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control line breaking?",
+    "options": {
+      "a": "line-break",
+      "b": "word-break",
+      "c": "break-word",
+      "d": "Both a and b"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm update' command?",
+    "options": {
+      "a": "To update packages",
+      "b": "To refresh installations",
+      "c": "To upgrade npm",
+      "d": "To check for updates"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a container for alternative content?",
+    "options": {
+      "a": "<alternative>",
+      "b": "<fallback>",
+      "c": "<noscript>",
+      "d": "<noembed>"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm install-test' command?",
+    "options": {
+      "a": "To install and test packages",
+      "b": "To test installations",
+      "c": "To verify dependencies",
+      "d": "To check package health"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control word wrapping?",
+    "options": {
+      "a": "word-wrap",
+      "b": "overflow-wrap",
+      "c": "text-wrap",
+      "d": "Both a and b"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm uninstall' command?",
+    "options": {
+      "a": "To remove packages",
+      "b": "To delete dependencies",
+      "c": "To clean up node_modules",
+      "d": "To uninstall npm"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a container for scriptable content?",
+    "options": {
+      "a": "<script>",
+      "b": "<javascript>",
+      "c": "<code>",
+      "d": "<exec>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm rebuild' command?",
+    "options": {
+      "a": "To rebuild packages",
+      "b": "To recompile dependencies",
+      "c": "To refresh installations",
+      "d": "To fix broken modules"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control text orientation?",
+    "options": {
+      "a": "text-orientation",
+      "b": "writing-mode",
+      "c": "text-direction",
+      "d": "Both a and b"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm prune' command?",
+    "options": {
+      "a": "To remove unused packages",
+      "b": "To clean up node_modules",
+      "c": "To delete extraneous dependencies",
+      "d": "To optimize installations"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for non-scriptable content?",
+    "options": {
+      "a": "<noscript>",
+      "b": "<nojs>",
+      "c": "<fallback>",
+      "d": "<alternative>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm dedupe' command?",
+    "options": {
+      "a": "To reduce duplication",
+      "b": "To optimize dependencies",
+      "c": "To clean up packages",
+      "d": "To minimize installations"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control text rendering?",
+    "options": {
+      "a": "text-rendering",
+      "b": "font-smoothing",
+      "c": "text-quality",
+      "d": "render-mode"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm ping' command?",
+    "options": {
+      "a": "To test npm registry connection",
+      "b": "To check server status",
+      "c": "To verify installations",
+      "d": "To test internet connection"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a template?",
+    "options": {
+      "a": "<template>",
+      "b": "<layout>",
+      "c": "<pattern>",
+      "d": "<blueprint>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm star' command?",
+    "options": {
+      "a": "To mark favorite packages",
+      "b": "To highlight important packages",
+      "c": "To rate packages",
+      "d": "To bookmark packages"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control font feature settings?",
+    "options": {
+      "a": "font-features",
+      "b": "font-variant",
+      "c": "font-feature-settings",
+      "d": "typography"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm stars' command?",
+    "options": {
+      "a": "To view starred packages",
+      "b": "To display package ratings",
+      "c": "To show popular packages",
+      "d": "To count stars"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a slot for shadow DOM?",
+    "options": {
+      "a": "<slot>",
+      "b": "<shadow>",
+      "c": "<placeholder>",
+      "d": "<insert>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm whoami' command?",
+    "options": {
+      "a": "To display npm username",
+      "b": "To identify the user",
+      "c": "To check login status",
+      "d": "To show permissions"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control font variation settings?",
+    "options": {
+      "a": "font-variation",
+      "b": "font-variation-settings",
+      "c": "variable-font",
+      "d": "font-style"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm adduser' command?",
+    "options": {
+      "a": "To create a new user",
+      "b": "To add a collaborator",
+      "c": "To log in or create a user",
+      "d": "To manage users"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a shadow DOM host?",
+    "options": {
+      "a": "<shadow>",
+      "b": "<host>",
+      "c": "<root>",
+      "d": "Any element can be a host"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm logout' command?",
+    "options": {
+      "a": "To log out from npm",
+      "b": "To exit the terminal",
+      "c": "To close sessions",
+      "d": "To remove users"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control font kerning?",
+    "options": {
+      "a": "font-kerning",
+      "b": "letter-spacing",
+      "c": "text-spacing",
+      "d": "word-spacing"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the 'npm token' command?",
+    "options": {
+      "a": "To manage authentication tokens",
+      "b": "To create security tokens",
+      "c": "To generate API keys",
+      "d": "To encrypt data"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for custom elements?",
+    "options": {
+      "a": "<custom>",
+      "b": "<element>",
+      "c": "<web-component>",
+      "d": "Any element can be custom"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm profile' command?",
+    "options": {
+      "a": "To view npm profile",
+      "b": "To create user profiles",
+      "c": "To manage account settings",
+      "d": "To display statistics"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control font ligatures?",
+    "options": {
+      "a": "font-ligatures",
+      "b": "font-variant-ligatures",
+      "c": "text-ligatures",
+      "d": "ligature"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm org' command?",
+    "options": {
+      "a": "To organize packages",
+      "b": "To manage npm organizations",
+      "c": "To create structures",
+      "d": "To sort dependencies"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for web components?",
+    "options": {
+      "a": "<web-component>",
+      "b": "<component>",
+      "c": "<custom-element>",
+      "d": "Any element can contain web components"
+    },
+    "correctAnswer": "d",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm fund' command?",
+    "options": {
+      "a": "To fund open source projects",
+      "b": "To view funding information",
+      "c": "To donate to npm",
+      "d": "To manage finances"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control font size adjustment?",
+    "options": {
+      "a": "font-size-adjust",
+      "b": "font-adjust",
+      "c": "text-size-adjust",
+      "d": "size-adjust"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm ci' command?",
+    "options": {
+      "a": "To clean install dependencies",
+      "b": "To check installations",
+      "c": "To verify packages",
+      "d": "To initialize projects"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for template content?",
+    "options": {
+      "a": "<template>",
+      "b": "<content>",
+      "c": "<slot>",
+      "d": "<fragment>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm shorthands' command?",
+    "options": {
+      "a": "To create shortcuts",
+      "b": "To display command aliases",
+      "c": "To manage abbreviations",
+      "d": "To show brief help"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control font stretch?",
+    "options": {
+      "a": "font-stretch",
+      "b": "font-width",
+      "c": "text-stretch",
+      "d": "stretch"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm bugs' command?",
+    "options": {
+      "a": "To report bugs",
+      "b": "To view package bug reports",
+      "c": "To find errors",
+      "d": "To debug code"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a container for document metadata?",
+    "options": {
+      "a": "<meta>",
+      "b": "<head>",
+      "c": "<header>",
+      "d": "<info>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm owner' command?",
+    "options": {
+      "a": "To claim ownership",
+      "b": "To manage package owners",
+      "c": "To transfer packages",
+      "d": "To verify authors"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control font synthesis?",
+    "options": {
+      "a": "font-synthesis",
+      "b": "font-style",
+      "c": "text-synthesis",
+      "d": "synthesis"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm dist-tag' command?",
+    "options": {
+      "a": "To distribute tags",
+      "b": "To manage distribution tags",
+      "c": "To categorize packages",
+      "d": "To label versions"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for document scripts?",
+    "options": {
+      "a": "<script>",
+      "b": "<javascript>",
+      "c": "<code>",
+      "d": "<js>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm view' command?",
+    "options": {
+      "a": "To display package information",
+      "b": "To inspect npm",
+      "c": "To show details",
+      "d": "To display metadata"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control font variant caps?",
+    "options": {
+      "a": "font-caps",
+      "b": "font-variant-caps",
+      "c": "text-caps",
+      "d": "caps"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm team' command?",
+    "options": {
+      "a": "To manage team members",
+      "b": "To organize groups",
+      "c": "To create teams",
+      "d": "To collaborate"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for document styles?",
+    "options": {
+      "a": "<style>",
+      "b": "<css>",
+      "c": "<stylesheet>",
+      "d": "<design>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm access' command?",
+    "options": {
+      "a": "To control package access",
+      "b": "To manage permissions",
+      "c": "To grant access",
+      "d": "To secure packages"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control font variant numeric?",
+    "options": {
+      "a": "font-numbers",
+      "b": "font-variant-numeric",
+      "c": "text-numbers",
+      "d": "numeric"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm repo' command?",
+    "options": {
+      "a": "To open package repository in browser",
+      "b": "To create repositories",
+      "c": "To manage git repos",
+      "d": "To browse source code"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a container for document title?",
+    "options": {
+      "a": "<title>",
+      "b": "<header>",
+      "c": "<heading>",
+      "d": "<name>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm diff' command?",
+    "options": {
+      "a": "To compare package versions",
+      "b": "To find differences",
+      "c": "To check changes",
+      "d": "To analyze code"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control font variant position?",
+    "options": {
+      "a": "font-position",
+      "b": "font-variant-position",
+      "c": "text-position",
+      "d": "position"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm help' command?",
+    "options": {
+      "a": "To display help information",
+      "b": "To get assistance",
+      "c": "To find documentation",
+      "d": "To show commands"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which HTML element is used to define a container for base URL?",
+    "options": {
+      "a": "<base>",
+      "b": "<url>",
+      "c": "<root>",
+      "d": "<link>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm help-search' command?",
+    "options": {
+      "a": "To search help topics",
+      "b": "To find answers",
+      "c": "To locate documentation",
+      "d": "To get support"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control font variant alternates?",
+    "options": {
+      "a": "font-alternates",
+      "b": "font-variant-alternates",
+      "c": "text-alternates",
+      "d": "alternates"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm config' command?",
+    "options": {
+      "a": "To manage npm configuration",
+      "b": "To set up projects",
+      "c": "To configure settings",
+      "d": "To install configs"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for links?",
+    "options": {
+      "a": "<link>",
+      "b": "<a>",
+      "c": "<href>",
+      "d": "<url>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm cache' command?",
+    "options": {
+      "a": "To manage the npm cache",
+      "b": "To store data",
+      "c": "To clear memory",
+      "d": "To speed up installations"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control font variant east asian?",
+    "options": {
+      "a": "font-east-asian",
+      "b": "font-variant-east-asian",
+      "c": "text-east-asian",
+      "d": "east-asian"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm set' command?",
+    "options": {
+      "a": "To set configuration values",
+      "b": "To define variables",
+      "c": "To assign properties",
+      "d": "To create settings"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for meta information?",
+    "options": {
+      "a": "<meta>",
+      "b": "<info>",
+      "c": "<information>",
+      "d": "<head>"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm get' command?",
+    "options": {
+      "a": "To retrieve configuration values",
+      "b": "To fetch packages",
+      "c": "To obtain data",
+      "d": "To read settings"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control font variant ligatures?",
+    "options": {
+      "a": "font-ligatures",
+      "b": "font-variant-ligatures",
+      "c": "text-ligatures",
+      "d": "ligature"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm set-script' command?",
+    "options": {
+      "a": "To create package.json scripts",
+      "b": "To define commands",
+      "c": "To set up automation",
+      "d": "To write scripts"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a container for document imports?",
+    "options": {
+      "a": "<import>",
+      "b": "<link>",
+      "c": "<include>",
+      "d": "<use>"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm exec' command?",
+    "options": {
+      "a": "To execute package binaries",
+      "b": "To run commands",
+      "c": "To create executables",
+      "d": "To test scripts"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which CSS property is used to control font variant numeric?",
+    "options": {
+      "a": "font-numbers",
+      "b": "font-variant-numeric",
+      "c": "text-numbers",
+      "d": "numeric"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm run-script' command?",
+    "options": {
+      "a": "To run package scripts",
+      "b": "To execute JavaScript",
+      "c": "To test code",
+      "d": "To automate tasks"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a container for responsive design?",
+    "options": {
+      "a": "<responsive>",
+      "b": "<viewport>",
+      "c": "<meta name='viewport'>",
+      "d": "<screen>"
+    },
+    "correctAnswer": "c",
+    "category": "front end development",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the 'npm test' command?",
+    "options": {
+      "a": "To run tests",
+      "b": "To check code quality",
+      "c": "To verify installations",
+      "d": "To test npm"
+    },
+    "correctAnswer": "a",
+    "category": "front end development",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which CSS property is used to control font variant east asian?",
+    "options": {
+      "a": "font-east-asian",
+      "b": "font-variant-east-asian",
+      "c": "text-east-asian",
+      "d": "east-asian"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'npm start' command?",
+    "options": {
+      "a": "To start applications",
+      "b": "To run the start script",
+      "c": "To launch servers",
+      "d": "To initialize projects"
+    },
+    "correctAnswer": "b",
+    "category": "front end development",
+    "difficulty": "medium"
+  }
+]
