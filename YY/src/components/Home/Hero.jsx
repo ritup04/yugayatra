@@ -142,6 +142,7 @@ const Hero = () => {
               We're not just training individuals; we're crafting future leaders.
             </p>
             <div className="flex gap-4 flex-wrap">
+              <a href="/signup" className="modern-button">Get Started</a>
               <a href="#quiz" className="modern-button">
                 Explore Opportunities
               </a>

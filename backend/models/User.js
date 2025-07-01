@@ -9,6 +9,14 @@ const userSchema = new mongoose.Schema({
   lastTestDate: { type: Date },
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now },
+  password: { type: String, required: true },
+  phone: { type: String },
+  education: { type: String },
+  experience: { type: String },
+  skills: { type: String },
+  message: { type: String },
+  domain: { type: String },
+  avatarUrl: { type: String }, // URL or path to avatar image
 });
 
 userSchema.index({ email: 1 });

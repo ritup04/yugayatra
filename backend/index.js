@@ -8,6 +8,10 @@ import Razorpay from 'razorpay';
 import crypto from 'crypto';
 import Question from './models/Question.js';
 import User from './models/User.js';
+import bcrypt from 'bcryptjs';
+import jwt from 'jsonwebtoken';
+import multer from 'multer';
+import path from 'path';
 
 dotenv.config();
 
@@ -31,6 +35,21 @@ mongoose.connect(MONGO_URI, {
 }).catch((err) => {
   console.error('MongoDB connection error:', err);
 });
+
+// Multer setup for avatar uploads
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, 'uploads/avatars');
+  },
+  filename: function (req, file, cb) {
+    const ext = path.extname(file.originalname);
+    cb(null, `${Date.now()}-${Math.round(Math.random()*1e9)}${ext}`);
+  }
+});
+const upload = multer({ storage });
+
+// Serve avatars statically
+app.use('/uploads/avatars', express.static('uploads/avatars'));
 
 app.post('/api/internships', async (req, res) => {
   try {
@@ -408,19 +427,30 @@ app.get('/api/user/:email', async (req, res) => {
 });
 
 // Create or update user profile
-app.post('/api/user', async (req, res) => {
+app.post('/api/user', upload.single('avatar'), async (req, res) => {
   try {
-    const { name, email } = req.body;
+    const { name, email, phone, education, experience, skills, message, domain } = req.body;
     if (!name || !email) {
       return res.status(400).json({ success: false, message: 'Name and email are required' });
     }
     let user = await User.findOne({ email });
+    let avatarUrl = user && user.avatarUrl;
+    if (req.file) {
+      avatarUrl = `/uploads/avatars/${req.file.filename}`;
+    }
     if (user) {
       user.name = name;
+      user.phone = phone;
+      user.education = education;
+      user.experience = experience;
+      user.skills = skills;
+      user.message = message;
+      user.domain = domain;
+      if (avatarUrl) user.avatarUrl = avatarUrl;
       user.updatedAt = new Date();
       await user.save();
     } else {
-      user = new User({ name, email });
+      user = new User({ name, email, phone, education, experience, skills, message, domain, avatarUrl });
       await user.save();
     }
     res.json({ success: true, user });
@@ -455,6 +485,48 @@ app.get('/api/user/:email/results', async (req, res) => {
     res.json({ success: true, results });
   } catch (err) {
     res.status(500).json({ success: false, message: 'Error fetching test results', error: err.message });
+  }
+});
+
+// Auth: Sign Up
+app.post('/api/auth/signup', async (req, res) => {
+  try {
+    const { name, email, password } = req.body;
+    if (!name || !email || !password) {
+      return res.status(400).json({ success: false, message: 'Name, email, and password are required' });
+    }
+    const existing = await User.findOne({ email });
+    if (existing) {
+      return res.status(400).json({ success: false, message: 'User already exists' });
+    }
+    const hashedPassword = await bcrypt.hash(password, 10);
+    const user = new User({ name, email, password: hashedPassword });
+    await user.save();
+    res.json({ success: true, message: 'User registered successfully' });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Error signing up', error: err.message });
+  }
+});
+
+// Auth: Sign In
+app.post('/api/auth/login', async (req, res) => {
+  try {
+    const { email, password } = req.body;
+    if (!email || !password) {
+      return res.status(400).json({ success: false, message: 'Email and password are required' });
+    }
+    const user = await User.findOne({ email });
+    if (!user) {
+      return res.status(400).json({ success: false, message: 'User not found' });
+    }
+    const isMatch = await bcrypt.compare(password, user.password);
+    if (!isMatch) {
+      return res.status(400).json({ success: false, message: 'Invalid credentials' });
+    }
+    const token = jwt.sign({ userId: user._id, email: user.email }, process.env.JWT_SECRET || 'devsecret', { expiresIn: '7d' });
+    res.json({ success: true, token, user: { name: user.name, email: user.email } });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Error signing in', error: err.message });
   }
 });
 

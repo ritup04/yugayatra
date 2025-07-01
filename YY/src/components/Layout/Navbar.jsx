@@ -18,6 +18,8 @@ const Navbar = () => {
     message: ''
   });
   const studentEmail = typeof window !== 'undefined' ? localStorage.getItem('studentEmail') : null;
+  const studentName = typeof window !== 'undefined' ? localStorage.getItem('studentName') : null;
+  const navigate = useNavigate();
   
   // Check if we're on the home page
   const isHomePage = location.pathname === '/';
@@ -119,261 +121,61 @@ const Navbar = () => {
       });
   };
 
+  const handleLogout = () => {
+    localStorage.removeItem('studentEmail');
+    localStorage.removeItem('studentName');
+    localStorage.removeItem('token');
+    navigate('/');
+  };
+
   return (
-    <nav className={`navbar ${isScrolled ? 'navbar-scrolled' : ''}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
-          <div className="flex items-center">
+    <nav className="w-full bg-[#fcfaf4] border-b border-gray-200 shadow-sm fixed top-0 left-0 z-50">
+      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+        <div className="flex items-center h-16">
+          {/* Logo and company name - stick to the left */}
+          <div className="flex items-center flex-shrink-0 mr-4">
             <Link to="/" className="flex items-center" onClick={() => window.scrollTo(0, 0)}>
               <img
                 src="/vite.svg"
                 alt="YugaYatra Logo"
-                width="40"
-                height="40"
+                width="32"
+                height="32"
                 className="inline-block mr-2 transform hover:scale-105 transition-transform duration-300 object-contain"
-                style={{ clipPath: 'circle(45%)' }}  // This will crop the logo into a circle
+                style={{ clipPath: 'circle(45%)' }}
               />
-              <span className="text-xl font-bold text-gradient">YugaYatra</span>
+              <span className="text-lg font-bold text-gradient align-middle">YugaYatra</span>
             </Link>
           </div>
-
-          {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8">
-            {navLinks.map((link, index) => (
-              link.href.startsWith('#') ? (
-                <a
-                  key={index}
-                  href={link.href}
-                  className="text-rich-black hover:text-lavish-gold transition-colors duration-300 font-medium"
-                >
-                  {link.title}
-                </a>
-              ) : link.href.includes('#') ? (
-                <a
-                  key={index}
-                  href={link.href}
-                  className="text-rich-black hover:text-lavish-gold transition-colors duration-300 font-medium"
-                  onClick={() => window.scrollTo(0, 0)}
-                >
-                  {link.title}
-                </a>
-              ) : (
-                <Link
-                  key={index}
-                  to={link.href}
-                  className="text-rich-black hover:text-lavish-gold transition-colors duration-300 font-medium"
-                >
-                  {link.title}
+          {/* Centered nav links */}
+          <div className="flex-1 flex justify-center">
+            <ul className="flex gap-4 text-base font-medium text-rich-black">
+              {navLinks.map((link, index) => (
+                link.href.startsWith('#') ? (
+                  <a key={index} href={link.href} className="hover:text-lavish-gold transition-colors duration-200">{link.title}</a>
+                ) : link.href.includes('#') ? (
+                  <a key={index} href={link.href} className="hover:text-lavish-gold transition-colors duration-200">{link.title}</a>
+                ) : (
+                  <Link key={index} to={link.href} className="hover:text-lavish-gold transition-colors duration-200">{link.title}</Link>
+                )
+              ))}
+            </ul>
+          </div>
+          {/* Right side buttons */}
+          <div className="flex items-center gap-2 ml-auto">
+            <Link to="/internship-application" className="bg-gradient-to-r from-lavish-gold to-yellow-100 px-5 py-2 rounded-md font-semibold text-base shadow-sm hover:from-yellow-400 hover:to-yellow-200 transition whitespace-nowrap border border-yellow-300">Apply for Internship</Link>
+            {studentEmail ? (
+              <>
+                <Link to="/profile" className="flex items-center justify-center w-10 h-10 rounded-full bg-lavish-gold text-white font-bold text-lg ml-2 hover:scale-105 transition-transform" title="Profile">
+                  {studentName ? studentName.charAt(0).toUpperCase() : <span className="material-icons">person</span>}
                 </Link>
-              )
-            ))}
-            <Link to="/internship-application" className="modern-button">
-              Apply for Internship
-            </Link>
-            <Link to="/admin" className="text-sm bg-gray-800 text-white px-3 py-1 rounded-lg hover:bg-gray-700 transition-colors duration-300">
-              Admin
-            </Link>
-            {studentEmail && (
-              <Link to="/profile" className="text-rich-black hover:text-lavish-gold transition-colors duration-300 font-medium">
-                Profile
-              </Link>
+              </>
+            ) : (
+              <Link to="/signin" className="px-5 py-2 border border-lavish-gold rounded-md font-semibold text-base text-lavish-gold bg-white hover:bg-lavish-gold hover:text-white transition-colors duration-200 shadow-sm whitespace-nowrap">Sign In</Link>
             )}
-          </div>
-
-          {/* Mobile Menu Button */}
-          <div className="md:hidden">
-            <button
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-rich-black focus:outline-none"
-            >
-              {isMobileMenuOpen ? (
-                <XMarkIcon className="h-6 w-6" />
-              ) : (
-                <Bars3Icon className="h-6 w-6" />
-              )}
-            </button>
-          </div>
-        </div>
-
-        {/* Mobile Menu */}
-        <div className={`md:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} py-4 transition-all duration-300 ease-in-out`}>
-          <div className="flex flex-col space-y-4 bg-white/80 backdrop-blur-md p-4 rounded-lg">
-            {navLinks.map((link, index) => (
-              link.href.startsWith('#') ? (
-                <a
-                  key={index}
-                  href={link.href}
-                  className="text-rich-black hover:text-lavish-gold transition-colors duration-300 font-medium py-2"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  {link.title}
-                </a>
-              ) : link.href.includes('#') ? (
-                <a
-                  key={index}
-                  href={link.href}
-                  className="text-rich-black hover:text-lavish-gold transition-colors duration-300 font-medium py-2"
-                  onClick={() => {
-                    setIsMobileMenuOpen(false);
-                    window.scrollTo(0, 0);
-                  }}
-                >
-                  {link.title}
-                </a>
-              ) : (
-                <Link
-                  key={index}
-                  to={link.href}
-                  className="text-rich-black hover:text-lavish-gold transition-colors duration-300 font-medium py-2"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  {link.title}
-                </Link>
-              )
-            ))}
-            <Link
-              to="/internship-application"
-              className="modern-button"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Apply for Internship
-            </Link>
-            <Link
-              to="/admin"
-              className="text-sm bg-gray-800 text-white px-3 py-1 rounded-lg hover:bg-gray-700 transition-colors duration-300"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Admin
-            </Link>
-            {studentEmail && (
-              <Link
-                to="/profile"
-                className="text-rich-black hover:text-lavish-gold transition-colors duration-300 font-medium py-2"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Profile
-              </Link>
-            )}
+            <Link to="/admin" className="bg-gray-800 text-white px-4 py-2 rounded-md font-semibold ml-1 whitespace-nowrap text-base hover:bg-gray-700 transition" style={{fontSize: '0.95rem', padding: '0.5rem 1.1rem'}}>Admin</Link>
           </div>
         </div>
       </div>
-
-      {/* Internship Application Form Modal */}
-      {isFormOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm">
-          <div
-            className="bg-gradient-to-br from-white to-gray-100 rounded-2xl shadow-2xl max-w-2xl w-full overflow-hidden relative border border-lavish-gold/20"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="h-24 w-full bg-gradient-to-r from-[#90A959] to-[#788F5A] relative">
-              <h2 className="text-white text-2xl font-bold absolute bottom-6 left-8">Internship Application</h2>
-              <button
-                onClick={() => setIsFormOpen(false)}
-                className="absolute top-4 right-4 w-8 h-8 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center hover:bg-white/40 transition-colors"
-              >
-                <XMarkIcon className="w-5 h-5 text-white" />
-              </button>
-            </div>
-
-            <div className="pt-8 pb-8 px-8">
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-sm font-medium text-rich-black mb-1">Full Name *</label>
-                    <input
-                      type="text"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleInputChange}
-                      required
-                      className="w-full px-4 py-2 bg-white border border-lavish-gold/30 rounded-lg focus:outline-none focus:border-lavish-gold text-sm transition-all duration-300"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-rich-black mb-1">Email *</label>
-                    <input
-                      type="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleInputChange}
-                      required
-                      className="w-full px-4 py-2 bg-white border border-lavish-gold/30 rounded-lg focus:outline-none focus:border-lavish-gold text-sm transition-all duration-300"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label className="block text-sm font-medium text-rich-black mb-1">Phone Number *</label>
-                  <input
-                    type="tel"
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleInputChange}
-                    required
-                    className="w-full px-4 py-2 bg-white border border-lavish-gold/30 rounded-lg focus:outline-none focus:border-lavish-gold text-sm transition-all duration-300"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-sm font-medium text-rich-black mb-1">Education Background *</label>
-                  <input
-                    type="text"
-                    name="education"
-                    value={formData.education}
-                    onChange={handleInputChange}
-                    required
-                    className="w-full px-4 py-2 bg-white border border-lavish-gold/30 rounded-lg focus:outline-none focus:border-lavish-gold text-sm transition-all duration-300"
-                    placeholder="Degree, Institution, Year"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-sm font-medium text-rich-black mb-1">Experience (if any)</label>
-                  <input
-                    type="text"
-                    name="experience"
-                    value={formData.experience}
-                    onChange={handleInputChange}
-                    className="w-full px-4 py-2 bg-white border border-lavish-gold/30 rounded-lg focus:outline-none focus:border-lavish-gold text-sm transition-all duration-300"
-                    placeholder="Previous internships or work experience"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-sm font-medium text-rich-black mb-1">Skills *</label>
-                  <input
-                    type="text"
-                    name="skills"
-                    value={formData.skills}
-                    onChange={handleInputChange}
-                    required
-                    className="w-full px-4 py-2 bg-white border border-lavish-gold/30 rounded-lg focus:outline-none focus:border-lavish-gold text-sm transition-all duration-300"
-                    placeholder="Relevant skills for the internship"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-sm font-medium text-rich-black mb-1">Why do you want to join us?</label>
-                  <textarea
-                    name="message"
-                    value={formData.message}
-                    onChange={handleInputChange}
-                    rows="3"
-                    className="w-full px-4 py-2 bg-white border border-lavish-gold/30 rounded-lg focus:outline-none focus:border-lavish-gold text-sm transition-all duration-300"
-                    placeholder="Tell us why you're interested in interning with us"
-                  ></textarea>
-                </div>
-
-                <div className="flex justify-end mt-6">
-                  <button type="submit" className="modern-button">
-                    Submit Application
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      )}
     </nav>
   );
 };
