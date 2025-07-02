@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ExclamationTriangleIcon } from '@heroicons/react/24/outline';
+import { CheckIcon } from '@heroicons/react/24/solid';
 
 const TEST_DURATION_MINUTES = 30; // Change this for different durations
 const MAX_ATTEMPTS = 5;
@@ -156,7 +157,7 @@ export default function Quiz() {
       const data = await response.json();
 
       if (data.success) {
-        navigate(`/result/${data.resultId}`);
+        navigate(`/result/${data.resultId}`, { replace: true });
       } else {
         setError(data.error || 'Failed to submit test results.');
         setShowScore(false); // Allow retry
@@ -263,77 +264,115 @@ export default function Quiz() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center bg-gray-50 px-4 py-8 mt-24">
-      {/* Progress Bar and Timer */}
-      <div className="w-full max-w-2xl flex items-center justify-between mb-8">
-        <div className="flex-1 mr-4">
-          <div className="text-xs font-semibold text-gray-500 mb-1">Progress</div>
-          <div className="w-full bg-gray-200 rounded-full h-2">
-            <div
-              className="bg-lavish-gold h-2 rounded-full transition-all"
-              style={{ width: `${((current + 1) / questions.length) * 100}%` }}
-            ></div>
+    <div className="min-h-screen flex flex-row items-start bg-gray-50 px-4 py-8 mt-24">
+      {/* Main Quiz Content (left) */}
+      <div className="flex-1 flex flex-col items-center">
+        {/* Progress Bar and Timer */}
+        <div className="w-full max-w-2xl flex items-center justify-between mb-8">
+          <div className="flex-1 mr-4">
+            <div className="text-xs font-semibold text-gray-500 mb-1">Progress</div>
+            <div className="w-full bg-gray-200 rounded-full h-2">
+              <div
+                className="bg-lavish-gold h-2 rounded-full transition-all"
+                style={{ width: `${((current + 1) / questions.length) * 100}%` }}
+              ></div>
+            </div>
+          </div>
+          <div className="text-right">
+            <div className="text-xs font-semibold text-gray-500 mb-1">Time Left</div>
+            <div className="text-lg font-bold text-lavish-gold">{formatTime(timeLeft)}</div>
           </div>
         </div>
-        <div className="text-right">
-          <div className="text-xs font-semibold text-gray-500 mb-1">Time Left</div>
-          <div className="text-lg font-bold text-lavish-gold">{formatTime(timeLeft)}</div>
-        </div>
-      </div>
 
-      {/* Question Card */}
-      <div className="w-full max-w-2xl bg-white rounded-2xl shadow-xl p-8 mb-8">
-        <div className="text-gray-400 text-sm mb-2">Question {current + 1} of {questions.length}</div>
-        <div className="text-lg font-semibold text-rich-black mb-6">{questions[current].question}</div>
-        <div className="space-y-4">
-          {Object.entries(questions[current].options).map(([key, value]) => (
-            <label
-              key={key}
-              className={`flex items-center w-full px-4 py-3 rounded-lg border cursor-pointer transition-all
-                ${selected[current] === key
-                  ? 'bg-lavish-gold/10 border-lavish-gold ring-2 ring-lavish-gold'
-                  : 'bg-gray-50 border-gray-300 hover:bg-yellow-50 hover:border-lavish-gold'}
-              `}
+        {/* Question Card */}
+        <div className="w-full max-w-2xl bg-white rounded-2xl shadow-xl p-8 mb-8">
+          <div className="text-gray-400 text-sm mb-2">Question {current + 1} of {questions.length}</div>
+          <div className="text-lg font-semibold text-rich-black mb-6">{questions[current].question}</div>
+          <div className="space-y-4">
+            {Object.entries(questions[current].options).map(([key, value]) => (
+              <label
+                key={key}
+                className={`flex items-center w-full px-4 py-3 rounded-lg border cursor-pointer transition-all
+                  ${selected[current] === key
+                    ? 'bg-lavish-gold/10 border-lavish-gold ring-2 ring-lavish-gold'
+                    : 'bg-gray-50 border-gray-300 hover:bg-yellow-50 hover:border-lavish-gold'}
+                `}
+              >
+                <input
+                  type="radio"
+                  name={`q${current}`}
+                  value={key}
+                  checked={selected[current] === key}
+                  onChange={() => handleOptionClick(key, current)}
+                  className="form-radio h-5 w-5 text-lavish-gold focus:ring-lavish-gold mr-4"
+                />
+                <span className="text-gray-800 text-base">{value}</span>
+              </label>
+            ))}
+          </div>
+        </div>
+
+        {/* Navigation Buttons */}
+        <div className="w-full max-w-2xl flex justify-between items-center mt-4">
+          <button
+            onClick={handlePrevious}
+            disabled={current === 0}
+            className={`px-8 py-3 rounded-lg font-semibold transition-colors text-lg
+              ${current === 0 ? 'bg-gray-200 text-gray-400 cursor-not-allowed' : 'bg-lavish-gold text-white hover:bg-yellow-600'}`}
+          >
+            Previous
+          </button>
+          {current < questions.length - 1 ? (
+            <button
+              onClick={handleNext}
+              className="px-8 py-3 bg-lavish-gold text-white rounded-lg font-semibold text-lg hover:bg-yellow-600 transition-colors"
             >
-              <input
-                type="radio"
-                name={`q${current}`}
-                value={key}
-                checked={selected[current] === key}
-                onChange={() => handleOptionClick(key, current)}
-                className="form-radio h-5 w-5 text-lavish-gold focus:ring-lavish-gold mr-4"
-              />
-              <span className="text-gray-800 text-base">{value}</span>
-            </label>
-          ))}
+              Next
+            </button>
+          ) : (
+            <button
+              onClick={handleManualSubmit}
+              className="px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors"
+            >
+              Finish
+            </button>
+          )}
         </div>
       </div>
 
-      {/* Navigation Buttons */}
-      <div className="w-full max-w-2xl flex justify-between items-center mt-4">
+      {/* Side Menu (right) */}
+      <div className="ml-8 mt-2 w-56 hidden md:flex flex-col items-center bg-white rounded-2xl shadow-xl p-4 sticky top-32 h-fit">
+        <div className="font-semibold text-gray-700 mb-4 text-lg">Quiz navigation</div>
+        <div className="grid grid-cols-4 gap-2 w-full mb-6">
+          {questions.map((q, idx) => {
+            const isAnswered = selected[idx] !== null && selected[idx] !== undefined;
+            const isCurrent = current === idx;
+            return (
+              <button
+                key={idx}
+                onClick={() => setCurrent(idx)}
+                className={`relative flex flex-col items-center justify-center h-12 w-12 rounded border font-bold text-lg transition-colors
+                  ${isCurrent && !isAnswered ? 'bg-red-500 text-white border-red-600' :
+                    isAnswered ? 'bg-green-500 text-white border-green-600' :
+                    'bg-white text-gray-800 border-gray-300 hover:bg-gray-100'}
+                  ${isCurrent ? 'ring-2 ring-red-400 z-10' : ''}`}
+              >
+                <span>{idx + 1}</span>
+                {isAnswered && (
+                  <span className="absolute bottom-1 right-1 text-white text-base">
+                    ✓
+                  </span>
+                )}
+              </button>
+            );
+          })}
+        </div>
         <button
-          onClick={handlePrevious}
-          disabled={current === 0}
-          className={`px-8 py-3 rounded-lg font-semibold transition-colors text-lg
-            ${current === 0 ? 'bg-gray-200 text-gray-400 cursor-not-allowed' : 'bg-lavish-gold text-white hover:bg-yellow-600'}`}
+          onClick={handleManualSubmit}
+          className="w-full mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors shadow"
         >
-          Previous
+          Submit
         </button>
-        {current < questions.length - 1 ? (
-          <button
-            onClick={handleNext}
-            className="px-8 py-3 bg-lavish-gold text-white rounded-lg font-semibold text-lg hover:bg-yellow-600 transition-colors"
-          >
-            Next
-          </button>
-        ) : (
-          <button
-            onClick={handleManualSubmit}
-            className="px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors"
-          >
-            Finish
-          </button>
-        )}
       </div>
     </div>
   );

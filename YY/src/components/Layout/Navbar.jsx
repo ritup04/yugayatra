@@ -128,6 +128,15 @@ const Navbar = () => {
     navigate('/');
   };
 
+  // Hide 'Apply for Internship' on all internship/test-related pages
+  const hideInternshipButton = [
+    '/internship-application',
+    '/test-terms',
+    '/payment',
+    '/test',
+    '/quiz'
+  ].includes(location.pathname) || /^\/result\//.test(location.pathname);
+
   return (
     <nav className="w-full bg-[#fcfaf4] border-b border-gray-200 shadow-sm fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -162,7 +171,9 @@ const Navbar = () => {
           </div>
           {/* Right side buttons */}
           <div className="flex items-center gap-2 ml-auto">
-            <Link to="/internship-application" className="bg-gradient-to-r from-lavish-gold to-yellow-100 px-5 py-2 rounded-md font-semibold text-base shadow-sm hover:from-yellow-400 hover:to-yellow-200 transition whitespace-nowrap border border-yellow-300">Apply for Internship</Link>
+            {!hideInternshipButton && (
+              <Link to="/internship-application" className="bg-gradient-to-r from-lavish-gold to-yellow-100 px-5 py-2 rounded-md font-semibold text-base shadow-sm hover:from-yellow-400 hover:to-yellow-200 transition whitespace-nowrap border border-yellow-300">Apply for Internship</Link>
+            )}
             {studentEmail ? (
               <>
                 <Link to="/profile" className="flex items-center justify-center w-10 h-10 rounded-full bg-lavish-gold text-white font-bold text-lg ml-2 hover:scale-105 transition-transform" title="Profile">
@@ -172,7 +183,6 @@ const Navbar = () => {
             ) : (
               <Link to="/signin" className="px-5 py-2 border border-lavish-gold rounded-md font-semibold text-base text-lavish-gold bg-white hover:bg-lavish-gold hover:text-white transition-colors duration-200 shadow-sm whitespace-nowrap">Sign In</Link>
             )}
-            <Link to="/admin" className="bg-gray-800 text-white px-4 py-2 rounded-md font-semibold ml-1 whitespace-nowrap text-base hover:bg-gray-700 transition" style={{fontSize: '0.95rem', padding: '0.5rem 1.1rem'}}>Admin</Link>
           </div>
         </div>
       </div>

@@ -27,6 +27,10 @@ const razorpay = new Razorpay({
   key_secret: process.env.RAZORPAY_KEY_SECRET
 });
 
+const ADMIN_USERNAME = process.env.ADMIN_USERNAME || 'admin';
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'yourStrongPassword';
+const ADMIN_JWT_SECRET = process.env.ADMIN_JWT_SECRET || 'supersecretkey';
+
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -319,6 +323,39 @@ app.post('/api/test-results', async (req, res) => {
     });
   }
 });
+
+// Admin login endpoint
+app.post('/api/admin/login', (req, res) => {
+  const { username, password } = req.body;
+  if (username === ADMIN_USERNAME && password === ADMIN_PASSWORD) {
+    // Create a JWT token
+    const token = jwt.sign({ admin: true }, ADMIN_JWT_SECRET, { expiresIn: '2h' });
+    return res.json({ success: true, token });
+  }
+  res.status(401).json({ success: false, message: 'Invalid credentials' });
+});
+
+// Middleware to protect admin routes
+function requireAdminAuth(req, res, next) {
+  const authHeader = req.headers.authorization;
+  if (!authHeader) return res.status(401).json({ success: false, message: 'No token provided' });
+  const token = authHeader.split(' ')[1];
+  try {
+    const decoded = jwt.verify(token, ADMIN_JWT_SECRET);
+    if (decoded.admin) return next();
+    return res.status(403).json({ success: false, message: 'Forbidden' });
+  } catch (err) {
+    return res.status(401).json({ success: false, message: 'Invalid token' });
+  }
+}
+
+// Protect test results endpoint
+const originalTestResultsHandler = app._router.stack.find(r => r.route && r.route.path === '/api/test-results' && r.route.methods.get);
+if (originalTestResultsHandler) {
+  const originalHandler = originalTestResultsHandler.route.stack[0].handle;
+  app._router.stack = app._router.stack.filter(r => !(r.route && r.route.path === '/api/test-results' && r.route.methods.get));
+  app.get('/api/test-results', requireAdminAuth, originalHandler);
+}
 
 app.get('/api/test-results', async (req, res) => {
   try {

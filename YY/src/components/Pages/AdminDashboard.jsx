@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 const AdminDashboard = () => {
   const [dashboardData, setDashboardData] = useState({
@@ -205,4 +205,78 @@ const AdminDashboard = () => {
   );
 };
 
-export default AdminDashboard; 
+export default AdminDashboard;
+
+export function AdminTestResults() {
+  const [results, setResults] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState('');
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const token = localStorage.getItem('adminToken');
+    if (!token) {
+      navigate('/admin-signin');
+      return;
+    }
+    fetch('http://localhost:5000/api/test-results', {
+      headers: {
+        Authorization: 'Bearer ' + token
+      }
+    })
+      .then(res => res.json())
+      .then(data => {
+        if (data.success) {
+          setResults(data.results || data.records || []);
+        } else {
+          setError(data.message || 'Failed to fetch results.');
+        }
+        setLoading(false);
+      })
+      .catch(() => {
+        setError('Could not connect to the server.');
+        setLoading(false);
+      });
+  }, [navigate]);
+
+  if (loading) return <div className="p-8">Loading...</div>;
+  if (error) return <div className="p-8 text-red-600">{error}</div>;
+
+  return (
+    <div className="p-8">
+      <h1 className="text-2xl font-bold mb-4">All Test Results</h1>
+      <div className="overflow-x-auto">
+        <table className="min-w-full border">
+          <thead>
+            <tr className="bg-gray-100">
+              <th className="p-2 border">Name</th>
+              <th className="p-2 border">Email</th>
+              <th className="p-2 border">Domain</th>
+              <th className="p-2 border">Score</th>
+              <th className="p-2 border">Percentage</th>
+              <th className="p-2 border">Time Taken</th>
+              <th className="p-2 border">Date</th>
+              <th className="p-2 border">View</th>
+            </tr>
+          </thead>
+          <tbody>
+            {results.map((r, i) => (
+              <tr key={r._id || i} className="border-b">
+                <td className="p-2 border">{r.studentName || r.name || '-'}</td>
+                <td className="p-2 border">{r.email}</td>
+                <td className="p-2 border">{r.domain}</td>
+                <td className="p-2 border">{r.score}/{r.totalQuestions}</td>
+                <td className="p-2 border">{r.percentage}%</td>
+                <td className="p-2 border">{Math.floor((r.timeTaken || 0) / 60)}m {(r.timeTaken || 0) % 60}s</td>
+                <td className="p-2 border">{r.completedOn ? new Date(r.completedOn).toLocaleString() : '-'}</td>
+                <td className="p-2 border">
+                  <Link to={`/result/${r._id}`} className="text-blue-600 underline">View</Link>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+} 
