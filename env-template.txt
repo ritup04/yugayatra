@@ -7,6 +7,12 @@ RAZORPAY_KEY_SECRET=XDwEMiSKWNrlU14VkHBusdkq
 # Server Configuration
 PORT=3000
 
+# MongoDB Configuration
+# For local MongoDB:
+MONGO_URI=mongodb://localhost:27017/yugayatra
+# For MongoDB Atlas (example):
+# MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/yugayatra?retryWrites=true&w=majority
+
 # For production, replace with your live Razorpay keys:
 # RAZORPAY_KEY_ID=rzp_live_your_live_key_id
 # RAZORPAY_KEY_SECRET=your_live_secret_key_here 

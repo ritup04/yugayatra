@@ -6,4 +6,6 @@ backend/.env
 YY/node_modules/
 YY/.env
 
+node_modules/
+
 
