@@ -23,17 +23,9 @@ export default function Quiz() {
 
   useEffect(() => {
     const initializeQuiz = async () => {
-      // 1. Check for payment
-      const paymentSuccess = localStorage.getItem('paymentSuccess');
-      if (!paymentSuccess) {
-        setError('Payment has not been completed.');
-        setIsLoading(false);
-        return;
-      }
-      setHasPayment(true);
-
-      // 2. Fetch user's attempt history
+      // 1. Fetch user's attempt history and payment status
       const studentEmail = localStorage.getItem('studentEmail') || 'test@yugayatra.com';
+      let paymentStatus = 'Not Paid';
       try {
         const attemptsRes = await fetch(`http://localhost:5000/api/attempts/${encodeURIComponent(studentEmail)}`);
         const attemptsData = await attemptsRes.json();
@@ -44,6 +36,7 @@ export default function Quiz() {
             return;
           }
           setAttemptsInfo(attemptsData);
+          paymentStatus = attemptsData.paymentStatus;
         } else {
           throw new Error(attemptsData.message || 'Failed to fetch attempts.');
         }
@@ -52,20 +45,22 @@ export default function Quiz() {
         setIsLoading(false);
         return;
       }
-      
-      // 3. Fetch questions
+      if (paymentStatus !== 'Paid') {
+        setError('Payment has not been completed.');
+        setIsLoading(false);
+        return;
+      }
+      setHasPayment(true);
+      // 2. Fetch questions
       const domain = localStorage.getItem('testDomain');
-      console.log('Selected domain for quiz:', domain);
       if (!domain) {
         setError('No domain selected. Please go back and select a domain.');
         setIsLoading(false);
         return;
       }
-
       try {
         const questionsRes = await fetch(`http://localhost:5000/api/test/questions?domain=${encodeURIComponent(domain)}`);
         const questionsData = await questionsRes.json();
-        console.log('Questions API response:', questionsData);
         if (questionsData.success && questionsData.questions.length > 0) {
           setQuestions(questionsData.questions);
           setSelected(new Array(questionsData.questions.length).fill(null));
@@ -79,7 +74,6 @@ export default function Quiz() {
         setIsLoading(false);
       }
     };
-
     initializeQuiz();
   }, [navigate]);
 
@@ -351,18 +345,14 @@ export default function Quiz() {
               <button
                 key={idx}
                 onClick={() => setCurrent(idx)}
-                className={`relative flex flex-col items-center justify-center h-12 w-12 rounded border font-bold text-lg transition-colors
-                  ${isCurrent && !isAnswered ? 'bg-red-500 text-white border-red-600' :
-                    isAnswered ? 'bg-green-500 text-white border-green-600' :
-                    'bg-white text-gray-800 border-gray-300 hover:bg-gray-100'}
-                  ${isCurrent ? 'ring-2 ring-red-400 z-10' : ''}`}
+                className={`relative flex flex-col items-center justify-center h-11 w-11 rounded-lg border font-semibold text-base transition-all duration-200
+                  ${isCurrent ? 'border-2 border-yellow-500 ring-2 ring-yellow-200 bg-yellow-50 text-yellow-900 shadow-lg' :
+                    isAnswered ? 'bg-yellow-100 text-yellow-800 border-yellow-200' :
+                    'bg-white text-gray-500 border-gray-300 hover:bg-yellow-50'}
+                  hover:scale-105 focus:scale-105 active:scale-95`}
+                style={{ boxShadow: isCurrent ? '0 2px 8px 0 rgba(227,178,60,0.10)' : undefined }}
               >
                 <span>{idx + 1}</span>
-                {isAnswered && (
-                  <span className="absolute bottom-1 right-1 text-white text-base">
-                    ✓
-                  </span>
-                )}
               </button>
             );
           })}
@@ -377,3 +367,12 @@ export default function Quiz() {
     </div>
   );
 }
+
+<style>
+  {`
+  body { background: #fcfaf4; }
+  .quiz-main-bg { background: linear-gradient(135deg, #fffbe6 0%, #fcfaf4 60%, #f7e9c2 100%); }
+  .quiz-card { box-shadow: 0 4px 32px 0 rgba(227,178,60,0.10); }
+  .quiz-nav-btn { transition: all 0.2s cubic-bezier(.4,0,.2,1); }
+  `}
+</style>

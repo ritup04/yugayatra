@@ -204,6 +204,10 @@ app.post('/api/test/submit', async (req, res) => {
     } else {
       user.attemptsUsed = (user.attemptsUsed || 0) + 1;
       user.lastTestDate = new Date();
+      // If user has reached 5 attempts, reset hasPaid to false
+      if (user.attemptsUsed >= 5) {
+        user.hasPaid = false;
+      }
     }
     await user.save();
 
@@ -455,12 +459,15 @@ app.get('/api/attempts/:email', async (req, res) => {
 
     const attemptsUsed = await TestResult.countDocuments({ email: email });
     const remainingAttempts = Math.max(0, totalAttempts - attemptsUsed);
+    const user = await User.findOne({ email });
+    const paymentStatus = user && user.hasPaid ? 'Paid' : 'Not Paid';
     
     res.json({
       success: true,
       attemptsUsed,
       totalAttempts,
-      remainingAttempts
+      remainingAttempts,
+      paymentStatus
     });
   } catch (err) {
     console.error('Error fetching attempts:', err);

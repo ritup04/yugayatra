@@ -12,15 +12,7 @@ export default function Test() {
   const [attemptsLoading, setAttemptsLoading] = useState(true);
 
   useEffect(() => {
-    // Check if payment was successful
-    const paymentSuccess = localStorage.getItem('paymentSuccess');
-    const paymentOrderId = localStorage.getItem('paymentOrderId');
-    
-    if (paymentSuccess === 'true' && paymentOrderId) {
-      setHasPayment(true);
-      // Fetch attempts for the user's email
-      fetchAttempts();
-    }
+    fetchAttempts();
     setIsLoading(false);
   }, []);
 
@@ -29,26 +21,26 @@ export default function Test() {
       const studentEmail = localStorage.getItem('studentEmail') || 'test@yugayatra.com';
       const response = await fetch(`http://localhost:5000/api/attempts/${encodeURIComponent(studentEmail)}`);
       const data = await response.json();
-      
       if (data.success) {
         setAttemptsInfo(data);
+        setHasPayment(data.paymentStatus === 'Paid');
       } else {
-        console.error('Failed to fetch attempts:', data.message);
-        // Set default values if fetch fails
         setAttemptsInfo({
           attemptsUsed: 0,
           totalAttempts: 5,
-          remainingAttempts: 5
+          remainingAttempts: 5,
+          paymentStatus: 'Not Paid'
         });
+        setHasPayment(false);
       }
     } catch (error) {
-      console.error('Error fetching attempts:', error);
-      // Set default values if fetch fails
       setAttemptsInfo({
         attemptsUsed: 0,
         totalAttempts: 5,
-        remainingAttempts: 5
+        remainingAttempts: 5,
+        paymentStatus: 'Not Paid'
       });
+      setHasPayment(false);
     } finally {
       setAttemptsLoading(false);
     }
