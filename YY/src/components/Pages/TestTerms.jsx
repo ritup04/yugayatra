@@ -19,7 +19,7 @@ export default function TestTerms() {
         <div className="flex justify-end gap-4 mt-6">
           <button
             className="px-6 py-2 bg-gray-200 text-rich-black rounded-lg font-semibold hover:bg-gray-300 transition"
-            onClick={() => navigate(-1)}
+            onClick={() => navigate('/')}
           >
             Cancel
           </button>

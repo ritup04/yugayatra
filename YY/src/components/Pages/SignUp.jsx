@@ -78,8 +78,8 @@ export default function SignUp() {
       });
       const data = await res.json();
       if (data.success) {
-        setSuccess('Registration successful! Please sign in.');
-        setTimeout(() => navigate('/signin'), 1500);
+        setSuccess('Registration successful! Please verify your email.');
+        setTimeout(() => navigate('/2fa', { state: { email: form.email } }), 1500);
       } else {
         setError(data.message || 'Sign up failed');
       }
@@ -103,20 +103,21 @@ export default function SignUp() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               {/* Name & Email */}
               <div>
-                <label className="block text-sm mb-1">Full Name <span className="text-red-500">*</span></label>
-                <input type="text" name="name" className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white" value={form.name} onChange={handleChange} required />
+                <label htmlFor="name" className="block text-sm mb-1">Full Name <span className="text-red-500">*</span></label>
+                <input id="name" type="text" name="name" className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white" value={form.name} onChange={handleChange} required />
                 {fieldErrors.name && <p className="text-red-400 text-xs mt-1">{fieldErrors.name}</p>}
               </div>
               <div>
-                <label className="block text-sm mb-1">Email <span className="text-red-500">*</span></label>
-                <input type="email" name="email" className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white" value={form.email} onChange={handleChange} required />
+                <label htmlFor="email" className="block text-sm mb-1">Email <span className="text-red-500">*</span></label>
+                <input id="email" type="email" name="email" className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white" value={form.email} onChange={handleChange} required />
                 {fieldErrors.email && <p className="text-red-400 text-xs mt-1">{fieldErrors.email}</p>}
               </div>
               {/* Password & Confirm */}
               <div>
-                <label className="block text-sm mb-1">Password <span className="text-red-500">*</span></label>
+                <label htmlFor="password" className="block text-sm mb-1">Password <span className="text-red-500">*</span></label>
                 <div className="relative">
                   <input
+                    id="password"
                     type={showPassword ? 'text' : 'password'}
                     name="password"
                     className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white pr-12"
@@ -137,9 +138,10 @@ export default function SignUp() {
                 {fieldErrors.password && <p className="text-red-400 text-xs mt-1">{fieldErrors.password}</p>}
               </div>
               <div>
-                <label className="block text-sm mb-1">Confirm Password <span className="text-red-500">*</span></label>
+                <label htmlFor="confirmPassword" className="block text-sm mb-1">Confirm Password <span className="text-red-500">*</span></label>
                 <div className="relative">
                   <input
+                    id="confirmPassword"
                     type={showConfirmPassword ? 'text' : 'password'}
                     name="confirmPassword"
                     className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white pr-12"
@@ -161,32 +163,32 @@ export default function SignUp() {
               </div>
               {/* Phone & Domain */}
               <div>
-                <label className="block text-sm mb-1">Phone Number <span className="text-red-500">*</span></label>
-                <input type="tel" name="phone" className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white" value={form.phone} onChange={handleChange} required placeholder="e.g., +91 9876543210" />
+                <label htmlFor="phone" className="block text-sm mb-1">Phone Number <span className="text-red-500">*</span></label>
+                <input id="phone" type="tel" name="phone" className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white" value={form.phone} onChange={handleChange} required placeholder="e.g., +91 9876543210" />
                 {fieldErrors.phone && <p className="text-red-400 text-xs mt-1">{fieldErrors.phone}</p>}
               </div>
               <div>
-                <label className="block text-sm mb-1">Domain <span className="text-red-500">*</span></label>
-                <select name="domain" className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white" value={form.domain} onChange={handleChange} required>
+                <label htmlFor="domain" className="block text-sm mb-1">Domain <span className="text-red-500">*</span></label>
+                <select id="domain" name="domain" className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white" value={form.domain} onChange={handleChange} required>
                   {DOMAIN_OPTIONS.map(opt => <option key={opt.value} value={opt.value}>{opt.label}</option>)}
                 </select>
                 {fieldErrors.domain && <p className="text-red-400 text-xs mt-1">{fieldErrors.domain}</p>}
               </div>
               {/* Education full width */}
               <div className="md:col-span-2">
-                <label className="block text-sm mb-1">Educational Details <span className="text-red-500">*</span></label>
-                <input type="text" name="education" className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white" value={form.education} onChange={handleChange} required placeholder="e.g., B.Tech, ABC University" />
+                <label htmlFor="education" className="block text-sm mb-1">Educational Details <span className="text-red-500">*</span></label>
+                <input id="education" type="text" name="education" className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white" value={form.education} onChange={handleChange} required placeholder="e.g., B.Tech, ABC University" />
                 {fieldErrors.education && <p className="text-red-400 text-xs mt-1">{fieldErrors.education}</p>}
               </div>
               {/* Skills & Experience */}
               <div>
-                <label className="block text-sm mb-1">Skills <span className="text-red-500">*</span></label>
-                <input type="text" name="skills" className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white" value={form.skills} onChange={handleChange} required placeholder="e.g., React, Python" />
+                <label htmlFor="skills" className="block text-sm mb-1">Skills <span className="text-red-500">*</span></label>
+                <input id="skills" type="text" name="skills" className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white" value={form.skills} onChange={handleChange} required placeholder="e.g., React, Python" />
                 {fieldErrors.skills && <p className="text-red-400 text-xs mt-1">{fieldErrors.skills}</p>}
               </div>
               <div>
-                <label className="block text-sm mb-1">Experience <span className="text-red-500">*</span></label>
-                <select name="experience" className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white" value={form.experience} onChange={handleChange} required>
+                <label htmlFor="experience" className="block text-sm mb-1">Experience <span className="text-red-500">*</span></label>
+                <select id="experience" name="experience" className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white" value={form.experience} onChange={handleChange} required>
                   <option value="">Select experience</option>
                   <option value="Fresher">Fresher</option>
                   <option value="1-2 years">1-2 years</option>

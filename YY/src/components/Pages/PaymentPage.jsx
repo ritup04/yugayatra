@@ -9,6 +9,9 @@ const PaymentPage = () => {
   const [orderDetails, setOrderDetails] = useState(null);
   const [error, setError] = useState(null);
 
+  const userName = localStorage.getItem('studentName') || '';
+  const userEmail = localStorage.getItem('studentEmail') || '';
+
   useEffect(() => {
     // Load Razorpay script
     const script = document.createElement('script');
@@ -33,8 +36,8 @@ const PaymentPage = () => {
           amount: 500,
           currency: 'INR',
           customerInfo: {
-            name: 'Test User',
-            email: 'test@yugayatra.com',
+            name: userName,
+            email: userEmail,
             purpose: 'YugaYatra Internship Test Fee'
           }
         })
@@ -67,8 +70,8 @@ const PaymentPage = () => {
         await verifyPayment(response);
       },
       prefill: {
-        name: '',
-        email: '',
+        name: userName,
+        email: userEmail,
         contact: ''
       },
       theme: {
@@ -95,7 +98,8 @@ const PaymentPage = () => {
         body: JSON.stringify({
           razorpay_order_id: response.razorpay_order_id,
           razorpay_payment_id: response.razorpay_payment_id,
-          razorpay_signature: response.razorpay_signature
+          razorpay_signature: response.razorpay_signature,
+          email: userEmail
         })
       });
 

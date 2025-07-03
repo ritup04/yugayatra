@@ -98,7 +98,7 @@ export default function SignIn() {
               </div>
             </div>
             <div className="flex justify-between items-center text-sm">
-              <button type="button" className="flex items-center gap-1 text-lavish-gold hover:underline" onClick={() => navigate('/forgot-password')}>
+              <button type="button" className="flex items-center gap-1 text-lavish-gold hover:underline" onClick={() => navigate('/reset-password')}>
                 <FiKey className="inline-block mb-0.5" /> Forgot Password?
               </button>
             </div>

@@ -33,7 +33,6 @@ import './App.css';
 import Contact from './components/Home/Contact';
 import SignUp from './components/Pages/SignUp';
 import SignIn from './components/Pages/SignIn';
-import ForgotPassword from './components/Pages/ForgotPassword';
 import ResetPassword from './components/Pages/ResetPassword';
 import TwoFactorAuth from './components/Pages/TwoFactorAuth';
 import AdminSignIn from './components/Pages/AdminSignIn';
@@ -140,8 +139,7 @@ function AppContent() {
         {/* Auth Pages */}
         <Route path="/signup" element={<SignUp />} />
         <Route path="/signin" element={<SignIn />} />
-        <Route path="/forgot-password" element={<ForgotPassword />} />
-        <Route path="/reset-password/:token" element={<ResetPassword />} />
+        <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/2fa" element={<TwoFactorAuth />} />
       </Routes>
     </>

@@ -251,6 +251,24 @@ app.post('/verify-payment', async (req, res) => {
 
     console.log('Payment verified successfully:', razorpay_payment_id);
 
+    // Extract email from paymentDetails or order notes if not present in req.body
+    let userEmail = req.body.email;
+    if (!userEmail && paymentDetails) {
+      userEmail = paymentDetails.email || (paymentDetails.notes && paymentDetails.notes.customer_email);
+    }
+    if (userEmail) {
+      // Notify main backend to mark user as paid
+      try {
+        await fetch('http://localhost:5000/api/mark-paid', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: userEmail })
+        });
+      } catch (err) {
+        console.error('Error notifying backend to mark user as paid:', err);
+      }
+    }
+
     // Return success response
     res.json({
       success: true,

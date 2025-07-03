@@ -13,6 +13,8 @@ import jwt from 'jsonwebtoken';
 import multer from 'multer';
 import path from 'path';
 import SibApiV3Sdk from 'sib-api-v3-sdk';
+import fs from 'fs';
+import { fileURLToPath } from 'url';
 
 dotenv.config();
 
@@ -38,6 +40,11 @@ const apiKey = brevoClient.authentications['api-key'];
 apiKey.apiKey = process.env.BREVO_API_KEY;
 const brevoTransac = new SibApiV3Sdk.TransactionalEmailsApi();
 const BREVO_SENDER = { email: process.env.BREVO_SENDER_EMAIL, name: process.env.BREVO_SENDER_NAME || 'Student Portal' };
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const paymentLogsFile = path.join(__dirname, '../logs/payments.json');
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
@@ -468,13 +475,14 @@ app.get('/api/attempts/:email', async (req, res) => {
 // Get user profile by email
 app.get('/api/user/:email', async (req, res) => {
   try {
-    const user = await User.findOne({ email: req.params.email });
-    if (!user) {
-      return res.status(404).json({ success: false, message: 'User not found' });
-    }
-    res.json({ success: true, user: { ...user.toObject(), hasPaid: user.hasPaid } });
+    const { email } = req.params;
+    if (!email) return res.status(400).json({ success: false, message: 'Email is required' });
+    const user = await User.findOne({ email });
+    if (!user) return res.status(404).json({ success: false, message: 'User not found' });
+    const { password, verificationCode, resetCode, resetCodeExpires, ...safeUser } = user.toObject();
+    res.json({ success: true, user: { ...safeUser, paymentStatus: user.hasPaid ? 'Paid' : 'Not Paid' } });
   } catch (err) {
-    res.status(500).json({ success: false, message: 'Error fetching user', error: err.message });
+    res.status(500).json({ success: false, message: 'Error checking user', error: err.message });
   }
 });
 
@@ -563,14 +571,20 @@ app.post('/api/auth/signup', async (req, res) => {
     const user = new User({ name, email, password: hashedPassword, phone, education, experience, skills, domain, isVerified: false, verificationCode });
     await user.save();
     // Send code via email
-    await brevoTransac.sendTransacEmail({
-      sender: BREVO_SENDER,
-      to: [{ email, name }],
-      subject: 'Your Student Portal Verification Code',
-      htmlContent: `<p>Hello ${name},</p><p>Your verification code is: <b>${verificationCode}</b></p><p>Enter this code to complete your registration.</p>`
-    });
+    try {
+      await brevoTransac.sendTransacEmail({
+        sender: BREVO_SENDER,
+        to: [{ email, name }],
+        subject: 'Your Student Portal Verification Code',
+        htmlContent: `<p>Hello ${name},</p><p>Your verification code is: <b>${verificationCode}</b></p><p>Enter this code to complete your registration.</p>`
+      });
+    } catch (emailErr) {
+      console.error('Error sending verification email:', emailErr);
+      return res.status(500).json({ success: false, message: 'Error sending verification email', error: emailErr.message });
+    }
     res.json({ success: true, message: 'Verification code sent to your email', email });
   } catch (err) {
+    console.error('Error in signup endpoint:', err);
     res.status(500).json({ success: false, message: 'Error signing up', error: err.message });
   }
 });
@@ -620,6 +634,127 @@ app.post('/api/auth/login', async (req, res) => {
     res.json({ success: true, token, user: { name: user.name, email: user.email } });
   } catch (err) {
     res.status(500).json({ success: false, message: 'Error signing in', error: err.message });
+  }
+});
+
+// Resend verification code endpoint
+app.post('/api/auth/resend', async (req, res) => {
+  try {
+    const { email } = req.body;
+    if (!email) {
+      return res.status(400).json({ success: false, message: 'Email is required' });
+    }
+    const user = await User.findOne({ email });
+    if (!user) {
+      return res.status(404).json({ success: false, message: 'User not found' });
+    }
+    if (user.isVerified) {
+      return res.status(400).json({ success: false, message: 'User already verified' });
+    }
+    // Generate new code and update user
+    const newCode = generateVerificationCode();
+    user.verificationCode = newCode;
+    await user.save();
+    // Send code via email
+    try {
+      await brevoTransac.sendTransacEmail({
+        sender: BREVO_SENDER,
+        to: [{ email, name: user.name }],
+        subject: 'Your Student Portal Verification Code',
+        htmlContent: `<p>Hello ${user.name},</p><p>Your new verification code is: <b>${newCode}</b></p><p>Enter this code to complete your registration.</p>`
+      });
+    } catch (emailErr) {
+      console.error('Error sending verification email:', emailErr);
+      return res.status(500).json({ success: false, message: 'Error sending verification email', error: emailErr.message });
+    }
+    res.json({ success: true, message: 'Verification code resent to your email' });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Error resending verification code', error: err.message });
+  }
+});
+
+// Request password reset code
+app.post('/api/auth/request-reset-code', async (req, res) => {
+  try {
+    const { email } = req.body;
+    if (!email) return res.status(400).json({ success: false, message: 'Email is required' });
+    const user = await User.findOne({ email });
+    if (!user) return res.status(404).json({ success: false, message: 'User not found' });
+    const resetCode = generateVerificationCode();
+    user.resetCode = resetCode;
+    user.resetCodeExpires = Date.now() + 10 * 60 * 1000; // 10 minutes
+    await user.save();
+    // Send code via email
+    try {
+      await brevoTransac.sendTransacEmail({
+        sender: BREVO_SENDER,
+        to: [{ email, name: user.name }],
+        subject: 'Your Password Reset Code',
+        htmlContent: `<p>Hello ${user.name},</p><p>Your password reset code is: <b>${resetCode}</b></p><p>This code is valid for 10 minutes.</p>`
+      });
+    } catch (emailErr) {
+      return res.status(500).json({ success: false, message: 'Error sending reset code', error: emailErr.message });
+    }
+    res.json({ success: true, message: 'Reset code sent to your email' });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Error requesting reset code', error: err.message });
+  }
+});
+
+// Verify reset code
+app.post('/api/auth/verify-reset-code', async (req, res) => {
+  try {
+    const { email, code } = req.body;
+    if (!email || !code) return res.status(400).json({ success: false, message: 'Email and code are required' });
+    const user = await User.findOne({ email });
+    if (!user) return res.status(404).json({ success: false, message: 'User not found' });
+    if (!user.resetCode || !user.resetCodeExpires || user.resetCodeExpires < Date.now()) {
+      return res.status(400).json({ success: false, message: 'Reset code expired or not found' });
+    }
+    if (user.resetCode !== code) {
+      return res.status(400).json({ success: false, message: 'Invalid reset code' });
+    }
+    res.json({ success: true, message: 'Code verified' });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Error verifying code', error: err.message });
+  }
+});
+
+// Update password after code verification
+app.post('/api/auth/update-password', async (req, res) => {
+  try {
+    const { email, code, password } = req.body;
+    if (!email || !code || !password) return res.status(400).json({ success: false, message: 'Email, code, and password are required' });
+    const user = await User.findOne({ email });
+    if (!user) return res.status(404).json({ success: false, message: 'User not found' });
+    if (!user.resetCode || !user.resetCodeExpires || user.resetCodeExpires < Date.now()) {
+      return res.status(400).json({ success: false, message: 'Reset code expired or not found' });
+    }
+    if (user.resetCode !== code) {
+      return res.status(400).json({ success: false, message: 'Invalid reset code' });
+    }
+    user.password = await bcrypt.hash(password, 10);
+    user.resetCode = undefined;
+    user.resetCodeExpires = undefined;
+    await user.save();
+    res.json({ success: true, message: 'Password updated successfully' });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Error updating password', error: err.message });
+  }
+});
+
+// Mark user as paid
+app.post('/api/mark-paid', async (req, res) => {
+  try {
+    const { email } = req.body;
+    if (!email) return res.status(400).json({ success: false, message: 'Email is required' });
+    const user = await User.findOne({ email });
+    if (!user) return res.status(404).json({ success: false, message: 'User not found' });
+    user.hasPaid = true;
+    await user.save();
+    res.json({ success: true, message: 'User marked as paid' });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Error marking user as paid', error: err.message });
   }
 });
 

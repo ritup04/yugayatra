@@ -20,6 +20,8 @@ const userSchema = new mongoose.Schema({
   hasPaid: { type: Boolean, default: false },
   isVerified: { type: Boolean, default: false },
   verificationCode: { type: String },
+  resetCode: { type: String },
+  resetCodeExpires: { type: Date },
 });
 
 userSchema.index({ email: 1 });

@@ -23,6 +23,7 @@ export default function ForgotPassword() {
       const data = await res.json();
       if (data.success) {
         setMessage('Password reset link sent to your email.');
+        setTimeout(() => navigate('/reset-password'), 1000);
       } else {
         setError(data.message || 'Failed to send reset link.');
       }
@@ -54,7 +55,7 @@ export default function ForgotPassword() {
               className="w-full px-5 py-3 bg-gradient-to-r from-lavish-gold to-yellow-400 text-white rounded-lg font-semibold hover:from-yellow-500 hover:to-yellow-600 transition-all shadow mb-2"
               disabled={loading}
             >
-              {loading ? 'Sending...' : 'Send Reset Link'}
+              {loading ? 'Sending...' : 'Proceed to Reset Password'}
             </button>
             {message && <div className="text-green-600 font-semibold text-center mt-2">{message}</div>}
             {error && <div className="text-red-600 font-semibold text-center mt-2">{error}</div>}

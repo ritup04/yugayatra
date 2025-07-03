@@ -44,7 +44,6 @@ export default function Profile() {
     { value: 'ui/ux design', label: 'UI/UX Design' },
   ];
 
-  const [paymentStatus, setPaymentStatus] = useState('');
   const [animate, setAnimate] = useState(false);
 
   useEffect(() => {
@@ -82,26 +81,9 @@ export default function Profile() {
         if (data.success) setTestResults(data.results);
       } catch {}
     };
-    const fetchPayment = async () => {
-      try {
-        const res = await fetch('http://localhost:5000/payment-logs');
-        const data = await res.json();
-        if (Array.isArray(data)) {
-          const paid = data.find(
-            log => log.customerInfo && log.customerInfo.email === email && log.type === 'PAYMENT_SUCCESS'
-          );
-          setPaymentStatus(paid ? 'Paid' : 'Not Paid');
-        } else {
-          setPaymentStatus('Not Paid');
-        }
-      } catch {
-        setPaymentStatus('Not Paid');
-      }
-    };
     if (email) {
       fetchUser();
       fetchResults();
-      fetchPayment();
       setPaymentSuccess(localStorage.getItem('paymentSuccess') === 'true');
     }
   }, [email]);
@@ -240,10 +222,10 @@ export default function Profile() {
               </div>
               <div className="flex justify-between text-base">
                 <span className="font-semibold text-[#e3b23c]">Payment</span>
-                {paymentStatus === 'Paid' ? (
-                  <span className="text-green-400 font-bold">Paid</span>
+                {user?.paymentStatus === 'Paid' ? (
+                  <span style={{ color: 'green', fontWeight: 'bold', marginLeft: 8 }}>Paid</span>
                 ) : (
-                  <button onClick={handleButtonRipple} className="ripple-btn px-4 py-1 bg-[#e3b23c] text-[#3a2e19] rounded font-semibold text-xs hover:bg-yellow-600 transition flex items-center gap-1 scale-100 hover:scale-105 focus:scale-105 active:scale-95 duration-200"><FiCreditCard />Pay Now</button>
+                  <button onClick={() => navigate('/payment')} className="ripple-btn px-4 py-1 bg-[#e3b23c] text-[#3a2e19] rounded font-semibold text-xs hover:bg-yellow-600 transition flex items-center gap-1 scale-100 hover:scale-105 focus:scale-105 active:scale-95 duration-200"><FiCreditCard />Pay Now</button>
                 )}
               </div>
             </div>
@@ -332,7 +314,7 @@ export default function Profile() {
             <div className="bg-[#fafbfc] rounded-xl shadow p-8 border border-gray-200">
               <h3 className="text-2xl font-extrabold mb-6 text-gray-800 font-serif">Test History</h3>
               {/* Payment or Appear for Test Button */}
-              {!paymentSuccess ? (
+              {!user.hasPaid ? (
                 <div className="mb-6 flex flex-col gap-2">
                   <button
                     className="w-fit px-8 py-3 bg-gradient-to-r from-yellow-500 to-yellow-400 text-white rounded-lg font-semibold hover:from-yellow-600 hover:to-yellow-500 transition-all shadow flex items-center gap-2"
@@ -344,7 +326,7 @@ export default function Profile() {
                   <span className="text-red-600 font-semibold">You need to make the payment first to appear for the test.</span>
                 </div>
               ) : (
-                paymentSuccess && attemptsRemaining >= 1 && attemptsRemaining <= 5 && (
+                user.hasPaid && attemptsRemaining >= 1 && attemptsRemaining <= 5 && (
                   <button
                     className="mb-6 px-10 py-3 bg-gradient-to-r from-yellow-500 to-yellow-400 text-white rounded-lg font-semibold hover:from-yellow-600 hover:to-yellow-500 transition-all shadow flex items-center gap-2"
                     onClick={() => navigate('/test')}

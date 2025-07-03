@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState, useEffect, useRef } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 export default function TwoFactorAuth() {
   const [code, setCode] = useState('');
@@ -7,7 +7,23 @@ export default function TwoFactorAuth() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const [resending, setResending] = useState(false);
+  const [timer, setTimer] = useState(0);
+  const timerRef = useRef();
   const navigate = useNavigate();
+  const location = useLocation();
+  const email = location.state?.email || '';
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+
+  useEffect(() => {
+    if (timer > 0) {
+      timerRef.current = setTimeout(() => setTimer(timer - 1), 1000);
+    }
+    return () => clearTimeout(timerRef.current);
+  }, [timer]);
+
+  useEffect(() => {
+    setTimer(60);
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -15,21 +31,20 @@ export default function TwoFactorAuth() {
     setMessage('');
     setLoading(true);
     try {
-      // Replace with your backend endpoint
-      const res = await fetch('http://localhost:5000/api/auth/verify-2fa', {
+      const res = await fetch(`${API_BASE_URL}/api/auth/verify`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ code }),
+        body: JSON.stringify({ code, email }),
       });
       const data = await res.json();
       if (data.success) {
-        setMessage('Verification successful!');
-        setTimeout(() => navigate('/profile'), 2000);
+        setMessage('Verification successful! Redirecting...');
+        setTimeout(() => navigate('/signin'), 2000);
       } else {
         setError(data.message || 'Invalid code.');
       }
     } catch (err) {
-      setError('Could not verify code.');
+      setError('Could not verify code. Please try again.');
     } finally {
       setLoading(false);
     }
@@ -40,19 +55,20 @@ export default function TwoFactorAuth() {
     setError('');
     setMessage('');
     try {
-      // Replace with your backend endpoint
-      const res = await fetch('http://localhost:5000/api/auth/resend-2fa', {
+      const res = await fetch(`${API_BASE_URL}/api/auth/resend`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
       });
       const data = await res.json();
       if (data.success) {
-        setMessage('Code resent to your email.');
+        setMessage('A new verification code has been sent to your email.');
+        setTimer(60); // Start 1-minute timer
       } else {
         setError(data.message || 'Failed to resend code.');
       }
     } catch (err) {
-      setError('Could not resend code.');
+      setError('Could not resend code. Please try again.');
     } finally {
       setResending(false);
     }
@@ -84,13 +100,17 @@ export default function TwoFactorAuth() {
             {message && <div className="text-green-600 font-semibold text-center mt-2">{message}</div>}
             {error && <div className="text-red-600 font-semibold text-center mt-2">{error}</div>}
           </form>
-          <button
-            className="mt-4 text-lavish-gold font-semibold hover:underline"
-            onClick={handleResend}
-            disabled={resending}
-          >
-            {resending ? 'Resending...' : 'Resend Code'}
-          </button>
+          {timer > 0 ? (
+            <div className="mt-4 text-gray-400 font-semibold">Resend Code available in {timer}s</div>
+          ) : (
+            <button
+              className="mt-4 text-lavish-gold font-semibold hover:underline"
+              onClick={handleResend}
+              disabled={resending}
+            >
+              {resending ? 'Resending...' : 'Resend Code'}
+            </button>
+          )}
         </div>
       </div>
     </div>
