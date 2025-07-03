@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FiUser, FiLock, FiLogIn, FiKey } from 'react-icons/fi';
+import { HiEye, HiEyeSlash } from 'react-icons/hi2';
 
 export default function SignIn() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
@@ -45,56 +47,55 @@ export default function SignIn() {
           {error && <div className="text-red-400 mb-4">{error}</div>}
           <form onSubmit={handleSubmit} className="space-y-6">
             {/* Email Field */}
-            <div className="relative group">
-              <div className="absolute left-0 top-0 h-full flex items-center">
-                <span className="flex items-center justify-center h-12 w-12 rounded-l-xl bg-lavish-gold/20 text-lavish-gold">
-                  <FiUser size={22} />
-                </span>
+            <div className="mb-2">
+              <label htmlFor="login-email" className="block mb-1 text-lg font-semibold text-white">Email</label>
+              <div className="relative group">
+                <div className="absolute left-0 top-0 h-full flex items-center">
+                  <span className="flex items-center justify-center h-12 w-12 rounded-l-xl bg-lavish-gold/20 text-lavish-gold">
+                    <FiUser size={22} />
+                  </span>
+                </div>
+                <input
+                  type="email"
+                  id="login-email"
+                  autoComplete="username"
+                  value={email}
+                  onChange={e => setEmail(e.target.value)}
+                  required
+                  placeholder="Enter your email"
+                  className="w-full pl-14 pr-4 py-3 rounded-xl border border-gray-700 bg-rich-black text-white text-lg focus:border-lavish-gold focus:ring-2 focus:ring-lavish-gold/20 focus:outline-none transition-all duration-300 shadow-lg"
+                />
               </div>
-              <input
-                type="email"
-                id="login-email"
-                autoComplete="username"
-                value={email}
-                onChange={e => setEmail(e.target.value)}
-                required
-                className="w-full pl-14 pr-4 py-3 rounded-xl border border-gray-700 bg-rich-black text-white text-lg placeholder-transparent focus:border-lavish-gold focus:ring-2 focus:ring-lavish-gold/20 focus:outline-none transition-all duration-300 peer shadow-lg"
-              />
-              <label
-                htmlFor="login-email"
-                className={`absolute left-14 top-1/2 -translate-y-1/2 text-lg text-white pointer-events-none transition-all duration-300 bg-rich-black px-1
-                  peer-focus:-top-2 peer-focus:text-base peer-focus:text-lavish-gold peer-focus:bg-rich-black
-                  ${email ? '-top-2 text-base text-lavish-gold bg-rich-black' : ''}`}
-                style={{fontWeight: 700, letterSpacing: '0.01em'}}
-              >
-                Email
-              </label>
             </div>
             {/* Password Field */}
-            <div className="relative group">
-              <div className="absolute left-0 top-0 h-full flex items-center">
-                <span className="flex items-center justify-center h-12 w-12 rounded-l-xl bg-lavish-gold/20 text-lavish-gold">
-                  <FiLock size={22} />
-                </span>
+            <div className="mb-2">
+              <label htmlFor="login-password" className="block mb-1 text-lg font-semibold text-white">Password</label>
+              <div className="relative group">
+                <div className="absolute left-0 top-0 h-full flex items-center">
+                  <span className="flex items-center justify-center h-12 w-12 rounded-l-xl bg-lavish-gold/20 text-lavish-gold">
+                    <FiLock size={22} />
+                  </span>
+                </div>
+                <input
+                  type={showPassword ? 'text' : 'password'}
+                  id="login-password"
+                  autoComplete="current-password"
+                  value={password}
+                  onChange={e => setPassword(e.target.value)}
+                  required
+                  placeholder="Enter your password"
+                  className="w-full pl-14 pr-4 py-3 rounded-xl border border-gray-700 bg-rich-black text-white text-lg focus:border-lavish-gold focus:ring-2 focus:ring-lavish-gold/20 focus:outline-none transition-all duration-300 shadow-lg"
+                />
+                <button
+                  type="button"
+                  tabIndex={-1}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-yellow-500 focus:outline-none"
+                  onClick={() => setShowPassword(v => !v)}
+                  aria-label={showPassword ? 'Hide password' : 'Show password'}
+                >
+                  {showPassword ? <HiEyeSlash size={24} /> : <HiEye size={24} />}
+                </button>
               </div>
-              <input
-                type="password"
-                id="login-password"
-                autoComplete="current-password"
-                value={password}
-                onChange={e => setPassword(e.target.value)}
-                required
-                className="w-full pl-14 pr-4 py-3 rounded-xl border border-gray-700 bg-rich-black text-white text-lg placeholder-transparent focus:border-lavish-gold focus:ring-2 focus:ring-lavish-gold/20 focus:outline-none transition-all duration-300 peer shadow-lg"
-              />
-              <label
-                htmlFor="login-password"
-                className={`absolute left-14 top-1/2 -translate-y-1/2 text-lg text-white pointer-events-none transition-all duration-300 bg-rich-black px-1
-                  peer-focus:-top-2 peer-focus:text-base peer-focus:text-lavish-gold peer-focus:bg-rich-black
-                  ${password ? '-top-2 text-base text-lavish-gold bg-rich-black' : ''}`}
-                style={{fontWeight: 700, letterSpacing: '0.01em'}}
-              >
-                Password
-              </label>
             </div>
             <div className="flex justify-between items-center text-sm">
               <button type="button" className="flex items-center gap-1 text-lavish-gold hover:underline" onClick={() => navigate('/forgot-password')}>

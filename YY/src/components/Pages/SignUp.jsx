@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { HiEye, HiEyeSlash } from 'react-icons/hi2';
 
 const DOMAIN_OPTIONS = [
   { value: '', label: 'Select a domain' },
@@ -33,6 +34,8 @@ export default function SignUp() {
   const [success, setSuccess] = useState('');
   const [loading, setLoading] = useState(false);
   const [fieldErrors, setFieldErrors] = useState({});
+  const [showPassword, setShowPassword] = useState(false);
+  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const navigate = useNavigate();
 
   const validate = () => {
@@ -112,12 +115,48 @@ export default function SignUp() {
               {/* Password & Confirm */}
               <div>
                 <label className="block text-sm mb-1">Password <span className="text-red-500">*</span></label>
-                <input type="password" name="password" className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white" value={form.password} onChange={handleChange} required />
+                <div className="relative">
+                  <input
+                    type={showPassword ? 'text' : 'password'}
+                    name="password"
+                    className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white pr-12"
+                    value={form.password}
+                    onChange={handleChange}
+                    required
+                  />
+                  <button
+                    type="button"
+                    tabIndex={-1}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-yellow-500 focus:outline-none"
+                    onClick={() => setShowPassword(v => !v)}
+                    aria-label={showPassword ? 'Hide password' : 'Show password'}
+                  >
+                    {showPassword ? <HiEyeSlash size={22} /> : <HiEye size={22} />}
+                  </button>
+                </div>
                 {fieldErrors.password && <p className="text-red-400 text-xs mt-1">{fieldErrors.password}</p>}
               </div>
               <div>
                 <label className="block text-sm mb-1">Confirm Password <span className="text-red-500">*</span></label>
-                <input type="password" name="confirmPassword" className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white" value={form.confirmPassword} onChange={handleChange} required />
+                <div className="relative">
+                  <input
+                    type={showConfirmPassword ? 'text' : 'password'}
+                    name="confirmPassword"
+                    className="w-full px-4 py-2 rounded bg-[#23201a] border border-gray-700 focus:border-lavish-gold focus:outline-none text-white pr-12"
+                    value={form.confirmPassword}
+                    onChange={handleChange}
+                    required
+                  />
+                  <button
+                    type="button"
+                    tabIndex={-1}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-yellow-500 focus:outline-none"
+                    onClick={() => setShowConfirmPassword(v => !v)}
+                    aria-label={showConfirmPassword ? 'Hide password' : 'Show password'}
+                  >
+                    {showConfirmPassword ? <HiEyeSlash size={22} /> : <HiEye size={22} />}
+                  </button>
+                </div>
                 {fieldErrors.confirmPassword && <p className="text-red-400 text-xs mt-1">{fieldErrors.confirmPassword}</p>}
               </div>
               {/* Phone & Domain */}

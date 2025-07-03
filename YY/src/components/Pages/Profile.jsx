@@ -331,15 +331,28 @@ export default function Profile() {
           {activeTab === 'history' && (
             <div className="bg-[#fafbfc] rounded-xl shadow p-8 border border-gray-200">
               <h3 className="text-2xl font-extrabold mb-6 text-gray-800 font-serif">Test History</h3>
-              {/* Appear for Test Button */}
-              {paymentSuccess && attemptsRemaining >= 1 && attemptsRemaining <= 5 && (
-                <button
-                  className="mb-6 px-10 py-3 bg-gradient-to-r from-yellow-500 to-yellow-400 text-white rounded-lg font-semibold hover:from-yellow-600 hover:to-yellow-500 transition-all shadow flex items-center gap-2"
-                  onClick={() => navigate('/test')}
-                >
-                  <FiRefreshCw className="inline-block text-white" />
-                  Appear for Test
-                </button>
+              {/* Payment or Appear for Test Button */}
+              {!paymentSuccess ? (
+                <div className="mb-6 flex flex-col gap-2">
+                  <button
+                    className="w-fit px-8 py-3 bg-gradient-to-r from-yellow-500 to-yellow-400 text-white rounded-lg font-semibold hover:from-yellow-600 hover:to-yellow-500 transition-all shadow flex items-center gap-2"
+                    onClick={() => navigate('/payment')}
+                  >
+                    <FiCreditCard className="inline-block text-white" />
+                    Pay Now
+                  </button>
+                  <span className="text-red-600 font-semibold">You need to make the payment first to appear for the test.</span>
+                </div>
+              ) : (
+                paymentSuccess && attemptsRemaining >= 1 && attemptsRemaining <= 5 && (
+                  <button
+                    className="mb-6 px-10 py-3 bg-gradient-to-r from-yellow-500 to-yellow-400 text-white rounded-lg font-semibold hover:from-yellow-600 hover:to-yellow-500 transition-all shadow flex items-center gap-2"
+                    onClick={() => navigate('/test')}
+                  >
+                    <FiRefreshCw className="inline-block text-white" />
+                    Appear for Test
+                  </button>
+                )
               )}
               {testResults.length === 0 ? (
                 <div className="text-gray-500">No test attempts yet.</div>

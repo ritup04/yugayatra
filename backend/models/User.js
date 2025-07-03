@@ -18,6 +18,8 @@ const userSchema = new mongoose.Schema({
   domain: { type: String },
   avatarUrl: { type: String }, // URL or path to avatar image
   hasPaid: { type: Boolean, default: false },
+  isVerified: { type: Boolean, default: false },
+  verificationCode: { type: String },
 });
 
 userSchema.index({ email: 1 });

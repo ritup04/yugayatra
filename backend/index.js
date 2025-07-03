@@ -12,6 +12,7 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import multer from 'multer';
 import path from 'path';
+import SibApiV3Sdk from 'sib-api-v3-sdk';
 
 dotenv.config();
 
@@ -30,6 +31,13 @@ const razorpay = new Razorpay({
 const ADMIN_USERNAME = process.env.ADMIN_USERNAME || 'admin';
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'yourStrongPassword';
 const ADMIN_JWT_SECRET = process.env.ADMIN_JWT_SECRET || 'supersecretkey';
+
+// Brevo (Sendinblue) setup
+const brevoClient = SibApiV3Sdk.ApiClient.instance;
+const apiKey = brevoClient.authentications['api-key'];
+apiKey.apiKey = process.env.BREVO_API_KEY;
+const brevoTransac = new SibApiV3Sdk.TransactionalEmailsApi();
+const BREVO_SENDER = { email: process.env.BREVO_SENDER_EMAIL, name: process.env.BREVO_SENDER_NAME || 'Student Portal' };
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
@@ -532,7 +540,12 @@ app.get('/api/user/:email/results', async (req, res) => {
   }
 });
 
-// Auth: Sign Up
+// Helper: Generate 6-digit code
+function generateVerificationCode() {
+  return Math.floor(100000 + Math.random() * 900000).toString();
+}
+
+// Auth: Sign Up (with 2FA email)
 app.post('/api/auth/signup', async (req, res) => {
   try {
     const { name, email, password, phone, education, experience, skills, domain } = req.body;
@@ -544,11 +557,47 @@ app.post('/api/auth/signup', async (req, res) => {
       return res.status(400).json({ success: false, message: 'User already exists' });
     }
     const hashedPassword = await bcrypt.hash(password, 10);
-    const user = new User({ name, email, password: hashedPassword, phone, education, experience, skills, domain });
+    // Generate verification code
+    const verificationCode = generateVerificationCode();
+    // Save user with code and unverified status
+    const user = new User({ name, email, password: hashedPassword, phone, education, experience, skills, domain, isVerified: false, verificationCode });
     await user.save();
-    res.json({ success: true, message: 'User registered successfully' });
+    // Send code via email
+    await brevoTransac.sendTransacEmail({
+      sender: BREVO_SENDER,
+      to: [{ email, name }],
+      subject: 'Your Student Portal Verification Code',
+      htmlContent: `<p>Hello ${name},</p><p>Your verification code is: <b>${verificationCode}</b></p><p>Enter this code to complete your registration.</p>`
+    });
+    res.json({ success: true, message: 'Verification code sent to your email', email });
   } catch (err) {
     res.status(500).json({ success: false, message: 'Error signing up', error: err.message });
+  }
+});
+
+// Verify code endpoint
+app.post('/api/auth/verify', async (req, res) => {
+  try {
+    const { email: verifyEmail, code } = req.body;
+    if (!verifyEmail || !code) {
+      return res.status(400).json({ success: false, message: 'Email and code are required' });
+    }
+    const user = await User.findOne({ email: verifyEmail });
+    if (!user) {
+      return res.status(404).json({ success: false, message: 'User not found' });
+    }
+    if (user.isVerified) {
+      return res.status(400).json({ success: false, message: 'User already verified' });
+    }
+    if (user.verificationCode !== code) {
+      return res.status(400).json({ success: false, message: 'Invalid verification code' });
+    }
+    user.isVerified = true;
+    user.verificationCode = undefined;
+    await user.save();
+    res.json({ success: true, message: 'Email verified successfully' });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Verification failed', error: err.message });
   }
 });
 
