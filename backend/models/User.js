@@ -17,6 +17,7 @@ const userSchema = new mongoose.Schema({
   message: { type: String },
   domain: { type: String },
   avatarUrl: { type: String }, // URL or path to avatar image
+  hasPaid: { type: Boolean, default: false },
 });
 
 userSchema.index({ email: 1 });

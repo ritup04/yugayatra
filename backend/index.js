@@ -237,7 +237,7 @@ app.post('/create-order', async (req, res) => {
 
 app.post('/verify-payment', async (req, res) => {
   try {
-    const { razorpay_order_id, razorpay_payment_id, razorpay_signature } = req.body;
+    const { razorpay_order_id, razorpay_payment_id, razorpay_signature, email } = req.body;
     
     if (!razorpay_order_id || !razorpay_payment_id || !razorpay_signature) {
       return res.status(400).json({ success: false, error: 'Missing payment verification parameters' });
@@ -251,7 +251,14 @@ app.post('/verify-payment', async (req, res) => {
       .digest('hex');
 
     if (expectedSignature === razorpay_signature) {
-      // Here you would typically save the payment details to your database
+      // Update user payment status if email is provided
+      if (email) {
+        const user = await User.findOne({ email });
+        if (user) {
+          user.hasPaid = true;
+          await user.save();
+        }
+      }
       res.json({ success: true, message: 'Payment verified successfully' });
     } else {
       res.status(400).json({ success: false, error: 'Payment verification failed' });
@@ -457,7 +464,7 @@ app.get('/api/user/:email', async (req, res) => {
     if (!user) {
       return res.status(404).json({ success: false, message: 'User not found' });
     }
-    res.json({ success: true, user });
+    res.json({ success: true, user: { ...user.toObject(), hasPaid: user.hasPaid } });
   } catch (err) {
     res.status(500).json({ success: false, message: 'Error fetching user', error: err.message });
   }
@@ -528,7 +535,7 @@ app.get('/api/user/:email/results', async (req, res) => {
 // Auth: Sign Up
 app.post('/api/auth/signup', async (req, res) => {
   try {
-    const { name, email, password } = req.body;
+    const { name, email, password, phone, education, experience, skills, domain } = req.body;
     if (!name || !email || !password) {
       return res.status(400).json({ success: false, message: 'Name, email, and password are required' });
     }
@@ -537,7 +544,7 @@ app.post('/api/auth/signup', async (req, res) => {
       return res.status(400).json({ success: false, message: 'User already exists' });
     }
     const hashedPassword = await bcrypt.hash(password, 10);
-    const user = new User({ name, email, password: hashedPassword });
+    const user = new User({ name, email, password: hashedPassword, phone, education, experience, skills, domain });
     await user.save();
     res.json({ success: true, message: 'User registered successfully' });
   } catch (err) {
