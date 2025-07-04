@@ -22,7 +22,7 @@ import SiteMap from './components/Pages/SiteMap';
 import AchievementDetail from './components/Pages/AchievementDetail';
 import InternshipForm from './components/Pages/InternshipForm';
 import AdminInternships from './components/Pages/AdminInternships';
-import AdminDashboard, { AdminTestResults } from './components/Pages/AdminDashboard';
+import AdminDashboard from './components/Pages/AdminDashboard';
 import TestTerms from './components/Pages/TestTerms';
 import Test from './components/Pages/Test';
 import Quiz from './components/Pages/Quiz';
@@ -36,6 +36,7 @@ import SignIn from './components/Pages/SignIn';
 import ResetPassword from './components/Pages/ResetPassword';
 import TwoFactorAuth from './components/Pages/TwoFactorAuth';
 import AdminSignIn from './components/Pages/AdminSignIn';
+import AdminProtectedRoute from './components/Pages/AdminProtectedRoute';
 // import TimelineSection from './components/Home/TimelineSection';
 
 // Custom hook for handling animations
@@ -120,9 +121,9 @@ function AppContent() {
         {/* Internship Application Page */}
         <Route path="/internship-application" element={<InternshipForm />} />
         {/* Admin Internship Applications Page */}
-        <Route path="/admin/internships" element={<AdminInternships />} />
-        {/* Admin Dashboard */}
-        <Route path="/admin" element={<AdminTestResults />} />
+        <Route path="/admin" element={<AdminProtectedRoute><AdminDashboard /></AdminProtectedRoute>} />
+        <Route path="/admin/test-results" element={<AdminProtectedRoute><AdminDashboard /></AdminProtectedRoute>} />
+        <Route path="/admin/payment-history" element={<AdminProtectedRoute><AdminDashboard /></AdminProtectedRoute>} />
         <Route path="/admin-signin" element={<AdminSignIn />} />
         {/* Test Terms and Conditions Page */}
         <Route path="/test-terms" element={<TestTerms />} />

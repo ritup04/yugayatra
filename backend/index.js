@@ -765,6 +765,16 @@ app.post('/api/mark-paid', async (req, res) => {
   }
 });
 
+// Add after other user routes
+app.get('/api/users', async (req, res) => {
+  try {
+    const users = await User.find({}, '-password -verificationCode -resetCode -resetCodeExpires');
+    res.json({ success: true, users });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Error fetching users', error: err.message });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 }); 
