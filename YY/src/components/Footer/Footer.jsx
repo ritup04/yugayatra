@@ -67,7 +67,8 @@ const Footer = () => {
               {[
                 { name: 'About Us', href: '/#about' },
                 { name: 'Our Programs', href: '/#programs' },
-                { name: 'Careers', href: '/#services' },  // Changed from contact to services section
+                { name: 'Contact Us', href: '/contact' },
+                { name: 'Careers', href: '/#services' },
                 { name: 'Success Stories', href: '/#alumni' },
                 { name: 'Achievements', href: '/#achievements' },
                 { name: 'Privacy Policy', href: '/privacy-policy' }

@@ -324,14 +324,9 @@ const AchievementDetail = () => {
                 Let's build something amazing together.
               </p>
               <button 
-                onClick={() => {
-                  navigate('/');
-                  setTimeout(() => {
-                    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
-                  }, 100);
-                }} 
+                onClick={() => navigate('/contact')}
                 className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-yellow-600 to-amber-600 text-white font-medium rounded-lg hover:from-yellow-700 hover:to-amber-700 transition-all duration-300 text-lg"
-                >
+              >
                 Contact Us
               </button>
             </motion.div>

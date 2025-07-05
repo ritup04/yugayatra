@@ -179,90 +179,21 @@ const AchievementsSection = () => {
           ))}
         </motion.div>
 
-        {/* Company Info Section - Updated with Golden Gradient and Hover Effect */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          viewport={{ once: true }}
-          className="bg-gradient-to-r from-[#e6c97a] via-[#fffbe6] to-[#e6c97a] rounded-2xl shadow-xl p-12 md:p-16 text-stone-800 transition-all duration-500 cursor-pointer transform hover:scale-[1.02] hover:shadow-2xl border border-amber-300"
-        >
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 text-[#3a2c1a]">YugaYatra Retail <span className="text-[#3a2c1a]/80">(OPC) Private Limited</span></h2>
-            <p className="text-2xl text-[#3a2c1a]/90 font-medium">Your Digital Journey Partner</p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-center mb-12">
-            <div className="bg-white/40 backdrop-blur-sm rounded-2xl p-6 border border-amber-300 hover:bg-white/50 transition-all duration-300">
-              <h4 className="font-bold text-lg mb-2 text-[#3a2c1a]">Incorporation</h4>
-              <p className="text-[#3a2c1a]/80">May 16, 2024</p>
-            </div>
-            <div className="bg-white/40 backdrop-blur-sm rounded-2xl p-6 border border-amber-300 hover:bg-white/50 transition-all duration-300">
-              <h4 className="font-bold text-lg mb-2 text-[#3a2c1a]">Leadership</h4>
-              <p className="text-[#3a2c1a]/80">Debashish Kumar, CEO/Director</p>
-            </div>
-            <div className="bg-white/40 backdrop-blur-sm rounded-2xl p-6 border border-amber-300 hover:bg-white/50 transition-all duration-300">
-              <h4 className="font-bold text-lg mb-2 text-[#3a2c1a]">Location</h4>
-              <p className="text-[#3a2c1a]/80">Bangalore, Karnataka</p>
-            </div>
-          </div>
-
-          <div className="text-center">
-            <p className="text-lg text-[#3a2c1a]/80 max-w-4xl mx-auto leading-relaxed">
-              Specializing in cutting-edge web development and digital marketing solutions, 
-              driving real business impact through innovation and precision. We're not just training individuals; 
-              we're crafting future leaders.
-            </p>
-          </div>
-        </motion.div>
-
-        {/* Call to Action */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.8 }}
-          viewport={{ once: true }}
-          className="text-center mt-16"
-        >
+        {/* Ready to Start Section */}
+        <div className="text-center mt-16">
           <h3 className="text-3xl font-bold text-stone-800 mb-6">Ready to Start Your Digital Journey?</h3>
           <p className="text-stone-600 mb-10 max-w-2xl mx-auto text-lg leading-relaxed">
-            Join us as we continue to achieve new milestones and deliver exceptional digital solutions. 
-            Let's build something amazing together.
+            Join us as we continue to achieve new milestones and deliver exceptional digital solutions. Let's build something amazing together.
           </p>
-          {/* <div className="space-x-4">
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="text-rich-black hover:text-lavish-gold transition-colors duration-300 font-medium-py-2"
-            >
-              Explore Opportunities
-            </motion.button>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-white/80 backdrop-blur-sm text-stone-800 px-10 py-4 rounded-full font-semibold hover:shadow-lg transition-all duration-300 text-lg border-2 border-stone-300 hover:border-amber-400"
-            >
-              Learn More
-            </motion.button>
-          </div> */}
-        </motion.div>
-
-        {/* Company Details - Subtle Section */}
-        {/* <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 1.0 }}
-          viewport={{ once: true }}
-          className="mt-16 flex justify-center"
-        >
-          <div className="bg-white/30 backdrop-blur-sm rounded-lg p-4 inline-flex flex-wrap justify-center gap-x-8 gap-y-2 text-xs text-stone-600">
-            <span>PAN: AABCY8389C</span>
-            <span>UDYAM: KR-03-0421327</span>
-            <span>CIN: U47912KA2024OPC188603</span>
-            <span>FSSAI: 21224007001166</span>
-            <span>TM Application No: 6508313</span>
-          </div>
-        </motion.div> */}
+          <motion.a
+            href="/contact"
+            whileHover={{ scale: 1.07 }}
+            whileTap={{ scale: 0.96 }}
+            className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-yellow-500 via-amber-400 to-yellow-600 text-white font-semibold rounded-full shadow-lg hover:from-yellow-600 hover:to-amber-700 transition-all duration-300 text-lg tracking-wide focus:outline-none focus:ring-4 focus:ring-amber-200"
+          >
+            Contact Us
+          </motion.a>
+        </div>
       </div>
 
       {/* Decorative Elements */}

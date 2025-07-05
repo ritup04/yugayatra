@@ -46,7 +46,7 @@ const SiteMap = () => {
     {
       title: 'Contact',
       links: [
-        { name: 'Contact Us', path: '/#contact' },
+        { name: 'Contact Us', path: '/contact' },
         { name: 'Careers', path: '/careers' },
         { name: 'Apply for Internship', path: '/#programs' },
       ]

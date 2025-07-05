@@ -62,8 +62,8 @@ const Navbar = () => {
   // Define navigation links based on current location
   const navLinks = [
     { title: 'Home', href: isHomePage ? '#' : '/' },
-    { title: 'Services', href: isHomePage ? '#services' : '/#services' },
     { title: 'About', href: isHomePage ? '#about' : '/#about' },
+    { title: 'Services', href: isHomePage ? '#services' : '/#services' },
     { title: 'Blog', href: isHomePage ? '#blog' : '/#blog' },
     { title: 'Achievements', href: isHomePage ? '#achievements' : '/#achievements' },
     { title: 'Alumni', href: isHomePage ? '#alumni' : '/#alumni' },
@@ -140,9 +140,9 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-[#fcfaf4] border-b border-gray-200 shadow-sm fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-        <div className="flex items-center h-16">
-          {/* Logo and company name - stick to the left */}
-          <div className="flex items-center flex-shrink-0 mr-4">
+        <div className="flex items-center h-16 justify-between">
+          {/* Logo and company name - stick to the left, font size slightly increased */}
+          <div className="flex items-center flex-shrink-0 mr-8">
             <Link to="/" className="flex items-center" onClick={() => window.scrollTo(0, 0)}>
               <img
                 src="/vite.svg"
@@ -152,12 +152,12 @@ const Navbar = () => {
                 className="inline-block mr-2 transform hover:scale-105 transition-transform duration-300 object-contain"
                 style={{ clipPath: 'circle(45%)' }}
               />
-              <span className="text-lg font-bold text-gradient align-middle">YugaYatra</span>
+              <span className="text-[1.45rem] font-bold text-gradient align-middle">YugaYatra</span>
             </Link>
           </div>
           {/* Centered nav links */}
           <div className="flex-1 flex justify-center">
-            <ul className="flex gap-4 text-base font-medium text-rich-black">
+            <ul className="flex gap-6 text-base font-medium text-rich-black">
               {navLinks.map((link, index) => (
                 link.href.startsWith('#') ? (
                   <a key={index} href={link.href} className="hover:text-lavish-gold transition-colors duration-200">{link.title}</a>
@@ -169,19 +169,17 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-          {/* Right side buttons */}
-          <div className="flex items-center gap-2 ml-auto">
-            {!hideInternshipButton && (
-              <Link to="/internship-application" className="bg-gradient-to-r from-lavish-gold to-yellow-100 px-5 py-2 rounded-md font-semibold text-base shadow-sm hover:from-yellow-400 hover:to-yellow-200 transition whitespace-nowrap border border-yellow-300">Apply for Internship</Link>
-            )}
+          {/* Sign In/Profile and Admin Panel buttons */}
+          <div className="flex items-center gap-3">
             {studentEmail ? (
-              <>
-                <Link to="/profile" className="flex items-center justify-center w-10 h-10 rounded-full bg-lavish-gold text-white font-bold text-lg ml-2 hover:scale-105 transition-transform" title="Profile">
-                  {studentName ? studentName.charAt(0).toUpperCase() : <span className="material-icons">person</span>}
-                </Link>
-              </>
+              <Link to="/profile" className="flex items-center justify-center w-10 h-10 rounded-full bg-lavish-gold text-white font-bold text-lg ml-2 hover:scale-105 transition-transform" title="Profile">
+                {studentName ? studentName.charAt(0).toUpperCase() : <span className="material-icons">person</span>}
+              </Link>
             ) : (
-              <Link to="/signin" className="px-5 py-2 border border-lavish-gold rounded-md font-semibold text-base text-lavish-gold bg-white hover:bg-lavish-gold hover:text-white transition-colors duration-200 shadow-sm whitespace-nowrap">Sign In</Link>
+              <>
+                <Link to="/signin" className="px-5 py-2 border border-lavish-gold rounded-md font-semibold text-base text-lavish-gold bg-white hover:bg-lavish-gold hover:text-white transition-colors duration-200 shadow-sm whitespace-nowrap">Sign In</Link>
+                <Link to="/admin-signin" className="px-5 py-2 border border-amber-500 rounded-md font-semibold text-base text-amber-600 bg-white hover:bg-amber-500 hover:text-white transition-colors duration-200 shadow-sm whitespace-nowrap ml-2">Admin Panel</Link>
+              </>
             )}
           </div>
         </div>

@@ -9,53 +9,53 @@ const ProjectCard = ({ emoji, title, description, tags, link, keyFeatures, techn
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="group"
+            className="group h-full"
         >
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl overflow-hidden h-full hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl overflow-hidden h-full flex flex-col hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
                 {/* Icon Section with Subtle Color */}
-                <div className="relative h-48 flex items-center justify-center bg-gradient-to-br from-amber-100 to-amber-200">
-                    <div className="text-6xl">{emoji}</div>
-                    <div className="absolute top-4 right-4 flex items-center justify-center w-12 h-12 bg-gradient-to-br from-amber-100 to-amber-200 rounded-xl shadow-lg">
+                <div className="relative h-40 flex items-center justify-center bg-gradient-to-br from-amber-100 to-amber-200">
+                    <div className="text-5xl">{emoji}</div>
+                    <div className="absolute top-4 right-4 flex items-center justify-center w-10 h-10 bg-gradient-to-br from-amber-100 to-amber-200 rounded-xl shadow-lg">
                         <div className="text-stone-600">
-                            <Globe className="w-6 h-6" />
+                            <Globe className="w-5 h-5" />
                         </div>
                     </div>
                 </div>
 
                 {/* Content */}
-                <div className="p-8 space-y-4">
-                    <div className="space-y-3">
-                        <h3 className={`text-xl font-bold text-stone-800 ${titleColor}`}>{title}</h3>
-                        <span className="inline-block text-sm text-amber-700 font-semibold bg-amber-50 px-4 py-2 rounded-full border border-amber-200">
+                <div className="p-6 flex flex-col flex-1 space-y-3">
+                    <div className="space-y-2">
+                        <h3 className={`text-lg font-bold text-stone-800 ${titleColor}`}>{title}</h3>
+                        <span className="inline-block text-xs text-amber-700 font-semibold bg-amber-50 px-3 py-1 rounded-full border border-amber-200">
                             {tags}
                         </span>
                     </div>
                     
-                    <p className="text-stone-600 leading-relaxed text-sm">
+                    <p className="text-stone-600 leading-snug text-xs">
                         {description}
                     </p>
                     
-                    <div className="space-y-3">
+                    <div className="space-y-2 mt-1">
                         <div>
-                            <h4 className="text-sm font-semibold text-stone-700">Key Features:</h4>
-                            <ul className="text-stone-600 text-sm list-disc list-inside">
+                            <h4 className="text-xs font-semibold text-stone-700">Key Features:</h4>
+                            <ul className="text-stone-600 text-xs list-disc list-inside">
                                 {keyFeatures.map((feature, index) => (
                                     <li key={index}>{feature}</li>
                                 ))}
                             </ul>
                         </div>
                         <div>
-                            <h4 className="text-sm font-semibold text-stone-700">Technologies Used:</h4>
-                            <p className="text-stone-600 text-sm">{technologies}</p>
+                            <h4 className="text-xs font-semibold text-stone-700">Technologies Used:</h4>
+                            <p className="text-stone-600 text-xs">{technologies}</p>
                         </div>
                     </div>
-                    
-                    <div className="pt-2">
+                    <div className="flex-1"></div>
+                    <div className="pt-2 mt-auto flex justify-start">
                         <a
                             href={link}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center text-sm font-semibold text-stone-700 bg-stone-100 px-4 py-2 rounded-full border border-stone-200 hover:bg-amber-100 hover:border-amber-400 transition-all duration-300"
+                            className="inline-flex items-center text-xs font-semibold text-stone-700 bg-stone-100 px-3 py-1 rounded-full border border-stone-200 hover:bg-amber-100 hover:border-amber-400 transition-all duration-300"
                         >
                             <Globe className="w-4 h-4 mr-2 text-amber-500" />
                             Visit Website
@@ -220,7 +220,7 @@ const ProjectsSection = () => {
                     className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16"
                 >
                     {projects.map((project, index) => (
-                        <div key={index}>
+                        <div key={index} className="h-full flex">
                             <ProjectCard
                                 emoji={project.emoji}
                                 title={project.title}
@@ -233,21 +233,6 @@ const ProjectsSection = () => {
                             />
                         </div>
                     ))}
-                </motion.div>
-
-                {/* Call to Action */}
-                <motion.div
-                    initial={{ opacity: 0, y: 30 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8, delay: 0.8 }}
-                    viewport={{ once: true }}
-                    className="text-center mt-16"
-                >
-                    <h3 className="text-3xl font-bold text-stone-800 mb-6">Explore Our Work</h3>
-                    <p className="text-stone-600 mb-10 max-w-2xl mx-auto text-lg leading-relaxed">
-                        Dive into our projects and see how we're transforming ideas into impactful digital solutions. 
-                        Let's collaborate to bring your vision to life.
-                    </p>
                 </motion.div>
             </div>
 

@@ -1,8 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaEnvelope, FaGraduationCap } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 const Alumni = () => {
+  const navigate = useNavigate();
   // Alumni data with the provided LinkedIn profiles
   const alumniData = [
     {
@@ -149,14 +151,11 @@ const Alumni = () => {
         <div className="text-center mt-12">
           <motion.a
             onClick={() => {
-              // Scroll to footer which has contact information
-              const footer = document.querySelector('footer');
-              if (footer) {
-                footer.scrollIntoView({ behavior: 'smooth' });
-                // Show a message to the user
-                setTimeout(() => {
-                  alert('Please contact us via email at yugayatra@gmail.com to join our alumni network.');
-                }, 800);
+              const studentEmail = typeof window !== 'undefined' ? localStorage.getItem('studentEmail') : null;
+              if (studentEmail) {
+                navigate('/profile');
+              } else {
+                navigate('/signin');
               }
             }}
             whileHover={{ scale: 1.05 }}
