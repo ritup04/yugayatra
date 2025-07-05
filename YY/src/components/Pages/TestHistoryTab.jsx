@@ -152,6 +152,7 @@ export default function TestHistoryTab({ domainsOverride }) {
               <tr className="bg-yellow-50 text-yellow-900 font-semibold">
                 <th className="p-4 text-left">Name</th>
                 <th className="p-4 text-left">Email</th>
+                <th className="p-4 text-left">Phone</th>
                 <th className="p-4 text-left">Domain</th>
                 <th className="p-4 text-left">Score</th>
                 <th className="p-4 text-left">Percentage</th>
@@ -161,9 +162,9 @@ export default function TestHistoryTab({ domainsOverride }) {
             </thead>
             <tbody>
               {loading ? (
-                <tr><td colSpan={7} className="text-center text-gray-400 py-8">Loading...</td></tr>
+                <tr><td colSpan={8} className="text-center text-gray-400 py-8">Loading...</td></tr>
               ) : filtered.length === 0 ? (
-                <tr><td colSpan={7} className="text-center text-gray-400 py-8">No data available</td></tr>
+                <tr><td colSpan={8} className="text-center text-gray-400 py-8">No data available</td></tr>
               ) : (
                 filtered.map((r, i) => (
                   <tr
@@ -172,6 +173,7 @@ export default function TestHistoryTab({ domainsOverride }) {
                   >
                     <td className="p-4 font-medium text-gray-900">{r.studentName || r.name || '-'}</td>
                     <td className="p-4">{r.email}</td>
+                    <td className="p-4">{r.phone || '-'}</td>
                     <td className="p-4">{r.domain}</td>
                     <td className="p-4">{r.score}/{r.totalQuestions}</td>
                     <td className="p-4">{r.percentage}%</td>

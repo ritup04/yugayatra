@@ -409,13 +409,14 @@
             <th>Date</th>
             <th>Order ID</th>
             <th>Payment ID</th>
+            <th>Phone</th>
             <th>Amount</th>
             <th>Status</th>
             <th>Actions</th>
           </tr>
         </thead>
         <tbody id="paymentsTableBody">
-          <tr><td colspan="6" class="loading">Loading payment data...</td></tr>
+          <tr><td colspan="7" class="loading">Loading payment data...</td></tr>
         </tbody>
       </table>
     </div>
@@ -579,25 +580,28 @@
           dashboardData = data.data;
           
           // Update overview stats
-          document.getElementById('totalPayments').textContent = dashboardData.paymentStats.totalPayments;
-          document.getElementById('totalTests').textContent = dashboardData.testStats.totalTests;
-          document.getElementById('totalApplications').textContent = dashboardData.applicationStats.totalApplications;
-          document.getElementById('totalErrors').textContent = dashboardData.paymentStats.totalErrors;
+          document.getElementById('totalPayments').textContent = dashboardData.paymentStats?.totalPayments || 0;
+          document.getElementById('totalTests').textContent = dashboardData.testStats?.totalTests || 0;
+          document.getElementById('totalApplications').textContent = dashboardData.applicationStats?.totalApplications || 0;
+          document.getElementById('totalErrors').textContent = dashboardData.paymentStats?.totalErrors || 0;
           
           // Update recent activity
-          const activityHtml = dashboardData.recentActivity.map(activity => `
-            <div class="activity-item ${activity.type.includes('SUCCESS') ? 'success' : activity.type.includes('ERROR') ? 'error' : ''}">
-              <div><strong>${activity.type}</strong></div>
+          const recentActivity = dashboardData.recentActivity || [];
+          const activityHtml = recentActivity.map(activity => `
+            <div class="activity-item ${activity.type && activity.type.includes('SUCCESS') ? 'success' : activity.type && activity.type.includes('ERROR') ? 'error' : ''}">
+              <div><strong>${activity.type || 'Unknown'}</strong></div>
               <div>${activity.orderId ? `Order: ${activity.orderId}` : ''} ${activity.paymentId ? `Payment: ${activity.paymentId}` : ''}</div>
               <div class="activity-time">${new Date(activity.timestamp).toLocaleString()}</div>
             </div>
           `).join('');
           
           document.getElementById('recentActivity').innerHTML = activityHtml || '<div class="loading">No recent activity</div>';
+        } else {
+          throw new Error(data.error || 'Failed to load dashboard data');
         }
       } catch (error) {
         console.error('Error loading dashboard data:', error);
-        document.getElementById('recentActivity').innerHTML = '<div class="error">Error loading dashboard data</div>';
+        document.getElementById('recentActivity').innerHTML = '<div class="error">Error loading dashboard data: ' + error.message + '</div>';
       }
     }
 
@@ -611,10 +615,10 @@
           const stats = data.stats;
           
           // Update payment stats
-          document.getElementById('paymentOrders').textContent = stats.totalOrders;
-          document.getElementById('paymentSuccess').textContent = stats.totalPayments;
-          document.getElementById('paymentAmount').textContent = stats.totalAmount;
-          document.getElementById('paymentErrors').textContent = stats.totalErrors;
+          document.getElementById('paymentOrders').textContent = stats.totalOrders || 0;
+          document.getElementById('paymentSuccess').textContent = stats.totalPayments || 0;
+          document.getElementById('paymentAmount').textContent = stats.totalAmount || 0;
+          document.getElementById('paymentErrors').textContent = stats.totalErrors || 0;
           
           // Load payment logs for table
           const logsResponse = await fetch('http://localhost:3000/payment-logs');
@@ -627,22 +631,27 @@
             const tableHtml = payments.map(payment => `
               <tr>
                 <td>${new Date(payment.timestamp).toLocaleDateString()}</td>
-                <td>${payment.orderId}</td>
-                <td>${payment.paymentId}</td>
+                <td>${payment.orderId || 'N/A'}</td>
+                <td>${payment.paymentId || 'N/A'}</td>
+                <td>${payment.customerPhone || payment.paymentDetails?.contact || '-'}</td>
                 <td>₹${(payment.paymentDetails?.amount || 0) / 100}</td>
                 <td><span class="status-badge status-success">Success</span></td>
                 <td>
-                  <button class="btn" onclick="viewPaymentDetails('${payment.paymentId}')">View</button>
+                  <button class="btn" onclick="viewPaymentDetails('${payment.paymentId || 'N/A'}')">View</button>
                 </td>
               </tr>
             `).join('');
             
-            tableBody.innerHTML = tableHtml || '<tr><td colspan="6">No payment data found</td></tr>';
+            tableBody.innerHTML = tableHtml || '<tr><td colspan="7">No payment data found</td></tr>';
+          } else {
+            throw new Error(logsData.error || 'Failed to load payment logs');
           }
+        } else {
+          throw new Error(data.error || 'Failed to load payment stats');
         }
       } catch (error) {
         console.error('Error loading payment data:', error);
-        document.getElementById('paymentsTableBody').innerHTML = '<tr><td colspan="6" class="error">Error loading payment data</td></tr>';
+        document.getElementById('paymentsTableBody').innerHTML = '<tr><td colspan="7" class="error">Error loading payment data: ' + error.message + '</td></tr>';
       }
     }
 
@@ -653,13 +662,13 @@
         const data = await response.json();
         
         if (data.success) {
-          const records = data.records;
+          const records = data.records || [];
           
           // Update test stats
           document.getElementById('testTotal').textContent = records.length;
-          const averageScore = records.reduce((sum, record) => sum + record.percentage, 0) / records.length;
+          const averageScore = records.length > 0 ? records.reduce((sum, record) => sum + (record.percentage || 0), 0) / records.length : 0;
           document.getElementById('testAverage').textContent = averageScore.toFixed(1) + '%';
-          const passedTests = records.filter(record => record.percentage >= 70).length;
+          const passedTests = records.filter(record => (record.percentage || 0) >= 70).length;
           document.getElementById('testPassed').textContent = passedTests;
           document.getElementById('testFailed').textContent = records.length - passedTests;
           
@@ -667,26 +676,28 @@
           const tableBody = document.getElementById('testsTableBody');
           const tableHtml = records.map(record => `
             <tr>
-              <td>${new Date(record.testDate).toLocaleDateString()}</td>
-              <td>${record.studentName}</td>
-              <td>${record.email}</td>
-              <td>${record.domain}</td>
-              <td>${record.score}/${record.totalQuestions}</td>
-              <td>${record.percentage}%</td>
-              <td>${record.timeTaken}</td>
-              <td>${record.attemptsUsed}/${record.totalAttempts}</td>
-              <td>${record.paymentId}</td>
+              <td>${new Date(record.testDate || record.createdAt || Date.now()).toLocaleDateString()}</td>
+              <td>${record.studentName || 'N/A'}</td>
+              <td>${record.email || 'N/A'}</td>
+              <td>${record.domain || 'N/A'}</td>
+              <td>${record.score || 0}/${record.totalQuestions || 0}</td>
+              <td>${record.percentage || 0}%</td>
+              <td>${record.timeTaken || 'N/A'}</td>
+              <td>${record.attemptsUsed || 0}/${record.totalAttempts || 0}</td>
+              <td>${record.paymentId || 'N/A'}</td>
               <td>
-                <button class="btn" onclick="viewTestDetails('${record.id}')">View</button>
+                <button class="btn" onclick="viewTestDetails('${record._id || record.id}')">View</button>
               </td>
             </tr>
           `).join('');
           
           tableBody.innerHTML = tableHtml || '<tr><td colspan="10">No test data found</td></tr>';
+        } else {
+          throw new Error(data.error || 'Failed to load test data');
         }
       } catch (error) {
         console.error('Error loading test data:', error);
-        document.getElementById('testsTableBody').innerHTML = '<tr><td colspan="10" class="error">Error loading test data</td></tr>';
+        document.getElementById('testsTableBody').innerHTML = '<tr><td colspan="10" class="error">Error loading test data: ' + error.message + '</td></tr>';
       }
     }
 
@@ -726,6 +737,8 @@
           `).join('');
           
           tableBody.innerHTML = tableHtml || '<tr><td colspan="7">No application data found</td></tr>';
+        } else {
+          throw new Error(data.error || 'Failed to load application data');
         }
       } catch (error) {
         console.error('Error loading application data:', error);

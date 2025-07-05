@@ -9,6 +9,9 @@ const TestResultSchema = new mongoose.Schema({
     type: String, 
     required: true 
   },
+  phone: {
+    type: String
+  },
   score: { 
     type: Number, 
     required: true 

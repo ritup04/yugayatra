@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { EllipsisVerticalIcon } from '@heroicons/react/24/outline';
 
 const PAYMENT_STATUS_OPTIONS = ['All', 'Success', 'Failed'];
+const PAYMENT_API_URL = import.meta.env.VITE_PAYMENT_API_URL || 'http://localhost:3000';
 
 export default function PaymentHistoryTab({ domainsOverride }) {
   const [payments, setPayments] = useState([]);
@@ -14,13 +15,21 @@ export default function PaymentHistoryTab({ domainsOverride }) {
 
   useEffect(() => {
     setLoading(true);
-    fetch('http://localhost:5000/api/payments')
+    fetch(`${PAYMENT_API_URL}/payments`)
       .then(res => res.json())
       .then(data => {
-        setPayments(data.payments || data.records || []);
+        if (data.success) {
+          setPayments(data.payments || []);
+        } else {
+          setPayments([]);
+        }
         setLoading(false);
       })
-      .catch(() => setLoading(false));
+      .catch((error) => {
+        console.error('Error fetching payment data:', error);
+        setPayments([]);
+        setLoading(false);
+      });
   }, []);
 
   useEffect(() => {
@@ -28,7 +37,9 @@ export default function PaymentHistoryTab({ domainsOverride }) {
     if (search) {
       data = data.filter(p =>
         (p.name || '').toLowerCase().includes(search.toLowerCase()) ||
-        (p.email || '').toLowerCase().includes(search.toLowerCase())
+        (p.email || '').toLowerCase().includes(search.toLowerCase()) ||
+        (p.orderId || '').toLowerCase().includes(search.toLowerCase()) ||
+        (p.paymentId || '').toLowerCase().includes(search.toLowerCase())
       );
     }
     if (status !== 'All') {
@@ -64,7 +75,7 @@ export default function PaymentHistoryTab({ domainsOverride }) {
             <svg className="w-4 h-4 text-gray-400 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" /></svg>
             <input
               type="text"
-              placeholder="Search by name or email"
+              placeholder="Search by name, email, order ID, or payment ID"
               className="bg-transparent outline-none text-sm w-full"
               value={search}
               onChange={e => setSearch(e.target.value)}
@@ -118,6 +129,7 @@ export default function PaymentHistoryTab({ domainsOverride }) {
               <tr className="bg-yellow-50 text-yellow-900 font-semibold">
                 <th className="p-4 text-left">Name</th>
                 <th className="p-4 text-left">Email</th>
+                <th className="p-4 text-left">Phone</th>
                 <th className="p-4 text-left">Amount</th>
                 <th className="p-4 text-left">Order ID</th>
                 <th className="p-4 text-left">Payment ID</th>
@@ -127,9 +139,9 @@ export default function PaymentHistoryTab({ domainsOverride }) {
             </thead>
             <tbody>
               {loading ? (
-                <tr><td colSpan={7} className="text-center text-gray-400 py-8">Loading...</td></tr>
+                <tr><td colSpan={8} className="text-center text-gray-400 py-8">Loading...</td></tr>
               ) : filtered.length === 0 ? (
-                <tr><td colSpan={7} className="text-center text-gray-400 py-8">No data available</td></tr>
+                <tr><td colSpan={8} className="text-center text-gray-400 py-8">No payment data available</td></tr>
               ) : (
                 filtered.map((p, i) => (
                   <tr
@@ -138,7 +150,8 @@ export default function PaymentHistoryTab({ domainsOverride }) {
                   >
                     <td className="p-4 font-medium text-gray-900">{p.name || '-'}</td>
                     <td className="p-4">{p.email}</td>
-                    <td className="p-4">₹{p.amount / 100}</td>
+                    <td className="p-4">{p.phone || '-'}</td>
+                    <td className="p-4">₹{(p.amount / 100).toFixed(2)}</td>
                     <td className="p-4">{p.orderId}</td>
                     <td className="p-4">{p.paymentId}</td>
                     <td className="p-4">{p.createdAt ? new Date(p.createdAt).toLocaleDateString() : '-'}</td>

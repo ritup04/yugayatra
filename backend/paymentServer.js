@@ -1,11 +1,16 @@
-require('dotenv').config();
-const express = require('express');
-const Razorpay = require('razorpay');
-const cors = require('cors');
-const crypto = require('crypto');
-const fs = require('fs');
-const path = require('path');
-const fetch = require('node-fetch');
+import dotenv from 'dotenv';
+dotenv.config();
+import express from 'express';
+import Razorpay from 'razorpay';
+import cors from 'cors';
+import crypto from 'crypto';
+import fs from 'fs';
+import path from 'path';
+import fetch from 'node-fetch';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 app.use(cors());
@@ -97,6 +102,13 @@ const validateOrderRequest = (req) => {
     return { valid: false, error: 'Amount exceeds maximum limit' };
   }
   
+  // Strictly require valid name and email
+  if (!customerInfo || !customerInfo.name || !customerInfo.email ||
+      customerInfo.name.trim().toLowerCase() === 'unknown customer' ||
+      customerInfo.email.trim().toLowerCase() === 'unknown@example.com') {
+    return { valid: false, error: 'Valid customer name and email are required' };
+  }
+
   return { valid: true, data: { amount, currency: currency || 'INR', customerInfo } };
 };
 
@@ -124,7 +136,8 @@ app.post('/create-order', async (req, res) => {
       notes: {
         purpose: 'YugaYatra Test Fee',
         customer_email: customerInfo?.email || 'N/A',
-        customer_name: customerInfo?.name || 'N/A'
+        customer_name: customerInfo?.name || 'N/A',
+        customer_phone: customerInfo?.phone || 'N/A'
       },
       partial_payment: false,
       first_payment_min_amount: amount * 100
@@ -191,7 +204,7 @@ app.post('/verify-payment', async (req, res) => {
   console.log('Verifying payment with data:', req.body);
   
   try {
-    const { razorpay_order_id, razorpay_payment_id, razorpay_signature } = req.body;
+    const { razorpay_order_id, razorpay_payment_id, razorpay_signature, email, phone } = req.body;
     
     if (!razorpay_order_id || !razorpay_payment_id || !razorpay_signature) {
       return res.status(400).json({
@@ -243,6 +256,7 @@ app.post('/verify-payment', async (req, res) => {
       paymentId: razorpay_payment_id,
       signature: razorpay_signature,
       paymentDetails: paymentDetails,
+      customerPhone: phone,
       verificationStatus: 'success',
       timestamp: new Date().toISOString()
     };
@@ -252,18 +266,29 @@ app.post('/verify-payment', async (req, res) => {
     console.log('Payment verified successfully:', razorpay_payment_id);
 
     // Extract email from paymentDetails or order notes if not present in req.body
-    let userEmail = req.body.email;
+    let userEmail = email;
     if (!userEmail && paymentDetails) {
       userEmail = paymentDetails.email || (paymentDetails.notes && paymentDetails.notes.customer_email);
     }
     if (userEmail) {
       // Notify main backend to mark user as paid
       try {
-        await fetch('http://localhost:5000/api/mark-paid', {
+        const backendResponse = await fetch('http://localhost:5000/api/mark-paid', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ email: userEmail })
+          body: JSON.stringify({ 
+            email: userEmail,
+            paymentId: razorpay_payment_id,
+            orderId: razorpay_order_id,
+            phone: phone
+          })
         });
+        
+        if (backendResponse.ok) {
+          console.log('Successfully marked user as paid in main backend');
+        } else {
+          console.error('Failed to mark user as paid in main backend:', await backendResponse.text());
+        }
       } catch (err) {
         console.error('Error notifying backend to mark user as paid:', err);
       }
@@ -316,6 +341,41 @@ app.get('/payment-logs', (req, res) => {
   }
 });
 
+// Get payments in React component format
+app.get('/payments', (req, res) => {
+  try {
+    const logs = JSON.parse(fs.readFileSync(paymentLogsFile, 'utf8'));
+    
+    // Transform payment logs to the format expected by React component
+    const payments = logs
+      .filter(log => log.type === 'PAYMENT_SUCCESS')
+      .map(log => ({
+        _id: log.logId,
+        name: log.paymentDetails?.notes?.customer_name || 'Unknown',
+        email: log.paymentDetails?.email || log.paymentDetails?.notes?.customer_email || 'Unknown',
+        phone: log.customerPhone || log.paymentDetails?.contact || '',
+        amount: log.paymentDetails?.amount || 0,
+        orderId: log.orderId,
+        paymentId: log.paymentId,
+        createdAt: log.timestamp,
+        status: 'success',
+        paymentDetails: log.paymentDetails
+      }));
+    
+    res.json({
+      success: true,
+      payments: payments,
+      total: payments.length
+    });
+  } catch (error) {
+    console.error('Error reading payment data:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Failed to read payment data'
+    });
+  }
+});
+
 // Get payment statistics
 app.get('/payment-stats', (req, res) => {
   try {
@@ -344,18 +404,16 @@ app.get('/payment-stats', (req, res) => {
   }
 });
 
-// Get test records (from database)
+// Get test records from database
 app.get('/test-records', async (req, res) => {
   try {
-    // Fetch test records from backend database
     const response = await fetch('http://localhost:5000/api/test-results');
     const data = await response.json();
     
     if (data.success) {
       res.json({
         success: true,
-        records: data.records,
-        total: data.total
+        records: data.records || []
       });
     } else {
       throw new Error(data.message || 'Failed to fetch test records from database');

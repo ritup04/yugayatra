@@ -1,0 +1,172 @@
+[
+  {
+    "type": "ORDER_CREATED",
+    "orderId": "order_QpP4yNPjJQKFMh",
+    "receiptId": "YY_1751722316975_6W46NZMTC",
+    "amount": 500,
+    "currency": "INR",
+    "customerInfo": {
+      "name": "Ritu Pal",
+      "email": "ritupal1626@gmail.com",
+      "purpose": "YugaYatra Internship Test Fee"
+    },
+    "razorpayOrder": {
+      "amount": 50000,
+      "amount_due": 50000,
+      "amount_paid": 0,
+      "attempts": 0,
+      "created_at": 1751722318,
+      "currency": "INR",
+      "entity": "order",
+      "id": "order_QpP4yNPjJQKFMh",
+      "notes": {
+        "customer_email": "ritupal1626@gmail.com",
+        "customer_name": "Ritu Pal",
+        "purpose": "YugaYatra Test Fee"
+      },
+      "offer_id": null,
+      "receipt": "YY_1751722316975_6W46NZMTC",
+      "status": "created"
+    },
+    "status": "created",
+    "timestamp": "2025-07-05T13:31:58.263Z",
+    "logId": "log_1751722318263_h79m9zgt3"
+  },
+  {
+    "type": "PAYMENT_SUCCESS",
+    "orderId": "order_QpP4yNPjJQKFMh",
+    "paymentId": "pay_QpP5BUCLCTcMV6",
+    "signature": "a5a82a8de5ea80d63b7a3b382fe78e6bbdb1e34b317f201696b333e26183db4f",
+    "paymentDetails": {
+      "id": "pay_QpP5BUCLCTcMV6",
+      "entity": "payment",
+      "amount": 50000,
+      "currency": "INR",
+      "status": "captured",
+      "order_id": "order_QpP4yNPjJQKFMh",
+      "invoice_id": null,
+      "international": false,
+      "method": "upi",
+      "amount_refunded": 0,
+      "refund_status": null,
+      "captured": true,
+      "description": "Test Registration Fee",
+      "card_id": null,
+      "bank": null,
+      "wallet": null,
+      "vpa": "ritu@ybl",
+      "email": "ritupal1626@gmail.com",
+      "contact": "+919876543210",
+      "notes": {
+        "purpose": "YugaYatra Test Fee",
+        "customer_name": "Ritu Pal",
+        "customer_email": "ritupal1626@gmail.com"
+      },
+      "fee": 1180,
+      "tax": 180,
+      "error_code": null,
+      "error_description": null,
+      "error_source": null,
+      "error_step": null,
+      "error_reason": null,
+      "acquirer_data": {
+        "rrn": "934484764398",
+        "upi_transaction_id": "985375869BD4786784A928D61B7BB323"
+      },
+      "created_at": 1751722331,
+      "upi": {
+        "vpa": "ritu@ybl"
+      }
+    },
+    "verificationStatus": "success",
+    "timestamp": "2025-07-05T13:32:26.253Z",
+    "logId": "log_1751722346253_tea5n3jv2"
+  },
+  {
+    "type": "ORDER_CREATED",
+    "orderId": "order_QpRu4xEmpRmloj",
+    "receiptId": "YY_1751732263358_YO20RF07Y",
+    "amount": 500,
+    "currency": "INR",
+    "customerInfo": {
+      "name": "Ritu Pal",
+      "email": "ritupal1626@gmail.com",
+      "phone": "8780218364",
+      "purpose": "YugaYatra Internship Test Fee"
+    },
+    "razorpayOrder": {
+      "amount": 50000,
+      "amount_due": 50000,
+      "amount_paid": 0,
+      "attempts": 0,
+      "created_at": 1751732264,
+      "currency": "INR",
+      "entity": "order",
+      "id": "order_QpRu4xEmpRmloj",
+      "notes": {
+        "customer_email": "ritupal1626@gmail.com",
+        "customer_name": "Ritu Pal",
+        "customer_phone": "8780218364",
+        "purpose": "YugaYatra Test Fee"
+      },
+      "offer_id": null,
+      "receipt": "YY_1751732263358_YO20RF07Y",
+      "status": "created"
+    },
+    "status": "created",
+    "timestamp": "2025-07-05T16:17:44.917Z",
+    "logId": "log_1751732264917_yq2vuw9k0"
+  },
+  {
+    "type": "PAYMENT_SUCCESS",
+    "orderId": "order_QpRu4xEmpRmloj",
+    "paymentId": "pay_QpRuHRY3JVOLJL",
+    "signature": "0259042b6f0710dd1928650acd231b95b2208cfc39b7984c280292afbbc218f7",
+    "paymentDetails": {
+      "id": "pay_QpRuHRY3JVOLJL",
+      "entity": "payment",
+      "amount": 50000,
+      "currency": "INR",
+      "status": "captured",
+      "order_id": "order_QpRu4xEmpRmloj",
+      "invoice_id": null,
+      "international": false,
+      "method": "upi",
+      "amount_refunded": 0,
+      "refund_status": null,
+      "captured": true,
+      "description": "Test Registration Fee",
+      "card_id": null,
+      "bank": null,
+      "wallet": null,
+      "vpa": "ritu@okaxis",
+      "email": "ritupal1626@gmail.com",
+      "contact": "+918780218364",
+      "notes": {
+        "purpose": "YugaYatra Test Fee",
+        "customer_name": "Ritu Pal",
+        "customer_email": "ritupal1626@gmail.com",
+        "customer_phone": "8780218364"
+      },
+      "fee": 1180,
+      "tax": 180,
+      "error_code": null,
+      "error_description": null,
+      "error_source": null,
+      "error_step": null,
+      "error_reason": null,
+      "acquirer_data": {
+        "rrn": "430348839624",
+        "upi_transaction_id": "5AF7E4C5AF85C610BB4D60A7F5A5F514"
+      },
+      "created_at": 1751732276,
+      "upi": {
+        "vpa": "ritu@okaxis"
+      }
+    },
+    "customerPhone": "8780218364",
+    "verificationStatus": "success",
+    "timestamp": "2025-07-05T16:18:11.844Z",
+    "logId": "log_1751732291844_4mco6qcch"
+  }
+]

@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node start-servers.js",
+    "backend": "cd backend && node index.js",
+    "payment": "cd backend && node paymentServer.js",
+    "test": "node test-payment-integration.js",
+    "test-admin": "node test-admin-panel.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",

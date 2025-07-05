@@ -108,15 +108,16 @@ function DashboardApplicants() {
               <tr className="bg-yellow-50 text-yellow-900 font-semibold">
                 <th className="p-3 text-left">Name</th>
                 <th className="p-3 text-left">Email</th>
+                <th className="p-3 text-left">Phone</th>
                 <th className="p-3 text-left">Domain</th>
                 <th className="p-3 text-left">Date</th>
               </tr>
             </thead>
             <tbody>
               {loading ? (
-                <tr><td colSpan={4} className="text-center text-gray-400 py-8">Loading...</td></tr>
+                <tr><td colSpan={5} className="text-center text-gray-400 py-8">Loading...</td></tr>
               ) : filteredApplicants.length === 0 ? (
-                <tr><td colSpan={4} className="text-center text-gray-400 py-8">No data available</td></tr>
+                <tr><td colSpan={5} className="text-center text-gray-400 py-8">No data available</td></tr>
               ) : (
                 filteredApplicants
                   .filter(app => !filters.search || (app.name?.toLowerCase().includes(filters.search.toLowerCase()) || app.email?.toLowerCase().includes(filters.search.toLowerCase())))
@@ -124,6 +125,7 @@ function DashboardApplicants() {
                   <tr key={app._id || i} className={`transition-colors ${i % 2 === 0 ? 'bg-white' : 'bg-yellow-50/40'} hover:bg-yellow-100/60`}>
                     <td className="p-3 font-medium text-gray-900">{app.name}</td>
                     <td className="p-3">{app.email}</td>
+                    <td className="p-3">{app.phone || '-'}</td>
                     <td className="p-3">{app.domain}</td>
                     <td className="p-3">{new Date(app.createdAt).toLocaleDateString()}</td>
                   </tr>

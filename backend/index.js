@@ -4,7 +4,6 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import Internship from './models/Internship.js';
 import TestResult from './models/TestResult.js';
-import Razorpay from 'razorpay';
 import crypto from 'crypto';
 import Question from './models/Question.js';
 import User from './models/User.js';
@@ -25,10 +24,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI;
 
-const razorpay = new Razorpay({
-  key_id: process.env.RAZORPAY_KEY_ID,
-  key_secret: process.env.RAZORPAY_KEY_SECRET
-});
+// Razorpay is handled by the dedicated payment server on port 3000
 
 const ADMIN_USERNAME = process.env.ADMIN_USERNAME || 'admin';
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'yourStrongPassword';
@@ -154,6 +150,18 @@ app.post('/api/test/submit', async (req, res) => {
   try {
     const { studentName, email, domain, questions, timeTaken, startedOn, completedOn } = req.body;
 
+    // Fetch user's phone number from the database
+    let userPhone = '';
+    try {
+      const user = await User.findOne({ email });
+      if (user && user.phone) {
+        userPhone = user.phone;
+      }
+    } catch (userError) {
+      console.error('Error fetching user phone number:', userError);
+      // Continue without phone number if there's an error
+    }
+
     // Fetch correct answers from DB to ensure security
     const questionIds = questions.map(q => q._id);
     const correctQuestions = await Question.find({ '_id': { $in: questionIds } });
@@ -185,6 +193,7 @@ app.post('/api/test/submit', async (req, res) => {
     const newTestResult = new TestResult({
       studentName,
       email,
+      phone: userPhone,
       domain,
       score,
       totalQuestions: questions.length,
@@ -219,74 +228,8 @@ app.post('/api/test/submit', async (req, res) => {
   }
 });
 
-// Create Razorpay Order
-app.post('/create-order', async (req, res) => {
-  try {
-    const { amount, currency, customerInfo } = req.body;
-    
-    if (!amount || amount <= 0) {
-      return res.status(400).json({ valid: false, error: 'Invalid amount provided' });
-    }
-
-    const orderOptions = {
-      amount: amount * 100, // Convert to paise
-      currency: currency || 'INR',
-      receipt: `receipt_${Date.now()}`
-    };
-
-    const order = await razorpay.orders.create(orderOptions);
-    
-    res.json({
-      success: true,
-      order: {
-        id: order.id,
-        amount: order.amount,
-        currency: order.currency
-      }
-    });
-
-  } catch (error) {
-    console.error('Error creating order:', error);
-    res.status(500).json({
-      success: false,
-      error: 'Failed to create order'
-    });
-  }
-});
-
-app.post('/verify-payment', async (req, res) => {
-  try {
-    const { razorpay_order_id, razorpay_payment_id, razorpay_signature, email } = req.body;
-    
-    if (!razorpay_order_id || !razorpay_payment_id || !razorpay_signature) {
-      return res.status(400).json({ success: false, error: 'Missing payment verification parameters' });
-    }
-
-    const body = razorpay_order_id + "|" + razorpay_payment_id;
-
-    const expectedSignature = crypto
-      .createHmac('sha256', process.env.RAZORPAY_KEY_SECRET)
-      .update(body.toString())
-      .digest('hex');
-
-    if (expectedSignature === razorpay_signature) {
-      // Update user payment status if email is provided
-      if (email) {
-        const user = await User.findOne({ email });
-        if (user) {
-          user.hasPaid = true;
-          await user.save();
-        }
-      }
-      res.json({ success: true, message: 'Payment verified successfully' });
-    } else {
-      res.status(400).json({ success: false, error: 'Payment verification failed' });
-    }
-  } catch (error) {
-    console.error('Error verifying payment:', error);
-    res.status(500).json({ success: false, error: 'Error verifying payment' });
-  }
-});
+// Payment endpoints are handled by the dedicated payment server on port 3000
+// See paymentServer.js for payment-related functionality
 
 app.post('/api/test-results', async (req, res) => {
   try {
@@ -313,11 +256,24 @@ app.post('/api/test-results', async (req, res) => {
       });
     }
 
+    // Fetch user's phone number from the database
+    let userPhone = '';
+    try {
+      const user = await User.findOne({ email });
+      if (user && user.phone) {
+        userPhone = user.phone;
+      }
+    } catch (userError) {
+      console.error('Error fetching user phone number:', userError);
+      // Continue without phone number if there's an error
+    }
+
     const percentage = Math.round((score / totalQuestions) * 100);
     
     const testData = {
       studentName,
       email,
+      phone: userPhone,
       score,
       totalQuestions,
       percentage,
@@ -555,6 +511,19 @@ app.get('/api/user/:email/results', async (req, res) => {
   }
 });
 
+// Get test result by ID (for admin panel)
+app.get('/api/test-results/:id', async (req, res) => {
+  try {
+    const testResult = await TestResult.findById(req.params.id);
+    if (!testResult) {
+      return res.status(404).json({ success: false, message: 'Test result not found' });
+    }
+    res.json({ success: true, record: testResult });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Error fetching test result', error: err.message });
+  }
+});
+
 // Helper: Generate 6-digit code
 function generateVerificationCode() {
   return Math.floor(100000 + Math.random() * 900000).toString();
@@ -753,14 +722,38 @@ app.post('/api/auth/update-password', async (req, res) => {
 // Mark user as paid
 app.post('/api/mark-paid', async (req, res) => {
   try {
-    const { email } = req.body;
+    const { email, paymentId, orderId, phone } = req.body;
     if (!email) return res.status(400).json({ success: false, message: 'Email is required' });
-    const user = await User.findOne({ email });
-    if (!user) return res.status(404).json({ success: false, message: 'User not found' });
-    user.hasPaid = true;
+    
+    let user = await User.findOne({ email });
+    if (!user) {
+      // Create user if doesn't exist
+      user = new User({ 
+        email, 
+        name: email.split('@')[0], // Use email prefix as name
+        phone: phone || '', // Store phone number if provided
+        hasPaid: true,
+        attemptsUsed: 0,
+        totalAttempts: 5
+      });
+    } else {
+      user.hasPaid = true;
+      // Update phone number if provided and not already set
+      if (phone && !user.phone) {
+        user.phone = phone;
+      }
+    }
+    
+    // Store payment information
+    user.lastPaymentId = paymentId;
+    user.lastOrderId = orderId;
+    user.lastPaymentDate = new Date();
+    
     await user.save();
+    console.log(`User ${email} marked as paid with payment ID: ${paymentId}`);
     res.json({ success: true, message: 'User marked as paid' });
   } catch (err) {
+    console.error('Error marking user as paid:', err);
     res.status(500).json({ success: false, message: 'Error marking user as paid', error: err.message });
   }
 });

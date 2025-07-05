@@ -22,6 +22,10 @@ const userSchema = new mongoose.Schema({
   verificationCode: { type: String },
   resetCode: { type: String },
   resetCodeExpires: { type: Date },
+  // Payment tracking fields
+  lastPaymentId: { type: String },
+  lastOrderId: { type: String },
+  lastPaymentDate: { type: Date },
 });
 
 userSchema.index({ email: 1 });

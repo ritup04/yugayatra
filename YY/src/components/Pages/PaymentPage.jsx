@@ -8,9 +8,12 @@ const PaymentPage = () => {
   const [paymentStatus, setPaymentStatus] = useState('pending'); // pending, processing, success, failed
   const [orderDetails, setOrderDetails] = useState(null);
   const [error, setError] = useState(null);
+  const [userName, setUserName] = useState(localStorage.getItem('studentName') || '');
+  const [userEmail, setUserEmail] = useState(localStorage.getItem('studentEmail') || '');
+  const [userPhone, setUserPhone] = useState('');
 
-  const userName = localStorage.getItem('studentName') || '';
-  const userEmail = localStorage.getItem('studentEmail') || '';
+  // Payment server URL - using port 3000 for payment operations
+  const PAYMENT_SERVER_URL = 'http://localhost:3000';
 
   useEffect(() => {
     // Load Razorpay script
@@ -19,15 +22,42 @@ const PaymentPage = () => {
     script.async = true;
     document.body.appendChild(script);
 
-    return () => {
-      document.body.removeChild(script);
+    // Fetch user profile to get phone number
+    const fetchUserProfile = async () => {
+      if (userEmail) {
+        try {
+          const response = await fetch(`http://localhost:5000/api/user/${encodeURIComponent(userEmail)}`);
+          const data = await response.json();
+          if (data.success && data.user.phone) {
+            setUserPhone(data.user.phone);
+          }
+        } catch (error) {
+          console.error('Error fetching user profile:', error);
+        }
+      }
     };
-  }, []);
+
+    fetchUserProfile();
+
+    return () => {
+      if (document.body.contains(script)) {
+        document.body.removeChild(script);
+      }
+    };
+  }, [userEmail]);
 
   const createOrder = async () => {
+    // Validate user info before proceeding
+    if (!userName || !userEmail) {
+      setError('Please provide your name and email before proceeding to payment.');
+      setPaymentStatus('failed');
+      return;
+    }
     try {
       setPaymentStatus('processing');
-      const response = await fetch('http://localhost:5000/create-order', {
+      setError(null);
+      
+      const response = await fetch(`${PAYMENT_SERVER_URL}/create-order`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -38,10 +68,15 @@ const PaymentPage = () => {
           customerInfo: {
             name: userName,
             email: userEmail,
+            phone: userPhone,
             purpose: 'YugaYatra Internship Test Fee'
           }
         })
       });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
 
       const result = await response.json();
       
@@ -53,7 +88,7 @@ const PaymentPage = () => {
       }
     } catch (err) {
       console.error('Error creating order:', err);
-      setError(err.message);
+      setError(err.message || 'Failed to create payment order. Please try again.');
       setPaymentStatus('failed');
     }
   };
@@ -72,7 +107,7 @@ const PaymentPage = () => {
       prefill: {
         name: userName,
         email: userEmail,
-        contact: ''
+        contact: userPhone
       },
       theme: {
         color: '#D4AF37'
@@ -90,7 +125,9 @@ const PaymentPage = () => {
 
   const verifyPayment = async (response) => {
     try {
-      const verifyResponse = await fetch('http://localhost:5000/verify-payment', {
+      setPaymentStatus('processing');
+      
+      const verifyResponse = await fetch(`${PAYMENT_SERVER_URL}/verify-payment`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -99,19 +136,42 @@ const PaymentPage = () => {
           razorpay_order_id: response.razorpay_order_id,
           razorpay_payment_id: response.razorpay_payment_id,
           razorpay_signature: response.razorpay_signature,
-          email: userEmail
+          email: userEmail,
+          phone: userPhone
         })
       });
+
+      if (!verifyResponse.ok) {
+        throw new Error(`HTTP error! status: ${verifyResponse.status}`);
+      }
 
       const verifyData = await verifyResponse.json();
       
       if (verifyData.success) {
         setPaymentStatus('success');
-        // Store payment success in localStorage or session
+        // Store payment success in localStorage
         localStorage.setItem('paymentSuccess', 'true');
         localStorage.setItem('paymentOrderId', response.razorpay_order_id);
         localStorage.setItem('paymentId', response.razorpay_payment_id);
         localStorage.setItem('paymentLogId', verifyData.logId || '');
+        
+        // Also update the main backend to mark user as paid
+        try {
+          await fetch('http://localhost:5000/api/mark-paid', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ 
+              email: userEmail,
+              paymentId: response.razorpay_payment_id,
+              orderId: response.razorpay_order_id
+            })
+          });
+        } catch (backendError) {
+          console.error('Error updating main backend:', backendError);
+          // Don't fail the payment if main backend update fails
+        }
       } else {
         setPaymentStatus('failed');
         setError(verifyData.error || 'Payment verification failed');
@@ -119,7 +179,7 @@ const PaymentPage = () => {
     } catch (err) {
       console.error('Error verifying payment:', err);
       setPaymentStatus('failed');
-      setError('Payment verification failed');
+      setError('Payment verification failed. Please contact support if payment was deducted.');
     }
   };
 
